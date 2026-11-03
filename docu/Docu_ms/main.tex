@@ -1,0 +1,234 @@
+\documentclass[twocolumn, a4paper, 10pt]{scrarticle}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[natbib=true, backend=bibtex, style=authoryear-comp, sorting=ynt]{biblatex}
+\addbibresource{Docu_BDSEI.bib}
+\usepackage{chemformula}
+\usepackage{amsmath, amssymb, mathtools}
+\usepackage{newtx}
+\usepackage{helvet}
+\usepackage[margin=2cm, left = 1cm, right = 1cm]{geometry}
+\usepackage{xcolor}
+\usepackage[colorlinks=True, citecolor=blue]{hyperref}
+\usepackage{float}
+\usepackage{lipsum}
+\usepackage{fancyvrb}
+\usepackage{subcaption}
+\usepackage{chemfig}
+\usepackage{verbatim}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage{float}
+\usepackage{balance}
+\usepackage{dblfloatfix}
+\usepackage{multicol}
+\renewcommand*{\bibfont}{\footnotesize}
+\newcommand{\sn}[2]{\ensuremath{#1 \times 10^{#2}}}
+\title{\sffamily \bfseries \textit{Base de Données de Section Efficaces d'Ionisation} (BDSEI): A Database Of Low Energy Total Ionisation Cross-Section For Astrochemical Purpose}
+
+\author{Lilian Heydel$^{1}$}
+\date{\small $^1$Centre de Recherche sur les Ions, les Matériaux et la Photonique Université Caen Normandie, GANIL, ENSICAEN, CNRS, CEA, Normandie
+Univ, CIMAP UMR6252, F-14000 Caen, France. \textbf{lilian.heydel@ganil.fr}}
+
+\begin{document}
+
+\maketitle
+% \section*{Abstract}
+\begin{abstract}
+% \sffamily 
+\bfseries
+Total Ionisation Cross Section (TICS) reprents a certainly important factor for a large number of physical domains.
+\end{abstract}
+\section{Introduction}
+Electron-driven ionisation plays a big role in planetary and interplanetary medium. The result of it the production of reactive radicals. One of the main parameter to quantify this phenomena is the cross-section of ionisation of the molecule, either partial (Partial Ionisation Cross Section, \textbf{PICS}) or total (Total Ionisation Cross Section, \textbf{TICS}). While it can be mesured experimentally \citep[and reference therein]{rappTotalCrossSections1965,jiaoElectronImpactIonization2007}, this is not necesseraly the case for every molecules. In fact, some molecules are either absent or under covered litterature-wise. Those include molecule of interest for planetary and exoplanetary science, like phosphine \ch{PH3}, found in the atmosphere of gas giants and in the interstellar medium \citep{burgasserObservationUndepletedPhosphine2025,larsonMiddleinfraredSpectrumSaturn1980,ridgway8001200InverseCentimeter1976}, propaenitril \ch{C3H5N}, found in Titan atmosphere (cite), or even brome bearing molecules such as ..., ...., .... The same can be said for isomers, as not all isomer of a define specie have the TICS calculated for all its isomer. It is, however, possible to compute this parameter. Total Ionisation Cross-Section (TICS) database established using computing method were already done, such as ALeCS \citep{gachesAstrochemistryLowenergyElectron2024}, NIFS (citer) or NIST (citer). They, howerever, lack the presence of some of those \textit{exotic} specie, or are either complicated to acces for general public.\\
+In this work, I present a database of TICS for 274 neutral and stable molecules made with open-source tools. 
+This database is also available on a website hosted on GitHub and is publicly available\footnote{bdsei.com mais en vrai j'ai tjrs pas uploadé donc faut attendre pour avoir la vraie url}. All the content of the website can be downloaded freely.
+
+
+\section{Methodology}
+
+The methodology employed in this work is based around the geometry of each molecules.
+
+\subsection{Molecular geometry pipeline}
+The most extensive database for 3D molecular structure is \textit{PubChem} (cite). The code make a request at PubChem server with the molecule name and fetch for the 3D structure if available, are the 2D in last resort. The geometry is then downloaded in the \verb+sdf+ format and converted into the \verb+xyz+ format. The 3D geometry catalogue of Pubchem was calculated using repulsion method and should be already optimal; geometry optimisation is pratically useless in that case (see appendix \ref{}). One problem emerge regarding molecules with no 3D geometry available; those include molecules of astrochemical interest, such as silane \ch{SiH4} (found in the atmosphere of explanets; \cite{}) or sulfane \ch{H2S} (found on the cloud deck of ice giants; \cite{}). In that case, starting calculation with 2D structure was proven to be false. Thankfully, it is possible to obtain 3D geometry from another way. Using the \verb|strainedSMILES2xyz| python package \citep{demuthStrainedSMILES2xyzWorkflowReliable2026}, we can retrieve a coherent 3D structure from the SMILES structure. This generated geometry can be then atomically optimized using the \verb|geometric| package \citep{wangGeometryOptimizationMade2016} for several cycles, in order to get coherent geometry.\\
+\begin{table*}[ht!]
+\centering
+\caption{List of molecules present in the database. Superscript number indicates the number of isomers.}
+\label{tab:fouzinzin}
+\setlength{\tabcolsep}{4pt}
+\footnotesize
+\begin{tabular}{@{}cccccccccccccc@{}}
+\toprule
+\multicolumn{14}{c}{Number of atoms}\\
+\midrule
+1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & $\geq 14$\\
+\midrule
+\ch{Ar} & \ch{C2} & \ch{C2O} & \ch{C2H2} & \ch{C3HN}\textsuperscript{2} & \ch{C4H2} & \ch{C5HN} & \ch{C6H2} & \ch{C5H4}\textsuperscript{2} & \ch{C8H2} & \ch{C5H5N} & \ch{C6H6}\textsuperscript{3} & \ch{C7H5N} & \ch{C25H11N}\\
+\ch{He} & \ch{CO} & \ch{CHN}\textsuperscript{2} & \ch{C2N2}\textsuperscript{2} & \ch{C2H2O} & \ch{C4N2} & \ch{C3H3N} & \ch{C6N2} & \ch{C4H4S} & \ch{C4H4N2}\textsuperscript{2} & \ch{C5H6} & \ch{C4H6O2}\textsuperscript{2} & \ch{C5H8}\textsuperscript{5} & \ch{C17H9N}\textsuperscript{3}\\
+\ch{S} & \ch{CS} & \ch{CHP} & \ch{CH2O} & \ch{C2H2S} & \ch{C3H2O}\textsuperscript{3} & \ch{C3H4}\textsuperscript{3} & \ch{C4H3N}\textsuperscript{3} & \ch{C3H4N2}\textsuperscript{2} & \ch{C4H5N}\textsuperscript{2} & \ch{C4H6O} & \ch{C4H7N}\textsuperscript{2} & \ch{C4H8O}\textsuperscript{2} & \ch{C16H10}\\
+ & \ch{CSi} & \ch{CKN} & \ch{CH2S} & \ch{C2HNO} & \ch{C2Cl4} & \ch{C2H3NO}\textsuperscript{2} & \ch{C4H4} & \ch{C3H5N} & \ch{C4H6}\textsuperscript{4} & \ch{C3H6O2}\textsuperscript{2} & \ch{C4H8}\textsuperscript{5} & \ch{C4H8S} & \ch{C14H10}\\
+ & \ch{AlCl} & \ch{CNNa} & \ch{CHNO}\textsuperscript{3} & \ch{CCl4} & \ch{C2H2O2} & \ch{C2H4O}\textsuperscript{3} & \ch{C3H3NO}\textsuperscript{3} & \ch{C3H6}\textsuperscript{2} & \ch{C3H5NO} & \ch{C3H7N} & \ch{C3H6O3} & \ch{C3H8O2}\textsuperscript{2} & \ch{C11H12N2O2}\\
+ & \ch{AlF} & \ch{CO2} & \ch{CHNS}\textsuperscript{3} & \ch{CF4} & \ch{C2H3Cl} & \ch{C2H4S}\textsuperscript{2} & \ch{C3H3NS} & \ch{C2H5NO}\textsuperscript{2} & \ch{C3H6O}\textsuperscript{4} & \ch{C3H8} & \ch{C3H7NO} & \ch{C3H9N}\textsuperscript{3} & \ch{C11H7N}\textsuperscript{2}\\
+ & \ch{Br2} & \ch{COS} & \ch{AsH3} & \ch{CH2Cl2} & \ch{C2H3N}\textsuperscript{3} & \ch{CH4Si2} & \ch{C3H4O}\textsuperscript{2} & \ch{C2H6O}\textsuperscript{2} & \ch{C2H5NO2} & \ch{C2H7NO} & \ch{C3H8O}\textsuperscript{3} & \ch{C3H9P} & \ch{C10H8}\\
+ & \ch{BrH} & \ch{CS2} & \ch{H2O2} & \ch{CH2F2} & \ch{C2H4} & \ch{CH5N} & \ch{C2H4N2} & \ch{C2H6S}\textsuperscript{2} & \ch{C2H6O2}\textsuperscript{2} &  &  &  & \ch{C9H8}\\
+ & \ch{CaO} & \ch{Cl2O} & \ch{H3N} & \ch{CH2N2}\textsuperscript{2} & \ch{C2HCl3} & \ch{AlH3O3} & \ch{C2H4O2}\textsuperscript{4} &  & \ch{C2H6OS} &  &  &  & \ch{C8H10}\textsuperscript{3}\\
+ & \ch{Cl2} & \ch{ClNO} & \ch{H3P} & \ch{CH2O2} & \ch{CH2O3} & \ch{F6S} & \ch{C2H5N}\textsuperscript{2} &  & \ch{C2H7N}\textsuperscript{2} &  &  &  & \ch{C8H8}\\
+ & \ch{ClH} & \ch{FNO} & \ch{H3Sb} & \ch{CH2S2} & \ch{CH3NO} & \ch{H5NS} & \ch{C2H6} &  &  &  &  &  & \ch{C7H8}\textsuperscript{2}\\
+ & \ch{ClK} & \ch{H2O} & \ch{HNO2} & \ch{CH3Br} & \ch{CH3NS} & \ch{N2O5} & \ch{CH3ClO2S} &  &  &  &  &  & \ch{C6H10}\\
+ & \ch{ClNa} & \ch{H2S} & \ch{O3S} & \ch{CH3Cl} & \ch{CH3NSi} &  & \ch{CH4N2O} &  &  &  &  &  & \ch{C6H12}\textsuperscript{9}\\
+ & \ch{F2} & \ch{H2Se} &  & \ch{CH3F} & \ch{CH4O} &  & \ch{H6Si2} &  &  &  &  &  & \ch{C6H14}\textsuperscript{4}\\
+ & \ch{FH} & \ch{HNO} &  & \ch{CH3I} & \ch{CH4S} &  &  &  &  &  &  &  & \ch{C5H10}\textsuperscript{3}\\
+ & \ch{FeO} & \ch{HNaO} &  & \ch{CH3P} & \ch{H4N2} &  &  &  &  &  &  &  & \ch{C5H12}\\
+ & \ch{H2}\textsuperscript{2} & \ch{N2O} &  & \ch{CH4} &  &  &  &  &  &  &  &  & \ch{C5H8O}\\
+ & \ch{HI} & \ch{O2S} &  & \ch{CHCl3} &  &  &  &  &  &  &  &  & \ch{C4H10}\textsuperscript{2}\\
+ & \ch{HP} & \ch{O2Ti} &  & \ch{CHF3} &  &  &  &  &  &  &  &  & \ch{C4H10O}\textsuperscript{4}\\
+ & \ch{MgS} & \ch{O3} &  & \ch{GeH4} &  &  &  &  &  &  &  &  & \ch{C4H10S}\\
+ & \ch{N2} &  &  & \ch{H3NO} &  &  &  &  &  &  &  &  & \ch{C4H8O2}\textsuperscript{3}\\
+ & \ch{O2} &  &  & \ch{H4Si} &  &  &  &  &  &  &  &  & \ch{C3H8O3}\\
+ & \ch{OS} &  &  &  &  &  &  &  &  &  &  &  & \\
+ & \ch{OSi} &  &  &  &  &  &  &  &  &  &  &  & \\
+ & \ch{OTi} &  &  &  &  &  &  &  &  &  &  &  & \\
+\bottomrule
+\end{tabular}
+\end{table*}
+\begin{figure*}[ht!]
+    \centering
+    \includegraphics[width=1\linewidth]{../../plots_litt/plot1.pdf}
+    \caption{Calculted TICS for several hydrocarbons. In those plots, $\sigma_{TICS}$ as been cropped at $10^{-8}$. Scatter plot mean experimental data and line plot mean theoritical data. Those data come from \citet{rappTotalCrossSections1965,jiaoElectronImpactIonization2007,chathamTotalPartialElectron1984,aliElectronimpactTotalIonization1997, }. The references marked with an * where obtained through lxcat.com \citep{} database. Those references include \citet{bibid}.}
+    \label{fig:placeholder}
+\end{figure*}
+
+\begin{figure*}[ht!]
+    \centering
+    \includegraphics[width=1\linewidth]{../../plots_litt/plot2.pdf}
+    \caption{Calculted TICS for several organic and non-organic molecules. In those plots, $\sigma_{TICS}$ as been cropped at $10^{-8}$. Scatter plot mean experimental data and line plot mean theoritical data. Those data come from \citet{rappTotalCrossSections1965,jiaoElectronImpactIonization2007,chathamTotalPartialElectron1984,aliElectronimpactTotalIonization1997,kumarElectronIonizationCross2014}. The references marked with an * where obtained through lxcat.com \citep{} database. Those references include \citet{bibid}.}    \label{fig:placeholder}
+\end{figure*}
+\subsection{The BEB method for TICS calculation} 
+The \textit{Binary Encounter Bethe} (BEB) method was proposed by \citet{kimBinaryencounterdipoleModelElectronimpact1994} in order to provide a simplier model than the \textit{Binary Encounter Dipole} (BED) for ionisation cross-sections calculation. The BEB method estimates the cross-section of total ionisation using the electron energy of the MO and the kinetic energy of the electron. In application, the BEB method can expressed as, for a distinct MO $i$:
+\begin{align}
+    \sigma_{i}(T) = \frac{S}{t+u+1} \left[\frac{\ln t}{2} \left(1-\frac{1}{t^2}\right)+1-\frac{1}{t}-\frac{\ln t}{t+1}\right] \label{eq:beb}
+\end{align}
+with $t=\frac{T}{B}$, $u=\frac{U}{B}$, where $T$ the ionisation particle energy and B and U are the  aforementioned MO electrons and kinetic energy, and S is expressed as:
+\begin{align}
+    S = 4\pi a_0^2N_i\left(\frac{R}{B}\right)^2
+\end{align}
+with $a_0$ the Bohr radius (0.5292 $\AA$), $R$ the Rydberg constant (13.6 eV) and $N_i$ the number of electrons in the MO. For neutral stable species, N is always equal to 2. This, however, gives the cross section for only one MO. To get the total ionisation cross section, we need to sum all the partial ionisation cross-section of each MO, which gives us:
+\begin{align}
+    \sigma_{TICS}(T) = \sum^n_{i=1} \sigma_i(T)
+\end{align}
+Concerning $T$, this parameter is kept at relatively low energy. We considered 10$^3$ values in a logscale array with $T~\in~[10^1;10^5]$. It is possible to upgrade this method by inserting several coefficient and functions, as seen in \citet{gachesAstrochemistryLowenergyElectron2024}. This is not the case here as we kept the method as close as equation \ref{eq:beb}.\\
+
+\subsection{Quantum chemistry parameters calculations}
+The cross-section calculations, discussed in subsection \ref{sub:beb}, requires molecular orbits (MO) energies, either electrons (B) or kinetic (U) energies. While NIST database (cite) propose this parameter for several molecule, this is limited in terms of selection. One way is to calculate these parameter. To do that, a model of quantum chemistry have been employed. This model is \verb|pyscf| \citep{sunPythonbasedSimulationsChemistry2017}, an open-source python library that have been used in several published papers in the past (cite). Using the downloaded geometries, we can input them into the model and obtain the required paramaters. This model is based on the Self Consistent Field (SCF) method of quantum chemistry and resolves the Hatree-Focke (HF) solution. The basis-set family used in this work is the \verb+def2-TZVPPD+ basis-set -- valence triple-zeta with sets of polarization and diffuse functions, proposed by \citet{weigendBalancedBasisSets2005}.This type of basis, in particular the \verb|def2-TZVPP| basis, is proven to be reliable for HF modeling for a majority of the periodic table, from H up to Rn \citep{hellwegDevelopmentNewAuxiliary2015,zhengMinimallyAugmentedKarlsruhe2011}. This enables us to cover a wide range of molecular species using a single basis-set while other basis like \verb|cc-| \citep{dunningGaussianBasisSets1989}, requires a specialized basis for that kind of work. Several BEB-related papers use either cross-correlated \verb|cc-| base \citep{gachesAstrochemistryLowenergyElectron2024,kumarElectronIonizationCross2014}, proposed by \citet{dunningGaussianBasisSets1989} or gaussian \verb|6-311G| basis \citep{aliElectronimpactTotalIonization1997}, proposed by \citet{krishnanSelfconsistentMolecularOrbital1980}. At our knowledge, this is the first use of a \verb|def2-| basis for TICS calculations. 
+%https://doi.org/10.1039/b508541a celui là il est vener
+%https://doi.org/10.1039/c4cp04286g
+%https://link.springer.com/article/10.1007/s00214-010-0846-z
+%https://pmc.ncbi.nlm.nih.gov/articles/PMC10208678/table/t4/
+
+
+% \subsection{Cross section calculation: the BEB modeqsql}\label{sub:beb}
+
+
+% BEB method, by itself, is limited for heavy elements, as pointed by \citet{sdsgravesEfficientCalculationElectron2021,huoUseRelativisticEffective2000,aliIonizationCrossSections2008}. The discrepancy comes from the fact that BEB method uses, as seen in equation \ref{eq:beb}, the kinetic energy of the MO as a variable for each electron. This is problematic for bigger elements as inner electronic layers of this type harbour high kinetic energies, but ionisation should happen when the electron is far away from the center of the shell, \textit{e.g} while being slower and thus having a lower kinetic energy. A surestimation of kinetic energy leads to lower $\sigma_{TICS}$. The solution proposed by \citet{huoUseRelativisticEffective2000} and employed in several BEB related papers on heavy elements \citep{gravesEfficientCalculationElectron2021,dolgRelativisticPseudopotentialsTheir2012} is to use the effective core potential (ECP) method, which limit the interaction of valence electrons with the core shell by replacing the latter one with an effective potential, while valence electrons are replaced with pseudo-valence orbitals that cannot interact with the inner part of the nucleus. In a nut\textit{shell}, this method modifies the Schrödinguer-Oppenhimer equation by optimizing the hamiltonian $\hat{H}$ so that kinetic zzedze \\
+The BEB method, by itself, has limitations for heavy elements, with quantum number $n~>$ 2 or $Z~>$ 10 \citep{gravesEfficientCalculationElectron2021,huoUseRelativisticEffective2000,aliIonizationCrossSections2008,scottElectronImpactIonizationCross2005}. The discrepancy arises because the BEB method uses, as shown in Eq.~\ref{eq:beb}, the kinetic energy of each molecular orbital as a variable. This is problematic for heavier elements, as inner electronic layers of this type have very high kinetic energies. However, ionisation should occur when the electron is far from the centre of the shell, i.e. when it is slower and thus has a lower kinetic energy. An overestimation of the kinetic energy leads to an underestimation of $\sigma_{\text{TICS}}$. The solution proposed by \citet{huoUseRelativisticEffective2000}, and employed in several BEB-related studies on heavy elements \citep{gravesEfficientCalculationElectron2021,dolgRelativisticPseudopotentialsTheir2012,scottElectronImpactIonizationCross2005}, is to use the effective core potential (ECP) method. An ECP limits the interaction of valence electrons with the core shell by replacing the latter with an effective potential, while the valence electrons are described by pseudo-valence orbitals that do not penetrate the inner region of the nucleus. In a nut\textit{shell}, the ECP removes the high-kinetic-energy core orbitals from the BEB sum by using the closest rare gases, which otherwise artificially suppress the valence contribution.
+The ECP method can be used in \verb|pyscf| and, in order to include as many molecules as possible in the database, was implemented in this work. This, however, requires a different basis than \verb+def2-TZVPPD+, because it's ECP basis only start at Rb ($Z~\geq$ 37). While ECP-orbital basis have been developped in the mid 1980's for both $3p$ \citep{fernandezpaciosInitioRelativisticEffective1985} and $4p$ \citep{hurleyInitioRelativisticEffective1986} -the \verb|crenbl| basis combo, it is rather rare to have modern ECP basis for lighter elements. Thankfully, the open-source \verb|pseudopotentiallibrary.org|\footnote{\url{https://pseudopotentiallibrary.org/}} provides Dunning derived basis combo for both $3p$ and $4p$ elements.  For Al, Si, P, S, Cl and Ar bearing molecules, we used the \verb|aug-cc-pVTZ| orbital basis along with its associated ECP basis proposed by \citep{bennettNewGenerationEffective2018}, whereas for Ge, As, Se and Br bearing molecules we used the same orbital basis and the ECP basis proposed by \citep{wangNewGenerationEffective2019}. The counter-effect of this approach is that higher energies cross sections tends to be underestimated. But it is worth for having a better peak result. Figure \ref{} in appendix \ref{} presents a comparison 
+
+
+\section{Results}
+\subsection{Overview}
+274 ionisation cross section of unique molecules have been calculated, and up to 10 isomer for some formula\footnote{Like \ch{C6H12} where 10 isomers are available.}. The complete list is visible on table \ref{tab:fouzinzin}.
+
+
+\subsection{ECP impact on TICS calculation}
+As seen in \citet{huoUseRelativisticEffective2000}, enabling ECP for BEB calculations indeed increase the TICS for molecule containing $Z > 10$ elements.
+\begin{table}[H]
+    \centering
+    \caption{sqdsd}
+\begin{tabular}{@{}l S[table-format=2.1] S[table-format=2.1]@{}}
+        \toprule
+        & \multicolumn{2}{c}{$\overline{\Delta\sigma}$ (\%)} \\
+        \cmidrule(l){2-3}
+        Molecule & {cc-ECP} & {CRENBL} \\
+        \midrule
+        H3P & 13.996 & 14.568 \\ 
+        H4Si & 6.505 & 7.311 \\ 
+        H6Si2 & 9.242 & 9.283 \\ 
+        Geh4 & 27.548 & 32.212 \\ 
+        H2Se & 27.384 & 31.159 \\ 
+        H2S & 18.474 & 16.958 \\ 
+        Ch3Br & 20.059 & 22.418 \\ 
+        Brh & 24.582 & 27.666 \\ 
+        Br2 & 26.276 & 26.496 \\ 
+        Cs & 11.996 & 0.948 \\ 
+        Cl2O & 18.123 & 12.592 \\ 
+        Osi & 5.703 & 6.007 \\ 
+        Csi & 7.079 & 7.372 \\ 
+        Ch4Si2 & 5.093 & 7.995 \\ 
+        Ch3Nsi & 2.749 & 3.753 \\ 
+        C4H10S & 9.545 & 9.718 \\ \bottomrule
+    \end{tabular}
+\end{table}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\columnwidth]{../../ECP_Test/comparaison_3_bases.pdf}
+    \caption{Comparison of TICS results for several molecule with and without ECP enabled}
+\end{figure}
+% https://pubs.aip.org/aip/jcp/article-abstract/160/9/094310/3268619/Electron-impact-partial-ionization-cross-sections?redirectedFrom=fulltext
+% https://arxiv.org/pdf/2312.13001v3
+% jpp mettre trop de figures de comparaison, pourquoi pas faire le delta avec de la littérature et prendre la moyenne ?
+
+
+%https://www.ifi.unicamp.br/~maplima/artigos/ref120.pdf
+%%% The values of the binding energies B and the kinetic energies U needed in the calculation
+%of σBEB(T ) for these isomers were computed using the package GAMESS [21] in a RHF
+%calculation with a 6-311++G(2d) basis set
+
+%https://sci-hub.fr/10.1088/0022-3700/18/16/019
+\section{Discussion and comparison with litterature}
+\subsection{Overview}
+Des soucis avec les hydrocarbures saturés ? Le propene par ex
+
+% \begin{figure}[!htb]
+%     \centering
+%     \includegraphics[width=1\linewidth]{../../plots_litt/plot3.pdf}
+%     \caption{Comparison for rare gases}
+%     % Pas sûr que cette figure soit judicieuse
+%     \label{fig:placeholder}
+% \end{figure}
+First and foremost, experimental $B$ values tend to be smaller than theoritical/computed $B$ values \citep{aliElectronimpactTotalIonization1997,hwangNewModelElectronimpact1996}. As such, the cross section obtained through experimental $B$ values tend to be higher,$ \approx$10-15\% at the cross section peak. This was observed several time in the plots of figures 1-3, where theoritical curves were generally smaller than those from experimental papers. This is not systemic.\\
+
+\subsection{Limits}
+Whereas this paper serves as a database presentation, some results do harbour scientific interest, as some molecule haven't got a dedicated TICS paper yet. blalbalbalb\\
+As shown in several studies, isomery play a minor role regarding $\sigma_{TICS}$. dshfdv
+
+Ici évoque le SF6, qui a un petit intérêt astro mais que j'arrive pas a calcluer la géométrie
+
+
+% \lipsum
+% Y'a un truc cool que je pourrais faire c'est essayer de comparer les molécules du butane avec des extensions genre C4H10O ou S
+% mais y'a pas de papiers là dessus
+% mais en gros montrer que l'isomérie a en réalité assez peu d'impact sur le sigma (j'ai vu ca avec C6H12 par ex) mais qu'un hétéroatome qui se branche dessus peut faire des choses
+% \section{Limit of this work} Limite dans les discussions
+
+\section{Conclusion}
+
+Pouvoir utiliser un spectre complet de section efficace d'ionisation comme ceux que j'ai calculé pour calculer la section effiace d'ionisation partielle ? Pouvoir brancher cela a des autres modeles (comme celui de Gautier 2020) ? Faire du calcul de flux d'ionisation, jpeux essayer de lier ca a triton
+
+Multiple outlook could be imaginated:
+\begin{itemize}
+    \item Adapt the pipeline for radicals (\textit{i.e} molecules with spin $\neq$ 0) and ions; This would require to do calculation using the UHF method of SCF;
+    \item Refine and optimize the geometry of molecules -if possible. This could be useful for molecules taken from a 2D structure.
+    \item Adapt and create a custom \verb|def2-| ECP basis for $3d$ and $4p$ elements in order to homogenize the database as much as possible protocol-wise;
+\end{itemize}
+%https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2021-hb50g-v2#5#12#5
+
+\section*{Acknowledgement}
+
+
+% \section*{Appendix}
+
+\balance
+% \nocite{*}
+\printbibliography
+\end{document}
