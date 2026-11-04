@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.10.15)  2 NOV 2026 14:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.10.15)  4 NOV 2026 16:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/mnt/c/Users/lilian.heydel/Documents/Codes/BDSEI/docu/Docu_ms/main.tex
-(/mnt/c/Users/lilian.heydel/Documents/Codes/BDSEI/docu/Docu_ms/main.tex
+**/mnt/c/Users/lilian.heydel/Documents/GitHub/Docu_papier_CASEI_2026/docu/Docu_ms/main.tex
+(/mnt/c/Users/lilian.heydel/Documents/GitHub/Docu_papier_CASEI_2026/docu/Docu_ms/main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrarticle.cls
@@ -1663,10 +1663,12 @@ LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 (Font)              scaled to size 6.0pt on input line 45.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 6.0pt on input line 45.
-LaTeX Font Info:    Trying to load font information for OT1+ntxtt on input line 53.
+LaTeX Font Info:    Trying to load font information for OT1+ntxtt on input line 45.
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/ot1ntxtt.fd
 File: ot1ntxtt.fd 2012/04/20 v3.1
 )
+LaTeX Font Info:    Font shape `OT1/ntxtt/m/n' will be
+(Font)              scaled to size 8.0pt on input line 45.
 LaTeX Font Info:    Font shape `OT1/ntxtt/m/n' will be
 (Font)              scaled to size 10.0pt on input line 53.
 
@@ -1688,42 +1690,42 @@ LaTeX Warning: Citation '' on page 1 undefined on input line 53.
 
 LaTeX Warning: Citation '' on page 1 undefined on input line 53.
 
-<../../plots_litt/plot1.pdf, id=16, 1084.05pt x 1084.05pt>
-File: ../../plots_litt/plot1.pdf Graphic file (type pdf)
-<use ../../plots_litt/plot1.pdf>
-Package pdftex.def Info: ../../plots_litt/plot1.pdf  used on input line 96.
+</mnt/c/Users/lilian.heydel/Documents/Codes/CASEI/plots_litt/plot1.pdf, id=17, 1084.05pt x 1084.05pt>
+File: /mnt/c/Users/lilian.heydel/Documents/Codes/CASEI/plots_litt/plot1.pdf Graphic file (type pdf)
+<use /mnt/c/Users/lilian.heydel/Documents/Codes/CASEI/plots_litt/plot1.pdf>
+Package pdftex.def Info: /mnt/c/Users/lilian.heydel/Documents/Codes/CASEI/plots_litt/plot1.pdf  used on input line 94.
 (pdftex.def)             Requested size: 540.60239pt x 540.61766pt.
 
-LaTeX Warning: Citation '' on page 1 undefined on input line 97.
+LaTeX Warning: Citation '' on page 1 undefined on input line 95.
 
 
-LaTeX Warning: Citation 'bibid' on page 1 undefined on input line 97.
+LaTeX Warning: Citation 'bibid' on page 1 undefined on input line 95.
 
 
-LaTeX Warning: Citation '' on page 1 undefined on input line 97.
+LaTeX Warning: Citation '' on page 1 undefined on input line 95.
 
 
-LaTeX Warning: Citation 'bibid' on page 1 undefined on input line 97.
+LaTeX Warning: Citation 'bibid' on page 1 undefined on input line 95.
 
-<../../plots_litt/plot2.pdf, id=25, 1084.05pt x 1084.05pt>
-File: ../../plots_litt/plot2.pdf Graphic file (type pdf)
-<use ../../plots_litt/plot2.pdf>
-Package pdftex.def Info: ../../plots_litt/plot2.pdf  used on input line 103.
+</mnt/c/Users/lilian.heydel/Documents/Codes/CASEI/plots_litt/plot2.pdf, id=26, 1084.05pt x 1084.05pt>
+File: /mnt/c/Users/lilian.heydel/Documents/Codes/CASEI/plots_litt/plot2.pdf Graphic file (type pdf)
+<use /mnt/c/Users/lilian.heydel/Documents/Codes/CASEI/plots_litt/plot2.pdf>
+Package pdftex.def Info: /mnt/c/Users/lilian.heydel/Documents/Codes/CASEI/plots_litt/plot2.pdf  used on input line 101.
 (pdftex.def)             Requested size: 540.60239pt x 540.61766pt.
 
-LaTeX Warning: Citation '' on page 1 undefined on input line 104.
+LaTeX Warning: Citation '' on page 1 undefined on input line 102.
 
 
-LaTeX Warning: Citation 'bibid' on page 1 undefined on input line 104.
+LaTeX Warning: Citation 'bibid' on page 1 undefined on input line 102.
 
 
-LaTeX Warning: Citation '' on page 1 undefined on input line 104.
+LaTeX Warning: Citation '' on page 1 undefined on input line 102.
 
 
-LaTeX Warning: Citation 'bibid' on page 1 undefined on input line 104.
+LaTeX Warning: Citation 'bibid' on page 1 undefined on input line 102.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 115.
+LaTeX Warning: Command \r invalid in math mode on input line 113.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}
 
@@ -1731,69 +1733,66 @@ LaTeX Warning: Command \r invalid in math mode on input line 115.
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 118--120
+Underfull \hbox (badness 10000) in paragraph at lines 116--118
 
  []
 
 
-LaTeX Warning: Reference `sub:beb' on page 2 undefined on input line 122.
-
-LaTeX Font Info:    Font shape `OT1/ntxtt/m/n' will be
-(Font)              scaled to size 8.0pt on input line 134.
-
-LaTeX Warning: Reference `' on page 2 undefined on input line 134.
+LaTeX Warning: Reference `sub:beb' on page 2 undefined on input line 120.
 
 
-LaTeX Warning: Reference `' on page 2 undefined on input line 134.
+LaTeX Warning: Reference `' on page 2 undefined on input line 132.
 
 
-Underfull \vbox (badness 6110) has occurred while \output is active []
+LaTeX Warning: Reference `' on page 2 undefined on input line 132.
 
- [2]
+[2]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3 <../../plots_litt/plot1.pdf>]
+
 Underfull \vbox (badness 1430) has occurred while \output is active []
 
-
+ [3 </mnt/c/Users/lilian.heydel/Documents/Codes/CASEI/plots_litt/plot1.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4 <../../plots_litt/plot2.pdf>]
-<../../ECP_Test/comparaison_3_bases.pdf, id=319, 571.45496pt x 1437.92076pt>
-File: ../../ECP_Test/comparaison_3_bases.pdf Graphic file (type pdf)
-<use ../../ECP_Test/comparaison_3_bases.pdf>
-Package pdftex.def Info: ../../ECP_Test/comparaison_3_bases.pdf  used on input line 174.
+
+Overfull \vbox (143.66167pt too high) has occurred while \output is active []
+
+ [4 </mnt/c/Users/lilian.heydel/Documents/Codes/CASEI/plots_litt/plot2.pdf>]
+</mnt/c/Users/lilian.heydel/Documents/Codes/CASEI/ECP_Test/comparaison_3_bases.pdf, id=321, 571.45496pt x 1437.92076pt>
+File: /mnt/c/Users/lilian.heydel/Documents/Codes/CASEI/ECP_Test/comparaison_3_bases.pdf Graphic file (type pdf)
+<use /mnt/c/Users/lilian.heydel/Documents/Codes/CASEI/ECP_Test/comparaison_3_bases.pdf>
+Package pdftex.def Info: /mnt/c/Users/lilian.heydel/Documents/Codes/CASEI/ECP_Test/comparaison_3_bases.pdf  used on input line 172.
 (pdftex.def)             Requested size: 265.3012pt x 667.57309pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 220.
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 218.
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 220.
- [5{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc} <../../ECP_Test/comparaison_3_bases.pdf>]
+(Font)              scaled to size 10.0pt on input line 218.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
-(Font)              scaled to size 8.0pt on input line 233.
+(Font)              scaled to size 8.0pt on input line 231.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 233.
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--234
+(Font)              scaled to size 8.0pt on input line 231.
+ [5{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf-pc.enc} </mnt/c/Users/lilian.heydel/Documents/Codes/CASEI/ECP_Test/comparaison_3_bases.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 232--232
 [][]\OT1/minntx/m/n/8 Demuth, Tori, Ju-lian Schnizer, and Den-nis Svatunek (May 2026).
  []
 
 
-Underfull \hbox (badness 2941) in paragraph at lines 234--234
+Underfull \hbox (badness 2941) in paragraph at lines 232--232
 \OT1/minntx/m/n/8 ``strainedSMILES2xyz: A Work-flow for Re-li-able 3D Struc-tures of
  []
 
 
-Overfull \vbox (0.99097pt too high) has occurred while \output is active []
+Overfull \vbox (1.148pt too high) has occurred while \output is active []
 
- [6{/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf-pc.enc}] (./main.aux)
+ [6] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
@@ -1819,17 +1818,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  44835 strings out of 467533
- 915070 string characters out of 5422137
- 1918919 words of memory out of 5000000
+ 916027 string characters out of 5422137
+ 1917931 words of memory out of 5000000
  73027 multiletter control sequences out of 15000+600000
  701616 words of font info for 196 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 122i,15n,131p,11332b,2030s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 122i,15n,131p,11350b,2155s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/NewTXMI7.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txexs.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (6 pages, 416352 bytes).
+Output written on main.pdf (6 pages, 417132 bytes).
 PDF statistics:
- 564 PDF objects out of 1000 (max. 8388607)
- 304 compressed objects within 4 object streams
+ 565 PDF objects out of 1000 (max. 8388607)
+ 305 compressed objects within 4 object streams
  58 named destinations out of 1000 (max. 500000)
  124 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -24,7 +24,7 @@
 \usepackage{multicol}
 \renewcommand*{\bibfont}{\footnotesize}
 \newcommand{\sn}[2]{\ensuremath{#1 \times 10^{#2}}}
-\title{\sffamily \bfseries \textit{Base de Données de Section Efficaces d'Ionisation} (BDSEI): A Database Of Low Energy Total Ionisation Cross-Section For Astrochemical Purpose}
+\title{\sffamily \bfseries The \textit{Catalogue Astrochimique de Sections Efficaces d'Ionisation} (CASEI): A Database Of Low Energy Total Ionisation Cross-Section For Astrochemical Purpose}
 
 \author{Lilian Heydel$^{1}$}
 \date{\small $^1$Centre de Recherche sur les Ions, les Matériaux et la Photonique Université Caen Normandie, GANIL, ENSICAEN, CNRS, CEA, Normandie
@@ -42,7 +42,7 @@ Total Ionisation Cross Section (TICS) reprents a certainly important factor for 
 \section{Introduction}
 Electron-driven ionisation plays a big role in planetary and interplanetary medium. The result of it the production of reactive radicals. One of the main parameter to quantify this phenomena is the cross-section of ionisation of the molecule, either partial (Partial Ionisation Cross Section, \textbf{PICS}) or total (Total Ionisation Cross Section, \textbf{TICS}). While it can be mesured experimentally \citep[and reference therein]{rappTotalCrossSections1965,jiaoElectronImpactIonization2007}, this is not necesseraly the case for every molecules. In fact, some molecules are either absent or under covered litterature-wise. Those include molecule of interest for planetary and exoplanetary science, like phosphine \ch{PH3}, found in the atmosphere of gas giants and in the interstellar medium \citep{burgasserObservationUndepletedPhosphine2025,larsonMiddleinfraredSpectrumSaturn1980,ridgway8001200InverseCentimeter1976}, propaenitril \ch{C3H5N}, found in Titan atmosphere (cite), or even brome bearing molecules such as ..., ...., .... The same can be said for isomers, as not all isomer of a define specie have the TICS calculated for all its isomer. It is, however, possible to compute this parameter. Total Ionisation Cross-Section (TICS) database established using computing method were already done, such as ALeCS \citep{gachesAstrochemistryLowenergyElectron2024}, NIFS (citer) or NIST (citer). They, howerever, lack the presence of some of those \textit{exotic} specie, or are either complicated to acces for general public.\\
 In this work, I present a database of TICS for 274 neutral and stable molecules made with open-source tools. 
-This database is also available on a website hosted on GitHub and is publicly available\footnote{bdsei.com mais en vrai j'ai tjrs pas uploadé donc faut attendre pour avoir la vraie url}. All the content of the website can be downloaded freely.
+This database is also available on a website hosted on GitHub and is publicly available\footnote{\url{lh67000.github.io/casei}}. All the content of the website can be downloaded freely.
 
 
 \section{Methodology}
@@ -63,44 +63,42 @@ The most extensive database for 3D molecular structure is \textit{PubChem} (cite
 \midrule
 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & $\geq 14$\\
 \midrule
-\ch{Ar} & \ch{C2} & \ch{C2O} & \ch{C2H2} & \ch{C3HN}\textsuperscript{2} & \ch{C4H2} & \ch{C5HN} & \ch{C6H2} & \ch{C5H4}\textsuperscript{2} & \ch{C8H2} & \ch{C5H5N} & \ch{C6H6}\textsuperscript{3} & \ch{C7H5N} & \ch{C25H11N}\\
-\ch{He} & \ch{CO} & \ch{CHN}\textsuperscript{2} & \ch{C2N2}\textsuperscript{2} & \ch{C2H2O} & \ch{C4N2} & \ch{C3H3N} & \ch{C6N2} & \ch{C4H4S} & \ch{C4H4N2}\textsuperscript{2} & \ch{C5H6} & \ch{C4H6O2}\textsuperscript{2} & \ch{C5H8}\textsuperscript{5} & \ch{C17H9N}\textsuperscript{3}\\
-\ch{S} & \ch{CS} & \ch{CHP} & \ch{CH2O} & \ch{C2H2S} & \ch{C3H2O}\textsuperscript{3} & \ch{C3H4}\textsuperscript{3} & \ch{C4H3N}\textsuperscript{3} & \ch{C3H4N2}\textsuperscript{2} & \ch{C4H5N}\textsuperscript{2} & \ch{C4H6O} & \ch{C4H7N}\textsuperscript{2} & \ch{C4H8O}\textsuperscript{2} & \ch{C16H10}\\
- & \ch{CSi} & \ch{CKN} & \ch{CH2S} & \ch{C2HNO} & \ch{C2Cl4} & \ch{C2H3NO}\textsuperscript{2} & \ch{C4H4} & \ch{C3H5N} & \ch{C4H6}\textsuperscript{4} & \ch{C3H6O2}\textsuperscript{2} & \ch{C4H8}\textsuperscript{5} & \ch{C4H8S} & \ch{C14H10}\\
- & \ch{AlCl} & \ch{CNNa} & \ch{CHNO}\textsuperscript{3} & \ch{CCl4} & \ch{C2H2O2} & \ch{C2H4O}\textsuperscript{3} & \ch{C3H3NO}\textsuperscript{3} & \ch{C3H6}\textsuperscript{2} & \ch{C3H5NO} & \ch{C3H7N} & \ch{C3H6O3} & \ch{C3H8O2}\textsuperscript{2} & \ch{C11H12N2O2}\\
- & \ch{AlF} & \ch{CO2} & \ch{CHNS}\textsuperscript{3} & \ch{CF4} & \ch{C2H3Cl} & \ch{C2H4S}\textsuperscript{2} & \ch{C3H3NS} & \ch{C2H5NO}\textsuperscript{2} & \ch{C3H6O}\textsuperscript{4} & \ch{C3H8} & \ch{C3H7NO} & \ch{C3H9N}\textsuperscript{3} & \ch{C11H7N}\textsuperscript{2}\\
- & \ch{Br2} & \ch{COS} & \ch{AsH3} & \ch{CH2Cl2} & \ch{C2H3N}\textsuperscript{3} & \ch{CH4Si2} & \ch{C3H4O}\textsuperscript{2} & \ch{C2H6O}\textsuperscript{2} & \ch{C2H5NO2} & \ch{C2H7NO} & \ch{C3H8O}\textsuperscript{3} & \ch{C3H9P} & \ch{C10H8}\\
- & \ch{BrH} & \ch{CS2} & \ch{H2O2} & \ch{CH2F2} & \ch{C2H4} & \ch{CH5N} & \ch{C2H4N2} & \ch{C2H6S}\textsuperscript{2} & \ch{C2H6O2}\textsuperscript{2} &  &  &  & \ch{C9H8}\\
- & \ch{CaO} & \ch{Cl2O} & \ch{H3N} & \ch{CH2N2}\textsuperscript{2} & \ch{C2HCl3} & \ch{AlH3O3} & \ch{C2H4O2}\textsuperscript{4} &  & \ch{C2H6OS} &  &  &  & \ch{C8H10}\textsuperscript{3}\\
- & \ch{Cl2} & \ch{ClNO} & \ch{H3P} & \ch{CH2O2} & \ch{CH2O3} & \ch{F6S} & \ch{C2H5N}\textsuperscript{2} &  & \ch{C2H7N}\textsuperscript{2} &  &  &  & \ch{C8H8}\\
- & \ch{ClH} & \ch{FNO} & \ch{H3Sb} & \ch{CH2S2} & \ch{CH3NO} & \ch{H5NS} & \ch{C2H6} &  &  &  &  &  & \ch{C7H8}\textsuperscript{2}\\
- & \ch{ClK} & \ch{H2O} & \ch{HNO2} & \ch{CH3Br} & \ch{CH3NS} & \ch{N2O5} & \ch{CH3ClO2S} &  &  &  &  &  & \ch{C6H10}\\
- & \ch{ClNa} & \ch{H2S} & \ch{O3S} & \ch{CH3Cl} & \ch{CH3NSi} &  & \ch{CH4N2O} &  &  &  &  &  & \ch{C6H12}\textsuperscript{9}\\
- & \ch{F2} & \ch{H2Se} &  & \ch{CH3F} & \ch{CH4O} &  & \ch{H6Si2} &  &  &  &  &  & \ch{C6H14}\textsuperscript{4}\\
- & \ch{FH} & \ch{HNO} &  & \ch{CH3I} & \ch{CH4S} &  &  &  &  &  &  &  & \ch{C5H10}\textsuperscript{3}\\
- & \ch{FeO} & \ch{HNaO} &  & \ch{CH3P} & \ch{H4N2} &  &  &  &  &  &  &  & \ch{C5H12}\\
- & \ch{H2}\textsuperscript{2} & \ch{N2O} &  & \ch{CH4} &  &  &  &  &  &  &  &  & \ch{C5H8O}\\
- & \ch{HI} & \ch{O2S} &  & \ch{CHCl3} &  &  &  &  &  &  &  &  & \ch{C4H10}\textsuperscript{2}\\
- & \ch{HP} & \ch{O2Ti} &  & \ch{CHF3} &  &  &  &  &  &  &  &  & \ch{C4H10O}\textsuperscript{4}\\
- & \ch{MgS} & \ch{O3} &  & \ch{GeH4} &  &  &  &  &  &  &  &  & \ch{C4H10S}\\
- & \ch{N2} &  &  & \ch{H3NO} &  &  &  &  &  &  &  &  & \ch{C4H8O2}\textsuperscript{3}\\
- & \ch{O2} &  &  & \ch{H4Si} &  &  &  &  &  &  &  &  & \ch{C3H8O3}\\
- & \ch{OS} &  &  &  &  &  &  &  &  &  &  &  & \\
- & \ch{OSi} &  &  &  &  &  &  &  &  &  &  &  & \\
- & \ch{OTi} &  &  &  &  &  &  &  &  &  &  &  & \\
+ & \ch{AlCl} & \ch{CHN}\textsuperscript{2} & \ch{AsH3} & \ch{C2H2O} & \ch{C2Cl4} & \ch{C2H3NO}\textsuperscript{2} & \ch{C2H4N2} & \ch{C2H5NO}\textsuperscript{2} & \ch{C2H5NO2} & \ch{C2H7NO} & \ch{C3H6O3} & \ch{C3H8O2}\textsuperscript{2} & \ch{C17H9N}\textsuperscript{3}\\
+ & \ch{AlF} & \ch{CHP} & \ch{C2H2} & \ch{C2H2S} & \ch{C2H2O2} & \ch{C2H4O}\textsuperscript{3} & \ch{C2H4O2}\textsuperscript{4} & \ch{C2H6O}\textsuperscript{2} & \ch{C2H6O2}\textsuperscript{2} & \ch{C3H6O2}\textsuperscript{2} & \ch{C3H7NO} & \ch{C3H9N}\textsuperscript{3} & \ch{C16H10}\\
+ & \ch{Br2} & \ch{CO2} & \ch{C2N2}\textsuperscript{2} & \ch{C2HNO} & \ch{C2H3Cl} & \ch{C2H4S}\textsuperscript{2} & \ch{C2H5N}\textsuperscript{2} & \ch{C2H6S}\textsuperscript{2} & \ch{C2H6OS} & \ch{C3H7N} & \ch{C3H8O}\textsuperscript{3} & \ch{C3H9P} & \ch{C14H10}\\
+ & \ch{BrH} & \ch{COS} & \ch{CH2O} & \ch{C3HN}\textsuperscript{2} & \ch{C2H3N}\textsuperscript{3} & \ch{C3H2N2} & \ch{C2H6} & \ch{C3H3N3} & \ch{C2H7N}\textsuperscript{2} & \ch{C3H8} & \ch{C4H6O2}\textsuperscript{2} & \ch{C4H8O}\textsuperscript{2} & \ch{C11H12N2O2}\\
+ & \ch{C2} & \ch{CS2} & \ch{CH2S} & \ch{CCl4} & \ch{C2H4} & \ch{C3H3N} & \ch{C3H3NO}\textsuperscript{3} & \ch{C3H4N2}\textsuperscript{2} & \ch{C3H5NO} & \ch{C4H6O} & \ch{C4H7N}\textsuperscript{3} & \ch{C4H8S} & \ch{C11H7N}\textsuperscript{2}\\
+ & \ch{CO} & \ch{ClNO} & \ch{CHNO}\textsuperscript{3} & \ch{CF4} & \ch{C2HCl3} & \ch{C3H4}\textsuperscript{3} & \ch{C3H3NS} & \ch{C3H5N} & \ch{C3H6O}\textsuperscript{4} & \ch{C5H5N} & \ch{C4H8}\textsuperscript{5} & \ch{C5H8}\textsuperscript{5} & \ch{C10H8}\\
+ & \ch{CS} & \ch{FNO} & \ch{CHNS}\textsuperscript{3} & \ch{CH2Cl2} & \ch{C3H2O}\textsuperscript{4} & \ch{C3N4} & \ch{C3H4O}\textsuperscript{2} & \ch{C3H6}\textsuperscript{2} & \ch{C4H4N2}\textsuperscript{2} & \ch{C5H6} & \ch{C6H6}\textsuperscript{3} & \ch{C7H5N} & \ch{C9H8}\\
+ & \ch{Cl2} & \ch{H2O} & \ch{H2O2} & \ch{CH2F2} & \ch{C4H2} & \ch{C5HN} & \ch{C4H3N}\textsuperscript{3} & \ch{C4H4S} & \ch{C4H5N}\textsuperscript{2} &  & \ch{C6N6} &  & \ch{C8H10}\textsuperscript{3}\\
+ & \ch{ClH} & \ch{H2S} & \ch{H2S2} & \ch{CH2N2}\textsuperscript{2} & \ch{C4N2} & \ch{CH4Si2} & \ch{C4H4} & \ch{C5H4}\textsuperscript{2} & \ch{C4H6}\textsuperscript{4} &  &  &  & \ch{C8H8}\\
+ & \ch{F2} & \ch{H2Se} & \ch{H3N} & \ch{CH2O2} & \ch{CH2O3} & \ch{CH5N} & \ch{C6H2} &  &  &  &  &  & \ch{C7H8}\textsuperscript{2}\\
+ & \ch{FH} & \ch{HNO} & \ch{H3P} & \ch{CH2S2} & \ch{CH3NO} & \ch{N2O5} & \ch{C6N2} &  &  &  &  &  & \ch{C6H10}\\
+ & \ch{H2} & \ch{N2O} & \ch{HNO2} & \ch{CH3Br} & \ch{CH3NS} &  & \ch{CH3ClO2S} &  &  &  &  &  & \ch{C6H12}\textsuperscript{9}\\
+ & \ch{N2} & \ch{O2S} & \ch{HNOS} & \ch{CH3Cl} & \ch{CH3NSi} &  & \ch{CH4N2O} &  &  &  &  &  & \ch{C6H14}\textsuperscript{4}\\
+ & \ch{OSi} & \ch{O3} & \ch{O3S} & \ch{CH3F} & \ch{CH4O} &  & \ch{H6Si2} &  &  &  &  &  & \ch{C6N8}\\
+ &  &  &  & \ch{CH3I} & \ch{CH4S} &  &  &  &  &  &  &  & \ch{C5H10}\textsuperscript{3}\\
+ &  &  &  & \ch{CH3P} & \ch{H4N2} &  &  &  &  &  &  &  & \ch{C5H12}\\
+ &  &  &  & \ch{CH4} & \ch{N2O4} &  &  &  &  &  &  &  & \ch{C5H8O}\\
+ &  &  &  & \ch{CHCl3} &  &  &  &  &  &  &  &  & \ch{C4H10}\textsuperscript{2}\\
+ &  &  &  & \ch{CHF3} &  &  &  &  &  &  &  &  & \ch{C4H10O}\textsuperscript{4}\\
+ &  &  &  & \ch{GeH4} &  &  &  &  &  &  &  &  & \ch{C4H10S}\\
+ &  &  &  & \ch{H3NO} &  &  &  &  &  &  &  &  & \ch{C4H8O2}\textsuperscript{3}\\
+ &  &  &  & \ch{H4Si} &  &  &  &  &  &  &  &  & \ch{C3H8O3}\\
+ &  &  &  &  &  &  &  &  &  &  &  &  & \ch{C3N12}\\
 \bottomrule
 \end{tabular}
 \end{table*}
 \begin{figure*}[ht!]
     \centering
-    \includegraphics[width=1\linewidth]{../../plots_litt/plot1.pdf}
+    \includegraphics[width=1\linewidth]{/mnt/c/Users/lilian.heydel/Documents/Codes/CASEI/plots_litt/plot1.pdf}
     \caption{Calculted TICS for several hydrocarbons. In those plots, $\sigma_{TICS}$ as been cropped at $10^{-8}$. Scatter plot mean experimental data and line plot mean theoritical data. Those data come from \citet{rappTotalCrossSections1965,jiaoElectronImpactIonization2007,chathamTotalPartialElectron1984,aliElectronimpactTotalIonization1997, }. The references marked with an * where obtained through lxcat.com \citep{} database. Those references include \citet{bibid}.}
     \label{fig:placeholder}
 \end{figure*}
 
 \begin{figure*}[ht!]
     \centering
-    \includegraphics[width=1\linewidth]{../../plots_litt/plot2.pdf}
+    \includegraphics[width=1\linewidth]{/mnt/c/Users/lilian.heydel/Documents/Codes/CASEI/plots_litt/plot2.pdf}
     \caption{Calculted TICS for several organic and non-organic molecules. In those plots, $\sigma_{TICS}$ as been cropped at $10^{-8}$. Scatter plot mean experimental data and line plot mean theoritical data. Those data come from \citet{rappTotalCrossSections1965,jiaoElectronImpactIonization2007,chathamTotalPartialElectron1984,aliElectronimpactTotalIonization1997,kumarElectronIonizationCross2014}. The references marked with an * where obtained through lxcat.com \citep{} database. Those references include \citet{bibid}.}    \label{fig:placeholder}
 \end{figure*}
 \subsection{The BEB method for TICS calculation} 
@@ -171,7 +169,7 @@ As seen in \citet{huoUseRelativisticEffective2000}, enabling ECP for BEB calcula
 
 \begin{figure}
     \centering
-    \includegraphics[width=\columnwidth]{../../ECP_Test/comparaison_3_bases.pdf}
+    \includegraphics[width=\columnwidth]{/mnt/c/Users/lilian.heydel/Documents/Codes/CASEI/ECP_Test/comparaison_3_bases.pdf}
     \caption{Comparison of TICS results for several molecule with and without ECP enabled}
 \end{figure}
 % https://pubs.aip.org/aip/jcp/article-abstract/160/9/094310/3268619/Electron-impact-partial-ionization-cross-sections?redirectedFrom=fulltext

@@ -1,19 +1,19 @@
 # Fdb version 4
-["bibtex main"] 1793631569.16054 "main.aux" "main.bbl" "main" 1793631569.53372 0
-  "./Docu_BDSEI.bib" 1793631559.73926 74182 96ef0ee2264de6cef25afad4c15f3194 ""
-  "./main-blx.bib" 1793626876.67813 343 efb0bebd0e9de111933b2d1c7f314085 ""
+["bibtex main"] 1793807706.44591 "main.aux" "main.bbl" "main" 1793807710.42724 0
+  "./Docu_BDSEI.bib" 1793807068.79333 75740 3c9a040b445b9ffe51f6ee0ccda11290 ""
+  "./main-blx.bib" 1793807709.54504 343 efb0bebd0e9de111933b2d1c7f314085 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1752177141 65510 9a2a51799b543ff279b8ea2dd91ec499 ""
-  "main.aux" 1793626876.66783 26901 c69e2cf5f95160e10a0377580acc9164 "pdflatex"
+  "main.aux" 1793807709.53323 26901 81c770c8e4bc8e626125f1aff925c77d "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1793626873.97407 "/mnt/c/Users/lilian.heydel/Documents/Codes/BDSEI/docu/Docu_ms/main.tex" "main.pdf" "main" 1793631569.53384 0
-  "../../ECP_Test/comparaison_3_bases.pdf" 1793606620.28221 73769 c65081a8177f0e5583a86727de93dc5b ""
-  "../../plots_litt/plot1.pdf" 1793351863.7622 73916 f2d2d8b688acfd8ec4044a3ccf6cdb94 ""
-  "../../plots_litt/plot2.pdf" 1793351779.82561 67230 9370b4ce178fa838002317d1123eb1db ""
+["pdflatex"] 1793807706.66412 "/mnt/c/Users/lilian.heydel/Documents/GitHub/Docu_papier_CASEI_2026/docu/Docu_ms/main.tex" "main.pdf" "main" 1793807710.42916 0
   "/etc/texmf/web2c/texmf.cnf" 1792076927.096 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/mnt/c/Users/lilian.heydel/Documents/Codes/BDSEI/docu/Docu_ms/main.tex" 1793626868.39461 23203 0177711c8252a4442bdd12b1edafbd95 ""
+  "/mnt/c/Users/lilian.heydel/Documents/Codes/CASEI/ECP_Test/comparaison_3_bases.pdf" 1793606620.28221 73769 c65081a8177f0e5583a86727de93dc5b ""
+  "/mnt/c/Users/lilian.heydel/Documents/Codes/CASEI/plots_litt/plot1.pdf" 1793351863.7622 73916 f2d2d8b688acfd8ec4044a3ccf6cdb94 ""
+  "/mnt/c/Users/lilian.heydel/Documents/Codes/CASEI/plots_litt/plot2.pdf" 1793351779.82561 67230 9370b4ce178fa838002317d1123eb1db ""
+  "/mnt/c/Users/lilian.heydel/Documents/GitHub/Docu_papier_CASEI_2026/docu/Docu_ms/main.tex" 1793807701.66671 23053 6a4a321b71fc65cf741dc4bc3a17bb19 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf-pc.enc" 1600636029 2211 c42193888177bc8f86d55dca129a9358 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1422827479 2083 60e36f8eac802fcaf19eabe2633b406e ""
@@ -286,10 +286,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1769369718 41603 27f93b3067076450172040dcd57ca8b3 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1792077073 5541477 3118940318599480888143717dd32d64 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1792077240 3638079 2029d5b6a88eb3b99c3ac8bb18dbf52c ""
-  "main.aux" 1793626876.66783 26901 c69e2cf5f95160e10a0377580acc9164 "pdflatex"
-  "main.bbl" 1793631569.37253 74724 78f2584b6e985e8c0fca352e07762d1b "bibtex main"
-  "main.run.xml" 1793626876.67813 2606 06017d0495130c47c4b0b0e15e84f1cc "pdflatex"
-  "main.tex" 1793626868.39461 23203 0177711c8252a4442bdd12b1edafbd95 ""
+  "main.aux" 1793807709.53323 26901 81c770c8e4bc8e626125f1aff925c77d "pdflatex"
+  "main.bbl" 1793807706.64156 74724 78f2584b6e985e8c0fca352e07762d1b "bibtex main"
+  "main.run.xml" 1793807709.54704 2606 06017d0495130c47c4b0b0e15e84f1cc "pdflatex"
+  "main.tex" 1793807701.66671 23053 6a4a321b71fc65cf741dc4bc3a17bb19 ""
   (generated)
   "main-blx.bib"
   "main.aux"
