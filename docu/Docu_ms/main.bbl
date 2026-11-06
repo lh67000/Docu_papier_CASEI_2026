@@ -16,532 +16,48 @@
   {}
 \endgroup
 
-\datalist[entry]{ynt/global//global/global/global}
-  \entry{rappTotalCrossSections1965}{article}{}{}
+\datalist[entry]{nyt/global//global/global/global}
+  \entry{aliIonizationCrossSections2008}{article}{}{}
     \name{author}{2}{}{%
-      {{hash=RD}{%
-         family={Rapp},
-         familyi={R\bibinitperiod},
-         given={Donald},
-         giveni={D\bibinitperiod},
+      {{hash=AMA}{%
+         family={Ali},
+         familyi={A\bibinitperiod},
+         given={M\bibnamedelima A},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
-      {{hash=EGP}{%
-         family={Englander-Golden},
-         familyi={E\bibinithyphendelim G\bibinitperiod},
-         given={Paula},
-         giveni={P\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{RDEGP1}
-    \strng{fullhash}{RDEGP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{1965}
-    \field{labeldatesource}{}
-    \field{sortinit}{1}
-    \field{sortinithash}{1}
-    \field{abstract}{%
-    The total ionization cross sections of He, Ne, Ar, Kr, Xe, H2, D2, N2, O2, CO, NO, CO2, N2O, and CH4 have been measured from threshold to 1000 eV in a total ionization tube. More limited measurements were performed in C2H4 and SF6. Great care was taken to assure complete collection of electron and ion currents, and the absence of spurious instrumental errors. A new method was devised for obtaining absolute cross sections of gases relative to H2, and a McLeod gauge was used to obtain the absolute cross section in H2. The cross sections in NO and O2 could not be obtained by this method, and an approximate correction to direct McLeod-gauge readings was used for these gases. It is believed that the results are as accurate as is possible with the present method. It is difficult to explain the differences found between cross sections measured by various investigators. McLeod-gauge errors appear to account for most of the difference in absolute magnitude.%
-    }
-    \verb{doi}
-    \verb 10.1063/1.1696957
-    \endverb
-    \field{issn}{0021-9606}
-    \field{number}{5}
-    \field{pages}{1464\bibrangedash 1479}
-    \field{title}{Total {{Cross Sections}} for {{Ionization}} and {{Attachment}} in {{Gases}} by {{Electron Impact}}. {{I}}. {{Positive Ionization}}}
-    \field{volume}{43}
-    \verb{file}
-    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\X5C9I6EZ\\Rapp et England
-    \verb er‐Golden - 1965 - Total Cross Sections for Ionization and Attachme
-    \verb nt in Gases by Electron Impact. I. Positive Ionizati.pdf;C\:\\Users\\
-    \verb lilian.heydel\\Zotero\\storage\\W3SL4J6K\\1.html
-    \endverb
-    \field{journaltitle}{The Journal of Chemical Physics}
-    \field{month}{09}
-    \field{year}{1965}
-    \field{urlday}{27}
-    \field{urlmonth}{10}
-    \field{urlyear}{2026}
-  \endentry
-
-  \entry{ridgway8001200InverseCentimeter1976}{article}{}{}
-    \name{author}{3}{}{%
-      {{hash=RST}{%
-         family={Ridgway},
-         familyi={R\bibinitperiod},
-         given={S.\bibnamedelima T.},
-         giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod},
-      }}%
-      {{hash=WL}{%
-         family={Wallace},
-         familyi={W\bibinitperiod},
-         given={L.},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=SGR}{%
-         family={Smith},
-         familyi={S\bibinitperiod},
-         given={G.\bibnamedelima R.},
-         giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {IOP}%
-    }
-    \keyw{Absorption Spectra,Abundance,Ammonia,Astronomical Models,Atmospheric Temperature,Brightness Temperature,Computer Techniques,Infrared Spectra,Jupiter Atmosphere,Lunar and Planetary Exploration,Telluric Lines,Temperature Profiles,Thermal Emission}
-    \strng{namehash}{RSTWLSGR1}
-    \strng{fullhash}{RSTWLSGR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{1976}
-    \field{labeldatesource}{}
-    \field{sortinit}{1}
-    \field{sortinithash}{1}
-    \field{abstract}{%
-    Synthetic spectra computed from radiative models of the Jovian thermal structure are compared with observed spectra. The results imply a subsaturated NH3 abundance near the temperature minimum, and an additional opacity source near 1100 kaysers. Evidence is found for the presence of PH3 consistent with a solar P abundance.%
-    }
-    \verb{doi}
-    \verb 10.1086/154570
-    \endverb
-    \field{issn}{0004-637X}
-    \field{pages}{1002\bibrangedash 1006}
-    \field{title}{The 800 - 1200 Inverse Centimeter Absorption Spectrum of {{Jupiter}}.}
-    \field{volume}{207}
-    \field{journaltitle}{The Astrophysical Journal}
-    \field{month}{08}
-    \field{year}{1976}
-    \field{urlday}{28}
-    \field{urlmonth}{10}
-    \field{urlyear}{2026}
-  \endentry
-
-  \entry{krishnanSelfconsistentMolecularOrbital1980}{article}{}{}
-    \name{author}{4}{}{%
-      {{hash=KR}{%
-         family={Krishnan},
-         familyi={K\bibinitperiod},
-         given={R.},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=BJS}{%
-         family={Binkley},
-         familyi={B\bibinitperiod},
-         given={J.\bibnamedelima S.},
-         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=SR}{%
-         family={Seeger},
-         familyi={S\bibinitperiod},
-         given={R.},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=PJA}{%
-         family={Pople},
-         familyi={P\bibinitperiod},
-         given={J.\bibnamedelima A.},
-         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{KR+1}
-    \strng{fullhash}{KRBJSSRPJA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{1980}
-    \field{labeldatesource}{}
-    \field{sortinit}{1}
-    \field{sortinithash}{1}
-    \field{abstract}{%
-    A contracted Gaussian basis set (6-311G**) is developed by optimizing exponents and coefficients at the Mo/ller--Plesset (MP) second-order level for the ground states of first-row atoms. This has a triple split in the valence s and p shells together with a single set of uncontracted polarization functions on each atom. The basis is tested by computing structures and energies for some simple molecules at various levels of MP theory and comparing with experiment.%
-    }
-    \verb{doi}
-    \verb 10.1063/1.438955
-    \endverb
-    \field{issn}{0021-9606, 1089-7690}
-    \field{number}{1}
-    \field{pages}{650\bibrangedash 654}
-    \field{title}{Self-Consistent Molecular Orbital Methods. {{XX}}. {{A}} Basis Set for Correlated Wave Functions}
-    \field{volume}{72}
-    \field{langid}{english}
-    \verb{file}
-    \verb C:\Users\lilian.heydel\Zotero\storage\N8R3796L\Krishnan et al. - 1980
-    \verb  - Self-consistent molecular orbital methods. XX. A basis set for cor
-    \verb related wave functions.pdf
-    \endverb
-    \field{journaltitle}{The Journal of Chemical Physics}
-    \field{month}{01}
-    \field{year}{1980}
-    \field{urlday}{28}
-    \field{urlmonth}{10}
-    \field{urlyear}{2026}
-  \endentry
-
-  \entry{larsonMiddleinfraredSpectrumSaturn1980}{article}{}{}
-    \name{author}{4}{}{%
-      {{hash=LHP}{%
-         family={Larson},
-         familyi={L\bibinitperiod},
-         given={H.\bibnamedelima P.},
-         giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-      {{hash=FU}{%
-         family={Fink},
-         familyi={F\bibinitperiod},
-         given={U.},
-         giveni={U\bibinitperiod},
-      }}%
-      {{hash=SHA}{%
-         family={Smith},
-         familyi={S\bibinitperiod},
-         given={H.\bibnamedelima A.},
-         giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=DDS}{%
-         family={Davis},
-         familyi={D\bibinitperiod},
-         given={D.\bibnamedelima S.},
-         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {IOP}%
-    }
-    \keyw{Abundance,Airborne Equipment,Ammonia,Atmospheric Composition,Cross Correlation,Fourier Transformation,High Resolution,Hydrocyanic Acid,Infrared Spectra,Infrared Spectrometers,Jupiter Atmosphere,Lunar and Planetary Exploration,Phosphines,Planetary Radiation,Saturn Atmosphere,Signal To Noise Ratios,Spectral Resolution,Spectrum Analysis,Water Vapor}
-    \strng{namehash}{LHP+1}
-    \strng{fullhash}{LHPFUSHADDS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{1980}
-    \field{labeldatesource}{}
-    \field{sortinit}{1}
-    \field{sortinithash}{1}
-    \field{abstract}{%
-    Observations of Saturn at high spectral resolution in the middle-IR spectral region (2.5-5.6 microns) were obtained using a Fourier spectrometer at ground-based and airborne observatories. These spectra establish that PH3 exists on Saturn with an abundance at least equal to the solar P/H value, and probably enhanced by about a factor of 2. No evidence is found for gaseous or solid NH3 on Saturn throughout this spectral region, and upper limits to several other molecules (H2O, HCN, SiH4, and GeH4) are determined. Frequent comparisons of the spectral data for Saturn with observations and interpretations of IR studies of Jupiter show that these two planetary atmospheres are chemically similar, with major observational differences accounted for by reduced H2O and NH3 abundances in Saturn's colder atmosphere.%
-    }
-    \verb{doi}
-    \verb 10.1086/158236
-    \endverb
-    \field{issn}{0004-637X}
-    \field{pages}{327\bibrangedash 337}
-    \field{title}{The Middle-Infrared Spectrum of {{Saturn}} - {{Evidence}} for Phosphine and Upper Limits to Other Trace Atmospheric Constituents}
-    \field{volume}{240}
-    \field{journaltitle}{The Astrophysical Journal}
-    \field{month}{08}
-    \field{year}{1980}
-    \field{urlday}{28}
-    \field{urlmonth}{10}
-    \field{urlyear}{2026}
-  \endentry
-
-  \entry{chathamTotalPartialElectron1984}{article}{}{}
-    \name{author}{4}{}{%
-      {{hash=CH}{%
-         family={Chatham},
-         familyi={C\bibinitperiod},
-         given={H.},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=HD}{%
-         family={Hils},
-         familyi={H\bibinitperiod},
-         given={D.},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=RR}{%
-         family={Robertson},
-         familyi={R\bibinitperiod},
-         given={R.},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=GA}{%
-         family={Gallagher},
-         familyi={G\bibinitperiod},
-         given={A.},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CH+1}
-    \strng{fullhash}{CHHDRRGA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{1984}
-    \field{labeldatesource}{}
-    \field{sortinit}{1}
-    \field{sortinithash}{1}
-    \field{abstract}{%
-    The total and partial electron collisional ionization cross sections for CH4, C2H6, SiH4, and Si2H6 have been measured for electron energies from threshold to 300 eV. Comparisons are made to earlier measurements.%
-    }
-    \verb{doi}
-    \verb 10.1063/1.447848
-    \endverb
-    \field{issn}{0021-9606}
-    \field{number}{4}
-    \field{pages}{1770\bibrangedash 1777}
-    \field{title}{Total and Partial Electron Collisional Ionization Cross Sections for {{CH4}}, {{C2H6}}, {{SiH4}}, and {{Si2H6}}}
-    \field{volume}{81}
-    \verb{file}
-    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\8LL26WIB\\Chatham et al.
-    \verb - 1984 - Total and partial electron collisional ionization cross sect
-    \verb ions for CH4, C2H6, SiH4, and Si2H6.pdf;C\:\\Users\\lilian.heydel\\Zo
-    \verb tero\\storage\\GI6KD23D\\1.html
-    \endverb
-    \field{journaltitle}{The Journal of Chemical Physics}
-    \field{month}{08}
-    \field{year}{1984}
-    \field{urlday}{22}
-    \field{urlmonth}{10}
-    \field{urlyear}{2026}
-  \endentry
-
-  \entry{fernandezpaciosInitioRelativisticEffective1985}{article}{}{}
-    \name{author}{2}{}{%
-      {{hash=FPL}{%
-         family={Fernandez\bibnamedelima Pacios},
-         familyi={F\bibinitperiod\bibinitdelim P\bibinitperiod},
-         given={Luis},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=CPA}{%
-         family={Christiansen},
-         familyi={C\bibinitperiod},
-         given={P.\bibnamedelima A.},
-         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{FPLCPA1}
-    \strng{fullhash}{FPLCPA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{1985}
-    \field{labeldatesource}{}
-    \field{sortinit}{1}
-    \field{sortinithash}{1}
-    \field{abstract}{%
-    A refined version of the ``shape consistent'' effective potential procedure of Christiansen, Lee, and Pitzer was used to compute averaged relativistic effective potentials (AREP) and spin-orbit operators for the atoms Li through Ar. These are tabulated in analytic form. Small optimized Gaussian basis sets with expansion coefficients for the lowest energy state for each atom are given and the reliability of the potentials relative to all electric calculations is discussed. Finally a procedure for computing molecular moments and Breit corrections is suggested.%
-    }
-    \verb{doi}
-    \verb 10.1063/1.448263
-    \endverb
-    \field{issn}{0021-9606}
-    \field{number}{6}
-    \field{pages}{2664\bibrangedash 2671}
-    \field{title}{Ab Initio Relativistic Effective Potentials with Spin-orbit Operators. {{I}}. {{Li}} through {{Ar}}}
-    \field{volume}{82}
-    \verb{file}
-    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\YC879RY9\\Fernandez Pacio
-    \verb s et Christiansen - 1985 - Ab initio relativistic effective potential
-    \verb s with spin‐orbit operators. I. Li through Ar.pdf;C\:\\Users\\lilia
-    \verb n.heydel\\Zotero\\storage\\WL9GY9XQ\\1.html
-    \endverb
-    \field{journaltitle}{The Journal of Chemical Physics}
-    \field{month}{03}
-    \field{year}{1985}
-    \field{urlday}{28}
-    \field{urlmonth}{10}
-    \field{urlyear}{2026}
-  \endentry
-
-  \entry{hurleyInitioRelativisticEffective1986}{article}{}{}
-    \name{author}{5}{}{%
-      {{hash=HMM}{%
-         family={Hurley},
-         familyi={H\bibinitperiod},
-         given={M.\bibnamedelima M.},
-         giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=PLF}{%
-         family={Pacios},
-         familyi={P\bibinitperiod},
-         given={Luis\bibnamedelima Fernandez},
-         giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod},
-      }}%
-      {{hash=CPA}{%
-         family={Christiansen},
-         familyi={C\bibinitperiod},
-         given={P.\bibnamedelima A.},
-         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=RRB}{%
-         family={Ross},
-         familyi={R\bibinitperiod},
-         given={R.\bibnamedelima B.},
-         giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
-      }}%
-      {{hash=EWC}{%
-         family={Ermler},
-         familyi={E\bibinitperiod},
-         given={W.\bibnamedelima C.},
-         giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{HMM+1}
-    \strng{fullhash}{HMMPLFCPARRBEWC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{1986}
-    \field{labeldatesource}{}
-    \field{sortinit}{1}
-    \field{sortinithash}{1}
-    \field{abstract}{%
-    A refined version of the ``shape consistent'' effective potential procedure of Christiansen, Lee, and Pitzer was used to compute averaged relativistic effective potentials (AREP) and spin-orbit operators for the atoms K through Kr. Particular attention was given to the partitioning of the core and valence space, and where appropriate more than one set of potentials is provided. These are tabulated in analytic form. Gaussian basis sets with expansion coefficients for the lowest energy state of each atom are given. The reliability of the transition metal AREPs was determined by comparing computed atomic excitation energies with accurate all-electron relativistic values. In all cases the maximum error was found to be less than 0.1 eV. The reliability of the spin-orbit operators was also considered.%
-    }
-    \verb{doi}
-    \verb 10.1063/1.450689
-    \endverb
-    \field{issn}{0021-9606}
-    \field{number}{12}
-    \field{pages}{6840\bibrangedash 6853}
-    \field{title}{Ab\hphantom{,}Initio Relativistic Effective Potentials with Spin-orbit Operators. {{II}}. {{K}} through {{Kr}}}
-    \field{volume}{84}
-    \verb{file}
-    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\53P8JCSA\\Hurley et al. -
-    \verb  1986 - Ab initio relativistic effective potentials with spin‐orbit
-    \verb  operators. II. K through Kr.pdf;C\:\\Users\\lilian.heydel\\Zotero\\s
-    \verb torage\\GU3HIUF5\\1.html
-    \endverb
-    \field{journaltitle}{The Journal of Chemical Physics}
-    \field{month}{06}
-    \field{year}{1986}
-    \field{urlday}{29}
-    \field{urlmonth}{10}
-    \field{urlyear}{2026}
-  \endentry
-
-  \entry{dunningGaussianBasisSets1989}{article}{}{}
-    \name{author}{1}{}{%
-      {{hash=DTH}{%
-         family={Dunning},
-         familyi={D\bibinitperiod},
-         given={Thom\bibnamedelima H.},
-         giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{DTH1}
-    \strng{fullhash}{DTH1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{1989}
-    \field{labeldatesource}{}
-    \field{sortinit}{1}
-    \field{sortinithash}{1}
-    \field{abstract}{%
-    In the past, basis sets for use in correlated molecular calculations have largely been taken from single configuration calculations. Recently, Alml\"of, Taylor, and co-workers have found that basis sets of natural orbitals derived from correlated atomic calculations (ANOs) provide an excellent description of molecular correlation effects. We report here a careful study of correlation effects in the oxygen atom, establishing that compact sets of primitive Gaussian functions effectively and efficiently describe correlation effects if the exponents of the functions are optimized in atomic correlated calculations, although the primitive (sp) functions for describing correlation effects can be taken from atomic Hartree--Fock calculations if the appropriate primitive set is used. Test calculations on oxygen-containing molecules indicate that these primitive basis sets describe molecular correlation effects as well as the ANO sets of Alml\"of and Taylor. Guided by the calculations on oxygen, basis sets for use in correlated atomic and molecular calculations were developed for all of the first row atoms from boron through neon and for hydrogen. As in the oxygen atom calculations, it was found that the incremental energy lowerings due to the addition of correlating functions fall into distinct groups. This leads to the concept of correlation\hphantom{,}consistent\hphantom{,}basis\hphantom{,}sets, i.e., sets which include all functions in a given group as well as all functions in any higher groups. Correlation consistent sets are given for all of the atoms considered. The most accurate sets determined in this way, [5s4p3d2f1g], consistently yield 99\% of the correlation energy obtained with the corresponding ANO sets, even though the latter contains 50\% more primitive functions and twice as many primitive polarization functions. It is estimated that this set yields 94\%--97\% of the total (HF+1+2) correlation energy for the atoms neon through boron.%
-    }
-    \verb{doi}
-    \verb 10.1063/1.456153
-    \endverb
-    \field{issn}{0021-9606, 1089-7690}
-    \field{number}{2}
-    \field{pages}{1007\bibrangedash 1023}
-    \field{title}{Gaussian Basis Sets for Use in Correlated Molecular Calculations. {{I}}. {{The}} Atoms Boron through Neon and Hydrogen}
-    \field{volume}{90}
-    \field{langid}{english}
-    \verb{file}
-    \verb C:\Users\lilian.heydel\Zotero\storage\8FVHRAPS\Dunning - 1989 - Gauss
-    \verb ian basis sets for use in correlated molecular calculations. I. The a
-    \verb toms boron through neon an.pdf
-    \endverb
-    \field{journaltitle}{The Journal of Chemical Physics}
-    \field{month}{01}
-    \field{year}{1989}
-    \field{urlday}{28}
-    \field{urlmonth}{10}
-    \field{urlyear}{2026}
-  \endentry
-
-  \entry{kimBinaryencounterdipoleModelElectronimpact1994}{article}{}{}
-    \name{author}{2}{}{%
       {{hash=KYK}{%
          family={Kim},
          familyi={K\bibinitperiod},
          given={Yong-Ki},
          giveni={Y\bibinithyphendelim K\bibinitperiod},
       }}%
-      {{hash=RME}{%
-         family={Rudd},
-         familyi={R\bibinitperiod},
-         given={M.\bibnamedelima Eugene},
-         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
-      }}%
     }
-    \strng{namehash}{KYKRME1}
-    \strng{fullhash}{KYKRME1}
+    \strng{namehash}{AMAKYK1}
+    \strng{fullhash}{AMAKYK1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{1994}
-    \field{labeldatesource}{}
-    \field{sortinit}{1}
-    \field{sortinithash}{1}
-    \verb{doi}
-    \verb 10.1103/PhysRevA.50.3954
-    \endverb
-    \field{issn}{1050-2947, 1094-1622}
-    \field{number}{5}
-    \field{pages}{3954\bibrangedash 3967}
-    \field{title}{Binary-Encounter-Dipole Model for Electron-Impact Ionization}
-    \field{volume}{50}
-    \field{langid}{english}
-    \verb{file}
-    \verb C:\Users\lilian.heydel\Zotero\storage\EK8W2U7A\Kim et Rudd - 1994 - B
-    \verb inary-encounter-dipole model for electron-impact ionization.pdf
-    \endverb
-    \field{journaltitle}{Physical Review A}
-    \field{month}{11}
-    \field{year}{1994}
-    \field{urlday}{28}
-    \field{urlmonth}{10}
-    \field{urlyear}{2026}
-  \endentry
-
-  \entry{hwangNewModelElectronimpact1996}{article}{}{}
-    \name{author}{3}{}{%
-      {{hash=HW}{%
-         family={Hwang},
-         familyi={H\bibinitperiod},
-         given={W.},
-         giveni={W\bibinitperiod},
-      }}%
-      {{hash=KYK}{%
-         family={Kim},
-         familyi={K\bibinitperiod},
-         given={Y.-K.},
-         giveni={Y\bibinithyphendelim K\bibinitperiod},
-      }}%
-      {{hash=RME}{%
-         family={Rudd},
-         familyi={R\bibinitperiod},
-         given={M.\bibnamedelima E.},
-         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{HWKYKRME1}
-    \strng{fullhash}{HWKYKRME1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{1996}
-    \field{labeldatesource}{}
-    \field{sortinit}{1}
-    \field{sortinithash}{1}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
     \field{abstract}{%
-    A theoretical model for electron-impact ionization cross sections, which has been developed primarily for atoms and atomic ions, is applied to neutral molecules. The new model combines the binary-encounter theory and the Bethe theory for electron-impact ionization, and uses minimal theoretical data for the ground state of the target molecule, which are readily available from public-domain molecular structure codes such as GAMESS. The theory is called the binary-encounter Bethe (BEB) model, and does not, in principle, involve any adjustable parameters. Applications to 19 molecules, including H2, NO, CH2, C6H6, and SF6, are presented, demonstrating that the BEB model provides total ionization cross sections by electron impact from threshold to several keV with an average accuracy of 15\% or better at the cross section peak, except for SiF3. The BEB model can be applied to stable molecules as well as to transient radicals.%
+    The binary-encounter-Bethe (BEB) model has been used to calculate electron-impact ionization cross sections of Br, I, Br2, I2, HCl, HBr and HI. The BEB single ionization cross sections of Br and I presented here agree generally well with experimental results with respect to low- and high-energy behaviour and peak values. In view of this generally good agreement, the BEB cross sections of the other molecules, for which no experimental results are available, are also expected to be reliable. We compare our results with those from alternative models, where available. We also explore the use of effective core potentials for the heavy atoms of these molecules within the context of the BEB model.%
     }
     \verb{doi}
-    \verb 10.1063/1.471116
+    \verb 10.1088/0953-4075/41/14/145202
     \endverb
-    \field{issn}{0021-9606, 1089-7690}
-    \field{number}{8}
-    \field{pages}{2956\bibrangedash 2966}
-    \field{title}{New Model for Electron-Impact Ionization Cross Sections of Molecules}
-    \field{volume}{104}
+    \field{issn}{0953-4075, 1361-6455}
+    \field{number}{14}
+    \field{pages}{145202}
+    \field{title}{Ionization Cross Sections by Electron Impact on Halogen Atoms, Diatomic Halogen and Hydrogen Halide Molecules}
+    \field{volume}{41}
     \field{langid}{english}
     \verb{file}
-    \verb C:\Users\lilian.heydel\Zotero\storage\BWT9QQ5M\Hwang et al. - 1996 -
-    \verb New model for electron-impact ionization cross sections of molecules.
-    \verb pdf
+    \verb C:\Users\lilian.heydel\Zotero\storage\7WUQMP9M\Ali et Kim - 2008 - Io
+    \verb nization cross sections by electron impact on halogen atoms, diatomic
+    \verb  halogen and hydrogen halide.pdf
     \endverb
-    \field{journaltitle}{The Journal of Chemical Physics}
-    \field{month}{02}
-    \field{year}{1996}
+    \field{journaltitle}{Journal of Physics B: Atomic, Molecular and Optical Physics}
+    \field{month}{07}
+    \field{year}{2008}
     \field{urlday}{28}
     \field{urlmonth}{10}
     \field{urlyear}{2026}
@@ -584,10 +100,8 @@
     \strng{fullhash}{AMAKYKHWWNMRME1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{1997}
-    \field{labeldatesource}{}
-    \field{sortinit}{1}
-    \field{sortinithash}{1}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
     \field{abstract}{%
     Electron-impact total ionization cross sections of some silicon and germanium compounds have been calculated by applying a new theoretical model that has been found to be reliable for a wide range of molecules. The new theory, the binary-encounter-Bethe (BEB) model, combines the binary-encounter theory and the Bethe theory for electron-impact ionization, and uses simple theoretical molecular orbital data---binding energies, average kinetic energies, and occupation numbers---which are readily available from molecular structure codes. Total ionization cross sections of SiH, SiH2, SiH3, SiH4, Si2H6, Si(CH3)4, GeH, GeH2, GeH3, GeH4, and Ge2H6 are presented for incident electron energies T from threshold to 1 keV, and compared to available experimental data. Theory and experiment agree well for SiHx, x=1--4, from thresholds to T{$<$}80 eV, while theoretical peaks occur at lower T than experimental peaks for SiHx, x=1--3. No experimental data are available for germanium hydrides for comparison. The theoretical cross sections are given by a compact analytic form suitable for applications in plasma processing.%
     }
@@ -608,581 +122,6 @@
     \field{journaltitle}{The Journal of Chemical Physics}
     \field{month}{06}
     \field{year}{1997}
-    \field{urlday}{28}
-    \field{urlmonth}{10}
-    \field{urlyear}{2026}
-  \endentry
-
-  \entry{huoUseRelativisticEffective2000}{article}{}{}
-    \name{author}{2}{}{%
-      {{hash=HWM}{%
-         family={Huo},
-         familyi={H\bibinitperiod},
-         given={Winifred\bibnamedelima M},
-         giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=KYK}{%
-         family={Kim},
-         familyi={K\bibinitperiod},
-         given={Yong-Ki},
-         giveni={Y\bibinithyphendelim K\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{HWMKYK1}
-    \strng{fullhash}{HWMKYK1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2000}
-    \field{labeldatesource}{}
-    \field{sortinit}{2}
-    \field{sortinithash}{2}
-    \verb{doi}
-    \verb 10.1016/S0009-2614(00)00150-0
-    \endverb
-    \field{issn}{00092614}
-    \field{number}{5-6}
-    \field{pages}{576\bibrangedash 586}
-    \field{title}{Use of Relativistic Effective Core Potentials in the Calculation of Total Electron-Impact Ionization Cross-Sections}
-    \field{volume}{319}
-    \field{langid}{english}
-    \verb{file}
-    \verb C:\Users\lilian.heydel\Zotero\storage\XGPWIFX3\Huo et Kim - 2000 - Us
-    \verb e of relativistic effective core potentials in the calculation of tot
-    \verb al electron-impact ionization.pdf
-    \endverb
-    \field{journaltitle}{Chemical Physics Letters}
-    \field{month}{03}
-    \field{year}{2000}
-    \field{urlday}{28}
-    \field{urlmonth}{10}
-    \field{urlyear}{2026}
-  \endentry
-
-  \entry{scottElectronImpactIonizationCross2005}{article}{}{}
-    \name{author}{2}{}{%
-      {{hash=SGE}{%
-         family={Scott},
-         familyi={S\bibinitperiod},
-         given={Gregory\bibnamedelima E.},
-         giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
-      }}%
-      {{hash=IKK}{%
-         family={Irikura},
-         familyi={I\bibinitperiod},
-         given={Karl\bibnamedelima K.},
-         giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{SGEIKK1}
-    \strng{fullhash}{SGEIKK1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2005}
-    \field{labeldatesource}{}
-    \field{sortinit}{2}
-    \field{sortinithash}{2}
-    \field{abstract}{%
-    The binary-encounter-Bethe (BEB) theory has been successful for computing electron-impact ionization cross sections of many molecules. For molecules that contain heavy atoms (defined here as atoms with valence principal quantum number n {$>$} 2), there are two alternative BEB procedures in the literature. The first involves a kinetic-energy correction for molecular orbitals that are dominated by atomic orbitals with n {$>$} 2. The second alternative is to use effective core potentials (ECPs), which were developed for other purposes but yield valence pseudo-orbitals with reduced kinetic energies. In the present study, the results of these two approaches are compared with experimental cross sections for several molecules containing heavy elements. Although both procedures perform well, the ECP results agree somewhat better with experimental measurements. Cross sections are presented for C2Cl6, C2HCl5, C2Cl4, both isomers of C2H2Cl4, CCl4, TiCl4, CBr4, CHBr3, CH2Br2, P2, P4, As2, As4, GaCl, CS2, H2S, CH3I, Al(CH3)3, Ga(CH3)3, hexamethyldisiloxane, and Zn(C2H5)2. Incorrect BEB calculations have been reported in the literature for several of these molecules. As an ancillary result, the dipole polarizability of Zn(C2H5)2 is predicted to be 12.1 \AA (3).%
-    }
-    \verb{doi}
-    \verb 10.1021/ct050077j
-    \endverb
-    \field{issn}{1549-9618}
-    \field{number}{6}
-    \field{pages}{1153\bibrangedash 1161}
-    \field{title}{Electron-{{Impact Ionization Cross Sections}} of {{Molecules Containing Heavy Elements}} ({{Z}} {$>$} 10)}
-    \field{volume}{1}
-    \field{langid}{english}
-    \field{journaltitle}{Journal of Chemical Theory and Computation}
-    \field{month}{11}
-    \field{year}{2005}
-  \endentry
-
-  \entry{weigendBalancedBasisSets2005}{article}{}{}
-    \name{author}{2}{}{%
-      {{hash=WF}{%
-         family={Weigend},
-         familyi={W\bibinitperiod},
-         given={Florian},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=AR}{%
-         family={Ahlrichs},
-         familyi={A\bibinitperiod},
-         given={Reinhart},
-         giveni={R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{WFAR1}
-    \strng{fullhash}{WFAR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \field{labelyear}{2005}
-    \field{labeldatesource}{}
-    \field{sortinit}{2}
-    \field{sortinithash}{2}
-    \verb{doi}
-    \verb 10.1039/b508541a
-    \endverb
-    \field{issn}{1463-9076, 1463-9084}
-    \field{number}{18}
-    \field{pages}{3297}
-    \field{shorttitle}{Balanced Basis Sets of Split Valence, Triple Zeta Valence and Quadruple Zeta Valence Quality for {{H}} to {{Rn}}}
-    \field{title}{Balanced Basis Sets of Split Valence, Triple Zeta Valence and Quadruple Zeta Valence Quality for {{H}} to {{Rn}}: {{Design}} and Assessment of Accuracy}
-    \field{volume}{7}
-    \field{langid}{english}
-    \verb{file}
-    \verb C:\Users\lilian.heydel\Zotero\storage\KK9USPUQ\Weigend et Ahlrichs -
-    \verb 2005 - Balanced basis sets of split valence, triple zeta valence and
-    \verb quadruple zeta valence quality for H t.pdf
-    \endverb
-    \field{journaltitle}{Physical Chemistry Chemical Physics}
-    \field{year}{2005}
-    \field{urlday}{28}
-    \field{urlmonth}{10}
-    \field{urlyear}{2026}
-  \endentry
-
-  \entry{jiaoElectronImpactIonization2007}{article}{}{}
-    \name{author}{3}{}{%
-      {{hash=JCQ}{%
-         family={Jiao},
-         familyi={J\bibinitperiod},
-         given={C\bibnamedelima Q},
-         giveni={C\bibinitperiod\bibinitdelim Q\bibinitperiod},
-      }}%
-      {{hash=DCA}{%
-         family={DeJoseph},
-         familyi={D\bibinitperiod},
-         given={C\bibnamedelima A},
-         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=GA}{%
-         family={Garscadden},
-         familyi={G\bibinitperiod},
-         given={A},
-         giveni={A},
-      }}%
-    }
-    \strng{namehash}{JCQDCAGA1}
-    \strng{fullhash}{JCQDCAGA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2007}
-    \field{labeldatesource}{}
-    \field{sortinit}{2}
-    \field{sortinithash}{2}
-    \field{abstract}{%
-    Absolute cross sections for electron impact ionization of n-butane (n-C4H10) as functions of electron energy from 10 to 200 eV have been measured by Fourier transform mass spectrometry. The major ions including the parent ion and eight fragment ions , and are observed, with the total cross section reaching a maximum of 1.18 \texttimes{} 10-15 cm2 at {$\sim$}80 eV. Studies of reactions of the major ionization product ions with n-C4H10 have been carried out, showing that , and are unreactive while the remaining ions react readily forming as the common product ion by hydride transfer. The observed reactivities of and combined with the calculated reaction enthalpies for their hydride transfer suggest that these two ions have the structures of cyclo- and cyclo- , respectively.%
-    }
-    \verb{doi}
-    \verb 10.1088/0022-3727/40/2/018
-    \endverb
-    \field{issn}{0022-3727}
-    \field{number}{2}
-    \field{pages}{409}
-    \field{title}{Electron Impact Ionization and Ion Reactions in N-Butane}
-    \field{volume}{40}
-    \field{langid}{english}
-    \verb{file}
-    \verb C:\Users\lilian.heydel\Zotero\storage\92SP5J3L\Jiao et al. - 2007 - E
-    \verb lectron impact ionization and ion reactions in n-butane.pdf
-    \endverb
-    \field{journaltitle}{Journal of Physics D: Applied Physics}
-    \field{month}{01}
-    \field{year}{2007}
-    \field{urlday}{22}
-    \field{urlmonth}{10}
-    \field{urlyear}{2026}
-  \endentry
-
-  \entry{aliIonizationCrossSections2008}{article}{}{}
-    \name{author}{2}{}{%
-      {{hash=AMA}{%
-         family={Ali},
-         familyi={A\bibinitperiod},
-         given={M\bibnamedelima A},
-         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=KYK}{%
-         family={Kim},
-         familyi={K\bibinitperiod},
-         given={Yong-Ki},
-         giveni={Y\bibinithyphendelim K\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{AMAKYK1}
-    \strng{fullhash}{AMAKYK1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2008}
-    \field{labeldatesource}{}
-    \field{sortinit}{2}
-    \field{sortinithash}{2}
-    \field{abstract}{%
-    The binary-encounter-Bethe (BEB) model has been used to calculate electron-impact ionization cross sections of Br, I, Br2, I2, HCl, HBr and HI. The BEB single ionization cross sections of Br and I presented here agree generally well with experimental results with respect to low- and high-energy behaviour and peak values. In view of this generally good agreement, the BEB cross sections of the other molecules, for which no experimental results are available, are also expected to be reliable. We compare our results with those from alternative models, where available. We also explore the use of effective core potentials for the heavy atoms of these molecules within the context of the BEB model.%
-    }
-    \verb{doi}
-    \verb 10.1088/0953-4075/41/14/145202
-    \endverb
-    \field{issn}{0953-4075, 1361-6455}
-    \field{number}{14}
-    \field{pages}{145202}
-    \field{title}{Ionization Cross Sections by Electron Impact on Halogen Atoms, Diatomic Halogen and Hydrogen Halide Molecules}
-    \field{volume}{41}
-    \field{langid}{english}
-    \verb{file}
-    \verb C:\Users\lilian.heydel\Zotero\storage\7WUQMP9M\Ali et Kim - 2008 - Io
-    \verb nization cross sections by electron impact on halogen atoms, diatomic
-    \verb  halogen and hydrogen halide.pdf
-    \endverb
-    \field{journaltitle}{Journal of Physics B: Atomic, Molecular and Optical Physics}
-    \field{month}{07}
-    \field{year}{2008}
-    \field{urlday}{28}
-    \field{urlmonth}{10}
-    \field{urlyear}{2026}
-  \endentry
-
-  \entry{zhengMinimallyAugmentedKarlsruhe2011}{article}{}{}
-    \name{author}{3}{}{%
-      {{hash=ZJ}{%
-         family={Zheng},
-         familyi={Z\bibinitperiod},
-         given={Jingjing},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=XX}{%
-         family={Xu},
-         familyi={X\bibinitperiod},
-         given={Xuefei},
-         giveni={X\bibinitperiod},
-      }}%
-      {{hash=TDG}{%
-         family={Truhlar},
-         familyi={T\bibinitperiod},
-         given={Donald\bibnamedelima G.},
-         giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{ZJXXTDG1}
-    \strng{fullhash}{ZJXXTDG1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2011}
-    \field{labeldatesource}{}
-    \field{sortinit}{2}
-    \field{sortinithash}{2}
-    \field{abstract}{%
-    We propose an extension of the basis sets proposed by Ahlrichs and coworkers at Karlsruhe (these basis sets are designated as the second-generation default or ``def2'' basis sets in the Turbomole program). The Karlsruhe basis sets are very appealing because they constitute balanced and economical basis sets of graded quality from partially polarized double zeta to heavily polarized quadruple zeta for all elements up to radon (Z = 86). The extension consists of adding a minimal set of diffuse functions to a subset of the elements. This yields basis sets labeled minimally augmented or with ``ma'' as a prefix. We find that diffuse functions are not quite as important for the def2 basis sets as they are for Pople basis sets, but they are still necessary for good results on barrier heights and electron affinities. We provide assessments and validations of this extension for a variety of data sets and representative cases. We recommend the new ma-TZVP basis set for general-purpose applications of density functional theory.%
-    }
-    \verb{doi}
-    \verb 10.1007/s00214-010-0846-z
-    \endverb
-    \field{issn}{1432-881X, 1432-2234}
-    \field{number}{3}
-    \field{pages}{295\bibrangedash 305}
-    \field{title}{Minimally Augmented {{Karlsruhe}} Basis Sets}
-    \field{volume}{128}
-    \field{langid}{english}
-    \verb{file}
-    \verb C:\Users\lilian.heydel\Zotero\storage\5NXXCYJE\Zheng et al. - 2011 -
-    \verb Minimally augmented Karlsruhe basis sets.pdf
-    \endverb
-    \field{journaltitle}{Theoretical Chemistry Accounts}
-    \field{month}{02}
-    \field{year}{2011}
-    \field{urlday}{28}
-    \field{urlmonth}{10}
-    \field{urlyear}{2026}
-  \endentry
-
-  \entry{dolgRelativisticPseudopotentialsTheir2012}{article}{}{}
-    \name{author}{2}{}{%
-      {{hash=DM}{%
-         family={Dolg},
-         familyi={D\bibinitperiod},
-         given={Michael},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=CX}{%
-         family={Cao},
-         familyi={C\bibinitperiod},
-         given={Xiaoyan},
-         giveni={X\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{DMCX1}
-    \strng{fullhash}{DMCX1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \field{labelyear}{2012}
-    \field{labeldatesource}{}
-    \field{sortinit}{2}
-    \field{sortinithash}{2}
-    \verb{doi}
-    \verb 10.1021/cr2001383
-    \endverb
-    \field{issn}{0009-2665}
-    \field{number}{1}
-    \field{pages}{403\bibrangedash 480}
-    \field{shorttitle}{Relativistic {{Pseudopotentials}}}
-    \field{title}{Relativistic {{Pseudopotentials}}: {{Their Development}} and {{Scope}} of {{Applications}}}
-    \field{volume}{112}
-    \verb{file}
-    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\PIGTEGIU\\Dolg et Cao - 2
-    \verb 012 - Relativistic Pseudopotentials Their Development and Scope of Ap
-    \verb plications.pdf;C\:\\Users\\lilian.heydel\\Zotero\\storage\\379DEKHX\\
-    \verb cr2001383.html
-    \endverb
-    \field{journaltitle}{Chemical Reviews}
-    \field{month}{01}
-    \field{year}{2012}
-    \field{urlday}{28}
-    \field{urlmonth}{10}
-    \field{urlyear}{2026}
-  \endentry
-
-  \entry{kumarElectronIonizationCross2014}{article}{}{}
-    \name{author}{1}{}{%
-      {{hash=KR}{%
-         family={Kumar},
-         familyi={K\bibinitperiod},
-         given={Rajeev},
-         giveni={R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{KR1}
-    \strng{fullhash}{KR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2014}
-    \field{labeldatesource}{}
-    \field{sortinit}{2}
-    \field{sortinithash}{2}
-    \field{abstract}{%
-    The partial single, double differential cross-sections with their total (sum of partial cross sections) of the phosphine (PH3) by direct and dissociative electron ionization have been evaluated by using modified Jain--Khare semi-empirical approach. To the best of my knowledge, no other data (experimental and/or theoretical) of differential cross sections is available till now for comparison. Partial and total integral ionization cross sections were also evaluated for PH3. Integral ionization cross-sections show good agreement with available experimental/or theoretical data. Ionization rate coefficients corresponding to partial ionization cross-sections have also been calculated by the Maxwell--Boltzmann distribution of energy.%
-    }
-    \verb{doi}
-    \verb 10.1016/j.cplett.2014.06.034
-    \endverb
-    \field{issn}{00092614}
-    \field{pages}{108\bibrangedash 112}
-    \field{title}{Electron Ionization Cross Sections for the {{PH3}} Molecule}
-    \field{volume}{609}
-    \field{langid}{english}
-    \verb{file}
-    \verb C:\Users\lilian.heydel\Zotero\storage\7E7MI9CD\Kumar - 2014 - Electro
-    \verb n ionization cross sections for the PH3 molecule.pdf
-    \endverb
-    \field{journaltitle}{Chemical Physics Letters}
-    \field{month}{08}
-    \field{year}{2014}
-    \field{urlday}{22}
-    \field{urlmonth}{10}
-    \field{urlyear}{2026}
-  \endentry
-
-  \entry{hellwegDevelopmentNewAuxiliary2015}{article}{}{}
-    \name{author}{2}{}{%
-      {{hash=HA}{%
-         family={Hellweg},
-         familyi={H\bibinitperiod},
-         given={Arnim},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=RD}{%
-         family={Rappoport},
-         familyi={R\bibinitperiod},
-         given={Dmitrij},
-         giveni={D\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{HARD1}
-    \strng{fullhash}{HARD1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2015}
-    \field{labeldatesource}{}
-    \field{sortinit}{2}
-    \field{sortinithash}{2}
-    \field{abstract}{%
-    We report optimized auxiliary basis sets for use with the Karlsruhe segmented contracted basis sets including moderately diffuse basis functions (Rappoport and Furche, J. Chem. Phys., 2010, 133, 134105) in resolution-of-the-identity (RI) post-self-consistent field (post-SCF) computations for the elements H--Rn (except lanthanides). The errors of the RI approximation using optimized auxiliary basis sets are analyzed on a comprehensive test set of molecules containing the most common oxidation states of each element and do not exceed those of the corresponding unaugmented basis sets. During these studies an unsatisfying performance of the def2-SVP and def2-QZVPP auxiliary basis sets for Barium was found and improved sets are provided. We establish the versatility of the def2-SVPD, def2-TZVPPD, and def2-QZVPPD basis sets for RI-MP2 and RI-CC (coupled-cluster) energy and property calculations. The influence of diffuse basis functions on correlation energy, basis set superposition error, atomic electron affinity, dipole moments, and computational timings is evaluated at different levels of theory using benchmark sets and showcase examples.%
-    }
-    \verb{doi}
-    \verb 10.1039/c4cp04286g
-    \endverb
-    \field{issn}{1463-9076}
-    \field{number}{2}
-    \field{pages}{1010\bibrangedash 1017}
-    \field{title}{Development of New Auxiliary Basis Functions of the {{Karlsruhe}} Segmented Contracted Basis Sets Including Diffuse Basis Functions (Def2-{{SVPD}}, Def2-{{TZVPPD}}, and Def2-{{QVPPD}}) for {{RI-MP2}} and {{RI-CC}} Calculations}
-    \field{volume}{17}
-    \verb{file}
-    \verb C:\Users\lilian.heydel\Zotero\storage\JHR5FFSJ\c4cp04286g.html
-    \endverb
-    \field{journaltitle}{Physical Chemistry Chemical Physics}
-    \field{month}{01}
-    \field{year}{2015}
-    \field{urlday}{28}
-    \field{urlmonth}{10}
-    \field{urlyear}{2026}
-  \endentry
-
-  \entry{wangGeometryOptimizationMade2016}{article}{}{}
-    \name{author}{2}{}{%
-      {{hash=WLP}{%
-         family={Wang},
-         familyi={W\bibinitperiod},
-         given={Lee-Ping},
-         giveni={L\bibinithyphendelim P\bibinitperiod},
-      }}%
-      {{hash=SC}{%
-         family={Song},
-         familyi={S\bibinitperiod},
-         given={Chenchen},
-         giveni={C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{WLPSC1}
-    \strng{fullhash}{WLPSC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2016}
-    \field{labeldatesource}{}
-    \field{sortinit}{2}
-    \field{sortinithash}{2}
-    \field{abstract}{%
-    The effective description of molecular geometry is important for theoretical studies of intermolecular interactions. Here we introduce a new translation-rotation-internal coordinate (TRIC) system which explicitly includes the collective translations and rotations of molecules, or parts of molecules such as monomers or ligands, as degrees of freedom. The translations are described as the centroid position and the orientations are represented with the exponential map parameterization of quaternions. When TRIC is incorporated into geometry optimization calculations, the performance is consistently superior to existing coordinate systems for a diverse set of systems including water clusters, organic semiconductor donor-acceptor complexes, and small proteins, all of which are characterized by nontrivial intermolecular interactions. The method also introduces a new way to scan the molecular orientations while allowing orthogonal degrees of freedom to relax. Our findings indicate that an explicit description of molecular translation and rotation is a natural way to traverse the many-dimensional potential energy surface.%
-    }
-    \verb{doi}
-    \verb 10.1063/1.4952956
-    \endverb
-    \field{issn}{0021-9606}
-    \field{number}{21}
-    \field{pages}{214108}
-    \field{title}{Geometry Optimization Made Simple with Translation and Rotation Coordinates}
-    \field{volume}{144}
-    \verb{file}
-    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\QND28AQA\\Wang et Song -
-    \verb 2016 - Geometry optimization made simple with translation and rotatio
-    \verb n coordinates.pdf;C\:\\Users\\lilian.heydel\\Zotero\\storage\\45I5EHP
-    \verb F\\1.html
-    \endverb
-    \field{journaltitle}{The Journal of Chemical Physics}
-    \field{month}{06}
-    \field{year}{2016}
-    \field{urlday}{30}
-    \field{urlmonth}{10}
-    \field{urlyear}{2026}
-  \endentry
-
-  \entry{sunPythonbasedSimulationsChemistry2017}{misc}{}{}
-    \name{author}{12}{}{%
-      {{hash=SQ}{%
-         family={Sun},
-         familyi={S\bibinitperiod},
-         given={Qiming},
-         giveni={Q\bibinitperiod},
-      }}%
-      {{hash=BTC}{%
-         family={Berkelbach},
-         familyi={B\bibinitperiod},
-         given={Timothy\bibnamedelima C.},
-         giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-      {{hash=BNS}{%
-         family={Blunt},
-         familyi={B\bibinitperiod},
-         given={Nick\bibnamedelima S.},
-         giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=BGH}{%
-         family={Booth},
-         familyi={B\bibinitperiod},
-         given={George\bibnamedelima H.},
-         giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-      {{hash=GS}{%
-         family={Guo},
-         familyi={G\bibinitperiod},
-         given={Sheng},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=LZ}{%
-         family={Li},
-         familyi={L\bibinitperiod},
-         given={Zhendong},
-         giveni={Z\bibinitperiod},
-      }}%
-      {{hash=LJ}{%
-         family={Liu},
-         familyi={L\bibinitperiod},
-         given={Junzi},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=MJ}{%
-         family={McClain},
-         familyi={M\bibinitperiod},
-         given={James},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=SER}{%
-         family={Sayfutyarova},
-         familyi={S\bibinitperiod},
-         given={Elvira\bibnamedelima R.},
-         giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-      {{hash=SS}{%
-         family={Sharma},
-         familyi={S\bibinitperiod},
-         given={Sandeep},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=WS}{%
-         family={Wouters},
-         familyi={W\bibinitperiod},
-         given={Sebastian},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=CGKL}{%
-         family={Chan},
-         familyi={C\bibinitperiod},
-         given={Garnet Kin-Lic},
-         giveni={G\bibinitperiod\bibinitdelim K\bibinithyphendelim L\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {arXiv}%
-    }
-    \keyw{Physics - Chemical Physics}
-    \strng{namehash}{SQ+1}
-    \strng{fullhash}{SQBTCBNSBGHGSLZLJMJSERSSWSCGKL1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2017}
-    \field{labeldatesource}{}
-    \field{sortinit}{2}
-    \field{sortinithash}{2}
-    \field{abstract}{%
-    PySCF is a general-purpose electronic structure platform designed from the ground up to emphasize code simplicity, both to aid new method development, as well as for flexibility in computational workflow. The package provides a wide range of tools to support simulations of finite size systems, extended systems with periodic boundary conditions, low dimensional periodic systems, and custom Hamiltonians, using mean-field and post-mean-field methods with standard Gaussian basis functions. To ensure easy of extensibility, PySCF uses the Python language to implement almost all its features, while computationally critical paths are implemented with heavily optimized C routines. Using this combined Python/C implementation, the package is as efficient as the best existing C or Fortran based quantum chemistry programs. In this paper we document the capabilities and design philosophy of the current version of the PySCF package.%
-    }
-    \verb{doi}
-    \verb 10.48550/arXiv.1701.08223
-    \endverb
-    \verb{eprint}
-    \verb 1701.08223
-    \endverb
-    \field{number}{arXiv:1701.08223}
-    \field{title}{The {{Python}}-Based {{Simulations}} of {{Chemistry Framework}} ({{PySCF}})}
-    \verb{file}
-    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\LLYE5JP8\\Sun et al. - 20
-    \verb 17 - The Python-based Simulations of Chemistry Framework (PySCF).pdf;
-    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\QXTHBVN9\\1701.html
-    \endverb
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{physics.chem-ph}
-    \field{month}{03}
-    \field{year}{2017}
     \field{urlday}{28}
     \field{urlmonth}{10}
     \field{urlyear}{2026}
@@ -1231,10 +170,8 @@
     \strng{fullhash}{BMCWGAAMCASLML1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
-    \field{labelyear}{2018}
-    \field{labeldatesource}{}
-    \field{sortinit}{2}
-    \field{sortinithash}{2}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
     \field{abstract}{%
     Very recently, we have introduced correlation consistent effective core potentials (ccECPs) derived from many-body approaches with the main target being their use in explicitly correlated methods, while still usable in mainstream approaches. The ccECPs are based on reproducing excitation energies for a subset of valence states, namely, achieving near-isospectrality between the original and pseudo Hamiltonians. In addition, binding curves of dimer molecules were used for refinement and overall improvement of transferability over a range of bond lengths. Here we apply similar ideas to the 2nd row elements and study several aspects of the constructions in order to find the high accuracy solutions within the chosen ccECP forms with 3s, 3p valence space (Ne-core). Our new constructions exhibit accurate low-lying atomic excitations and equilibrium molecular bonds (on average within {$\approx$}0.03 eV and 3 m\AA ); however, the errors for Al and Si oxide molecules at short bond lengths are notably larger for both ours and existing effective core potentials. Assuming this limitation, our ccECPs show a systematic balance between the criteria of atomic spectra accuracy and transferability for molecular bonds. In order to provide another option with much higher uniform accuracy, we also construct He-core ccECPs for the whole 2nd row with typical discrepancies of {$\approx$}0.01 eV or smaller.%
     }
@@ -1261,222 +198,120 @@
     \field{urlyear}{2026}
   \endentry
 
-  \entry{wangNewGenerationEffective2019}{article}{}{}
-    \name{author}{6}{}{%
-      {{hash=WG}{%
-         family={Wang},
-         familyi={W\bibinitperiod},
-         given={Guangming},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=AA}{%
-         family={Annaberdiyev},
-         familyi={A\bibinitperiod},
-         given={Abdulgani},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=MCA}{%
-         family={Melton},
-         familyi={M\bibinitperiod},
-         given={Cody\bibnamedelima A.},
-         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=BMC}{%
-         family={Bennett},
+  \entry{bezardDetectionArsineSaturn1989}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=BB}{%
+         family={Bezard},
          familyi={B\bibinitperiod},
-         given={M.\bibnamedelima Chandler},
-         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-      {{hash=SL}{%
-         family={Shulenburger},
-         familyi={S\bibinitperiod},
-         given={Luke},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=ML}{%
-         family={Mitas},
-         familyi={M\bibinitperiod},
-         given={Lubos},
-         giveni={L\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{WG+1}
-    \strng{fullhash}{WGAAMCABMCSLML1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \field{labelyear}{2019}
-    \field{labeldatesource}{}
-    \field{sortinit}{2}
-    \field{sortinithash}{2}
-    \field{abstract}{%
-    Recently, we developed a new method for generating effective core potentials (ECPs) using valence energy isospectrality with explicitly correlated all-electron (AE) excitations and norm-conservation criteria. We apply this methodology to the 3rd-row main group elements, creating new correlation consistent ECPs (ccECPs) and also deriving additional ECPs to complete the ccECP table for H--Kr. For K and Ca, we develop Ne-core ECPs, and for the 4p main group elements, we construct [Ar]3d10-core potentials. Scalar relativistic effects are included in their construction. Our ccECPs reproduce AE spectra with significantly better accuracy than many existing pseudopotentials and show better overall consistency across multiple properties. The transferability of ccECPs is tested on monohydride and monoxide molecules over a range of molecular geometries. For the constructed ccECPs, we also provide optimized DZ-6Z valence Gaussian basis sets.%
-    }
-    \verb{doi}
-    \verb 10.1063/1.5121006
-    \endverb
-    \field{issn}{0021-9606}
-    \field{number}{14}
-    \field{pages}{144110}
-    \field{shorttitle}{A New Generation of Effective Core Potentials from Correlated Calculations}
-    \field{title}{A New Generation of Effective Core Potentials from Correlated Calculations: 4s and 4p Main Group Elements and First Row Additions}
-    \field{volume}{151}
-    \verb{file}
-    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\T5IBAITJ\\Wang et al. - 2
-    \verb 019 - A new generation of effective core potentials from correlated c
-    \verb alculations 4s and 4p main group ele.pdf;C\:\\Users\\lilian.heydel\\Z
-    \verb otero\\storage\\P8H73IWP\\1.html
-    \endverb
-    \field{journaltitle}{The Journal of Chemical Physics}
-    \field{month}{10}
-    \field{year}{2019}
-    \field{urlday}{29}
-    \field{urlmonth}{10}
-    \field{urlyear}{2026}
-  \endentry
-
-  \entry{gravesEfficientCalculationElectron2021}{article}{}{}
-    \name{author}{3}{}{%
-      {{hash=GV}{%
-         family={Graves},
-         familyi={G\bibinitperiod},
-         given={Vincent},
-         giveni={V\bibinitperiod},
-      }}%
-      {{hash=CB}{%
-         family={Cooper},
-         familyi={C\bibinitperiod},
-         given={Bridgette},
+         given={B.},
          giveni={B\bibinitperiod},
       }}%
-      {{hash=TJ}{%
-         family={Tennyson},
-         familyi={T\bibinitperiod},
-         given={Jonathan},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{GVCBTJ1}
-    \strng{fullhash}{GVCBTJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2021}
-    \field{labeldatesource}{}
-    \field{sortinit}{2}
-    \field{sortinithash}{2}
-    \field{abstract}{%
-    A black box Binary Encounter Bethe (BEB) with an effective core potential (ECP) procedure is implemented, which facilitates the efficient calculation of electron impact ionization cross sections for molecules that include heavy atoms. This is available in the Quantemol electron collisions software, a user friendly graphical user interface to the UKRMol+ codes. Tests were performed for the following series of molecules: CF4, CCl4, CBr4, CI4, and CAt4; CH4, SiH4, GeH4, and SnH4; PH3, PF3, and PCl3; SiCl4 and BCl3; and CH3Br and CF3I. Use of an ECP generally raises the predicted ionization cross section at lower energies leading to improved agreement with experiment compared to all electron calculations for BEB cross sections. Scaling BEB cross sections by the polarizability of the target molecule is shown to give somewhat erratic results, which do not always provide closer agreement with the measured cross sections.%
-    }
-    \verb{doi}
-    \verb 10.1063/5.0039465
-    \endverb
-    \field{issn}{0021-9606, 1089-7690}
-    \field{number}{11}
-    \field{pages}{114104}
-    \field{title}{The Efficient Calculation of Electron Impact Ionization Cross Sections with Effective Core Potentials}
-    \field{volume}{154}
-    \field{langid}{english}
-    \verb{file}
-    \verb C:\Users\lilian.heydel\Zotero\storage\Y7ZKVUH2\Graves et al. - 2021 -
-    \verb  The efficient calculation of electron impact ionization cross sectio
-    \verb ns with effective core potential.pdf
-    \endverb
-    \field{journaltitle}{The Journal of Chemical Physics}
-    \field{month}{03}
-    \field{year}{2021}
-    \field{urlday}{28}
-    \field{urlmonth}{10}
-    \field{urlyear}{2026}
-  \endentry
-
-  \entry{gachesAstrochemistryLowenergyElectron2024}{article}{}{}
-    \name{author}{9}{}{%
-      {{hash=GBAL}{%
-         family={Gaches},
-         familyi={G\bibinitperiod},
-         given={Brandt A.\bibnamedelima L.},
-         giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=GT}{%
-         family={Grassi},
-         familyi={G\bibinitperiod},
-         given={Tommaso},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=VS}{%
-         family={{Vogt-Geisse}},
-         familyi={V\bibinitperiod},
-         given={Stefan},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=BGM}{%
-         family={Bovolenta},
-         familyi={B\bibinitperiod},
-         given={Giulia\bibnamedelima M.},
-         giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=VC}{%
-         family={Vallance},
-         familyi={V\bibinitperiod},
-         given={Claire},
-         giveni={C\bibinitperiod},
-      }}%
-      {{hash=HD}{%
-         family={Heathcote},
-         familyi={H\bibinitperiod},
-         given={David},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=PM}{%
-         family={Padovani},
-         familyi={P\bibinitperiod},
-         given={Marco},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=BS}{%
-         family={Bovino},
-         familyi={B\bibinitperiod},
-         given={Stefano},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=GP}{%
-         family={Gorai},
-         familyi={G\bibinitperiod},
-         given={Prasanta},
+      {{hash=DP}{%
+         family={Drossart},
+         familyi={D\bibinitperiod},
+         given={P.},
          giveni={P\bibinitperiod},
+      }}%
+      {{hash=LE}{%
+         family={Lellouch},
+         familyi={L\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=TG}{%
+         family={Tarrago},
+         familyi={T\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=MJP}{%
+         family={Maillard},
+         familyi={M\bibinitperiod},
+         given={J.\bibnamedelima P.},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
-      {EDP Sciences}%
+      {IOP}%
     }
-    \strng{namehash}{GBAL+1}
-    \strng{fullhash}{GBALGTVSBGMVCHDPMBSGP1}
+    \keyw{Absorption Spectra,Abundance,Arsenic Compounds,Atmospheric Composition,Atmospheric Models,Cosmochemistry,Hydrides,Infrared Astronomy,INFRARED: SPECTRA,LINE IDENTIFICATIONS,Lunar and Planetary Exploration,PLANETS: ABUNDANCES,PLANETS: ATMOSPHERES,PLANETS: SATURN,PLANETS: SPECTRA,Saturn Atmosphere}
+    \strng{namehash}{BB+1}
+    \strng{fullhash}{BBDPLETGMJP1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2024}
-    \field{labeldatesource}{}
-    \field{sortinit}{2}
-    \field{sortinithash}{2}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
     \field{abstract}{%
-    \emph{Context{$<$}i/{$>$}. Electron--molecule interaction is a fundamental process in radiation-driven chemistry in space, from the interstellar medium to comets. Therefore, knowledge of interaction cross sections is key. There have been a plethora of both theoretical and experimental studies of total ionization cross sections spanning from diatomics to complex organics. However, the data are often spread over many sources or are not public or readily available.\emph{Aims{$<$}i/{$>$}. We introduce the Astrochemistry Low-energy Electron cross-section (ALeCS) database. This is a public database for electron interaction cross sections and ionization rates for molecules of astrochemical interest. In particular, we present here the first data release, comprising total ionization cross sections and ionization rates for over 200 neutral molecules.\emph{Methods{$<$}i/{$>$}. We include optimized geometries and molecular orbital energies at various levels of quantum chemistry theory. Furthermore, for a subset of the molecules, we have calculated ionization potentials. We computed the total ionization cross sections using the binary-encounter Bethe model and screening-corrected additivity rule, and we computed ionization rates and reaction network coefficients for molecular cloud environments.\emph{Results{$<$}i/{$>$}. We present the cross sections and reaction rates for {$>$}200 neutral molecules ranging from diatomics to complex organics, with the largest being C\textsubscript{14{$<$}sub/{$>$}H\textsubscript{10{$<$}sub/{$>$}. We find that the screening-corrected additivity rule cross sections generally significantly overestimate experimental total ionization cross sections. We demonstrate that our binary-encounter Bethe cross sections agree well with experimental data. We show that the ionization rates scale roughly linearly with the number of constituent atoms in the molecule.\emph{Conclusions{$<$}i/{$>$}. We introduce and describe the public ALeCS database. For the initial release, we include total ionization cross sections for {$>$}200 neutral molecules and several cations and anions calculated with different levels of quantum chemistry theory, the chemical reaction rates for the ionization, and network files in the formats of the two most popular astrochemical networks: the Kinetic Database for Astrochemistry, and UMIST. The database will be continuously updated for more molecules and interactions.}}}}}}}%
+    The detection of arsine (AsH3) in Saturn's atmosphere using high-resolution observations near 4.7 microns is reported. A strong broad absorption at the position of the nu3 Q-branch of AsH3 and weaker features where the R(1) lines of the nu1 and nu3 bands occur are noted in this high-resolution spectral range. Comparison with synthetic spectra derived from a model atmosphere indicates the following: both the thermal emission and the reflected solar radiation contribute to Saturn's 5 micron flux; the mole fraction of arsine is (2.4 + 1.4 or - 1.2) x 10 to the -9th in the approx. 4 bar region (T about 200 K) from which the thermal emission originates; AsH3 is 2.5 to 10 times less abundant in the upper troposphere (0.2-0.4 bar), a possible consequence of UV photolysis. The current observation of arsine implies upward transport from the 360 K region that is sufficiently rapid to inhibit conversion reactions. A reanalysis of 5-micron spectroscopic observations of Jupiter by Bjoraker, Larson, and Kunde (1986) indicated that arsine is much less abundant on Jupiter (AsH3/H2 less than or roughly equal to 3 x 10 to the -10th) than on Saturn.%
     }
     \verb{doi}
-    \verb 10.1051/0004-6361/202348293
+    \verb 10.1086/168032
     \endverb
-    \field{issn}{0004-6361, 1432-0746}
-    \field{pages}{A41}
-    \field{title}{The {{Astrochemistry Low}}-Energy {{Electron Cross-Section}} ({{ALeCS}}) Database - {{I}}. {{Semi}}-Empirical Electron-Impact Ionization Cross-Section Calculations and Ionization Rates}
-    \field{volume}{684}
+    \field{issn}{0004-637X}
+    \field{pages}{509}
+    \field{title}{Detection of {{Arsine}} in {{Saturn}}}
+    \field{volume}{346}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\TR5SL2GT\Bezard et al. - 1989 -
+    \verb  Detection of Arsine in Saturn.pdf
+    \endverb
+    \field{journaltitle}{The Astrophysical Journal}
+    \field{month}{11}
+    \field{year}{1989}
+    \field{urlday}{05}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{boltonPubChem3DConformerGeneration2011}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=BEE}{%
+         family={Bolton},
+         familyi={B\bibinitperiod},
+         given={Evan\bibnamedelima E},
+         giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Sunghwan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BSH}{%
+         family={Bryant},
+         familyi={B\bibinitperiod},
+         given={Stephen\bibnamedelima H},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BEEKSBSH1}
+    \strng{fullhash}{BEEKSBSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    Background: PubChem, an open archive for the biological activities of small molecules, provides search and analysis tools to assist users in locating desired information. Many of these tools focus on the notion of chemical structure similarity at some level. PubChem3D enables similarity of chemical structure 3-D conformers to augment the existing similarity of 2-D chemical structure graphs. It is also desirable to relate theoretical 3-D descriptions of chemical structures to experimental biological activity. As such, it is important to be assured that the theoretical conformer models can reproduce experimentally determined bioactive conformations. In the present study, we investigate the effects of three primary conformer generation parameters (the fragment sampling rate, the energy window size, and force field variant) upon the accuracy of theoretical conformer models, and determined optimal settings for PubChem3D conformer model generation and conformer sampling. Results: Using the software package OMEGA from OpenEye Scientific Software, Inc., theoretical 3-D conformer models were generated for 25,972 small-molecule ligands, whose 3-D structures were experimentally determined. Different values for primary conformer generation parameters were systematically tested to find optimal settings. Employing a greater fragment sampling rate than the default did not improve the accuracy of the theoretical conformer model ensembles. An ever increasing energy window did increase the overall average accuracy, with rapid convergence observed at 10 kcal/mol and 15 kcal/mol for model building and torsion search, respectively; however, subsequent study showed that an energy threshold of 25 kcal/mol for torsion search resulted in slightly improved results for larger and more flexible structures. Exclusion of coulomb terms from the 94s variant of the Merck molecular force field (MMFF94s) in the torsion search stage gave more accurate conformer models at lower energy windows. Overall average accuracy of reproduction of bioactive conformations was remarkably linear with respect to both non-hydrogen atom count ("size'') and effective rotor count ("flexibility''). Using these as independent variables, a regression equation was developed to predict the RMSD accuracy of a theoretical ensemble to reproduce bioactive conformations. The equation was modified to give a minimum RMSD conformer sampling value to help ensure that 90\% of the sampled theoretical models should contain at least one conformer within the RMSD sampling value to a ``bioactive'' conformation. Conclusion: Optimal parameters for conformer generation using OMEGA were explored and determined. An equation was developed that provides an RMSD sampling value to use that is based on the relative accuracy to reproduce bioactive conformations. The optimal conformer generation parameters and RMSD sampling values determined are used by the PubChem3D project to generate theoretical conformer models.%
+    }
+    \verb{doi}
+    \verb 10.1186/1758-2946-3-4
+    \endverb
+    \field{issn}{1758-2946}
+    \field{number}{1}
+    \field{pages}{4}
+    \field{shorttitle}{{{PubChem3D}}}
+    \field{title}{{{PubChem3D}}: {{Conformer}} Generation}
+    \field{volume}{3}
     \field{langid}{english}
     \verb{file}
-    \verb C:\Users\lilian.heydel\Zotero\storage\C2GHVA7C\Gaches et al. - 2024 -
-    \verb  The Astrochemistry Low-energy Electron Cross-Section (ALeCS) databas
-    \verb e - I. Semi-empirical electron-i.pdf
+    \verb C:\Users\lilian.heydel\Zotero\storage\EEEFAFCN\Bolton et al. - 2011 -
+    \verb  PubChem3D Conformer generation.pdf
     \endverb
-    \field{journaltitle}{Astronomy \& Astrophysics}
-    \field{month}{04}
-    \field{year}{2024}
-    \field{urlday}{21}
-    \field{urlmonth}{10}
+    \field{journaltitle}{Journal of Cheminformatics}
+    \field{month}{12}
+    \field{year}{2011}
+    \field{urlday}{05}
+    \field{urlmonth}{11}
     \field{urlyear}{2026}
   \endentry
 
@@ -1602,10 +437,8 @@
     \strng{fullhash}{BAJGECBSAVCBBMGNFJKZZSCLNMSAMACMSACSGHCCGRACTCA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2025}
-    \field{labeldatesource}{}
-    \field{sortinit}{2}
-    \field{sortinithash}{2}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
     \field{abstract}{%
     The atmospheres of low-temperature brown dwarfs and gas giant planets are expected to contain the phosphine molecule, PH\$\_3\$ However, previous observations have shown much lower abundances of this molecule than predicted by atmospheric chemistry models. We report JWST spectroscopic observations of phosphine in the atmosphere of the brown dwarf Wolf 1130C. Multiple absorption lines due to phosphine are detected around 4.3 \${$\mu\$$}m, from which we calculate a phosphine abundance of 0.100\$\textbackslash pm\$0.009 parts per million. This abundance is consistent with disequilibrium atmospheric chemistry models that reproduce the phosphine abundances in Jupiter and Saturn, and is much higher than abundances previously reported for other brown dwarfs or exoplanets.%
     }
@@ -1636,6 +469,209 @@
     \field{urlyear}{2026}
   \endentry
 
+  \entry{carboneDataNeedsModeling2021}{article}{}{}
+    \name{author}{10}{}{%
+      {{hash=CE}{%
+         family={Carbone},
+         familyi={C\bibinitperiod},
+         given={Emile},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=GW}{%
+         family={Graef},
+         familyi={G\bibinitperiod},
+         given={Wouter},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=HG}{%
+         family={Hagelaar},
+         familyi={H\bibinitperiod},
+         given={Gerjan},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Boer},
+         familyi={B\bibinitperiod},
+         given={Daan},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=HMM}{%
+         family={Hopkins},
+         familyi={H\bibinitperiod},
+         given={Matthew\bibnamedelima M.},
+         giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=SJC}{%
+         family={Stephens},
+         familyi={S\bibinitperiod},
+         given={Jacob\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=YBT}{%
+         family={Yee},
+         familyi={Y\bibinitperiod},
+         given={Benjamin\bibnamedelima T.},
+         giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Pancheshnyi},
+         familyi={P\bibinitperiod},
+         given={Sergey},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=vJ}{%
+         family={{van Dijk}},
+         familyi={v\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PL}{%
+         family={Pitchford},
+         familyi={P\bibinitperiod},
+         given={Leanne},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Multidisciplinary Digital Publishing Institute}%
+    }
+    \keyw{Boltzmann equation,cross-sections,diffusion,electron collisions,ion collisions,low-temperature non-equilibrium plasmas,mobility,online database,open access,swarm parameters}
+    \strng{namehash}{CE+1}
+    \strng{fullhash}{CEGWHGBDHMMSJCYBTPSvJPL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    Technologies based on non-equilibrium, low-temperature plasmas are ubiquitous in today's society. Plasma modeling plays an essential role in their understanding, development and optimization. An accurate description of electron and ion collisions with neutrals and their transport is required to correctly describe plasma properties as a function of external parameters. LXCat is an open-access, web-based platform for storing, exchanging and manipulating data needed for modeling the electron and ion components of non-equilibrium, low-temperature plasmas. The data types supported by LXCat are electron- and ion-scattering cross-sections with neutrals (total and differential), interaction potentials, oscillator strengths, and electron- and ion-swarm/transport parameters. Online tools allow users to identify and compare the data through plotting routines, and use the data to generate swarm parameters and reaction rates with the integrated electron Boltzmann solver. In this review, the historical evolution of the project and some perspectives on its future are discussed together with a tutorial review for using data from LXCat.%
+    }
+    \verb{doi}
+    \verb 10.3390/atoms9010016
+    \endverb
+    \field{issn}{2218-2004}
+    \field{number}{1}
+    \field{pages}{16}
+    \field{shorttitle}{Data {{Needs}} for {{Modeling Low-Temperature Non-Equilibrium Plasmas}}}
+    \field{title}{Data {{Needs}} for {{Modeling Low-Temperature Non-Equilibrium Plasmas}}: {{The LXCat Project}}, {{History}}, {{Perspectives}} and a {{Tutorial}}}
+    \field{volume}{9}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\BPQH7N2E\Carbone et al. - 2021
+    \verb - Data Needs for Modeling Low-Temperature Non-Equilibrium Plasmas The
+    \verb  LXCat Project, History, Perspec.pdf
+    \endverb
+    \field{journaltitle}{Atoms}
+    \field{month}{03}
+    \field{year}{2021}
+    \field{urlday}{05}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{chathamTotalPartialElectron1984}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=CH}{%
+         family={Chatham},
+         familyi={C\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Hils},
+         familyi={H\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=RR}{%
+         family={Robertson},
+         familyi={R\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gallagher},
+         familyi={G\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CH+1}
+    \strng{fullhash}{CHHDRRGA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    The total and partial electron collisional ionization cross sections for CH4, C2H6, SiH4, and Si2H6 have been measured for electron energies from threshold to 300 eV. Comparisons are made to earlier measurements.%
+    }
+    \verb{doi}
+    \verb 10.1063/1.447848
+    \endverb
+    \field{issn}{0021-9606}
+    \field{number}{4}
+    \field{pages}{1770\bibrangedash 1777}
+    \field{title}{Total and Partial Electron Collisional Ionization Cross Sections for {{CH4}}, {{C2H6}}, {{SiH4}}, and {{Si2H6}}}
+    \field{volume}{81}
+    \verb{file}
+    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\8LL26WIB\\Chatham et al.
+    \verb - 1984 - Total and partial electron collisional ionization cross sect
+    \verb ions for CH4, C2H6, SiH4, and Si2H6.pdf;C\:\\Users\\lilian.heydel\\Zo
+    \verb tero\\storage\\GI6KD23D\\1.html
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{08}
+    \field{year}{1984}
+    \field{urlday}{22}
+    \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{coriceHypotheticalChemicalSpectroscopic1972}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=CRJ}{%
+         family={Corice},
+         familyi={C\bibinitperiod},
+         given={Raymond\bibnamedelima J.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=FK}{%
+         family={Fox},
+         familyi={F\bibinitperiod},
+         given={Kenneth},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CRJFK1}
+    \strng{fullhash}{CRJFK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    It is suggested that in a reducing environment such as the Jovian atmosphere, GeH4 may be spectroscopically active. Absorption features might be detectable in the 4.7{$\mu$} window in the Jovian upper atmosphere.%
+    }
+    \verb{doi}
+    \verb 10.1016/0019-1035(72)90082-6
+    \endverb
+    \field{issn}{0019-1035}
+    \field{number}{2}
+    \field{pages}{388\bibrangedash 391}
+    \field{title}{The Hypothetical Chemical and Spectroscopic Activity of {{Germane}} in the Atmosphere of {{Jupiter}}}
+    \field{volume}{16}
+    \verb{file}
+    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\BPLFGD5F\\Corice et Fox -
+    \verb  1972 - The hypothetical chemical and spectroscopic activity of Germa
+    \verb ne in the atmosphere of Jupiter.pdf;C\:\\Users\\lilian.heydel\\Zotero
+    \verb \\storage\\S95S4EFB\\0019103572900826.html
+    \endverb
+    \field{journaltitle}{Icarus}
+    \field{month}{04}
+    \field{year}{1972}
+    \field{urlday}{05}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
   \entry{demuthStrainedSMILES2xyzWorkflowReliable2026}{article}{}{}
     \name{author}{3}{}{%
       {{hash=DT}{%
@@ -1662,10 +698,8 @@
     \strng{fullhash}{DTSJSD1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
-    \field{labelyear}{2026}
-    \field{labeldatesource}{}
-    \field{sortinit}{2}
-    \field{sortinithash}{2}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
     \field{abstract}{%
     Accurate 3D structure generation from SMILES is essential for data-driven chemistry but often fails for strained ring systems. We introduce strainedSMILES2xyz, a Python workflow that improves conformer generation by relaxing RDKit constraints, exploring stereoisomer variants, and correcting errors using force-field refinement. Benchmarking on strained and unstrained rings shows that it outperforms existing tools, generating correct geometries in nearly all cases. The workflow is available as a Python package and Jupyter notebook.%
     }
@@ -1688,6 +722,2178 @@
     \field{month}{05}
     \field{year}{2026}
     \field{urlday}{30}
+    \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{dolgRelativisticPseudopotentialsTheir2012}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=DM}{%
+         family={Dolg},
+         familyi={D\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CX}{%
+         family={Cao},
+         familyi={C\bibinitperiod},
+         given={Xiaoyan},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DMCX1}
+    \strng{fullhash}{DMCX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \verb{doi}
+    \verb 10.1021/cr2001383
+    \endverb
+    \field{issn}{0009-2665}
+    \field{number}{1}
+    \field{pages}{403\bibrangedash 480}
+    \field{shorttitle}{Relativistic {{Pseudopotentials}}}
+    \field{title}{Relativistic {{Pseudopotentials}}: {{Their Development}} and {{Scope}} of {{Applications}}}
+    \field{volume}{112}
+    \verb{file}
+    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\PIGTEGIU\\Dolg et Cao - 2
+    \verb 012 - Relativistic Pseudopotentials Their Development and Scope of Ap
+    \verb plications.pdf;C\:\\Users\\lilian.heydel\\Zotero\\storage\\379DEKHX\\
+    \verb cr2001383.html
+    \endverb
+    \field{journaltitle}{Chemical Reviews}
+    \field{month}{01}
+    \field{year}{2012}
+    \field{urlday}{28}
+    \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{dunningGaussianBasisSets1989}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=DTH}{%
+         family={Dunning},
+         familyi={D\bibinitperiod},
+         given={Thom\bibnamedelima H.},
+         giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DTH1}
+    \strng{fullhash}{DTH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{abstract}{%
+    In the past, basis sets for use in correlated molecular calculations have largely been taken from single configuration calculations. Recently, Alml\"of, Taylor, and co-workers have found that basis sets of natural orbitals derived from correlated atomic calculations (ANOs) provide an excellent description of molecular correlation effects. We report here a careful study of correlation effects in the oxygen atom, establishing that compact sets of primitive Gaussian functions effectively and efficiently describe correlation effects if the exponents of the functions are optimized in atomic correlated calculations, although the primitive (sp) functions for describing correlation effects can be taken from atomic Hartree--Fock calculations if the appropriate primitive set is used. Test calculations on oxygen-containing molecules indicate that these primitive basis sets describe molecular correlation effects as well as the ANO sets of Alml\"of and Taylor. Guided by the calculations on oxygen, basis sets for use in correlated atomic and molecular calculations were developed for all of the first row atoms from boron through neon and for hydrogen. As in the oxygen atom calculations, it was found that the incremental energy lowerings due to the addition of correlating functions fall into distinct groups. This leads to the concept of correlation\hphantom{,}consistent\hphantom{,}basis\hphantom{,}sets, i.e., sets which include all functions in a given group as well as all functions in any higher groups. Correlation consistent sets are given for all of the atoms considered. The most accurate sets determined in this way, [5s4p3d2f1g], consistently yield 99\% of the correlation energy obtained with the corresponding ANO sets, even though the latter contains 50\% more primitive functions and twice as many primitive polarization functions. It is estimated that this set yields 94\%--97\% of the total (HF+1+2) correlation energy for the atoms neon through boron.%
+    }
+    \verb{doi}
+    \verb 10.1063/1.456153
+    \endverb
+    \field{issn}{0021-9606, 1089-7690}
+    \field{number}{2}
+    \field{pages}{1007\bibrangedash 1023}
+    \field{title}{Gaussian Basis Sets for Use in Correlated Molecular Calculations. {{I}}. {{The}} Atoms Boron through Neon and Hydrogen}
+    \field{volume}{90}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\8FVHRAPS\Dunning - 1989 - Gauss
+    \verb ian basis sets for use in correlated molecular calculations. I. The a
+    \verb toms boron through neon an.pdf
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{01}
+    \field{year}{1989}
+    \field{urlday}{28}
+    \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{lxcat}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={Dutton},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{howpublished}{www.lxcat.net}
+    \field{title}{{{LXCAT Database}}}
+    \field{year}{2026}
+  \endentry
+
+  \entry{fernandezpaciosInitioRelativisticEffective1985}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=FPL}{%
+         family={Fernandez\bibnamedelima Pacios},
+         familyi={F\bibinitperiod\bibinitdelim P\bibinitperiod},
+         given={Luis},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CPA}{%
+         family={Christiansen},
+         familyi={C\bibinitperiod},
+         given={P.\bibnamedelima A.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FPLCPA1}
+    \strng{fullhash}{FPLCPA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{abstract}{%
+    A refined version of the ``shape consistent'' effective potential procedure of Christiansen, Lee, and Pitzer was used to compute averaged relativistic effective potentials (AREP) and spin-orbit operators for the atoms Li through Ar. These are tabulated in analytic form. Small optimized Gaussian basis sets with expansion coefficients for the lowest energy state for each atom are given and the reliability of the potentials relative to all electric calculations is discussed. Finally a procedure for computing molecular moments and Breit corrections is suggested.%
+    }
+    \verb{doi}
+    \verb 10.1063/1.448263
+    \endverb
+    \field{issn}{0021-9606}
+    \field{number}{6}
+    \field{pages}{2664\bibrangedash 2671}
+    \field{title}{Ab Initio Relativistic Effective Potentials with Spin-orbit Operators. {{I}}. {{Li}} through {{Ar}}}
+    \field{volume}{82}
+    \verb{file}
+    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\YC879RY9\\Fernandez Pacio
+    \verb s et Christiansen - 1985 - Ab initio relativistic effective potential
+    \verb s with spin‐orbit operators. I. Li through Ar.pdf;C\:\\Users\\lilia
+    \verb n.heydel\\Zotero\\storage\\WL9GY9XQ\\1.html
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{03}
+    \field{year}{1985}
+    \field{urlday}{28}
+    \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{gachesAstrochemistryLowenergyElectron2024}{article}{}{}
+    \name{author}{9}{}{%
+      {{hash=GBAL}{%
+         family={Gaches},
+         familyi={G\bibinitperiod},
+         given={Brandt A.\bibnamedelima L.},
+         giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=GT}{%
+         family={Grassi},
+         familyi={G\bibinitperiod},
+         given={Tommaso},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=VS}{%
+         family={{Vogt-Geisse}},
+         familyi={V\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BGM}{%
+         family={Bovolenta},
+         familyi={B\bibinitperiod},
+         given={Giulia\bibnamedelima M.},
+         giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=VC}{%
+         family={Vallance},
+         familyi={V\bibinitperiod},
+         given={Claire},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Heathcote},
+         familyi={H\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Padovani},
+         familyi={P\bibinitperiod},
+         given={Marco},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Bovino},
+         familyi={B\bibinitperiod},
+         given={Stefano},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GP}{%
+         family={Gorai},
+         familyi={G\bibinitperiod},
+         given={Prasanta},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {EDP Sciences}%
+    }
+    \strng{namehash}{GBAL+1}
+    \strng{fullhash}{GBALGTVSBGMVCHDPMBSGP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    \emph{Context{$<$}i/{$>$}. Electron--molecule interaction is a fundamental process in radiation-driven chemistry in space, from the interstellar medium to comets. Therefore, knowledge of interaction cross sections is key. There have been a plethora of both theoretical and experimental studies of total ionization cross sections spanning from diatomics to complex organics. However, the data are often spread over many sources or are not public or readily available.\emph{Aims{$<$}i/{$>$}. We introduce the Astrochemistry Low-energy Electron cross-section (ALeCS) database. This is a public database for electron interaction cross sections and ionization rates for molecules of astrochemical interest. In particular, we present here the first data release, comprising total ionization cross sections and ionization rates for over 200 neutral molecules.\emph{Methods{$<$}i/{$>$}. We include optimized geometries and molecular orbital energies at various levels of quantum chemistry theory. Furthermore, for a subset of the molecules, we have calculated ionization potentials. We computed the total ionization cross sections using the binary-encounter Bethe model and screening-corrected additivity rule, and we computed ionization rates and reaction network coefficients for molecular cloud environments.\emph{Results{$<$}i/{$>$}. We present the cross sections and reaction rates for {$>$}200 neutral molecules ranging from diatomics to complex organics, with the largest being C\textsubscript{14{$<$}sub/{$>$}H\textsubscript{10{$<$}sub/{$>$}. We find that the screening-corrected additivity rule cross sections generally significantly overestimate experimental total ionization cross sections. We demonstrate that our binary-encounter Bethe cross sections agree well with experimental data. We show that the ionization rates scale roughly linearly with the number of constituent atoms in the molecule.\emph{Conclusions{$<$}i/{$>$}. We introduce and describe the public ALeCS database. For the initial release, we include total ionization cross sections for {$>$}200 neutral molecules and several cations and anions calculated with different levels of quantum chemistry theory, the chemical reaction rates for the ionization, and network files in the formats of the two most popular astrochemical networks: the Kinetic Database for Astrochemistry, and UMIST. The database will be continuously updated for more molecules and interactions.}}}}}}}%
+    }
+    \verb{doi}
+    \verb 10.1051/0004-6361/202348293
+    \endverb
+    \field{issn}{0004-6361, 1432-0746}
+    \field{pages}{A41}
+    \field{title}{The {{Astrochemistry Low}}-Energy {{Electron Cross-Section}} ({{ALeCS}}) Database - {{I}}. {{Semi}}-Empirical Electron-Impact Ionization Cross-Section Calculations and Ionization Rates}
+    \field{volume}{684}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\C2GHVA7C\Gaches et al. - 2024 -
+    \verb  The Astrochemistry Low-energy Electron Cross-Section (ALeCS) databas
+    \verb e - I. Semi-empirical electron-i.pdf
+    \endverb
+    \field{journaltitle}{Astronomy \& Astrophysics}
+    \field{month}{04}
+    \field{year}{2024}
+    \field{urlday}{21}
+    \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{gravesEfficientCalculationElectron2021}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=GV}{%
+         family={Graves},
+         familyi={G\bibinitperiod},
+         given={Vincent},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Cooper},
+         familyi={C\bibinitperiod},
+         given={Bridgette},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=TJ}{%
+         family={Tennyson},
+         familyi={T\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GVCBTJ1}
+    \strng{fullhash}{GVCBTJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    A black box Binary Encounter Bethe (BEB) with an effective core potential (ECP) procedure is implemented, which facilitates the efficient calculation of electron impact ionization cross sections for molecules that include heavy atoms. This is available in the Quantemol electron collisions software, a user friendly graphical user interface to the UKRMol+ codes. Tests were performed for the following series of molecules: CF4, CCl4, CBr4, CI4, and CAt4; CH4, SiH4, GeH4, and SnH4; PH3, PF3, and PCl3; SiCl4 and BCl3; and CH3Br and CF3I. Use of an ECP generally raises the predicted ionization cross section at lower energies leading to improved agreement with experiment compared to all electron calculations for BEB cross sections. Scaling BEB cross sections by the polarizability of the target molecule is shown to give somewhat erratic results, which do not always provide closer agreement with the measured cross sections.%
+    }
+    \verb{doi}
+    \verb 10.1063/5.0039465
+    \endverb
+    \field{issn}{0021-9606, 1089-7690}
+    \field{number}{11}
+    \field{pages}{114104}
+    \field{title}{The Efficient Calculation of Electron Impact Ionization Cross Sections with Effective Core Potentials}
+    \field{volume}{154}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\Y7ZKVUH2\Graves et al. - 2021 -
+    \verb  The efficient calculation of electron impact ionization cross sectio
+    \verb ns with effective core potential.pdf
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{03}
+    \field{year}{2021}
+    \field{urlday}{28}
+    \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{hansonJmolParadigmShift2010}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=HRM}{%
+         family={Hanson},
+         familyi={H\bibinitperiod},
+         given={Robert\bibnamedelima M.},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HRM1}
+    \strng{fullhash}{HRM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1107/S0021889810030256
+    \endverb
+    \field{issn}{0021-8898}
+    \field{number}{5}
+    \field{pages}{1250\bibrangedash 1260}
+    \field{title}{{\emph{Jmol}} -- a Paradigm Shift in Crystallographic Visualization}
+    \field{volume}{43}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\ZU6LWEF8\Hanson - 2010 - Jmol �
+    \verb �� a paradigm shift in crystallographic visualization.pdf
+    \endverb
+    \field{journaltitle}{Journal of Applied Crystallography}
+    \field{month}{10}
+    \field{year}{2010}
+    \field{urlday}{05}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{hellwegDevelopmentNewAuxiliary2015}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=HA}{%
+         family={Hellweg},
+         familyi={H\bibinitperiod},
+         given={Arnim},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RD}{%
+         family={Rappoport},
+         familyi={R\bibinitperiod},
+         given={Dmitrij},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HARD1}
+    \strng{fullhash}{HARD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    We report optimized auxiliary basis sets for use with the Karlsruhe segmented contracted basis sets including moderately diffuse basis functions (Rappoport and Furche, J. Chem. Phys., 2010, 133, 134105) in resolution-of-the-identity (RI) post-self-consistent field (post-SCF) computations for the elements H--Rn (except lanthanides). The errors of the RI approximation using optimized auxiliary basis sets are analyzed on a comprehensive test set of molecules containing the most common oxidation states of each element and do not exceed those of the corresponding unaugmented basis sets. During these studies an unsatisfying performance of the def2-SVP and def2-QZVPP auxiliary basis sets for Barium was found and improved sets are provided. We establish the versatility of the def2-SVPD, def2-TZVPPD, and def2-QZVPPD basis sets for RI-MP2 and RI-CC (coupled-cluster) energy and property calculations. The influence of diffuse basis functions on correlation energy, basis set superposition error, atomic electron affinity, dipole moments, and computational timings is evaluated at different levels of theory using benchmark sets and showcase examples.%
+    }
+    \verb{doi}
+    \verb 10.1039/c4cp04286g
+    \endverb
+    \field{issn}{1463-9076}
+    \field{number}{2}
+    \field{pages}{1010\bibrangedash 1017}
+    \field{title}{Development of New Auxiliary Basis Functions of the {{Karlsruhe}} Segmented Contracted Basis Sets Including Diffuse Basis Functions (Def2-{{SVPD}}, Def2-{{TZVPPD}}, and Def2-{{QVPPD}}) for {{RI-MP2}} and {{RI-CC}} Calculations}
+    \field{volume}{17}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\JHR5FFSJ\c4cp04286g.html
+    \endverb
+    \field{journaltitle}{Physical Chemistry Chemical Physics}
+    \field{month}{01}
+    \field{year}{2015}
+    \field{urlday}{28}
+    \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{huoUseRelativisticEffective2000}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=HWM}{%
+         family={Huo},
+         familyi={H\bibinitperiod},
+         given={Winifred\bibnamedelima M},
+         giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=KYK}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Yong-Ki},
+         giveni={Y\bibinithyphendelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HWMKYK1}
+    \strng{fullhash}{HWMKYK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1016/S0009-2614(00)00150-0
+    \endverb
+    \field{issn}{00092614}
+    \field{number}{5-6}
+    \field{pages}{576\bibrangedash 586}
+    \field{title}{Use of Relativistic Effective Core Potentials in the Calculation of Total Electron-Impact Ionization Cross-Sections}
+    \field{volume}{319}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\XGPWIFX3\Huo et Kim - 2000 - Us
+    \verb e of relativistic effective core potentials in the calculation of tot
+    \verb al electron-impact ionization.pdf
+    \endverb
+    \field{journaltitle}{Chemical Physics Letters}
+    \field{month}{03}
+    \field{year}{2000}
+    \field{urlday}{28}
+    \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{hurleyInitioRelativisticEffective1986}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=HMM}{%
+         family={Hurley},
+         familyi={H\bibinitperiod},
+         given={M.\bibnamedelima M.},
+         giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=PLF}{%
+         family={Pacios},
+         familyi={P\bibinitperiod},
+         given={Luis\bibnamedelima Fernandez},
+         giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=CPA}{%
+         family={Christiansen},
+         familyi={C\bibinitperiod},
+         given={P.\bibnamedelima A.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=RRB}{%
+         family={Ross},
+         familyi={R\bibinitperiod},
+         given={R.\bibnamedelima B.},
+         giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=EWC}{%
+         family={Ermler},
+         familyi={E\bibinitperiod},
+         given={W.\bibnamedelima C.},
+         giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HMM+1}
+    \strng{fullhash}{HMMPLFCPARRBEWC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    A refined version of the ``shape consistent'' effective potential procedure of Christiansen, Lee, and Pitzer was used to compute averaged relativistic effective potentials (AREP) and spin-orbit operators for the atoms K through Kr. Particular attention was given to the partitioning of the core and valence space, and where appropriate more than one set of potentials is provided. These are tabulated in analytic form. Gaussian basis sets with expansion coefficients for the lowest energy state of each atom are given. The reliability of the transition metal AREPs was determined by comparing computed atomic excitation energies with accurate all-electron relativistic values. In all cases the maximum error was found to be less than 0.1 eV. The reliability of the spin-orbit operators was also considered.%
+    }
+    \verb{doi}
+    \verb 10.1063/1.450689
+    \endverb
+    \field{issn}{0021-9606}
+    \field{number}{12}
+    \field{pages}{6840\bibrangedash 6853}
+    \field{title}{Ab\hphantom{,}Initio Relativistic Effective Potentials with Spin-orbit Operators. {{II}}. {{K}} through {{Kr}}}
+    \field{volume}{84}
+    \verb{file}
+    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\53P8JCSA\\Hurley et al. -
+    \verb  1986 - Ab initio relativistic effective potentials with spin‐orbit
+    \verb  operators. II. K through Kr.pdf;C\:\\Users\\lilian.heydel\\Zotero\\s
+    \verb torage\\GU3HIUF5\\1.html
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{06}
+    \field{year}{1986}
+    \field{urlday}{29}
+    \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{hwangNewModelElectronimpact1996}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=HW}{%
+         family={Hwang},
+         familyi={H\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=KYK}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Y.-K.},
+         giveni={Y\bibinithyphendelim K\bibinitperiod},
+      }}%
+      {{hash=RME}{%
+         family={Rudd},
+         familyi={R\bibinitperiod},
+         given={M.\bibnamedelima E.},
+         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HWKYKRME1}
+    \strng{fullhash}{HWKYKRME1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    A theoretical model for electron-impact ionization cross sections, which has been developed primarily for atoms and atomic ions, is applied to neutral molecules. The new model combines the binary-encounter theory and the Bethe theory for electron-impact ionization, and uses minimal theoretical data for the ground state of the target molecule, which are readily available from public-domain molecular structure codes such as GAMESS. The theory is called the binary-encounter Bethe (BEB) model, and does not, in principle, involve any adjustable parameters. Applications to 19 molecules, including H2, NO, CH2, C6H6, and SF6, are presented, demonstrating that the BEB model provides total ionization cross sections by electron impact from threshold to several keV with an average accuracy of 15\% or better at the cross section peak, except for SiF3. The BEB model can be applied to stable molecules as well as to transient radicals.%
+    }
+    \verb{doi}
+    \verb 10.1063/1.471116
+    \endverb
+    \field{issn}{0021-9606, 1089-7690}
+    \field{number}{8}
+    \field{pages}{2956\bibrangedash 2966}
+    \field{title}{New Model for Electron-Impact Ionization Cross Sections of Molecules}
+    \field{volume}{104}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\BWT9QQ5M\Hwang et al. - 1996 -
+    \verb New model for electron-impact ionization cross sections of molecules.
+    \verb pdf
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{02}
+    \field{year}{1996}
+    \field{urlday}{28}
+    \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{jiaoElectronImpactIonization2007}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=JCQ}{%
+         family={Jiao},
+         familyi={J\bibinitperiod},
+         given={C\bibnamedelima Q},
+         giveni={C\bibinitperiod\bibinitdelim Q\bibinitperiod},
+      }}%
+      {{hash=DCA}{%
+         family={DeJoseph},
+         familyi={D\bibinitperiod},
+         given={C\bibnamedelima A},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Garscadden},
+         familyi={G\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+    }
+    \strng{namehash}{JCQDCAGA1}
+    \strng{fullhash}{JCQDCAGA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{abstract}{%
+    Absolute cross sections for electron impact ionization of n-butane (n-C4H10) as functions of electron energy from 10 to 200 eV have been measured by Fourier transform mass spectrometry. The major ions including the parent ion and eight fragment ions , and are observed, with the total cross section reaching a maximum of 1.18 \texttimes{} 10-15 cm2 at {$\sim$}80 eV. Studies of reactions of the major ionization product ions with n-C4H10 have been carried out, showing that , and are unreactive while the remaining ions react readily forming as the common product ion by hydride transfer. The observed reactivities of and combined with the calculated reaction enthalpies for their hydride transfer suggest that these two ions have the structures of cyclo- and cyclo- , respectively.%
+    }
+    \verb{doi}
+    \verb 10.1088/0022-3727/40/2/018
+    \endverb
+    \field{issn}{0022-3727}
+    \field{number}{2}
+    \field{pages}{409}
+    \field{title}{Electron Impact Ionization and Ion Reactions in N-Butane}
+    \field{volume}{40}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\92SP5J3L\Jiao et al. - 2007 - E
+    \verb lectron impact ionization and ion reactions in n-butane.pdf
+    \endverb
+    \field{journaltitle}{Journal of Physics D: Applied Physics}
+    \field{month}{01}
+    \field{year}{2007}
+    \field{urlday}{22}
+    \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{kimPubChem2025Update2025}{article}{}{}
+    \name{author}{13}{}{%
+      {{hash=KS}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Sunghwan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Jie},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CT}{%
+         family={Cheng},
+         familyi={C\bibinitperiod},
+         given={Tiejun},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gindulyte},
+         familyi={G\bibinitperiod},
+         given={Asta},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Jia},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Siqian},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LQ}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Qingliang},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=SBA}{%
+         family={Shoemaker},
+         familyi={S\bibinitperiod},
+         given={Benjamin\bibnamedelima A},
+         giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=TPA}{%
+         family={Thiessen},
+         familyi={T\bibinitperiod},
+         given={Paul\bibnamedelima A},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=YB}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Bo},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=ZL}{%
+         family={Zaslavsky},
+         familyi={Z\bibinitperiod},
+         given={Leonid},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Jian},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BEE}{%
+         family={Bolton},
+         familyi={B\bibinitperiod},
+         given={Evan\bibnamedelima E},
+         giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KS+1}
+    \strng{fullhash}{KSCJCTGAHJHSLQSBATPAYBZLZJBEE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    PubChem (https://pubchem.ncbi.nlm.nih.gov) is a large and highly-integrated public chemical database resource at NIH. In the past two years, significant updates were made to PubChem. With additions from over 130 new sources, PubChem contains \&gt;1000 data sources, 119 million compounds, 322 million substances and 295 million bioactivities. New interfaces, such as the consolidated literature panel and the patent knowledge panel, were developed. The consolidated literature panel combines all references about a compound into a single list, allowing users to easily find, sort, and export all relevant articles for a chemical in one place. The patent knowledge panels for a given query chemical or gene display chemicals, genes, and diseases co-mentioned with the query in patent documents, helping users to explore relationships between co-occurring entities within patent documents. PubChemRDF was expanded to include the co-occurrence data underlying the literature knowledge panel, enabling users to exploit semantic web technologies to explore entity relationships based on the co-occurrences in the scientific literature. The usability and accessibility of information on chemicals with non-discrete structures (e.g. biologics, minerals, polymers, UVCBs and glycans) were greatly improved with dedicated web pages that provide a comprehensive view of all available information in PubChem for these chemicals.%
+    }
+    \verb{doi}
+    \verb 10.1093/nar/gkae1059
+    \endverb
+    \field{issn}{1362-4962}
+    \field{number}{D1}
+    \field{pages}{D1516\bibrangedash D1525}
+    \field{title}{{{PubChem}} 2025 Update}
+    \field{volume}{53}
+    \verb{file}
+    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\I22SR2FN\\Kim et al. - 20
+    \verb 25 - PubChem 2025 update.pdf;C\:\\Users\\lilian.heydel\\Zotero\\stora
+    \verb ge\\ZZCHG9SI\\gkae1059.html
+    \endverb
+    \field{journaltitle}{Nucleic Acids Research}
+    \field{month}{01}
+    \field{year}{2025}
+    \field{urlday}{05}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{kimBinaryencounterdipoleModelElectronimpact1994}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=KYK}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Yong-Ki},
+         giveni={Y\bibinithyphendelim K\bibinitperiod},
+      }}%
+      {{hash=RME}{%
+         family={Rudd},
+         familyi={R\bibinitperiod},
+         given={M.\bibnamedelima Eugene},
+         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KYKRME1}
+    \strng{fullhash}{KYKRME1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1103/PhysRevA.50.3954
+    \endverb
+    \field{issn}{1050-2947, 1094-1622}
+    \field{number}{5}
+    \field{pages}{3954\bibrangedash 3967}
+    \field{title}{Binary-Encounter-Dipole Model for Electron-Impact Ionization}
+    \field{volume}{50}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\EK8W2U7A\Kim et Rudd - 1994 - B
+    \verb inary-encounter-dipole model for electron-impact ionization.pdf
+    \endverb
+    \field{journaltitle}{Physical Review A}
+    \field{month}{11}
+    \field{year}{1994}
+    \field{urlday}{28}
+    \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{krishnanSelfconsistentMolecularOrbital1980}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=KR}{%
+         family={Krishnan},
+         familyi={K\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BJS}{%
+         family={Binkley},
+         familyi={B\bibinitperiod},
+         given={J.\bibnamedelima S.},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Seeger},
+         familyi={S\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=PJA}{%
+         family={Pople},
+         familyi={P\bibinitperiod},
+         given={J.\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KR+1}
+    \strng{fullhash}{KRBJSSRPJA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    A contracted Gaussian basis set (6-311G**) is developed by optimizing exponents and coefficients at the Mo/ller--Plesset (MP) second-order level for the ground states of first-row atoms. This has a triple split in the valence s and p shells together with a single set of uncontracted polarization functions on each atom. The basis is tested by computing structures and energies for some simple molecules at various levels of MP theory and comparing with experiment.%
+    }
+    \verb{doi}
+    \verb 10.1063/1.438955
+    \endverb
+    \field{issn}{0021-9606, 1089-7690}
+    \field{number}{1}
+    \field{pages}{650\bibrangedash 654}
+    \field{title}{Self-Consistent Molecular Orbital Methods. {{XX}}. {{A}} Basis Set for Correlated Wave Functions}
+    \field{volume}{72}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\N8R3796L\Krishnan et al. - 1980
+    \verb  - Self-consistent molecular orbital methods. XX. A basis set for cor
+    \verb related wave functions.pdf
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{01}
+    \field{year}{1980}
+    \field{urlday}{28}
+    \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{kumarElectronIonizationCross2014}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=KR}{%
+         family={Kumar},
+         familyi={K\bibinitperiod},
+         given={Rajeev},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KR1}
+    \strng{fullhash}{KR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    The partial single, double differential cross-sections with their total (sum of partial cross sections) of the phosphine (PH3) by direct and dissociative electron ionization have been evaluated by using modified Jain--Khare semi-empirical approach. To the best of my knowledge, no other data (experimental and/or theoretical) of differential cross sections is available till now for comparison. Partial and total integral ionization cross sections were also evaluated for PH3. Integral ionization cross-sections show good agreement with available experimental/or theoretical data. Ionization rate coefficients corresponding to partial ionization cross-sections have also been calculated by the Maxwell--Boltzmann distribution of energy.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.cplett.2014.06.034
+    \endverb
+    \field{issn}{00092614}
+    \field{pages}{108\bibrangedash 112}
+    \field{title}{Electron Ionization Cross Sections for the {{PH3}} Molecule}
+    \field{volume}{609}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\7E7MI9CD\Kumar - 2014 - Electro
+    \verb n ionization cross sections for the PH3 molecule.pdf
+    \endverb
+    \field{journaltitle}{Chemical Physics Letters}
+    \field{month}{08}
+    \field{year}{2014}
+    \field{urlday}{22}
+    \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{landrumRdkitRdkit2025_03_42025}{article}{}{}
+    \name{author}{30}{}{%
+      {{hash=LG}{%
+         family={Landrum},
+         familyi={L\bibinitperiod},
+         given={Greg},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=TP}{%
+         family={Tosco},
+         familyi={T\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=KB}{%
+         family={Kelley},
+         familyi={K\bibinitperiod},
+         given={Brian},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=RR}{%
+         family={Rodriguez},
+         familyi={R\bibinitperiod},
+         given={Ricardo},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={Cosgrove},
+         familyi={C\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=VR}{%
+         family={Vianello},
+         familyi={V\bibinitperiod},
+         given={Riccardo},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=s}{%
+         family={{sriniker}},
+         familyi={s\bibinitperiod},
+      }}%
+      {{hash=GP}{%
+         family={Gedeck},
+         familyi={G\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=JG}{%
+         family={Jones},
+         familyi={J\bibinitperiod},
+         given={Gareth},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=KE}{%
+         family={Kawashima},
+         familyi={K\bibinitperiod},
+         given={Eisuke},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=N}{%
+         family={NadineSchneider},
+         familyi={N\bibinitperiod},
+      }}%
+      {{hash=ND}{%
+         family={Nealschneider},
+         familyi={N\bibinitperiod},
+         given={Dan},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Dalke},
+         familyi={D\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Swain},
+         familyi={S\bibinitperiod},
+         given={Matt},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Cole},
+         familyi={C\bibinitperiod},
+         given={Brian},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=t}{%
+         family={{tadhurst-cdd}},
+         familyi={t\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Turk},
+         familyi={T\bibinitperiod},
+         given={Samo},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Savelev},
+         familyi={S\bibinitperiod},
+         given={Aleksandr},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=VA}{%
+         family={Vaucher},
+         familyi={V\bibinitperiod},
+         given={Alain},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={W{\'o}jcikowski},
+         familyi={W\bibinitperiod},
+         given={Maciej},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TI}{%
+         family={Take},
+         familyi={T\bibinitperiod},
+         given={Ichiru},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=WR}{%
+         family={Walker},
+         familyi={W\bibinitperiod},
+         given={Rachel},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SVF}{%
+         family={Scalfani},
+         familyi={S\bibinitperiod},
+         given={Vincent\bibnamedelima F.},
+         giveni={V\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=FH}{%
+         family={Faara},
+         familyi={F\bibinitperiod},
+         given={Hussein},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=UK}{%
+         family={Ujihara},
+         familyi={U\bibinitperiod},
+         given={Kazuya},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=PD}{%
+         family={Probst},
+         familyi={P\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MN}{%
+         family={Maeder},
+         familyi={M\bibinitperiod},
+         given={Niels},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Monat},
+         familyi={M\bibinitperiod},
+         given={Jeremy},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Lehtivarjo},
+         familyi={L\bibinitperiod},
+         given={Juuso},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=gg}{%
+         family={{godin}},
+         familyi={g\bibinitperiod},
+         given={guillaume},
+         giveni={g\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Zenodo}%
+    }
+    \strng{namehash}{LG+1}
+    \strng{fullhash}{LGTPKBRRCDVRsGPJGKENNDDASMCBtTSSAVAWMTIWRSVFFHUKPDMNMJLJgg1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    Release\_2025.03.4 (Changes relative to Release\_2025.03.3) Acknowledgements (Note: I'm no longer attempting to manually curate names. If you would like to see your contribution acknowledged with your name, please set your name in GitHub) Michael Blakey, David Cosgrove, Andrew Dalke, Tad Hurst, Brian Kelley, Mark Mackey, Ricardo Rodriguez, Caleb Thomas, Paolo Tosco, dickson-nvidia, jasondbiggs, paconius New Features and Enhancements: Bump maeparser to 1.3.3 (fixes \#8525) (github pull \#8580 from ricrogz) Cpp enumerate stereoisomers (github pull \#8563 from DavidACosgrove) CIP labeler: attempt to resolve "easy" stereo centers first (github pull \#8582 from ricrogz) Allow creation of bond-only stereogroups from Python (github issue \#8584 from paconius) Make assignCIPLabels Ctrl+c interruptable (github pull \#8589 from ricrogz) Expose the onlyWedgeFlags parameter to SWIG ClearSingleBondDirFlags (github pull \#8600 from ptosco) Documentation: MolFromHELM() supports RNA/DNA too (github issue \#3087 from adalke) Bug Fixes: Multithreaded mol reader can hang when not iterating through the whole file (github issue \#8284 from bp-kelley) MolFromSmiles and MolFromSmarts accept strings containing invalid characters if they start with a valid character (github issue \#8471 from jasondbiggs) Issue reading .mae files (github issue \#8525 from mark-mackey-cresset) allow nested parentheses in tokens \#8553 (github pull \#8553 from tadhurst-cdd) Segmentation fault in AllChem.EmbedMolecule() (github issue \#8559 from calebthomas259) Fixes the problems with wiggly bonds and EnumerateStereoisomers from \#8506 (github pull \#8598 from greglandrum) Fixed out of bounds vector access in GetGeodesicMatrix (github pull \#8601 from ndickson-nvidia) Cleanup work: Small cleanups of the xyz2mol code (github pull \#8567 from greglandrum) Small cleanups of the MMFF94 code (github pull \#8593 from greglandrum)%
+    }
+    \verb{doi}
+    \verb 10.5281/zenodo.15773589
+    \endverb
+    \field{shorttitle}{Rdkit/Rdkit}
+    \field{title}{Rdkit/Rdkit: 2025\_03\_4 ({{Q1}} 2025) {{Release}}}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\SKWADH9W\15773589.html
+    \endverb
+    \field{month}{06}
+    \field{year}{2025}
+    \field{urlday}{06}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{larsonMiddleinfraredSpectrumSaturn1980}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=LHP}{%
+         family={Larson},
+         familyi={L\bibinitperiod},
+         given={H.\bibnamedelima P.},
+         giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=FU}{%
+         family={Fink},
+         familyi={F\bibinitperiod},
+         given={U.},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=SHA}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={H.\bibnamedelima A.},
+         giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=DDS}{%
+         family={Davis},
+         familyi={D\bibinitperiod},
+         given={D.\bibnamedelima S.},
+         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP}%
+    }
+    \keyw{Abundance,Airborne Equipment,Ammonia,Atmospheric Composition,Cross Correlation,Fourier Transformation,High Resolution,Hydrocyanic Acid,Infrared Spectra,Infrared Spectrometers,Jupiter Atmosphere,Lunar and Planetary Exploration,Phosphines,Planetary Radiation,Saturn Atmosphere,Signal To Noise Ratios,Spectral Resolution,Spectrum Analysis,Water Vapor}
+    \strng{namehash}{LHP+1}
+    \strng{fullhash}{LHPFUSHADDS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    Observations of Saturn at high spectral resolution in the middle-IR spectral region (2.5-5.6 microns) were obtained using a Fourier spectrometer at ground-based and airborne observatories. These spectra establish that PH3 exists on Saturn with an abundance at least equal to the solar P/H value, and probably enhanced by about a factor of 2. No evidence is found for gaseous or solid NH3 on Saturn throughout this spectral region, and upper limits to several other molecules (H2O, HCN, SiH4, and GeH4) are determined. Frequent comparisons of the spectral data for Saturn with observations and interpretations of IR studies of Jupiter show that these two planetary atmospheres are chemically similar, with major observational differences accounted for by reduced H2O and NH3 abundances in Saturn's colder atmosphere.%
+    }
+    \verb{doi}
+    \verb 10.1086/158236
+    \endverb
+    \field{issn}{0004-637X}
+    \field{pages}{327\bibrangedash 337}
+    \field{title}{The Middle-Infrared Spectrum of {{Saturn}} - {{Evidence}} for Phosphine and Upper Limits to Other Trace Atmospheric Constituents}
+    \field{volume}{240}
+    \field{journaltitle}{The Astrophysical Journal}
+    \field{month}{08}
+    \field{year}{1980}
+    \field{urlday}{28}
+    \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{mosesAtmosphericChemistryUranus2020}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=MJI}{%
+         family={Moses},
+         familyi={M\bibinitperiod},
+         given={J.\bibnamedelima I.},
+         giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=CT}{%
+         family={Cavali{\'e}},
+         familyi={C\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=FLN}{%
+         family={Fletcher},
+         familyi={F\bibinitperiod},
+         given={L.\bibnamedelima N.},
+         giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=RMT}{%
+         family={Roman},
+         familyi={R\bibinitperiod},
+         given={M.\bibnamedelima T.},
+         giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MJI+1}
+    \strng{fullhash}{MJICTFLNRMT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    Comparatively little is known about atmospheric chemistry on Uranus and Neptune, because remote spectral observations of these cold, distant `Ice Giants' are challenging, and each planet has only been visited by a single spacecraft during brief flybys in the 1980s. Thermochemical equilibrium is expected to control the composition in the deeper, hotter regions of the atmosphere on both planets, but disequilibrium chemical processes such as transport-induced quenching and photochemistry alter the composition in the upper atmospheric regions that can be probed remotely. Surprising disparities in the abundance of disequilibrium chemical products between the two planets point to significant differences in atmospheric transport. The atmospheric composition of Uranus and Neptune can provide critical clues for unravelling details of planet formation and evolution, but only if it is fully understood how and why atmospheric constituents vary in a three-dimensional sense and how material coming in from outside the planet affects observed abundances. Future mission planning should take into account the key outstanding questions that remain unanswered about atmospheric chemistry on Uranus and Neptune, particularly those questions that pertain to planet formation and evolution, and those that address the complex, coupled atmospheric processes that operate on Ice Giants within our solar system and beyond. This article is part of a discussion meeting issue `Future exploration of ice giant systems'.%
+    }
+    \verb{doi}
+    \verb 10.1098/rsta.2019.0477
+    \endverb
+    \field{issn}{1364-503X, 1471-2962}
+    \field{number}{2187}
+    \field{pages}{20190477}
+    \field{title}{Atmospheric Chemistry on {{Uranus}} and {{Neptune}}}
+    \field{volume}{378}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\K5NHVTT5\Moses et al. - 2020 -
+    \verb Atmospheric chemistry on Uranus and Neptune.pdf
+    \endverb
+    \field{journaltitle}{Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences}
+    \field{month}{12}
+    \field{year}{2020}
+    \field{urlday}{02}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{neeseORCAProgramSystem2012}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=NF}{%
+         family={Neese},
+         familyi={N\bibinitperiod},
+         given={Frank},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NF1}
+    \strng{fullhash}{NF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{abstract}{%
+    Abstract ORCA is a general-purpose quantum chemistry program package that features virtually all modern electronic structure methods (density functional theory, many-body perturbation and coupled cluster theories, and multireference and semiempirical methods). It is designed with the aim of generality, extendibility, efficiency, and user friendliness. Its main field of application is larger molecules, transition metal complexes, and their spectroscopic properties. ORCA uses standard Gaussian basis functions and is fully parallelized. The article provides an overview of its current possibilities and documents its efficiency. \copyright{} 2011 John Wiley \& Sons, Ltd. This article is categorized under: Software {$>$} Quantum Chemistry%
+    }
+    \verb{doi}
+    \verb 10.1002/wcms.81
+    \endverb
+    \field{issn}{1759-0876, 1759-0884}
+    \field{number}{1}
+    \field{pages}{73\bibrangedash 78}
+    \field{title}{The {{ORCA}} Program System}
+    \field{volume}{2}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\KUCEI7QE\Neese - 2012 - The ORC
+    \verb A program system.pdf
+    \endverb
+    \field{journaltitle}{WIREs Computational Molecular Science}
+    \field{month}{01}
+    \field{year}{2012}
+    \field{urlday}{06}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{pancheshnyiLXCatProjectElectron2012}{article}{}{}
+    \name{author}{7}{}{%
+      {{hash=PS}{%
+         family={Pancheshnyi},
+         familyi={P\bibinitperiod},
+         given={Sergey},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Biagi},
+         familyi={B\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BMC}{%
+         family={Bordage},
+         familyi={B\bibinitperiod},
+         given={Marie-Claude},
+         giveni={M\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=HG}{%
+         family={Hagelaar},
+         familyi={H\bibinitperiod},
+         given={Gerjan},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=MWL}{%
+         family={Morgan},
+         familyi={M\bibinitperiod},
+         given={W.\bibnamedelima L.},
+         giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Phelps},
+         familyi={P\bibinitperiod},
+         given={A.V.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PLC}{%
+         family={Pitchford},
+         familyi={P\bibinitperiod},
+         given={Leanne\bibnamedelima C.},
+         giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{PS+1}
+    \strng{fullhash}{PSBSBMCHGMWLPAPLC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{abstract}{%
+    LXcat is a dynamic, open-access, website for collecting, displaying, and downloading ELECtron SCATtering cross sections and swarm parameters (mobility, diffusion coefficient, reaction rates, etc.) required for modeling low temperature, non-equilibrium plasmas. Contributors set up individual databases, and the available databases, indicated by the contributor's chosen title, include mainly complete sets of electron-neutral scattering cross sections, although the option for introducing partial sets of cross sections exists. A database for measured swarm parameters is also part of LXCat, and this is a growing activity. On-line tools include options for browsing, plotting, and downloading cross section data. The electron energy distribution functions (edfs) in low temperature plasmas are in general non-Maxwellian, and LXCat provides an option for execution of an on-line Boltzmann equation solver to calculate the edf in homogeneous electric fields. Thus, the user can obtain electron transport and rate coefficients (averages over the edfs) in pure gases or gas mixtures over a range of values of the reduced electric fields strength, E/N, the ratio of the electric field strength to the neutral density, using cross sections from the available databases. New contributors are welcome and anyone wishing to create a database and upload data can request a username and password. LXCat is part of a larger, community-wide effort aimed at collecting, evaluating, and sharing data relevant to modeling low temperature plasmas. To illustrate the utility of LXCat in this context, we compare electron swarm parameters in argon calculated using the different compilations of cross sections presently available on LXCat. These compilations include quite different groupings of excited states, yet lead to swarm parameters in good agreement. LXCat is available at http://www.lxcat.laplace.univ-tlse.fr.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.chemphys.2011.04.020
+    \endverb
+    \field{pages}{148\bibrangedash 153}
+    \field{shorttitle}{The {{LXCat}} Project}
+    \field{title}{The {{LXCat}} Project : {{Electron}} Scattering Cross Sections and Swarm Parameters for Low Temperature Plasma Modeling}
+    \field{volume}{398}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\H3JVFW7E\hal-03817658.html
+    \endverb
+    \field{journaltitle}{Chemical Physics}
+    \field{year}{2012}
+    \field{urlday}{05}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{pitchfordLXCatOpenAccessWebBased2017}{article}{}{}
+    \name{author}{38}{}{%
+      {{hash=PLC}{%
+         family={Pitchford},
+         familyi={P\bibinitperiod},
+         given={Leanne\bibnamedelima C.},
+         giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=ALL}{%
+         family={Alves},
+         familyi={A\bibinitperiod},
+         given={Luis\bibnamedelima L.},
+         giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=BK}{%
+         family={Bartschat},
+         familyi={B\bibinitperiod},
+         given={Klaus},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=BSF}{%
+         family={Biagi},
+         familyi={B\bibinitperiod},
+         given={Stephen\bibnamedelima F.},
+         giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=BMC}{%
+         family={Bordage},
+         familyi={B\bibinitperiod},
+         given={Marie\bibnamedelima Claude},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=BI}{%
+         family={Bray},
+         familyi={B\bibinitperiod},
+         given={Igor},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=BCE}{%
+         family={Brion},
+         familyi={B\bibinitperiod},
+         given={Chris\bibnamedelima E.},
+         giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=BMJ}{%
+         family={Brunger},
+         familyi={B\bibinitperiod},
+         given={Michael\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Campbell},
+         familyi={C\bibinitperiod},
+         given={Laurence},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Chachereau},
+         familyi={C\bibinitperiod},
+         given={Alise},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Chaudhury},
+         familyi={C\bibinitperiod},
+         given={Bhaskar},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=CLG}{%
+         family={Christophorou},
+         familyi={C\bibinitperiod},
+         given={Loucas\bibnamedelima G.},
+         giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={Carbone},
+         familyi={C\bibinitperiod},
+         given={Emile},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=DNA}{%
+         family={Dyatko},
+         familyi={D\bibinitperiod},
+         given={Nikolay\bibnamedelima A.},
+         giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=FCM}{%
+         family={Franck},
+         familyi={F\bibinitperiod},
+         given={Christian\bibnamedelima M.},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=FDV}{%
+         family={Fursa},
+         familyi={F\bibinitperiod},
+         given={Dmitry\bibnamedelima V.},
+         giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=GRK}{%
+         family={Gangwar},
+         familyi={G\bibinitperiod},
+         given={Reetesh\bibnamedelima K.},
+         giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=GV}{%
+         family={Guerra},
+         familyi={G\bibinitperiod},
+         given={Vasco},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=HP}{%
+         family={Haefliger},
+         familyi={H\bibinitperiod},
+         given={Pascal},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=HGJ}{%
+         family={Hagelaar},
+         familyi={H\bibinitperiod},
+         given={Gerjan\bibnamedelima J.M.},
+         giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Hoesl},
+         familyi={H\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=IY}{%
+         family={Itikawa},
+         familyi={I\bibinitperiod},
+         given={Yukikazu},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=KIV}{%
+         family={Kochetov},
+         familyi={K\bibinitperiod},
+         given={Igor\bibnamedelima V.},
+         giveni={I\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=MRP}{%
+         family={McEachran},
+         familyi={M\bibinitperiod},
+         given={Robert\bibnamedelima P.},
+         giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=MWL}{%
+         family={Morgan},
+         familyi={M\bibinitperiod},
+         given={W.\bibnamedelima Lowell},
+         giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=NAP}{%
+         family={Napartovich},
+         familyi={N\bibinitperiod},
+         given={Anatoly\bibnamedelima P.},
+         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=PV}{%
+         family={Puech},
+         familyi={P\bibinitperiod},
+         given={Vincent},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Rabie},
+         familyi={R\bibinitperiod},
+         given={Mohamed},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={Sharma},
+         familyi={S\bibinitperiod},
+         given={Lalita},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Srivastava},
+         familyi={S\bibinitperiod},
+         given={Rajesh},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SAD}{%
+         family={Stauffer},
+         familyi={S\bibinitperiod},
+         given={Allan\bibnamedelima D.},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=TJ}{%
+         family={Tennyson},
+         familyi={T\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=dJ}{%
+         family={{de Urquijo}},
+         familyi={d\bibinitperiod},
+         given={Jaime},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=vJ}{%
+         family={{van Dijk}},
+         familyi={v\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=VLA}{%
+         family={Viehland},
+         familyi={V\bibinitperiod},
+         given={Larry\bibnamedelima A.},
+         giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=ZMC}{%
+         family={Zammit},
+         familyi={Z\bibinitperiod},
+         given={Mark\bibnamedelima C.},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=ZO}{%
+         family={Zatsarinny},
+         familyi={Z\bibinitperiod},
+         given={Oleg},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Pancheshnyi},
+         familyi={P\bibinitperiod},
+         given={Sergey},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{cold plasma,modeling,on-line databases,scattering cross sections,transport coefficients}
+    \strng{namehash}{PLC+1}
+    \strng{fullhash}{PLCALLBKBSFBMCBIBCEBMJCLCACBCLGCEDNAFCMFDVGRKGVHPHGJHAIYKIVMRPMWLNAPPVRMSLSRSADTJdJvJVLAZMCZOPS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{abstract}{%
+    LXCat is an open-access platform (www.lxcat.net) for curating data needed for modeling the electron and ion components of technological plasmas. The data types presently supported on LXCat are scattering cross sections and swarm/transport parameters, ion-neutral interaction potentials, and optical oscillator strengths. Twenty-four databases contributed by different groups around the world can be accessed on LXCat. New contributors are welcome; the database contributors retain ownership and are responsible for the contents and maintenance of the individual databases. This article summarizes the present status of the project.%
+    }
+    \verb{doi}
+    \verb 10.1002/ppap.201600098
+    \endverb
+    \field{issn}{1612-8850}
+    \field{number}{1-2}
+    \field{shorttitle}{{{LXCat}}}
+    \field{title}{{{LXCat}}: An {{Open-Access}}, {{Web-Based Platform}} for {{Data Needed}} for {{Modeling Low Temperature Plasmas}}}
+    \field{volume}{14}
+    \field{journaltitle}{Plasma Processes and Polymers}
+    \field{month}{01}
+    \field{year}{2017}
+    \field{urlday}{05}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{pritchardNewBasisSet2019}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=PBP}{%
+         family={Pritchard},
+         familyi={P\bibinitperiod},
+         given={Benjamin\bibnamedelima P.},
+         giveni={B\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=AD}{%
+         family={Altarawy},
+         familyi={A\bibinitperiod},
+         given={Doaa},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=DB}{%
+         family={Didier},
+         familyi={D\bibinitperiod},
+         given={Brett},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=GTD}{%
+         family={Gibson},
+         familyi={G\bibinitperiod},
+         given={Tara\bibnamedelima D.},
+         giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=WTL}{%
+         family={Windus},
+         familyi={W\bibinitperiod},
+         given={Theresa\bibnamedelima L.},
+         giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PBP+1}
+    \strng{fullhash}{PBPADDBGTDWTL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{abstract}{%
+    The Basis Set Exchange (BSE) has been a prominent fixture in the quantum chemistry community. First publicly available in 2007, it is recognized by both users and basis set creators as the de facto source for information related to basis sets. This popular resource has been rewritten, utilizing modern software design and best practices. The basis set data has been separated into a stand-alone library with an accessible API, and the Web site has been updated to use the current generation of web development libraries. The general layout and workflow of the Web site is preserved, while helpful features requested by the user community have been added. Overall, this design should increase adaptability and lend itself well into the future as a dependable resource for the computational chemistry community. This article will discuss the decision to rewrite the BSE, the new architecture and design, and the new features that have been added.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.jcim.9b00725
+    \endverb
+    \field{issn}{1549-9596}
+    \field{number}{11}
+    \field{pages}{4814\bibrangedash 4820}
+    \field{shorttitle}{New {{Basis Set Exchange}}}
+    \field{title}{New {{Basis Set Exchange}}: {{An Open}}, {{Up}}-to-{{Date Resource}} for the {{Molecular Sciences Community}}}
+    \field{volume}{59}
+    \verb{file}
+    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\UU59UN8Q\\Pritchard et al
+    \verb . - 2019 - New Basis Set Exchange An Open, Up-to-Date Resource for th
+    \verb e Molecular Sciences Community.pdf;C\:\\Users\\lilian.heydel\\Zotero\
+    \verb \storage\\ND7LAGA6\\acs.jcim.html
+    \endverb
+    \field{journaltitle}{Journal of Chemical Information and Modeling}
+    \field{month}{11}
+    \field{year}{2019}
+    \field{urlday}{22}
+    \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{rappTotalCrossSections1965}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=RD}{%
+         family={Rapp},
+         familyi={R\bibinitperiod},
+         given={Donald},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=EGP}{%
+         family={Englander-Golden},
+         familyi={E\bibinithyphendelim G\bibinitperiod},
+         given={Paula},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RDEGP1}
+    \strng{fullhash}{RDEGP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    The total ionization cross sections of He, Ne, Ar, Kr, Xe, H2, D2, N2, O2, CO, NO, CO2, N2O, and CH4 have been measured from threshold to 1000 eV in a total ionization tube. More limited measurements were performed in C2H4 and SF6. Great care was taken to assure complete collection of electron and ion currents, and the absence of spurious instrumental errors. A new method was devised for obtaining absolute cross sections of gases relative to H2, and a McLeod gauge was used to obtain the absolute cross section in H2. The cross sections in NO and O2 could not be obtained by this method, and an approximate correction to direct McLeod-gauge readings was used for these gases. It is believed that the results are as accurate as is possible with the present method. It is difficult to explain the differences found between cross sections measured by various investigators. McLeod-gauge errors appear to account for most of the difference in absolute magnitude.%
+    }
+    \verb{doi}
+    \verb 10.1063/1.1696957
+    \endverb
+    \field{issn}{0021-9606}
+    \field{number}{5}
+    \field{pages}{1464\bibrangedash 1479}
+    \field{title}{Total {{Cross Sections}} for {{Ionization}} and {{Attachment}} in {{Gases}} by {{Electron Impact}}. {{I}}. {{Positive Ionization}}}
+    \field{volume}{43}
+    \verb{file}
+    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\X5C9I6EZ\\Rapp et England
+    \verb er‐Golden - 1965 - Total Cross Sections for Ionization and Attachme
+    \verb nt in Gases by Electron Impact. I. Positive Ionizati.pdf;C\:\\Users\\
+    \verb lilian.heydel\\Zotero\\storage\\W3SL4J6K\\1.html
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{09}
+    \field{year}{1965}
+    \field{urlday}{27}
+    \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{rappoportPropertyoptimizedGaussianBasis2010}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=RD}{%
+         family={Rappoport},
+         familyi={R\bibinitperiod},
+         given={Dmitrij},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=FF}{%
+         family={Furche},
+         familyi={F\bibinitperiod},
+         given={Filipp},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RDFF1}
+    \strng{fullhash}{RDFF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    With recent advances in electronic structure methods, first-principles calculations of electronic response properties, such as linear and nonlinear polarizabilities, have become possible for molecules with more than 100 atoms. Basis set incompleteness is typically the main source of error in such calculations since traditional diffuse augmented basis sets are too costly to use or suffer from near linear dependence. To address this problem, we construct the first comprehensive set of property-optimized augmented basis sets for elements H--Rn except lanthanides. The new basis sets build on the Karlsruhe segmented contracted basis sets of split-valence to quadruple-zeta valence quality and add a small number of moderately diffuse basis functions. The exponents are determined variationally by maximization of atomic Hartree--Fock polarizabilities using analytical derivative methods. The performance of the resulting basis sets is assessed using a set of 313 molecular static Hartree--Fock polarizabilities. The mean absolute basis set errors are 3.6\%, 1.1\%, and 0.3\% for property-optimized basis sets of split-valence, triple-zeta, and quadruple-zeta valence quality, respectively. Density functional and second-order M\o ller--Plesset polarizabilities show similar basis set convergence. We demonstrate the efficiency of our basis sets by computing static polarizabilities of icosahedral fullerenes up to C720 using hybrid density functional theory.%
+    }
+    \verb{doi}
+    \verb 10.1063/1.3484283
+    \endverb
+    \field{issn}{0021-9606, 1089-7690}
+    \field{number}{13}
+    \field{pages}{134105}
+    \field{title}{Property-Optimized {{Gaussian}} Basis Sets for Molecular Response Calculations}
+    \field{volume}{133}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\765H6Z6H\Rappoport et Furche -
+    \verb 2010 - Property-optimized Gaussian basis sets for molecular response
+    \verb calculations.pdf
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{10}
+    \field{year}{2010}
+    \field{urlday}{06}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{ridgway8001200InverseCentimeter1976}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=RST}{%
+         family={Ridgway},
+         familyi={R\bibinitperiod},
+         given={S.\bibnamedelima T.},
+         giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=WL}{%
+         family={Wallace},
+         familyi={W\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SGR}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={G.\bibnamedelima R.},
+         giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP}%
+    }
+    \keyw{Absorption Spectra,Abundance,Ammonia,Astronomical Models,Atmospheric Temperature,Brightness Temperature,Computer Techniques,Infrared Spectra,Jupiter Atmosphere,Lunar and Planetary Exploration,Telluric Lines,Temperature Profiles,Thermal Emission}
+    \strng{namehash}{RSTWLSGR1}
+    \strng{fullhash}{RSTWLSGR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    Synthetic spectra computed from radiative models of the Jovian thermal structure are compared with observed spectra. The results imply a subsaturated NH3 abundance near the temperature minimum, and an additional opacity source near 1100 kaysers. Evidence is found for the presence of PH3 consistent with a solar P abundance.%
+    }
+    \verb{doi}
+    \verb 10.1086/154570
+    \endverb
+    \field{issn}{0004-637X}
+    \field{pages}{1002\bibrangedash 1006}
+    \field{title}{The 800 - 1200 Inverse Centimeter Absorption Spectrum of {{Jupiter}}.}
+    \field{volume}{207}
+    \field{journaltitle}{The Astrophysical Journal}
+    \field{month}{08}
+    \field{year}{1976}
+    \field{urlday}{28}
+    \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{rinikerBetterInformedDistance2015}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=RS}{%
+         family={Riniker},
+         familyi={R\bibinitperiod},
+         given={Sereina},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LGA}{%
+         family={Landrum},
+         familyi={L\bibinitperiod},
+         given={Gregory\bibnamedelima A.},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RSLGA1}
+    \strng{fullhash}{RSLGA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    Small organic molecules are often flexible, i.e., they can adopt a variety of low-energy conformations in solution that exist in equilibrium with each other. Two main search strategies are used to generate representative conformational ensembles for molecules: systematic and stochastic. In the first approach, each rotatable bond is sampled systematically in discrete intervals, limiting its use to molecules with a small number of rotatable bonds. Stochastic methods, on the other hand, sample the conformational space of a molecule randomly and can thus be applied to more flexible molecules. Different methods employ different degrees of experimental data for conformer generation. So-called knowledge-based methods use predefined libraries of torsional angles and ring conformations. In the distance geometry approach, on the other hand, a smaller amount of empirical information is used, i.e., ideal bond lengths, ideal bond angles, and a few ideal torsional angles. Distance geometry is a computationally fast method to generate conformers, but it has the downside that purely distance-based constraints tend to lead to distorted aromatic rings and sp2 centers. To correct this, the resulting conformations are often minimized with a force field, adding computational complexity and run time. Here we present an alternative strategy that combines the distance geometry approach with experimental torsionangle preferences obtained from small-molecule crystallographic data. The torsional angles are described by a previously developed set of hierarchically structured SMARTS patterns. The new approach is implemented in the open-source cheminformatics library RDKit, and its performance is assessed by comparing the diversity of the generated ensemble and the ability to reproduce crystal conformations taken from the crystal structures of small molecules and protein-ligand complexes.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.jcim.5b00654
+    \endverb
+    \field{issn}{1549-9596, 1549-960X}
+    \field{number}{12}
+    \field{pages}{2562\bibrangedash 2574}
+    \field{shorttitle}{Better {{Informed Distance Geometry}}}
+    \field{title}{Better {{Informed Distance Geometry}}: {{Using What We Know To Improve Conformation Generation}}}
+    \field{volume}{55}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\WCKF4ABC\Riniker et Landrum - 2
+    \verb 015 - Better Informed Distance Geometry Using What We Know To Improve
+    \verb  Conformation Generation.pdf
+    \endverb
+    \field{journaltitle}{Journal of Chemical Information and Modeling}
+    \field{month}{12}
+    \field{year}{2015}
+    \field{urlday}{06}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{roedererDETECTIONELEMENTSALL2012}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=RIU}{%
+         family={Roederer},
+         familyi={R\bibinitperiod},
+         given={Ian\bibnamedelima U.},
+         giveni={I\bibinitperiod\bibinitdelim U\bibinitperiod},
+      }}%
+      {{hash=LJE}{%
+         family={Lawler},
+         familyi={L\bibinitperiod},
+         given={James\bibnamedelima E.},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RIULJE1}
+    \strng{fullhash}{RIULJE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    We report the first detection of elements at all three r-process peaks in the metal-poor halo star HD 160617. These elements include arsenic and selenium, which have not been detected previously in halo stars, and the elements tellurium, osmium, iridium, and platinum, which have been detected previously. Absorption lines of these elements are found in archive observations made with the Space Telescope Imaging Spectrograph on board the Hubble Space Telescope. We present up-to-date absolute atomic transition probabilities and complete line component patterns for these elements. Additional archival spectra of this star from several ground-based instruments allow us to derive abundances or upper limits of 45 elements in HD 160617, including 27 elements produced by neutron-capture reactions. The average abundances of the elements at the three r-process peaks are similar to the predicted solar system r-process residuals when scaled to the abundances in the rare earth element domain. This result for arsenic and selenium may be surprising in light of predictions that the production of the lightest r-process elements generally should be decoupled from the heavier r-process elements.%
+    }
+    \verb{doi}
+    \verb 10.1088/0004-637X/750/1/76
+    \endverb
+    \field{issn}{0004-637X, 1538-4357}
+    \field{number}{1}
+    \field{pages}{76}
+    \field{title}{{{DETECTION OF ELEMENTS AT ALL THREE}} {\emph{r}} -{{PROCESS PEAKS IN THE METAL-POOR STAR HD}} 160617{\textsuperscript{,}}{\textsuperscript{,}}}
+    \field{volume}{750}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\X5FECCML\Roederer et Lawler - 2
+    \verb 012 - DETECTION OF ELEMENTS AT ALL THREE r -PROCESS PEAKS IN THE META
+    \verb L-POOR STAR HD 160617,s.pdf
+    \endverb
+    \field{journaltitle}{The Astrophysical Journal}
+    \field{month}{05}
+    \field{year}{2012}
+    \field{urlday}{05}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{scottElectronImpactIonizationCross2005}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=SGE}{%
+         family={Scott},
+         familyi={S\bibinitperiod},
+         given={Gregory\bibnamedelima E.},
+         giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=IKK}{%
+         family={Irikura},
+         familyi={I\bibinitperiod},
+         given={Karl\bibnamedelima K.},
+         giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SGEIKK1}
+    \strng{fullhash}{SGEIKK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    The binary-encounter-Bethe (BEB) theory has been successful for computing electron-impact ionization cross sections of many molecules. For molecules that contain heavy atoms (defined here as atoms with valence principal quantum number n {$>$} 2), there are two alternative BEB procedures in the literature. The first involves a kinetic-energy correction for molecular orbitals that are dominated by atomic orbitals with n {$>$} 2. The second alternative is to use effective core potentials (ECPs), which were developed for other purposes but yield valence pseudo-orbitals with reduced kinetic energies. In the present study, the results of these two approaches are compared with experimental cross sections for several molecules containing heavy elements. Although both procedures perform well, the ECP results agree somewhat better with experimental measurements. Cross sections are presented for C2Cl6, C2HCl5, C2Cl4, both isomers of C2H2Cl4, CCl4, TiCl4, CBr4, CHBr3, CH2Br2, P2, P4, As2, As4, GaCl, CS2, H2S, CH3I, Al(CH3)3, Ga(CH3)3, hexamethyldisiloxane, and Zn(C2H5)2. Incorrect BEB calculations have been reported in the literature for several of these molecules. As an ancillary result, the dipole polarizability of Zn(C2H5)2 is predicted to be 12.1 \AA (3).%
+    }
+    \verb{doi}
+    \verb 10.1021/ct050077j
+    \endverb
+    \field{issn}{1549-9618}
+    \field{number}{6}
+    \field{pages}{1153\bibrangedash 1161}
+    \field{title}{Electron-{{Impact Ionization Cross Sections}} of {{Molecules Containing Heavy Elements}} ({{Z}} {$>$} 10)}
+    \field{volume}{1}
+    \field{langid}{english}
+    \field{journaltitle}{Journal of Chemical Theory and Computation}
+    \field{month}{11}
+    \field{year}{2005}
+  \endentry
+
+  \entry{sunPythonbasedSimulationsChemistry2017}{misc}{}{}
+    \name{author}{12}{}{%
+      {{hash=SQ}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Qiming},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=BTC}{%
+         family={Berkelbach},
+         familyi={B\bibinitperiod},
+         given={Timothy\bibnamedelima C.},
+         giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=BNS}{%
+         family={Blunt},
+         familyi={B\bibinitperiod},
+         given={Nick\bibnamedelima S.},
+         giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=BGH}{%
+         family={Booth},
+         familyi={B\bibinitperiod},
+         given={George\bibnamedelima H.},
+         giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Guo},
+         familyi={G\bibinitperiod},
+         given={Sheng},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LZ}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Zhendong},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Junzi},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={McClain},
+         familyi={M\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SER}{%
+         family={Sayfutyarova},
+         familyi={S\bibinitperiod},
+         given={Elvira\bibnamedelima R.},
+         giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Sharma},
+         familyi={S\bibinitperiod},
+         given={Sandeep},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Wouters},
+         familyi={W\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CGKL}{%
+         family={Chan},
+         familyi={C\bibinitperiod},
+         given={Garnet Kin-Lic},
+         giveni={G\bibinitperiod\bibinitdelim K\bibinithyphendelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \keyw{Physics - Chemical Physics}
+    \strng{namehash}{SQ+1}
+    \strng{fullhash}{SQBTCBNSBGHGSLZLJMJSERSSWSCGKL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    PySCF is a general-purpose electronic structure platform designed from the ground up to emphasize code simplicity, both to aid new method development, as well as for flexibility in computational workflow. The package provides a wide range of tools to support simulations of finite size systems, extended systems with periodic boundary conditions, low dimensional periodic systems, and custom Hamiltonians, using mean-field and post-mean-field methods with standard Gaussian basis functions. To ensure easy of extensibility, PySCF uses the Python language to implement almost all its features, while computationally critical paths are implemented with heavily optimized C routines. Using this combined Python/C implementation, the package is as efficient as the best existing C or Fortran based quantum chemistry programs. In this paper we document the capabilities and design philosophy of the current version of the PySCF package.%
+    }
+    \verb{doi}
+    \verb 10.48550/arXiv.1701.08223
+    \endverb
+    \verb{eprint}
+    \verb 1701.08223
+    \endverb
+    \field{number}{arXiv:1701.08223}
+    \field{title}{The {{Python}}-Based {{Simulations}} of {{Chemistry Framework}} ({{PySCF}})}
+    \verb{file}
+    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\LLYE5JP8\\Sun et al. - 20
+    \verb 17 - The Python-based Simulations of Chemistry Framework (PySCF).pdf;
+    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\QXTHBVN9\\1701.html
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{physics.chem-ph}
+    \field{month}{03}
+    \field{year}{2017}
+    \field{urlday}{28}
+    \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{wangNewGenerationEffective2019}{article}{}{}
+    \name{author}{6}{}{%
+      {{hash=WG}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Guangming},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Annaberdiyev},
+         familyi={A\bibinitperiod},
+         given={Abdulgani},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MCA}{%
+         family={Melton},
+         familyi={M\bibinitperiod},
+         given={Cody\bibnamedelima A.},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=BMC}{%
+         family={Bennett},
+         familyi={B\bibinitperiod},
+         given={M.\bibnamedelima Chandler},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={Shulenburger},
+         familyi={S\bibinitperiod},
+         given={Luke},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=ML}{%
+         family={Mitas},
+         familyi={M\bibinitperiod},
+         given={Lubos},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WG+1}
+    \strng{fullhash}{WGAAMCABMCSLML1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{abstract}{%
+    Recently, we developed a new method for generating effective core potentials (ECPs) using valence energy isospectrality with explicitly correlated all-electron (AE) excitations and norm-conservation criteria. We apply this methodology to the 3rd-row main group elements, creating new correlation consistent ECPs (ccECPs) and also deriving additional ECPs to complete the ccECP table for H--Kr. For K and Ca, we develop Ne-core ECPs, and for the 4p main group elements, we construct [Ar]3d10-core potentials. Scalar relativistic effects are included in their construction. Our ccECPs reproduce AE spectra with significantly better accuracy than many existing pseudopotentials and show better overall consistency across multiple properties. The transferability of ccECPs is tested on monohydride and monoxide molecules over a range of molecular geometries. For the constructed ccECPs, we also provide optimized DZ-6Z valence Gaussian basis sets.%
+    }
+    \verb{doi}
+    \verb 10.1063/1.5121006
+    \endverb
+    \field{issn}{0021-9606}
+    \field{number}{14}
+    \field{pages}{144110}
+    \field{shorttitle}{A New Generation of Effective Core Potentials from Correlated Calculations}
+    \field{title}{A New Generation of Effective Core Potentials from Correlated Calculations: 4s and 4p Main Group Elements and First Row Additions}
+    \field{volume}{151}
+    \verb{file}
+    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\T5IBAITJ\\Wang et al. - 2
+    \verb 019 - A new generation of effective core potentials from correlated c
+    \verb alculations 4s and 4p main group ele.pdf;C\:\\Users\\lilian.heydel\\Z
+    \verb otero\\storage\\P8H73IWP\\1.html
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{10}
+    \field{year}{2019}
+    \field{urlday}{29}
+    \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{wangGeometryOptimizationMade2016}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=WLP}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Lee-Ping},
+         giveni={L\bibinithyphendelim P\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Song},
+         familyi={S\bibinitperiod},
+         given={Chenchen},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WLPSC1}
+    \strng{fullhash}{WLPSC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{abstract}{%
+    The effective description of molecular geometry is important for theoretical studies of intermolecular interactions. Here we introduce a new translation-rotation-internal coordinate (TRIC) system which explicitly includes the collective translations and rotations of molecules, or parts of molecules such as monomers or ligands, as degrees of freedom. The translations are described as the centroid position and the orientations are represented with the exponential map parameterization of quaternions. When TRIC is incorporated into geometry optimization calculations, the performance is consistently superior to existing coordinate systems for a diverse set of systems including water clusters, organic semiconductor donor-acceptor complexes, and small proteins, all of which are characterized by nontrivial intermolecular interactions. The method also introduces a new way to scan the molecular orientations while allowing orthogonal degrees of freedom to relax. Our findings indicate that an explicit description of molecular translation and rotation is a natural way to traverse the many-dimensional potential energy surface.%
+    }
+    \verb{doi}
+    \verb 10.1063/1.4952956
+    \endverb
+    \field{issn}{0021-9606}
+    \field{number}{21}
+    \field{pages}{214108}
+    \field{title}{Geometry Optimization Made Simple with Translation and Rotation Coordinates}
+    \field{volume}{144}
+    \verb{file}
+    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\QND28AQA\\Wang et Song -
+    \verb 2016 - Geometry optimization made simple with translation and rotatio
+    \verb n coordinates.pdf;C\:\\Users\\lilian.heydel\\Zotero\\storage\\45I5EHP
+    \verb F\\1.html
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{06}
+    \field{year}{2016}
+    \field{urlday}{30}
+    \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{weigendBalancedBasisSets2005}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=WF}{%
+         family={Weigend},
+         familyi={W\bibinitperiod},
+         given={Florian},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=AR}{%
+         family={Ahlrichs},
+         familyi={A\bibinitperiod},
+         given={Reinhart},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WFAR1}
+    \strng{fullhash}{WFAR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \verb{doi}
+    \verb 10.1039/b508541a
+    \endverb
+    \field{issn}{1463-9076, 1463-9084}
+    \field{number}{18}
+    \field{pages}{3297}
+    \field{shorttitle}{Balanced Basis Sets of Split Valence, Triple Zeta Valence and Quadruple Zeta Valence Quality for {{H}} to {{Rn}}}
+    \field{title}{Balanced Basis Sets of Split Valence, Triple Zeta Valence and Quadruple Zeta Valence Quality for {{H}} to {{Rn}}: {{Design}} and Assessment of Accuracy}
+    \field{volume}{7}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\KK9USPUQ\Weigend et Ahlrichs -
+    \verb 2005 - Balanced basis sets of split valence, triple zeta valence and
+    \verb quadruple zeta valence quality for H t.pdf
+    \endverb
+    \field{journaltitle}{Physical Chemistry Chemical Physics}
+    \field{year}{2005}
+    \field{urlday}{28}
+    \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{zhengMinimallyAugmentedKarlsruhe2011}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=ZJ}{%
+         family={Zheng},
+         familyi={Z\bibinitperiod},
+         given={Jingjing},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=XX}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Xuefei},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=TDG}{%
+         family={Truhlar},
+         familyi={T\bibinitperiod},
+         given={Donald\bibnamedelima G.},
+         giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZJXXTDG1}
+    \strng{fullhash}{ZJXXTDG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{abstract}{%
+    We propose an extension of the basis sets proposed by Ahlrichs and coworkers at Karlsruhe (these basis sets are designated as the second-generation default or ``def2'' basis sets in the Turbomole program). The Karlsruhe basis sets are very appealing because they constitute balanced and economical basis sets of graded quality from partially polarized double zeta to heavily polarized quadruple zeta for all elements up to radon (Z = 86). The extension consists of adding a minimal set of diffuse functions to a subset of the elements. This yields basis sets labeled minimally augmented or with ``ma'' as a prefix. We find that diffuse functions are not quite as important for the def2 basis sets as they are for Pople basis sets, but they are still necessary for good results on barrier heights and electron affinities. We provide assessments and validations of this extension for a variety of data sets and representative cases. We recommend the new ma-TZVP basis set for general-purpose applications of density functional theory.%
+    }
+    \verb{doi}
+    \verb 10.1007/s00214-010-0846-z
+    \endverb
+    \field{issn}{1432-881X, 1432-2234}
+    \field{number}{3}
+    \field{pages}{295\bibrangedash 305}
+    \field{title}{Minimally Augmented {{Karlsruhe}} Basis Sets}
+    \field{volume}{128}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\5NXXCYJE\Zheng et al. - 2011 -
+    \verb Minimally augmented Karlsruhe basis sets.pdf
+    \endverb
+    \field{journaltitle}{Theoretical Chemistry Accounts}
+    \field{month}{02}
+    \field{year}{2011}
+    \field{urlday}{28}
     \field{urlmonth}{10}
     \field{urlyear}{2026}
   \endentry
