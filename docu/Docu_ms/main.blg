@@ -17,51 +17,51 @@ Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated field_info (elt_size=8) to 11300 items from 5000.
+Reallocated field_info (elt_size=8) to 12280 items from 5000.
 Database file #1: main-blx.bib
 Database file #2: Docu_BDSEI.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Biblatex version: 3.21
 Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
-You've used 45 entries,
+You've used 52 entries,
             6402 wiz_defined-function locations,
-            1697 strings with 73563 characters,
-and the built_in function-call counts, 715250 in all, are:
-= -- 59538
-> -- 17584
-< -- 1990
-+ -- 30655
-- -- 12708
-* -- 52329
-:= -- 93478
+            1765 strings with 83006 characters,
+and the built_in function-call counts, 786085 in all, are:
+= -- 63954
+> -- 20304
+< -- 2317
++ -- 33810
+- -- 14712
+* -- 57991
+:= -- 101682
 add.period$ -- 0
-call.type$ -- 45
-change.case$ -- 531
-chr.to.int$ -- 1296
-cite$ -- 88
-duplicate$ -- 67548
-empty$ -- 56862
-format.name$ -- 4480
-if$ -- 130902
+call.type$ -- 52
+change.case$ -- 660
+chr.to.int$ -- 1506
+cite$ -- 102
+duplicate$ -- 74333
+empty$ -- 63004
+format.name$ -- 4963
+if$ -- 144011
 int.to.chr$ -- 0
-int.to.str$ -- 96
+int.to.str$ -- 111
 missing$ -- 0
-newline$ -- 2901
-num.names$ -- 1914
-pop$ -- 17882
+newline$ -- 3330
+num.names$ -- 2212
+pop$ -- 20442
 preamble$ -- 1
-purify$ -- 1039
+purify$ -- 1206
 quote$ -- 0
-skip$ -- 9482
+skip$ -- 10949
 stack$ -- 0
-substring$ -- 123532
-swap$ -- 11666
-text.length$ -- 1828
-text.prefix$ -- 45
+substring$ -- 132140
+swap$ -- 13769
+text.length$ -- 2107
+text.prefix$ -- 52
 top$ -- 1
-type$ -- 1518
+type$ -- 1756
 warning$ -- 0
-while$ -- 10454
+while$ -- 11329
 width$ -- 0
-write$ -- 2857
+write$ -- 3279

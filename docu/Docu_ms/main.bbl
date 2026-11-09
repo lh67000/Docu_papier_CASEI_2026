@@ -36,6 +36,8 @@
     \strng{fullhash}{AMAKYK1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{}
     \field{sortinit}{A}
     \field{sortinithash}{A}
     \field{abstract}{%
@@ -100,6 +102,8 @@
     \strng{fullhash}{AMAKYKHWWNMRME1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1997}
+    \field{labeldatesource}{}
     \field{sortinit}{A}
     \field{sortinithash}{A}
     \field{abstract}{%
@@ -170,6 +174,8 @@
     \strng{fullhash}{BMCWGAAMCASLML1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
     \field{sortinit}{B}
     \field{sortinithash}{B}
     \field{abstract}{%
@@ -239,6 +245,8 @@
     \strng{fullhash}{BBDPLETGMJP1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1989}
+    \field{labeldatesource}{}
     \field{sortinit}{B}
     \field{sortinithash}{B}
     \field{abstract}{%
@@ -288,6 +296,8 @@
     \strng{fullhash}{BEEKSBSH1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
     \field{sortinit}{B}
     \field{sortinithash}{B}
     \field{abstract}{%
@@ -437,6 +447,8 @@
     \strng{fullhash}{BAJGECBSAVCBBMGNFJKZZSCLNMSAMACMSACSGHCCGRACTCA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
     \field{sortinit}{B}
     \field{sortinithash}{B}
     \field{abstract}{%
@@ -540,6 +552,8 @@
     \strng{fullhash}{CEGWHGBDHMMSJCYBTPSvJPL1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
     \field{sortinit}{C}
     \field{sortinithash}{C}
     \field{abstract}{%
@@ -599,6 +613,8 @@
     \strng{fullhash}{CHHDRRGA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1984}
+    \field{labeldatesource}{}
     \field{sortinit}{C}
     \field{sortinithash}{C}
     \field{abstract}{%
@@ -626,6 +642,108 @@
     \field{urlyear}{2026}
   \endentry
 
+  \entry{cizekCorrelationProblemAtomic1966}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=CJ}{%
+         family={{\v C}{\'i}{\v z}ek},
+         familyi={{\v C}\bibinitperiod},
+         given={Ji{\v r}{\'i}},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CJ1}
+    \strng{fullhash}{CJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1966}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    A method is suggested for the calculation of the matrix elements of the logarithm of an operator which gives the exact wavefunction when operating on the wavefunction in the one-electron approximation. The method is based on the use of the creation and annihilation operators, hole---particle formalism, Wick's theorem, and the technique of Feynman-like diagrams. The connection of this method with the configuration-interaction method as well as with the perturbation theory in the quantum-field theoretical form is discussed. The method is applied to the simple models of nitrogen and benzene molecules. The results are compared with those obtained with the configuration-interaction method considering all possible configurations within the chosen basis of one-electron functions.%
+    }
+    \verb{doi}
+    \verb 10.1063/1.1727484
+    \endverb
+    \field{issn}{0021-9606}
+    \field{number}{11}
+    \field{pages}{4256\bibrangedash 4266}
+    \field{title}{On the {{Correlation Problem}} in {{Atomic}} and {{Molecular Systems}}. {{Calculation}} of {{Wavefunction Components}} in {{Ursell}}-{{Type Expansion Using Quantum}}-{{Field Theoretical Methods}}}
+    \field{volume}{45}
+    \verb{file}
+    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\4ZUVZR53\\Čížek - 1966
+    \verb  - On the Correlation Problem in Atomic and Molecular Systems. Calcul
+    \verb ation of Wavefunction Components i.pdf;C\:\\Users\\lilian.heydel\\Zot
+    \verb ero\\storage\\BV6GTVDE\\1.html
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{12}
+    \field{year}{1966}
+    \field{urlday}{09}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{colonnaKoopmansCompliantFunctionalsPotentials2019}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=CN}{%
+         family={Colonna},
+         familyi={C\bibinitperiod},
+         given={Nicola},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=NNL}{%
+         family={Nguyen},
+         familyi={N\bibinitperiod},
+         given={Ngoc\bibnamedelima Linh},
+         giveni={N\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Ferretti},
+         familyi={F\bibinitperiod},
+         given={Andrea},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MN}{%
+         family={Marzari},
+         familyi={M\bibinitperiod},
+         given={Nicola},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CN+1}
+    \strng{fullhash}{CNNNLFAMN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    Koopmans-compliant (KC) functionals have been shown to provide accurate spectral properties through a generalized condition of piecewise linearity of the total energy as a function of the fractional addition/removal of an electron to/ from any orbital. We analyze the performance of different KC functionals on a large and standardized set of 100 molecules, the GW100 test set, comparing vertical ionization potentials (taken as opposite of the orbital energies) to those obtained from accurate quantum chemistry methods, and to experimental results. We find excellent agreement, with a mean absolute error of 0.20 eV for the KIPZ functional on the first ionization potential, which is state-of-the-art for both density functional theory (DFT)-based calculations and many-body perturbation theory. We highlight similarities and differences between KC functionals and other electronic-structure approaches, such as dielectric-dependent hybrid functionals and Green's function methods, both from a theoretical and from a practical point of view, arguing that KC potentials can be considered as local and orbitaldependent approximations to the electronic self-energy, already including approximate vertex corrections.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.jctc.8b00976
+    \endverb
+    \field{issn}{1549-9618, 1549-9626}
+    \field{number}{3}
+    \field{pages}{1905\bibrangedash 1914}
+    \field{title}{Koopmans-{{Compliant Functionals}} and {{Potentials}} and {{Their Application}} to the {{GW100 Test Set}}}
+    \field{volume}{15}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\97XKNPNY\Colonna et al. - 2019
+    \verb - Koopmans-Compliant Functionals and Potentials and Their Application
+    \verb  to the GW100 Test Set.pdf
+    \endverb
+    \field{journaltitle}{Journal of Chemical Theory and Computation}
+    \field{month}{03}
+    \field{year}{2019}
+    \field{urlday}{09}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
   \entry{coriceHypotheticalChemicalSpectroscopic1972}{article}{}{}
     \name{author}{2}{}{%
       {{hash=CRJ}{%
@@ -645,6 +763,8 @@
     \strng{fullhash}{CRJFK1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1972}
+    \field{labeldatesource}{}
     \field{sortinit}{C}
     \field{sortinithash}{C}
     \field{abstract}{%
@@ -698,6 +818,8 @@
     \strng{fullhash}{DTSJSD1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2026}
+    \field{labeldatesource}{}
     \field{sortinit}{D}
     \field{sortinithash}{D}
     \field{abstract}{%
@@ -745,6 +867,8 @@
     \strng{fullhash}{DMCX1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
     \field{sortinit}{D}
     \field{sortinithash}{D}
     \verb{doi}
@@ -783,6 +907,8 @@
     \strng{fullhash}{DTH1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1989}
+    \field{labeldatesource}{}
     \field{sortinit}{D}
     \field{sortinithash}{D}
     \field{abstract}{%
@@ -821,6 +947,8 @@
     \strng{fullhash}{D1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2026}
+    \field{labeldatesource}{}
     \field{sortinit}{D}
     \field{sortinithash}{D}
     \field{howpublished}{www.lxcat.net}
@@ -847,6 +975,8 @@
     \strng{fullhash}{FPLCPA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1985}
+    \field{labeldatesource}{}
     \field{sortinit}{F}
     \field{sortinithash}{F}
     \field{abstract}{%
@@ -938,6 +1068,8 @@
     \strng{fullhash}{GBALGTVSBGMVCHDPMBSGP1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
     \field{sortinit}{G}
     \field{sortinithash}{G}
     \field{abstract}{%
@@ -989,6 +1121,8 @@
     \strng{fullhash}{GVCBTJ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
     \field{sortinit}{G}
     \field{sortinithash}{G}
     \field{abstract}{%
@@ -1029,6 +1163,8 @@
     \strng{fullhash}{HRM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{}
     \field{sortinit}{H}
     \field{sortinithash}{H}
     \verb{doi}
@@ -1071,6 +1207,8 @@
     \strng{fullhash}{HARD1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
     \field{sortinit}{H}
     \field{sortinithash}{H}
     \field{abstract}{%
@@ -1114,6 +1252,8 @@
     \strng{fullhash}{HWMKYK1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2000}
+    \field{labeldatesource}{}
     \field{sortinit}{H}
     \field{sortinithash}{H}
     \verb{doi}
@@ -1175,6 +1315,8 @@
     \strng{fullhash}{HMMPLFCPARRBEWC1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1986}
+    \field{labeldatesource}{}
     \field{sortinit}{H}
     \field{sortinithash}{H}
     \field{abstract}{%
@@ -1227,6 +1369,8 @@
     \strng{fullhash}{HWKYKRME1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1996}
+    \field{labeldatesource}{}
     \field{sortinit}{H}
     \field{sortinithash}{H}
     \field{abstract}{%
@@ -1279,6 +1423,8 @@
     \strng{fullhash}{JCQDCAGA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{}
     \field{sortinit}{J}
     \field{sortinithash}{J}
     \field{abstract}{%
@@ -1390,6 +1536,8 @@
     \strng{fullhash}{KSCJCTGAHJHSLQSBATPAYBZLZJBEE1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
     \field{sortinit}{K}
     \field{sortinithash}{K}
     \field{abstract}{%
@@ -1435,6 +1583,8 @@
     \strng{fullhash}{KYKRME1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1994}
+    \field{labeldatesource}{}
     \field{sortinit}{K}
     \field{sortinithash}{K}
     \verb{doi}
@@ -1455,6 +1605,43 @@
     \field{year}{1994}
     \field{urlday}{28}
     \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{koopmansUberZuordnungWellenfunktionen1934}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=KT}{%
+         family={Koopmans},
+         familyi={K\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{KT1}
+    \strng{fullhash}{KT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1934}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    Die von Fock im Rahmen seiner N\"aherungsmethode zur Behandlung des quantenmechanischen Mehrelektronenproblems aufgestellten Gleichungen werden auf etwas allgemeinerer Grundlage diskutiert. Es wird angegeben, wie man in eindeutiger Weise den einzelnen Elektronen bestimmte Wellenfunktionen und Eigenwerte zuordnen kann. Diese Eigenfunktionen gen\"ugen einer Gleichung, die in einem etwas anderen Zusammenhang von Fock abgeleitet wurde. Die Eigenwerte sind bis auf kleinen Korrektionen den Abl\"osungsarbeiten der einzelnen Elektronen entgegengesetzt gleich. Das erreichte Ergebnis hat nur Bedeutung in denjenigen F\"allen, wo der Ansatz einer einzigen Slaterschen Determinante f\"ur die Wellenfunktion sinnvoll ist.%
+    }
+    \verb{doi}
+    \verb 10.1016/S0031-8914(34)90011-2
+    \endverb
+    \field{pages}{104\bibrangedash 113}
+    \field{title}{\"Uber Die {{Zuordnung}} von {{Wellenfunktionen}} Und {{Eigenwerten}} Zu Den {{Einzelnen Elektronen Eines Atoms}}}
+    \field{volume}{1}
+    \field{journaltitle}{Physica}
+    \field{month}{01}
+    \field{year}{1934}
+    \field{urlday}{09}
+    \field{urlmonth}{11}
     \field{urlyear}{2026}
   \endentry
 
@@ -1489,6 +1676,8 @@
     \strng{fullhash}{KRBJSSRPJA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1980}
+    \field{labeldatesource}{}
     \field{sortinit}{K}
     \field{sortinithash}{K}
     \field{abstract}{%
@@ -1529,6 +1718,8 @@
     \strng{fullhash}{KR1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
     \field{sortinit}{K}
     \field{sortinithash}{K}
     \field{abstract}{%
@@ -1738,6 +1929,8 @@
     \strng{fullhash}{LGTPKBRRCDVRsGPJGKENNDDASMCBtTSSAVAWMTIWRSVFFHUKPDMNMJLJgg1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
     \field{sortinit}{L}
     \field{sortinithash}{L}
     \field{abstract}{%
@@ -1793,6 +1986,8 @@
     \strng{fullhash}{LHPFUSHADDS1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1980}
+    \field{labeldatesource}{}
     \field{sortinit}{L}
     \field{sortinithash}{L}
     \field{abstract}{%
@@ -1810,6 +2005,48 @@
     \field{year}{1980}
     \field{urlday}{28}
     \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{morrisonLimitsAccuracyExtended2025}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=MRC}{%
+         family={Morrison},
+         familyi={M\bibinitperiod},
+         given={Robert\bibnamedelima C.},
+         giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MRC1}
+    \strng{fullhash}{MRC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    Calculations using several basis sets of increasing sizes for electron attachment to LiH show that the error is {$\sim$}0.03 electron volts for the largest basis set when comparing the extended Koopmans' theorem (EKT) with differences in full configuration interaction calculations. The corresponding error in the ionization potential is {$\sim$}10-5 electron volts. The EKT electron affinities (EAs) of a set of small molecules were examined. The Dyson orbital pole strength, the Dyson orbital compactness, and the largest square of the Dyson orbital expansion coefficients were used to analyze the accuracy of the EKT for EAs.%
+    }
+    \verb{doi}
+    \verb 10.1063/5.0292192
+    \endverb
+    \field{issn}{0021-9606, 1089-7690}
+    \field{number}{14}
+    \field{pages}{144102}
+    \field{title}{The Limits of Accuracy of the Extended {{Koopmans}}' Theorem for Electron Affinities}
+    \field{volume}{163}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\ECFZ6JXV\Morrison - 2025 - The
+    \verb limits of accuracy of the extended Koopmans’ theorem for electron a
+    \verb ffinities.pdf
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{10}
+    \field{year}{2025}
+    \field{urlday}{09}
+    \field{urlmonth}{11}
     \field{urlyear}{2026}
   \endentry
 
@@ -1844,6 +2081,8 @@
     \strng{fullhash}{MJICTFLNRMT1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
     \field{sortinit}{M}
     \field{sortinithash}{M}
     \field{abstract}{%
@@ -1883,6 +2122,8 @@
     \strng{fullhash}{NF1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
     \field{sortinit}{N}
     \field{sortinithash}{N}
     \field{abstract}{%
@@ -1961,6 +2202,8 @@
     \strng{fullhash}{PSBSBMCHGMWLPAPLC1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
     \field{sortinit}{P}
     \field{sortinithash}{P}
     \field{abstract}{%
@@ -2219,6 +2462,8 @@
     \strng{fullhash}{PLCALLBKBSFBMCBIBCEBMJCLCACBCLGCEDNAFCMFDVGRKGVHPHGJHAIYKIVMRPMWLNAPPVRMSLSRSADTJdJvJVLAZMCZOPS1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
     \field{sortinit}{P}
     \field{sortinithash}{P}
     \field{abstract}{%
@@ -2277,6 +2522,8 @@
     \strng{fullhash}{PBPADDBGTDWTL1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
     \field{sortinit}{P}
     \field{sortinithash}{P}
     \field{abstract}{%
@@ -2324,6 +2571,8 @@
     \strng{fullhash}{RDEGP1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1965}
+    \field{labeldatesource}{}
     \field{sortinit}{R}
     \field{sortinithash}{R}
     \field{abstract}{%
@@ -2370,6 +2619,8 @@
     \strng{fullhash}{RDFF1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{}
     \field{sortinit}{R}
     \field{sortinithash}{R}
     \field{abstract}{%
@@ -2426,6 +2677,8 @@
     \strng{fullhash}{RSTWLSGR1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{1976}
+    \field{labeldatesource}{}
     \field{sortinit}{R}
     \field{sortinithash}{R}
     \field{abstract}{%
@@ -2465,6 +2718,8 @@
     \strng{fullhash}{RSLGA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
     \field{sortinit}{R}
     \field{sortinithash}{R}
     \field{abstract}{%
@@ -2512,6 +2767,8 @@
     \strng{fullhash}{RIULJE1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
     \field{sortinit}{R}
     \field{sortinithash}{R}
     \field{abstract}{%
@@ -2558,6 +2815,8 @@
     \strng{fullhash}{SGEIKK1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2005}
+    \field{labeldatesource}{}
     \field{sortinit}{S}
     \field{sortinithash}{S}
     \field{abstract}{%
@@ -2572,6 +2831,11 @@
     \field{title}{Electron-{{Impact Ionization Cross Sections}} of {{Molecules Containing Heavy Elements}} ({{Z}} {$>$} 10)}
     \field{volume}{1}
     \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\25RSXREH\Scott et Irikura - 200
+    \verb 5 - Electron-Impact Ionization Cross Sections of Molecules Containing
+    \verb  Heavy Elements (Z 10).pdf
+    \endverb
     \field{journaltitle}{Journal of Chemical Theory and Computation}
     \field{month}{11}
     \field{year}{2005}
@@ -2660,6 +2924,8 @@
     \strng{fullhash}{SQBTCBNSBGHGSLZLJMJSERSSWSCGKL1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
     \field{sortinit}{S}
     \field{sortinithash}{S}
     \field{abstract}{%
@@ -2684,6 +2950,107 @@
     \field{year}{2017}
     \field{urlday}{28}
     \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{vonniessenComputationalMethodsOneparticle1984}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=vW}{%
+         family={{von Niessen}},
+         familyi={v\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Schirmer},
+         familyi={S\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CLS}{%
+         family={Cederbaum},
+         familyi={C\bibinitperiod},
+         given={L.\bibnamedelima S.},
+         giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{vWSJCLS1}
+    \strng{fullhash}{vWSJCLS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1984}
+    \field{labeldatesource}{}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \verb{doi}
+    \verb 10.1016/0167-7977(84)90002-9
+    \endverb
+    \field{issn}{0167-7977}
+    \field{number}{2}
+    \field{pages}{57\bibrangedash 125}
+    \field{title}{Computational Methods for the One-Particle Green's Function}
+    \field{volume}{1}
+    \verb{file}
+    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\EG6H4P7I\\von Niessen et
+    \verb al. - 1984 - Computational methods for the one-particle green's funct
+    \verb ion.pdf;C\:\\Users\\lilian.heydel\\Zotero\\storage\\6MJ8KCI5\\0167797
+    \verb 784900029.html
+    \endverb
+    \field{journaltitle}{Computer Physics Reports}
+    \field{month}{04}
+    \field{year}{1984}
+    \field{urlday}{09}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{wangIonizaPotenJP102026}{misc}{}{}
+    \name{author}{3}{}{%
+      {{hash=WF}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Feng},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=BF}{%
+         family={Batool},
+         familyi={B\bibinitperiod},
+         given={Fozia},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WFBFWJ1}
+    \strng{fullhash}{WFBFWJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2026}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{abstract}{%
+    The ionization potential of exo-tetrahydrodicyclopentadiene (exo-JP-10, C10H16), a strained hydrocarbon central to advanced propulsion, has remained unresolved for decades due to its cage-like structure, the inherent instability of its cation, and the absence of reliable theoretical predictions. The first ionization potential (IP) was reported once at 9.35 \textpm{} 0.05 eV in 1973 yet it has resisted consistent theoretical validation. In this study, we present the first quantitative confirmation using density functional theory (DFT) based {$\Delta$}SCF, Hartree--Fock (HF), and outer valence Green's function (OVGF) methods. The {$\Delta$}SCF(DFT) and G4 composite methods well reproduces the experimental IP at 9.31\,eV and 9.27 eV, respectively, whereas Koopmans' Theorem (HF) and standard OVGF systematically overestimate the value. The second-order OVGF method (OVGF(2)) not only yields a first IP for JP-10 that is consistent with the {$\Delta$}SCF result, but also provides outer-valence IPs extending up to 17.5\,eV. Orbital analysis reveals that ionization perturbs {$\alpha$} electrons more strongly than {$\beta$} in the valence space (a {$\beta$} electron is removed at ionization), as well as substantial shifts in the carbon 1s core electron energies. These electronic reorganizations are mirrored in the calculated 13C NMR spectrum, where the junction carbons (C1-C4) and C10, C6/C7 undergo pronounced deshielding. This study delivers the first rigorously validated theoretical value for the ionization potential of JP-10, closing a 50-year gap in understanding this high-energy-density hydrocarbon. By establishing {$\Delta$}SCF as a reliable approach for characterizing unstable cations and leveraging OVGF(2) to compute outer-valence IPs up to 17.5\,eV, the present study links core- and valence-level electronic reorganizations to measurable spectroscopic signatures. These insights not only 2 advance JP-10 ionization process but also deepen our understanding of strained hydrocarbon architectures, providing a foundation for the rational design of thermally stable, electronically tunable molecules for sustainable aviation fuel (SAF) development and advanced propulsion systems.%
+    }
+    \verb{doi}
+    \verb 10.26434/chemrxiv.15003977/v1
+    \endverb
+    \field{shorttitle}{Ioniza on {{Poten}} al of {{JP-10 Fuel}}}
+    \field{title}{Ioniza on {{Poten}} al of {{JP-10 Fuel}}: {{A First-Principles Study Addressing}} a 50-{{Year Gap}} in {{Experimental Data}}}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\FATM7T9P\Wang et al. - 2026 - I
+    \verb oniza on Poten al of JP-10 Fuel A First-Principles Study Addressing a
+    \verb  50-Year Gap in Experimental.pdf
+    \endverb
+    \field{month}{05}
+    \field{year}{2026}
+    \field{urlday}{09}
+    \field{urlmonth}{11}
     \field{urlyear}{2026}
   \endentry
 
@@ -2730,6 +3097,8 @@
     \strng{fullhash}{WGAAMCABMCSLML1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
     \field{sortinit}{W}
     \field{sortinithash}{W}
     \field{abstract}{%
@@ -2777,6 +3146,8 @@
     \strng{fullhash}{WLPSC1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
     \field{sortinit}{W}
     \field{sortinithash}{W}
     \field{abstract}{%
@@ -2823,6 +3194,8 @@
     \strng{fullhash}{WFAR1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2005}
+    \field{labeldatesource}{}
     \field{sortinit}{W}
     \field{sortinithash}{W}
     \verb{doi}
@@ -2844,6 +3217,60 @@
     \field{year}{2005}
     \field{urlday}{28}
     \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{yanaiNewHybridExchange2004}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=YT}{%
+         family={Yanai},
+         familyi={Y\bibinitperiod},
+         given={Takeshi},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=TDP}{%
+         family={Tew},
+         familyi={T\bibinitperiod},
+         given={David\bibnamedelima P},
+         giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=HNC}{%
+         family={Handy},
+         familyi={H\bibinitperiod},
+         given={Nicholas\bibnamedelima C},
+         giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{YTTDPHNC1}
+    \strng{fullhash}{YTTDPHNC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{labeldatesource}{}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \field{abstract}{%
+    A new hybrid exchange--correlation functional named CAM-B3LYP is proposed. It combines the hybrid qualities of B3LYP and the long-range correction presented by Tawada et al. [J. Chem. Phys., in press]. We demonstrate that CAM-B3LYP yields atomization energies of similar quality to those from B3LYP, while also performing well for charge transfer excitations in a dipeptide model, which B3LYP underestimates enormously. The CAM-B3LYP functional comprises of 0.19 Hartree--Fock (HF) plus 0.81 Becke 1988 (B88) exchange interaction at short-range, and 0.65 HF plus 0.35 B88 at long-range. The intermediate region is smoothly described through the standard error function with parameter 0.33.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.cplett.2004.06.011
+    \endverb
+    \field{issn}{00092614}
+    \field{number}{1-3}
+    \field{pages}{51\bibrangedash 57}
+    \field{title}{A New Hybrid Exchange--Correlation Functional Using the {{Coulomb}}-Attenuating Method ({{CAM-B3LYP}})}
+    \field{volume}{393}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\MZUI8ZR9\Yanai et al. - 2004 -
+    \verb A new hybrid exchange–correlation functional using the Coulomb-atte
+    \verb nuating method (CAM-B3LYP).pdf
+    \endverb
+    \field{journaltitle}{Chemical Physics Letters}
+    \field{month}{07}
+    \field{year}{2004}
+    \field{urlday}{09}
+    \field{urlmonth}{11}
     \field{urlyear}{2026}
   \endentry
 
@@ -2872,6 +3299,8 @@
     \strng{fullhash}{ZJXXTDG1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
     \field{sortinit}{Z}
     \field{sortinithash}{Z}
     \field{abstract}{%
