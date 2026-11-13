@@ -1398,6 +1398,63 @@
     \field{urlyear}{2026}
   \endentry
 
+  \entry{jesenekPartialIonisationCross2025}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=JA}{%
+         family={Jesen{\v e}k},
+         familyi={J\bibinitperiod},
+         given={Anthony},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Luque},
+         familyi={L\bibinitperiod},
+         given={Alejandro},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LN}{%
+         family={Lehtinen},
+         familyi={L\bibinitperiod},
+         given={Nikolai},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{JALALN1}
+    \strng{fullhash}{JALALN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{abstract}{%
+    The original binary-encounter Bethe model of Kim and Eugene Rudd (1994 Phys. Rev. A 50 3954--67) has proven to be an accurate analytical representation of total impact ionisation cross sections of electrons colliding with atoms and molecules. It is based on a decomposition into partial ionisation cross sections from electrons in bound orbitals. Despite the model's accuracy for total ionisation, its individual partial cross sections for ionisation rely on thresholds calculated theoretically which systematically overestimate the experimental orbital binding energies. Here, we examine the BEB model's performance when based on experimental ionisation thresholds. The resulting partial cross sections of the various final (excited) ionic states produced could help to prefigure subsequent optical radiations and non-radiative transitions in models of plasma physics.%
+    }
+    \verb{doi}
+    \verb 10.1088/1361-6595/adfc09
+    \endverb
+    \field{issn}{0963-0252}
+    \field{number}{8}
+    \field{pages}{085015}
+    \field{title}{Partial Ionisation Cross Sections for the Binary-Encounter {{Bethe}} Model}
+    \field{volume}{34}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\EEU2CR29\Jeseněk et al. - 2025
+    \verb  - Partial ionisation cross sections for the binary-encounter Bethe m
+    \verb odel.pdf
+    \endverb
+    \field{journaltitle}{Plasma Sources Science and Technology}
+    \field{month}{08}
+    \field{year}{2025}
+    \field{urlday}{10}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
   \entry{jiaoElectronImpactIonization2007}{article}{}{}
     \name{author}{3}{}{%
       {{hash=JCQ}{%
@@ -3052,6 +3109,56 @@
     \field{urlday}{09}
     \field{urlmonth}{11}
     \field{urlyear}{2026}
+  \endentry
+
+  \entry{wangFe3dOrbital2025}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=WF}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Feng},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=VV}{%
+         family={Vasilyev},
+         familyi={V\bibinitperiod},
+         given={Vladislay},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \keyw{energy decomposition analysis (EDA),excess orbital energy spectrum (EOES),Fe 3d orbital characterization,ferrocene ionization,SCF method}
+    \strng{namehash}{WFVV1}
+    \strng{fullhash}{WFVV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2025}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{abstract}{%
+    The ionization of ferrocene (Fc) remains an active topic of interest due to its complex, ulti-electron character. Accurate prediction of its first ionization potential (IP) requires methods that go beyond single-particle approximations, as Koopmans' theorem, Janak's theorem, and the outer valence Green function (OVGF) approach prove inadequate. Using the {$\Delta$}SCF method, the first IP of Fc was calculated to be \textasciitilde 6.9 \textpm{} 0.1 eV, which is in close agreement with experimental values (6.72-6.99 eV). To benchmark computational accuracy, 42 models were evaluated using the CCSD, CCSD(T), and B3LYP methods with Pople and Dunning basis sets, including Fe-specific modifications to better capture 3d electron behavior. The results underscore the importance of proper treatment of Fe 3d orbitals, with B3LYP/m6-31G(d) offering the best compromise between accuracy and computational efficiency. Notably, the singly occupied molecular orbital (SOMO) in Fc+ is identified as the 8a1' orbital, which is dominated by its Fe 3d character. This orbital, although not the {$\alpha$}-HOMO in Fc+, becomes the LUMO upon ionization. Analysis of the excess orbital energy spectrum (EOES) reveals substantial energy shifts upon ionization, particularly in Fe-centered orbitals spanning both the core and valence regions. Theoretical momentum distribution (TMD) analysis of the 8a1' orbital further quantifies orbital differences before and after ionization, providing complementary insights in momentum space. Finally, energy decomposition analysis (EDA) shows that while most interaction energy components become less stabilizing upon ionization, steric and Pauli terms contribute a small stabilizing effect.%
+    }
+    \verb{doi}
+    \verb 10.3390/molecules30173541
+    \endverb
+    \field{issn}{1420-3049}
+    \field{number}{17}
+    \field{pages}{3541}
+    \field{shorttitle}{Fe 3d {{Orbital Evolution}} in {{Ferrocene Ionization}}}
+    \field{title}{Fe 3d {{Orbital Evolution}} in {{Ferrocene Ionization}}: {{Insights}} from {{$\Delta$SCF}}, {{EOES}}, and {{Orbital Momentum Distribution}}}
+    \field{volume}{30}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {Basel, Switzerland}%
+    }
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\EKDNLLFG\Wang et Vasilyev - 202
+    \verb 5 - Fe 3d Orbital Evolution in Ferrocene Ionization Insights from ΔS
+    \verb CF, EOES, and Orbital Momentum Dist.pdf
+    \endverb
+    \field{journaltitle}{Molecules}
+    \field{month}{08}
+    \field{year}{2025}
   \endentry
 
   \entry{wangNewGenerationEffective2019}{article}{}{}
