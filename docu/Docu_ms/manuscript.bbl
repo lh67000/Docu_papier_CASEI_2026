@@ -486,48 +486,6 @@
     \field{urlyear}{2026}
   \endentry
 
-  \entry{cizekCorrelationProblemAtomic1966}{article}{}{}
-    \name{author}{1}{}{%
-      {{hash=CJ}{%
-         family={{\v C}{\'i}{\v z}ek},
-         familyi={{\v C}\bibinitperiod},
-         given={Ji{\v r}{\'i}},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CJ1}
-    \strng{fullhash}{CJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{1966}
-    \field{labeldatesource}{}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
-    \field{abstract}{%
-    A method is suggested for the calculation of the matrix elements of the logarithm of an operator which gives the exact wavefunction when operating on the wavefunction in the one-electron approximation. The method is based on the use of the creation and annihilation operators, hole---particle formalism, Wick's theorem, and the technique of Feynman-like diagrams. The connection of this method with the configuration-interaction method as well as with the perturbation theory in the quantum-field theoretical form is discussed. The method is applied to the simple models of nitrogen and benzene molecules. The results are compared with those obtained with the configuration-interaction method considering all possible configurations within the chosen basis of one-electron functions.%
-    }
-    \verb{doi}
-    \verb 10.1063/1.1727484
-    \endverb
-    \field{issn}{0021-9606}
-    \field{number}{11}
-    \field{pages}{4256\bibrangedash 4266}
-    \field{title}{On the {{Correlation Problem}} in {{Atomic}} and {{Molecular Systems}}. {{Calculation}} of {{Wavefunction Components}} in {{Ursell}}-{{Type Expansion Using Quantum}}-{{Field Theoretical Methods}}}
-    \field{volume}{45}
-    \verb{file}
-    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\4ZUVZR53\\Čížek - 1966
-    \verb  - On the Correlation Problem in Atomic and Molecular Systems. Calcul
-    \verb ation of Wavefunction Components i.pdf;C\:\\Users\\lilian.heydel\\Zot
-    \verb ero\\storage\\BV6GTVDE\\1.html
-    \endverb
-    \field{journaltitle}{The Journal of Chemical Physics}
-    \field{month}{12}
-    \field{year}{1966}
-    \field{urlday}{09}
-    \field{urlmonth}{11}
-    \field{urlyear}{2026}
-  \endentry
-
   \entry{colonnaKoopmansCompliantFunctionalsPotentials2019}{article}{}{}
     \name{author}{4}{}{%
       {{hash=CN}{%
@@ -937,6 +895,55 @@
     \field{year}{2024}
     \field{urlday}{21}
     \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{giulianiIonizationEnergiesPolycyclic2026}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=GA}{%
+         family={Giuliani},
+         familyi={G\bibinitperiod},
+         given={Alexandre},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HHR}{%
+         family={Hrodmarsson},
+         familyi={H\bibinitperiod},
+         given={Helgi\bibnamedelima Rafn},
+         giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \keyw{composite methods,DFTB,ionization energy,polycyclic aromatic hydrocarbons,semi empirical}
+    \strng{namehash}{GAHHR1}
+    \strng{fullhash}{GAHHR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2026}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    We benchmark semiempirical (PM6, PM7, RM1), tight-binding (DFTB2, DFTB3, xTB-IPEA, g-xTB), and composite methods (HF-3C, B97-3C, PBEH-3C, B3LYP-3C, R2SCAN-3C, {$\omega$}B97X-3C) for first, second, and double ionization energies of selected polycyclic aromatic hydrocarbons (PAHs). All calculations use the {$\Delta$}SCF approach with zero-point energy corrections. No single method is optimal across all ionization types. For first ionization energies, xTB-IPEA is the most accurate approximate method, while {$\omega$}B97X-3C outperforms all composite approaches. {$\omega$}B97X-3C and DFTB3 show the most even performance across the three ionization categories. Comparison of B3LYP-3C with literature B3LYP results reveals that composite corrections negligibly affect ionization energies, which are dominated by delocalization error effectively mitigated by range-separated functionals. These results guide the selection of cost-effective methods for PAH ionization studies.%
+    }
+    \verb{doi}
+    \verb 10.1002/cphc.70622
+    \endverb
+    \field{issn}{1439-7641}
+    \field{number}{21}
+    \field{pages}{e70622}
+    \field{shorttitle}{Ionization {{Energies}} of {{Polycyclic Aromatic Hydrocarbons}}}
+    \field{title}{Ionization {{Energies}} of {{Polycyclic Aromatic Hydrocarbons}}: {{Benchmarking Semiempirical}}, {{Tight Binding}}, and {{Composite Methods}}}
+    \field{volume}{27}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\C864N9FG\Giuliani et Hrodmarsso
+    \verb n - 2026 - Ionization Energies of Polycyclic Aromatic Hydrocarbons Be
+    \verb nchmarking Semiempirical, Tight Binding,.pdf
+    \endverb
+    \field{journaltitle}{ChemPhysChem}
+    \field{year}{2026}
+    \field{urlday}{16}
+    \field{urlmonth}{11}
     \field{urlyear}{2026}
   \endentry
 
@@ -1506,43 +1513,6 @@
     \field{year}{1994}
     \field{urlday}{28}
     \field{urlmonth}{10}
-    \field{urlyear}{2026}
-  \endentry
-
-  \entry{koopmansUberZuordnungWellenfunktionen1934}{article}{}{}
-    \name{author}{1}{}{%
-      {{hash=KT}{%
-         family={Koopmans},
-         familyi={K\bibinitperiod},
-         given={T.},
-         giveni={T\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier}%
-    }
-    \strng{namehash}{KT1}
-    \strng{fullhash}{KT1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{1934}
-    \field{labeldatesource}{}
-    \field{sortinit}{K}
-    \field{sortinithash}{K}
-    \field{abstract}{%
-    Die von Fock im Rahmen seiner N\"aherungsmethode zur Behandlung des quantenmechanischen Mehrelektronenproblems aufgestellten Gleichungen werden auf etwas allgemeinerer Grundlage diskutiert. Es wird angegeben, wie man in eindeutiger Weise den einzelnen Elektronen bestimmte Wellenfunktionen und Eigenwerte zuordnen kann. Diese Eigenfunktionen gen\"ugen einer Gleichung, die in einem etwas anderen Zusammenhang von Fock abgeleitet wurde. Die Eigenwerte sind bis auf kleinen Korrektionen den Abl\"osungsarbeiten der einzelnen Elektronen entgegengesetzt gleich. Das erreichte Ergebnis hat nur Bedeutung in denjenigen F\"allen, wo der Ansatz einer einzigen Slaterschen Determinante f\"ur die Wellenfunktion sinnvoll ist.%
-    }
-    \verb{doi}
-    \verb 10.1016/S0031-8914(34)90011-2
-    \endverb
-    \field{pages}{104\bibrangedash 113}
-    \field{title}{\"Uber Die {{Zuordnung}} von {{Wellenfunktionen}} Und {{Eigenwerten}} Zu Den {{Einzelnen Elektronen Eines Atoms}}}
-    \field{volume}{1}
-    \field{journaltitle}{Physica}
-    \field{month}{01}
-    \field{year}{1934}
-    \field{urlday}{09}
-    \field{urlmonth}{11}
     \field{urlyear}{2026}
   \endentry
 
