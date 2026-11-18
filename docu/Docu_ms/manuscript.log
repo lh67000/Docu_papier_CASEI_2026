@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.11.9)  17 NOV 2026 14:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.11.9)  18 NOV 2026 18:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -907,42 +907,65 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box77
 \@float@everytoks=\toks46
 \@floatcapt=\box78
+) (/usr/share/texmf-dist/tex/generic/chemfig/chemfig.sty (/usr/share/texmf-dist/tex/generic/chemfig/chemfig.tex (/usr/share/texmf-dist/tex/generic/simplekv/simplekv.tex
+Package: simplekv 2025/06/15 v0.32 Simple keyval package (CT)
+)
+\CF_cnt_atomgroup=\count492
+\CF_cnt_group=\count493
+\CF_cnt_atom=\count494
+\CF_cnt_cycle=\count495
+\CF_cnt_cyclebonds=\count496
+\CF_cnt_compound=\count497
+\CF_dim=\dimen356
+\CF_turnangle=\dimen357
+\CF_arrowsize=\dimen358
+\CF_zero=\dimen359
+\CF_box=\box79
+\CF_boxstuff=\box80
+\CF_testbox=\box81
+\CF_chargebox=\box82
+\CF_substtoks=\toks47
+\CF_harrow_boxup=\box83
+\CF_harrow_boxdown=\box84
+\CF_hreact_cnt=\count498
+)
+Package: chemfig 2025/10/30 v1.71 Draw molecule with an easy syntax (CT)
 ) (/usr/share/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count492
-\l__siunitx_number_exponent_fixed_int=\count493
-\l__siunitx_number_min_decimal_int=\count494
-\l__siunitx_number_min_integer_int=\count495
-\l__siunitx_number_round_precision_int=\count496
-\l__siunitx_number_lower_threshold_int=\count497
-\l__siunitx_number_upper_threshold_int=\count498
-\l__siunitx_number_group_first_int=\count499
-\l__siunitx_number_group_size_int=\count500
-\l__siunitx_number_group_minimum_int=\count501
-\l__siunitx_angle_tmp_dim=\dimen356
-\l__siunitx_angle_marker_box=\box79
-\l__siunitx_angle_unit_box=\box80
-\l__siunitx_compound_count_int=\count502
+\l__siunitx_number_uncert_offset_int=\count499
+\l__siunitx_number_exponent_fixed_int=\count500
+\l__siunitx_number_min_decimal_int=\count501
+\l__siunitx_number_min_integer_int=\count502
+\l__siunitx_number_round_precision_int=\count503
+\l__siunitx_number_lower_threshold_int=\count504
+\l__siunitx_number_upper_threshold_int=\count505
+\l__siunitx_number_group_first_int=\count506
+\l__siunitx_number_group_size_int=\count507
+\l__siunitx_number_group_minimum_int=\count508
+\l__siunitx_angle_tmp_dim=\dimen360
+\l__siunitx_angle_marker_box=\box85
+\l__siunitx_angle_unit_box=\box86
+\l__siunitx_compound_count_int=\count509
  (/usr/share/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
 )
-\l__siunitx_table_tmp_box=\box81
-\l__siunitx_table_tmp_dim=\dimen357
-\l__siunitx_table_column_width_dim=\dimen358
-\l__siunitx_table_integer_box=\box82
-\l__siunitx_table_decimal_box=\box83
-\l__siunitx_table_uncert_box=\box84
-\l__siunitx_table_before_box=\box85
-\l__siunitx_table_after_box=\box86
-\l__siunitx_table_before_dim=\dimen359
-\l__siunitx_table_carry_dim=\dimen360
-\l__siunitx_unit_tmp_int=\count503
-\l__siunitx_unit_position_int=\count504
-\l__siunitx_unit_total_int=\count505
+\l__siunitx_table_tmp_box=\box87
+\l__siunitx_table_tmp_dim=\dimen361
+\l__siunitx_table_column_width_dim=\dimen362
+\l__siunitx_table_integer_box=\box88
+\l__siunitx_table_decimal_box=\box89
+\l__siunitx_table_uncert_box=\box90
+\l__siunitx_table_before_box=\box91
+\l__siunitx_table_after_box=\box92
+\l__siunitx_table_before_dim=\dimen363
+\l__siunitx_table_carry_dim=\dimen364
+\l__siunitx_unit_tmp_int=\count510
+\l__siunitx_unit_position_int=\count511
+\l__siunitx_unit_total_int=\count512
 )
-\@quotelevel=\count506
-\@quotereset=\count507
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 59.
+\@quotelevel=\count513
+\@quotereset=\count514
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 60.
 
 
 LaTeX Warning: Unused global option(s):
@@ -951,24 +974,24 @@ LaTeX Warning: Unused global option(s):
 (./manuscript.aux)
 \openout1 = `manuscript.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1006,24 +1029,24 @@ LaTeX Font Info:    ... okay on input line 59.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count508
-\scratchdimen=\dimen361
-\scratchbox=\box87
-\nofMPsegments=\count509
-\nofMParguments=\count510
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count511
-\MPscratchDim=\dimen362
-\MPnumerator=\count512
-\makeMPintoPDFobject=\count513
-\everyMPtoPDFconversion=\toks48
+\scratchcounter=\count515
+\scratchdimen=\dimen365
+\scratchbox=\box93
+\nofMPsegments=\count516
+\nofMParguments=\count517
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count518
+\MPscratchDim=\dimen366
+\MPnumerator=\count519
+\makeMPintoPDFobject=\count520
+\everyMPtoPDFconversion=\toks49
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 59.
+Package hyperref Info: Link coloring ON on input line 60.
  (./manuscript.out) (./manuscript.out)
 \@outlinefile=\write5
 \openout5 = `manuscript.out'.
@@ -1044,116 +1067,118 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'manuscript.bbl' found.
  (./manuscript.bbl)
-Package biblatex Info: Reference section=0 on input line 59.
-Package biblatex Info: Reference segment=0 on input line 59.
+Package biblatex Info: Reference section=0 on input line 60.
+Package biblatex Info: Reference segment=0 on input line 60.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
  (/usr/share/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 59.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 60.
 
-Overfull \hbox (4.89221pt too wide) in paragraph at lines 108--108
+Overfull \hbox (4.89221pt too wide) in paragraph at lines 109--109
 []|\TS1/cmss/m/n/8 �| 
  []
 
 
-Overfull \vbox (11.39351pt too high) detected at line 108
+Overfull \vbox (11.39351pt too high) detected at line 109
  []
 
-<assets/cc.png, id=90, 1202.4925pt x 1204.5pt>
+<assets/cc.png, id=86, 1202.4925pt x 1204.5pt>
 File: assets/cc.png Graphic file (type png)
 <use assets/cc.png>
-Package pdftex.def Info: assets/cc.png  used on input line 108.
+Package pdftex.def Info: assets/cc.png  used on input line 109.
 (pdftex.def)             Requested size: 16.27515pt x 16.32002pt.
-<assets/by.png, id=92, 1027.84pt x 1027.84pt>
+<assets/by.png, id=88, 1027.84pt x 1027.84pt>
 File: assets/by.png Graphic file (type png)
 <use assets/by.png>
-Package pdftex.def Info: assets/by.png  used on input line 108.
+Package pdftex.def Info: assets/by.png  used on input line 109.
 (pdftex.def)             Requested size: 16.31088pt x 16.32002pt.
 
-Overfull \hbox (0.816pt too wide) in paragraph at lines 108--109
+Overfull \hbox (0.816pt too wide) in paragraph at lines 109--110
 [] 
  []
 
-<assets/journal_logo.pdf, id=93, 123.0999pt x 24.5718pt>
+<assets/journal_logo.pdf, id=89, 123.0999pt x 24.5718pt>
 File: assets/journal_logo.pdf Graphic file (type pdf)
 <use assets/journal_logo.pdf>
-Package pdftex.def Info: assets/journal_logo.pdf  used on input line 110.
+Package pdftex.def Info: assets/journal_logo.pdf  used on input line 111.
 (pdftex.def)             Requested size: 171.0595pt x 34.14322pt.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./assets/journal_logo.pdf> <./assets/cc.png> <./assets/by.png>]
-<mol_svg/path13.pdf, id=161, 482.80376pt x 255.95625pt>
+<mol_svg/path13.pdf, id=157, 482.80376pt x 255.95625pt>
 File: mol_svg/path13.pdf Graphic file (type pdf)
 <use mol_svg/path13.pdf>
-Package pdftex.def Info: mol_svg/path13.pdf  used on input line 127.
+Package pdftex.def Info: mol_svg/path13.pdf  used on input line 128.
 (pdftex.def)             Requested size: 455.24411pt x 241.35266pt.
 
 
-LaTeX Warning: Citation 'gautier' on page 2 undefined on input line 135.
+LaTeX Warning: Citation 'gautier' on page 2 undefined on input line 136.
 
 [2]
 
-LaTeX Warning: Command \r invalid in math mode on input line 143.
+LaTeX Warning: Command \r invalid in math mode on input line 144.
 
 Missing character: There is no � in font cmr10!
 [3 <./mol_svg/path13.pdf>] [4]
-<figure/Présentation2.pdf, id=292, 882.05536pt x 426.8748pt>
+<figure/Présentation2.pdf, id=303, 882.05536pt x 426.8748pt>
 File: figure/Présentation2.pdf Graphic file (type pdf)
 <use figure/Présentation2.pdf>
-Package pdftex.def Info: figure/Présentation2.pdf  used on input line 175.
+Package pdftex.def Info: figure/Présentation2.pdf  used on input line 179.
 (pdftex.def)             Requested size: 455.24411pt x 220.32172pt.
 
-Overfull \hbox (10.7157pt too wide) in paragraph at lines 175--176
+Overfull \hbox (10.7157pt too wide) in paragraph at lines 179--180
  [][] 
  []
 
-[5 <./figure/Présentation2.pdf>] [6]
-<figure/comparaison_3_bases.pdf, id=378, 1005.35597pt x 1004.58185pt>
+[5]
+<figure/comparaison_3_bases.pdf, id=329, 1005.35597pt x 1004.58185pt>
 File: figure/comparaison_3_bases.pdf Graphic file (type pdf)
 <use figure/comparaison_3_bases.pdf>
-Package pdftex.def Info: figure/comparaison_3_bases.pdf  used on input line 235.
+Package pdftex.def Info: figure/comparaison_3_bases.pdf  used on input line 236.
 (pdftex.def)             Requested size: 455.24411pt x 454.89346pt.
- [7 <./figure/comparaison_3_bases.pdf>]
-<figure/plot1.pdf, id=478, 1084.05pt x 1300.86pt>
-File: figure/plot1.pdf Graphic file (type pdf)
-<use figure/plot1.pdf>
-Package pdftex.def Info: figure/plot1.pdf  used on input line 291.
-(pdftex.def)             Requested size: 455.24411pt x 546.29794pt.
-<figure/plot2.pdf, id=487, 1084.05pt x 1300.86pt>
-File: figure/plot2.pdf Graphic file (type pdf)
-<use figure/plot2.pdf>
-Package pdftex.def Info: figure/plot2.pdf  used on input line 298.
-(pdftex.def)             Requested size: 455.24411pt x 546.29794pt.
-
+ [6 <./figure/Présentation2.pdf>] [7 <./figure/comparaison_3_bases.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Delta' on input line 304.
+(hyperref)                removing `\Delta' on input line 293.
 
-[8] [9 <./figure/plot1.pdf>] [10 <./figure/plot2.pdf>]
-<figure/compare_iso.pdf, id=738, 1084.05pt x 975.645pt>
+<figure/plot1.pdf, id=482, 1084.05pt x 1300.86pt>
+File: figure/plot1.pdf Graphic file (type pdf)
+<use figure/plot1.pdf>
+Package pdftex.def Info: figure/plot1.pdf  used on input line 334.
+(pdftex.def)             Requested size: 455.24411pt x 546.29794pt.
+[8]
+<figure/plot2.pdf, id=491, 1084.05pt x 1300.86pt>
+File: figure/plot2.pdf Graphic file (type pdf)
+<use figure/plot2.pdf>
+Package pdftex.def Info: figure/plot2.pdf  used on input line 341.
+(pdftex.def)             Requested size: 455.24411pt x 546.29794pt.
+ [9] [10 <./figure/plot1.pdf>] [11 <./figure/plot2.pdf>]
+<figure/compare_iso.pdf, id=729, 1084.05pt x 1300.86pt>
 File: figure/compare_iso.pdf Graphic file (type pdf)
 <use figure/compare_iso.pdf>
-Package pdftex.def Info: figure/compare_iso.pdf  used on input line 347.
-(pdftex.def)             Requested size: 455.24411pt x 409.72345pt.
- [11] [12 <./figure/compare_iso.pdf>] [13] [14]
-Overfull \hbox (16.65675pt too wide) in paragraph at lines 450--450
+Package pdftex.def Info: figure/compare_iso.pdf  used on input line 391.
+(pdftex.def)             Requested size: 455.24411pt x 546.29794pt.
+ [12] [13 <./figure/compare_iso.pdf>] [14] [15
+
+]
+Overfull \hbox (16.65675pt too wide) in paragraph at lines 500--500
 [][]\T1/cmss/m/n/12 Colonna, Nicola, Ngoc Linh Nguyen, An-drea Fer-retti, and Nicola Marzari (Mar. 2019). ``Koopmans-
  []
 
-[15]
-Overfull \hbox (7.84418pt too wide) in paragraph at lines 450--450
+[16]
+Overfull \hbox (7.84418pt too wide) in paragraph at lines 500--500
 \T1/cmss/m/n/12 pp. D1516^^UD1525. issn: 1362-4962. doi: [][]$\T1/cmtt/m/n/12 10 . 1093 / nar / gkae1059$[][]\T1/cmss/m/n/12 . (Vis-ited on 11/05/2026). 
  []
 
-[16]
-Overfull \hbox (7.50092pt too wide) in paragraph at lines 450--450
+[17]
+Overfull \hbox (7.50092pt too wide) in paragraph at lines 500--500
 \T1/cmss/m/n/12 for Molec-u-lar Re-sponse Cal-cu-la-tions''. In: \T1/cmss/m/it/12 The Jour-nal of Chem-i-cal Physics \T1/cmss/m/n/12 133.13, p. 134105.
  []
 
-[17] [18] (./manuscript.aux)
+[18] [19] (./manuscript.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1163,7 +1188,7 @@ L3 programming layer <2026-01-19>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
-(rerunfilecheck)             Checksum: 9036FA9EAADF9C1D471B7EB438F0AF94;3775.
+(rerunfilecheck)             Checksum: 75F88FCC630CE0021B0586551E4FBC50;3573.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                manuscript
@@ -1174,13 +1199,13 @@ Package logreq Info: Writing requests to 'manuscript.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37252 strings out of 469515
- 777129 string characters out of 5470807
- 1548820 words of memory out of 5000000
- 65276 multiletter control sequences out of 15000+600000
- 661043 words of font info for 100 fonts, out of 8000000 for 9000
+ 38985 strings out of 469515
+ 806618 string characters out of 5470807
+ 1640425 words of memory out of 5000000
+ 66996 multiletter control sequences out of 15000+600000
+ 661469 words of font info for 100 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 128i,16n,154p,3071b,2304s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,17n,154p,3071b,2110s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist, replaced by a fixed one
 
@@ -1196,11 +1221,11 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsi1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsi1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsi2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on manuscript.pdf (18 pages, 1121478 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsi1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsi1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsi2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on manuscript.pdf (19 pages, 1159309 bytes).
 PDF statistics:
- 1104 PDF objects out of 1200 (max. 8388607)
- 689 compressed objects within 7 object streams
- 111 named destinations out of 1000 (max. 500000)
- 218 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1120 PDF objects out of 1200 (max. 8388607)
+ 692 compressed objects within 7 object streams
+ 114 named destinations out of 1000 (max. 500000)
+ 210 words of extra memory for PDF output out of 10000 (max. 10000000)
 

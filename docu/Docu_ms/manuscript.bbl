@@ -325,167 +325,6 @@
     \field{urlyear}{2026}
   \endentry
 
-  \entry{carboneDataNeedsModeling2021}{article}{}{}
-    \name{author}{10}{}{%
-      {{hash=CE}{%
-         family={Carbone},
-         familyi={C\bibinitperiod},
-         given={Emile},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=GW}{%
-         family={Graef},
-         familyi={G\bibinitperiod},
-         given={Wouter},
-         giveni={W\bibinitperiod},
-      }}%
-      {{hash=HG}{%
-         family={Hagelaar},
-         familyi={H\bibinitperiod},
-         given={Gerjan},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=BD}{%
-         family={Boer},
-         familyi={B\bibinitperiod},
-         given={Daan},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=HMM}{%
-         family={Hopkins},
-         familyi={H\bibinitperiod},
-         given={Matthew\bibnamedelima M.},
-         giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=SJC}{%
-         family={Stephens},
-         familyi={S\bibinitperiod},
-         given={Jacob\bibnamedelima C.},
-         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-      {{hash=YBT}{%
-         family={Yee},
-         familyi={Y\bibinitperiod},
-         given={Benjamin\bibnamedelima T.},
-         giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod},
-      }}%
-      {{hash=PS}{%
-         family={Pancheshnyi},
-         familyi={P\bibinitperiod},
-         given={Sergey},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=vJ}{%
-         family={{van Dijk}},
-         familyi={v\bibinitperiod},
-         given={Jan},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=PL}{%
-         family={Pitchford},
-         familyi={P\bibinitperiod},
-         given={Leanne},
-         giveni={L\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Multidisciplinary Digital Publishing Institute}%
-    }
-    \keyw{Boltzmann equation,cross-sections,diffusion,electron collisions,ion collisions,low-temperature non-equilibrium plasmas,mobility,online database,open access,swarm parameters}
-    \strng{namehash}{CE+1}
-    \strng{fullhash}{CEGWHGBDHMMSJCYBTPSvJPL1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \field{labelyear}{2021}
-    \field{labeldatesource}{}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
-    \field{abstract}{%
-    Technologies based on non-equilibrium, low-temperature plasmas are ubiquitous in today's society. Plasma modeling plays an essential role in their understanding, development and optimization. An accurate description of electron and ion collisions with neutrals and their transport is required to correctly describe plasma properties as a function of external parameters. LXCat is an open-access, web-based platform for storing, exchanging and manipulating data needed for modeling the electron and ion components of non-equilibrium, low-temperature plasmas. The data types supported by LXCat are electron- and ion-scattering cross-sections with neutrals (total and differential), interaction potentials, oscillator strengths, and electron- and ion-swarm/transport parameters. Online tools allow users to identify and compare the data through plotting routines, and use the data to generate swarm parameters and reaction rates with the integrated electron Boltzmann solver. In this review, the historical evolution of the project and some perspectives on its future are discussed together with a tutorial review for using data from LXCat.%
-    }
-    \verb{doi}
-    \verb 10.3390/atoms9010016
-    \endverb
-    \field{issn}{2218-2004}
-    \field{number}{1}
-    \field{pages}{16}
-    \field{shorttitle}{Data {{Needs}} for {{Modeling Low-Temperature Non-Equilibrium Plasmas}}}
-    \field{title}{Data {{Needs}} for {{Modeling Low-Temperature Non-Equilibrium Plasmas}}: {{The LXCat Project}}, {{History}}, {{Perspectives}} and a {{Tutorial}}}
-    \field{volume}{9}
-    \field{langid}{english}
-    \verb{file}
-    \verb C:\Users\lilian.heydel\Zotero\storage\BPQH7N2E\Carbone et al. - 2021
-    \verb - Data Needs for Modeling Low-Temperature Non-Equilibrium Plasmas The
-    \verb  LXCat Project, History, Perspec.pdf
-    \endverb
-    \field{journaltitle}{Atoms}
-    \field{month}{03}
-    \field{year}{2021}
-    \field{urlday}{05}
-    \field{urlmonth}{11}
-    \field{urlyear}{2026}
-  \endentry
-
-  \entry{chathamTotalPartialElectron1984}{article}{}{}
-    \name{author}{4}{}{%
-      {{hash=CH}{%
-         family={Chatham},
-         familyi={C\bibinitperiod},
-         given={H.},
-         giveni={H\bibinitperiod},
-      }}%
-      {{hash=HD}{%
-         family={Hils},
-         familyi={H\bibinitperiod},
-         given={D.},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=RR}{%
-         family={Robertson},
-         familyi={R\bibinitperiod},
-         given={R.},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=GA}{%
-         family={Gallagher},
-         familyi={G\bibinitperiod},
-         given={A.},
-         giveni={A\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CH+1}
-    \strng{fullhash}{CHHDRRGA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{1984}
-    \field{labeldatesource}{}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
-    \field{abstract}{%
-    The total and partial electron collisional ionization cross sections for CH4, C2H6, SiH4, and Si2H6 have been measured for electron energies from threshold to 300 eV. Comparisons are made to earlier measurements.%
-    }
-    \verb{doi}
-    \verb 10.1063/1.447848
-    \endverb
-    \field{issn}{0021-9606}
-    \field{number}{4}
-    \field{pages}{1770\bibrangedash 1777}
-    \field{title}{Total and Partial Electron Collisional Ionization Cross Sections for {{CH4}}, {{C2H6}}, {{SiH4}}, and {{Si2H6}}}
-    \field{volume}{81}
-    \verb{file}
-    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\8LL26WIB\\Chatham et al.
-    \verb - 1984 - Total and partial electron collisional ionization cross sect
-    \verb ions for CH4, C2H6, SiH4, and Si2H6.pdf;C\:\\Users\\lilian.heydel\\Zo
-    \verb tero\\storage\\GI6KD23D\\1.html
-    \endverb
-    \field{journaltitle}{The Journal of Chemical Physics}
-    \field{month}{08}
-    \field{year}{1984}
-    \field{urlday}{22}
-    \field{urlmonth}{10}
-    \field{urlyear}{2026}
-  \endentry
-
   \entry{colonnaKoopmansCompliantFunctionalsPotentials2019}{article}{}{}
     \name{author}{4}{}{%
       {{hash=CN}{%
@@ -736,26 +575,6 @@
     \field{urlday}{28}
     \field{urlmonth}{10}
     \field{urlyear}{2026}
-  \endentry
-
-  \entry{lxcat}{misc}{}{}
-    \name{author}{1}{}{%
-      {{hash=D}{%
-         family={Dutton},
-         familyi={D\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{D1}
-    \strng{fullhash}{D1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2026}
-    \field{labeldatesource}{}
-    \field{sortinit}{D}
-    \field{sortinithash}{D}
-    \field{howpublished}{www.lxcat.net}
-    \field{title}{{{LXCAT Database}}}
-    \field{year}{2026}
   \endentry
 
   \entry{fernandezpaciosInitioRelativisticEffective1985}{article}{}{}
@@ -1081,6 +900,62 @@
     \field{year}{2015}
     \field{urlday}{28}
     \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{hudsonAbsoluteElectronImpact2003}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=HJE}{%
+         family={Hudson},
+         familyi={H\bibinitperiod},
+         given={James\bibnamedelima E.},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=HML}{%
+         family={Hamilton},
+         familyi={H\bibinitperiod},
+         given={Michelle\bibnamedelima L.},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=VC}{%
+         family={Vallance},
+         familyi={V\bibinitperiod},
+         given={Claire},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HPW}{%
+         family={Harland},
+         familyi={H\bibinitperiod},
+         given={Peter\bibnamedelima W.},
+         giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HJE+1}
+    \strng{fullhash}{HJEHMLVCHPW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2003}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1039/b304456d
+    \endverb
+    \field{issn}{1463-9076, 1463-9084}
+    \field{number}{15}
+    \field{pages}{3162}
+    \field{title}{Absolute Electron Impact Ionization Cross-Sections for the {{C1}} to {{C4}} Alcohols}
+    \field{volume}{5}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\RNCX2FEQ\Hudson et al. - 2003 -
+    \verb  Absolute electron impact ionization cross-sections for the C1 to C4
+    \verb alcohols.pdf
+    \endverb
+    \field{journaltitle}{Physical Chemistry Chemical Physics}
+    \field{year}{2003}
+    \field{urlday}{18}
+    \field{urlmonth}{11}
     \field{urlyear}{2026}
   \endentry
 
@@ -1468,6 +1343,71 @@
     \field{month}{01}
     \field{year}{2025}
     \field{urlday}{05}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{kimElectronimpactIonizationCross1997}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=KYK}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Y.-K.},
+         giveni={Y\bibinithyphendelim K\bibinitperiod},
+      }}%
+      {{hash=HW}{%
+         family={Hwang},
+         familyi={H\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=WNM}{%
+         family={Weinberger},
+         familyi={W\bibinitperiod},
+         given={N.\bibnamedelima M.},
+         giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=AMA}{%
+         family={Ali},
+         familyi={A\bibinitperiod},
+         given={M.\bibnamedelima A.},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=RME}{%
+         family={Rudd},
+         familyi={R\bibinitperiod},
+         given={M.\bibnamedelima E.},
+         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KYK+1}
+    \strng{fullhash}{KYKHWWNMAMARME1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1997}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    A theoretical model for electron-impact total ionization cross sections, which has been found to be reliable for a wide range of molecules, is applied to molecules of interest to atmospheric science. The new theory, the binary-encounter-Bethe (BEB) model, combines the binary-encounter theory and the Bethe theory for electron-impact ionization, and uses simple theoretical data for the ground state of the target molecule, which are readily available from molecular structure codes. Total ionization cross sections of 11 molecules, CS, CS2, COS, CH4, H2S, NH3, NO2, N2O, O3, S2, and SO2, are presented for incident electron energies from threshold to 1 keV with an average accuracy of 15\% or better at the cross section peak. We also found that the use of vertical ionization potentials (IPs) rather than adiabatic IPs for the lowest IPs significantly improves BEB cross sections between the threshold and cross section peak for molecules whose adiabatic and vertical IPs are different by \textasciitilde 1 eV or more (CH4 and NH3). The BEB cross sections are presented in a compact analytic form with a small number of constants, making the cross sections suitable for modeling applications.%
+    }
+    \verb{doi}
+    \verb 10.1063/1.473186
+    \endverb
+    \field{issn}{0021-9606, 1089-7690}
+    \field{number}{3}
+    \field{pages}{1026\bibrangedash 1033}
+    \field{title}{Electron-Impact Ionization Cross Sections of Atmospheric Molecules}
+    \field{volume}{106}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\G9SLSEL5\Kim et al. - 1997 - El
+    \verb ectron-impact ionization cross sections of atmospheric molecules.pdf
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{01}
+    \field{year}{1997}
+    \field{urlday}{18}
     \field{urlmonth}{11}
     \field{urlyear}{2026}
   \endentry
@@ -1922,341 +1862,6 @@
     \field{urlyear}{2026}
   \endentry
 
-  \entry{pancheshnyiLXCatProjectElectron2012}{article}{}{}
-    \name{author}{7}{}{%
-      {{hash=PS}{%
-         family={Pancheshnyi},
-         familyi={P\bibinitperiod},
-         given={Sergey},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=BS}{%
-         family={Biagi},
-         familyi={B\bibinitperiod},
-         given={S.},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=BMC}{%
-         family={Bordage},
-         familyi={B\bibinitperiod},
-         given={Marie-Claude},
-         giveni={M\bibinithyphendelim C\bibinitperiod},
-      }}%
-      {{hash=HG}{%
-         family={Hagelaar},
-         familyi={H\bibinitperiod},
-         given={Gerjan},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=MWL}{%
-         family={Morgan},
-         familyi={M\bibinitperiod},
-         given={W.\bibnamedelima L.},
-         giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=PA}{%
-         family={Phelps},
-         familyi={P\bibinitperiod},
-         given={A.V.},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=PLC}{%
-         family={Pitchford},
-         familyi={P\bibinitperiod},
-         given={Leanne\bibnamedelima C.},
-         giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Elsevier}%
-    }
-    \strng{namehash}{PS+1}
-    \strng{fullhash}{PSBSBMCHGMWLPAPLC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \field{labelyear}{2012}
-    \field{labeldatesource}{}
-    \field{sortinit}{P}
-    \field{sortinithash}{P}
-    \field{abstract}{%
-    LXcat is a dynamic, open-access, website for collecting, displaying, and downloading ELECtron SCATtering cross sections and swarm parameters (mobility, diffusion coefficient, reaction rates, etc.) required for modeling low temperature, non-equilibrium plasmas. Contributors set up individual databases, and the available databases, indicated by the contributor's chosen title, include mainly complete sets of electron-neutral scattering cross sections, although the option for introducing partial sets of cross sections exists. A database for measured swarm parameters is also part of LXCat, and this is a growing activity. On-line tools include options for browsing, plotting, and downloading cross section data. The electron energy distribution functions (edfs) in low temperature plasmas are in general non-Maxwellian, and LXCat provides an option for execution of an on-line Boltzmann equation solver to calculate the edf in homogeneous electric fields. Thus, the user can obtain electron transport and rate coefficients (averages over the edfs) in pure gases or gas mixtures over a range of values of the reduced electric fields strength, E/N, the ratio of the electric field strength to the neutral density, using cross sections from the available databases. New contributors are welcome and anyone wishing to create a database and upload data can request a username and password. LXCat is part of a larger, community-wide effort aimed at collecting, evaluating, and sharing data relevant to modeling low temperature plasmas. To illustrate the utility of LXCat in this context, we compare electron swarm parameters in argon calculated using the different compilations of cross sections presently available on LXCat. These compilations include quite different groupings of excited states, yet lead to swarm parameters in good agreement. LXCat is available at http://www.lxcat.laplace.univ-tlse.fr.%
-    }
-    \verb{doi}
-    \verb 10.1016/j.chemphys.2011.04.020
-    \endverb
-    \field{pages}{148\bibrangedash 153}
-    \field{shorttitle}{The {{LXCat}} Project}
-    \field{title}{The {{LXCat}} Project : {{Electron}} Scattering Cross Sections and Swarm Parameters for Low Temperature Plasma Modeling}
-    \field{volume}{398}
-    \verb{file}
-    \verb C:\Users\lilian.heydel\Zotero\storage\H3JVFW7E\hal-03817658.html
-    \endverb
-    \field{journaltitle}{Chemical Physics}
-    \field{year}{2012}
-    \field{urlday}{05}
-    \field{urlmonth}{11}
-    \field{urlyear}{2026}
-  \endentry
-
-  \entry{pitchfordLXCatOpenAccessWebBased2017}{article}{}{}
-    \name{author}{38}{}{%
-      {{hash=PLC}{%
-         family={Pitchford},
-         familyi={P\bibinitperiod},
-         given={Leanne\bibnamedelima C.},
-         giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-      {{hash=ALL}{%
-         family={Alves},
-         familyi={A\bibinitperiod},
-         given={Luis\bibnamedelima L.},
-         giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=BK}{%
-         family={Bartschat},
-         familyi={B\bibinitperiod},
-         given={Klaus},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=BSF}{%
-         family={Biagi},
-         familyi={B\bibinitperiod},
-         given={Stephen\bibnamedelima F.},
-         giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod},
-      }}%
-      {{hash=BMC}{%
-         family={Bordage},
-         familyi={B\bibinitperiod},
-         given={Marie\bibnamedelima Claude},
-         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-      {{hash=BI}{%
-         family={Bray},
-         familyi={B\bibinitperiod},
-         given={Igor},
-         giveni={I\bibinitperiod},
-      }}%
-      {{hash=BCE}{%
-         family={Brion},
-         familyi={B\bibinitperiod},
-         given={Chris\bibnamedelima E.},
-         giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
-      }}%
-      {{hash=BMJ}{%
-         family={Brunger},
-         familyi={B\bibinitperiod},
-         given={Michael\bibnamedelima J.},
-         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=CL}{%
-         family={Campbell},
-         familyi={C\bibinitperiod},
-         given={Laurence},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=CA}{%
-         family={Chachereau},
-         familyi={C\bibinitperiod},
-         given={Alise},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=CB}{%
-         family={Chaudhury},
-         familyi={C\bibinitperiod},
-         given={Bhaskar},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=CLG}{%
-         family={Christophorou},
-         familyi={C\bibinitperiod},
-         given={Loucas\bibnamedelima G.},
-         giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod},
-      }}%
-      {{hash=CE}{%
-         family={Carbone},
-         familyi={C\bibinitperiod},
-         given={Emile},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=DNA}{%
-         family={Dyatko},
-         familyi={D\bibinitperiod},
-         given={Nikolay\bibnamedelima A.},
-         giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=FCM}{%
-         family={Franck},
-         familyi={F\bibinitperiod},
-         given={Christian\bibnamedelima M.},
-         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=FDV}{%
-         family={Fursa},
-         familyi={F\bibinitperiod},
-         given={Dmitry\bibnamedelima V.},
-         giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod},
-      }}%
-      {{hash=GRK}{%
-         family={Gangwar},
-         familyi={G\bibinitperiod},
-         given={Reetesh\bibnamedelima K.},
-         giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
-      }}%
-      {{hash=GV}{%
-         family={Guerra},
-         familyi={G\bibinitperiod},
-         given={Vasco},
-         giveni={V\bibinitperiod},
-      }}%
-      {{hash=HP}{%
-         family={Haefliger},
-         familyi={H\bibinitperiod},
-         given={Pascal},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=HGJ}{%
-         family={Hagelaar},
-         familyi={H\bibinitperiod},
-         given={Gerjan\bibnamedelima J.M.},
-         giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=HA}{%
-         family={Hoesl},
-         familyi={H\bibinitperiod},
-         given={Andreas},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=IY}{%
-         family={Itikawa},
-         familyi={I\bibinitperiod},
-         given={Yukikazu},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=KIV}{%
-         family={Kochetov},
-         familyi={K\bibinitperiod},
-         given={Igor\bibnamedelima V.},
-         giveni={I\bibinitperiod\bibinitdelim V\bibinitperiod},
-      }}%
-      {{hash=MRP}{%
-         family={McEachran},
-         familyi={M\bibinitperiod},
-         given={Robert\bibnamedelima P.},
-         giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-      {{hash=MWL}{%
-         family={Morgan},
-         familyi={M\bibinitperiod},
-         given={W.\bibnamedelima Lowell},
-         giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-      {{hash=NAP}{%
-         family={Napartovich},
-         familyi={N\bibinitperiod},
-         given={Anatoly\bibnamedelima P.},
-         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-      {{hash=PV}{%
-         family={Puech},
-         familyi={P\bibinitperiod},
-         given={Vincent},
-         giveni={V\bibinitperiod},
-      }}%
-      {{hash=RM}{%
-         family={Rabie},
-         familyi={R\bibinitperiod},
-         given={Mohamed},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=SL}{%
-         family={Sharma},
-         familyi={S\bibinitperiod},
-         given={Lalita},
-         giveni={L\bibinitperiod},
-      }}%
-      {{hash=SR}{%
-         family={Srivastava},
-         familyi={S\bibinitperiod},
-         given={Rajesh},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=SAD}{%
-         family={Stauffer},
-         familyi={S\bibinitperiod},
-         given={Allan\bibnamedelima D.},
-         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=TJ}{%
-         family={Tennyson},
-         familyi={T\bibinitperiod},
-         given={Jonathan},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=dJ}{%
-         family={{de Urquijo}},
-         familyi={d\bibinitperiod},
-         given={Jaime},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=vJ}{%
-         family={{van Dijk}},
-         familyi={v\bibinitperiod},
-         given={Jan},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=VLA}{%
-         family={Viehland},
-         familyi={V\bibinitperiod},
-         given={Larry\bibnamedelima A.},
-         giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=ZMC}{%
-         family={Zammit},
-         familyi={Z\bibinitperiod},
-         given={Mark\bibnamedelima C.},
-         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-      {{hash=ZO}{%
-         family={Zatsarinny},
-         familyi={Z\bibinitperiod},
-         given={Oleg},
-         giveni={O\bibinitperiod},
-      }}%
-      {{hash=PS}{%
-         family={Pancheshnyi},
-         familyi={P\bibinitperiod},
-         given={Sergey},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \keyw{cold plasma,modeling,on-line databases,scattering cross sections,transport coefficients}
-    \strng{namehash}{PLC+1}
-    \strng{fullhash}{PLCALLBKBSFBMCBIBCEBMJCLCACBCLGCEDNAFCMFDVGRKGVHPHGJHAIYKIVMRPMWLNAPPVRMSLSRSADTJdJvJVLAZMCZOPS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{shorttitle}
-    \field{labelyear}{2017}
-    \field{labeldatesource}{}
-    \field{sortinit}{P}
-    \field{sortinithash}{P}
-    \field{abstract}{%
-    LXCat is an open-access platform (www.lxcat.net) for curating data needed for modeling the electron and ion components of technological plasmas. The data types presently supported on LXCat are scattering cross sections and swarm/transport parameters, ion-neutral interaction potentials, and optical oscillator strengths. Twenty-four databases contributed by different groups around the world can be accessed on LXCat. New contributors are welcome; the database contributors retain ownership and are responsible for the contents and maintenance of the individual databases. This article summarizes the present status of the project.%
-    }
-    \verb{doi}
-    \verb 10.1002/ppap.201600098
-    \endverb
-    \field{issn}{1612-8850}
-    \field{number}{1-2}
-    \field{shorttitle}{{{LXCat}}}
-    \field{title}{{{LXCat}}: An {{Open-Access}}, {{Web-Based Platform}} for {{Data Needed}} for {{Modeling Low Temperature Plasmas}}}
-    \field{volume}{14}
-    \field{journaltitle}{Plasma Processes and Polymers}
-    \field{month}{01}
-    \field{year}{2017}
-    \field{urlday}{05}
-    \field{urlmonth}{11}
-    \field{urlyear}{2026}
-  \endentry
-
   \entry{pritchardNewBasisSet2019}{article}{}{}
     \name{author}{5}{}{%
       {{hash=PBP}{%
@@ -2671,6 +2276,71 @@
     \field{year}{2017}
     \field{urlday}{28}
     \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{uddinElectronImpactTotal2018}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=UN}{%
+         family={Uddin},
+         familyi={U\bibinitperiod},
+         given={Nafees},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=VP}{%
+         family={Verma},
+         familyi={V\bibinitperiod},
+         given={Pankaj},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=AMJ}{%
+         family={Alam},
+         familyi={A\bibinitperiod},
+         given={Mohammad\bibnamedelima Jane},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Ahmad},
+         familyi={A\bibinitperiod},
+         given={Shabbir},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=AB}{%
+         family={Antony},
+         familyi={A\bibinitperiod},
+         given={Bobby},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{UN+1}
+    \strng{fullhash}{UNVPAMJASAB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{abstract}{%
+    Electron scattering total ionization cross sections are reported for butanol and pentanol isomers. These data have relevance in modelling spark ignition and combustion of species that constitute important third generation bio fuels. The total inelastic cross sections are calculated using spherical complex optical potential formalism, and complex scattering potential-ionization contribution method is employed to extract ionization cross section from inelastic cross section for incident energies ranging from ionization threshold to 5000 eV. Group additivity rule is modified using newly introduced electrostatic potential surface method to identify individual scattering centres that contribute to the cross section of the target molecule as a whole. Isomeric effect has been studied for the set of target species and has been found to have a small, but considerable impact on cross sections. Reasonable agreement with available experimental results has been obtained for butanol. The cross sections for pentanol isomers have been reported here for the first time.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.ijms.2018.06.001
+    \endverb
+    \field{issn}{13873806}
+    \field{pages}{37\bibrangedash 42}
+    \field{title}{Electron Impact Total Ionization Cross Section for {{C4}} and {{C5}} Isomeric Alcohols}
+    \field{volume}{431}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\IURS7Z52\Uddin et al. - 2018 -
+    \verb Electron impact total ionization cross section for C4 and C5 isomeric
+    \verb  alcohols.pdf
+    \endverb
+    \field{journaltitle}{International Journal of Mass Spectrometry}
+    \field{month}{08}
+    \field{year}{2018}
+    \field{urlday}{18}
+    \field{urlmonth}{11}
     \field{urlyear}{2026}
   \endentry
 
@@ -3095,6 +2765,72 @@
     \field{year}{2011}
     \field{urlday}{28}
     \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{zhouTotalElectronIonization2019}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=ZW}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Weiwei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=WL}{%
+         family={Wilkinson},
+         familyi={W\bibinitperiod},
+         given={Lorna},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=LJWL}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Jason W.\bibnamedelima L.},
+         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Heathcote},
+         familyi={H\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=VC}{%
+         family={Vallance},
+         familyi={V\bibinitperiod},
+         given={Claire},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZW+1}
+    \strng{fullhash}{ZWWLLJWLHDVC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{abstract}{%
+    We describe a newly upgraded instrument for measuring absolute total electron ionization crosssections over the energy range from 0 to 300 eV, and present cross-sections for nine previously unstudied molecules, as well as several small molecules for which comparison data is available. The measured cross-sections are compared with the predictions of the BEB model, and show reasonable agreement with the model, albeit peaking at higher electron energies than predicted by the model. We show that the maxima in the cross-sections follow an additivity model, such that the molecular cross-sections can be expressed as a sum over contributions from the constituent atoms. These contributions have been determined from a global fit to the data for all molecules studied, and allow maximum cross-sections to be predicted for molecules that have not been studied to date. We demonstrate the expected correlation between the maximum ionization cross-section and the molecular polarisability, and show that the atomic contributions to the cross-section show a similar dependence on the atomic polarisability. The observed correlation can be used as an alternative method for predicting unknown maximum cross-sections.%
+    }
+    \verb{doi}
+    \verb 10.1080/00268976.2019.1583389
+    \endverb
+    \field{issn}{0026-8976, 1362-3028}
+    \field{number}{21}
+    \field{pages}{3066\bibrangedash 3075}
+    \field{title}{Total Electron Ionization Cross-Sections for Molecules of Astrochemical Interest}
+    \field{volume}{117}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\IJQ3VIS3\Zhou et al. - 2019 - T
+    \verb otal electron ionization cross-sections for molecules of astrochemica
+    \verb l interest.pdf
+    \endverb
+    \field{journaltitle}{Molecular Physics}
+    \field{month}{11}
+    \field{year}{2019}
+    \field{urlday}{18}
+    \field{urlmonth}{11}
     \field{urlyear}{2026}
   \endentry
 \enddatalist

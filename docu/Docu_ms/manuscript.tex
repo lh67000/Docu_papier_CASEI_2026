@@ -25,6 +25,7 @@
 \usepackage{chemformula}
 \usepackage{float}
 \usepackage{chemformula}
+\usepackage{chemfig}
 \usepackage{siunitx}
 
 
@@ -147,7 +148,7 @@ with $a_0$ the Bohr radius (0.5292 $\AA$), $R$ the Rydberg constant (13.6 eV) an
 Concerning $T$, this parameter is kept at relatively low energy. As it is, intermediates steps of the calculations, \textit{e.g} the $\sigma_i$, do not represents partial ionisation cross-section. \textcite{jesenekPartialIonisationCross2025} explains that and proposed a modified approach of the BEB method for such purposes. We considered 10$^3$ values in a logscale array with $T~\in~[10^1;10^5]$ eV.  
 
 \subsection{Quantum chemistry parameters calculations}\label{sec:quantum}
-As such, BEB calculations requires the MO electrons energies (B) as well as their kinetic energies (U) . While NIST database propose this parameter for several molecule\footnote{\url{https://physics.nist.gov/PhysRefData/Ionization/molTable.html}}, this is limited in terms of selection. One way is to calculate these parameter. To do that, PySCF quantum chemistry model \parencites{sunPythonbasedSimulationsChemistry2017}  was employed. Using the downloaded geometries, we can input them into the model and obtain the required paramaters. This model is based on the Self Consistent Field (SCF) method of quantum chemistry for the HF approach. The basis-set family used in this work is the Karlsruhe \verb+def2-TZVPPD+ basis-set -- valence triple-zeta with sets of polarization and diffuse functions \parencites{weigendBalancedBasisSets2005,rappoportPropertyoptimizedGaussianBasis2010}. Although a quadruple-zeta (QVZ) basis set could have been used, we used a triple-zeta (TVZ) basis set in this work for computational reasons. This type of basis, in particular the \verb|def2-TZVPP| basis, is proven to be reliable for HF modeling for a majority of the periodic table, from H up to Rn \parencites{hellwegDevelopmentNewAuxiliary2015,zhengMinimallyAugmentedKarlsruhe2011}. Several BEB-related papers use either the cross-correlated Dunning \textcite{dunningGaussianBasisSets1989} \verb|cc-| base \parencites{gachesAstrochemistryLowenergyElectron2024,kumarElectronIonizationCross2014} or Pople \parencites{krishnanSelfconsistentMolecularOrbital1980} gaussian \verb|6-311G| basis \parencites{aliElectronimpactTotalIonization1997, hwangNewModelElectronimpact1996, scottElectronImpactIonizationCross2005}. At our knowledge, this is the first use of a \verb|def2-| basis for TICS calculations. Only Restricted Hartree-Fock (RHF) calculations were performed, as all molecules are neutral and stable and thus have closed shell.
+As such, BEB calculations requires the MO electrons energies (B) as well as their kinetic energies (U) . While NIST database propose this parameter for several molecule\footnote{\url{https://physics.nist.gov/PhysRefData/Ionization/molTable.html}}, this is limited in terms of selection. One way is to calculate these parameter. To do that, PySCF quantum chemistry model \parencites{sunPythonbasedSimulationsChemistry2017}  was employed. Using the downloaded geometries, we can input them into the model and obtain the required paramaters. This model is based on the Self Consistent Field (SCF) method of quantum chemistry for the HF approach. The basis-set family used in this work is the Karlsruhe \verb+def2-TZVPPD+ basis-set -- valence triple-zeta with sets of polarization and diffuse functions \parencites{weigendBalancedBasisSets2005,rappoportPropertyoptimizedGaussianBasis2010}. Although a quadruple-zeta (QVZ) basis set could have been used, we used a triple-zeta (TVZ) basis set in this work for computational reasons. This type of basis, in particular the \verb|def2-TZVPP| basis, is proven to be reliable for HF modeling for a majority of the periodic table, from H up to Rn \parencites{hellwegDevelopmentNewAuxiliary2015,zhengMinimallyAugmentedKarlsruhe2011}. Several BEB-related papers use either the cross-correlated Dunning \textcite{dunningGaussianBasisSets1989} \verb|cc-| base \parencites{gachesAstrochemistryLowenergyElectron2024,kumarElectronIonizationCross2014,zhouTotalElectronIonization2019} or Pople \parencites{krishnanSelfconsistentMolecularOrbital1980} gaussian \verb|6-311G| basis \parencites{aliElectronimpactTotalIonization1997, hwangNewModelElectronimpact1996, scottElectronImpactIonizationCross2005, ,kimElectronimpactIonizationCross1997}. At our knowledge, this is the first use of a \verb|def2-| basis for TICS calculations. Only Restricted Hartree-Fock (RHF) calculations were performed, as all molecules are neutral and stable and thus have closed shell.
 
 Regarding the energies output of the model, we first assume that $B$ is the absolute value of the lowest electron binding energy of the orbital, \textit{e.g} the first ionisation potential (IP) which satisfies the Koopmans theorem $B = -\epsilon_i$, with $\epsilon_i$ the first ionisation energy of an orbital $i$. Whilst this is a good approach that is easy to implement as this is the direct output of HF calculations, this does involve some simplifications as the orbitals are considered as "frozen", meaning that the other electrons do not react to the removal of ionized electron and that the post-ionization orbitals aren't be relaxed. This leads to overestimated first ionization potential for each orbitals \parencites{colonnaKoopmansCompliantFunctionalsPotentials2019, wangIonizaPotenJP102026,jesenekPartialIonisationCross2025,scottElectronImpactIonizationCross2005, wangGeometryOptimizationMade2016}. Overestimated values in equation \ref{eq:beb} will lead to undermined $\sigma_{TICS}$ values. Alternative approach such as outervalence Green’s function (OVGF; \cite{vonniessenComputationalMethodsOneparticle1984,hwangNewModelElectronimpact1996,scottElectronImpactIonizationCross2005}), coupled cluster (CC, generally single-double-triple  CCSD(T); \cite{gachesAstrochemistryLowenergyElectron2024,giulianiIonizationEnergiesPolycyclic2026}) require higher computational effort. While some TICS-related papers use those approach \parencites{scottElectronImpactIonizationCross2005,gachesAstrochemistryLowenergyElectron2024}, the BEB method was historically built around HF method and $B$, as well as IP, were either experimental values or theoritical values. 
 BEB is sensible to the vertical ionization potential \parencite{hwangNewModelElectronimpact1996,gachesAstrochemistryLowenergyElectron2024}. The $\sigma_i$ related to the most outer electronic layer is the most impactful regarding $\sigma_{TICS}$. One approache is to calculate a more accurate value of IP and replace the most outer MO energies in the BEB calculation of the HF valence MO by the more accurate values. One way to get accurate IP values for relatively low computanionnal effort is to use Density Functionnal Theory (DFT). One approach, \dft, is to compare the total MO energy of a positively excited specie against its neutral state, which gives \parencites{wangFe3dOrbital2025}:
@@ -169,16 +170,16 @@ with $\textrm{\bfseries C}_i$ the MO coefficient matrix of the orbital $i$ in th
 
 
 The BEB method, by itself, has limitations for heavy elements, with quantum number $n~>$ 2 or $Z~>$ 10 \parencites{gravesEfficientCalculationElectron2021,huoUseRelativisticEffective2000,aliIonizationCrossSections2008,scottElectronImpactIonizationCross2005}. The discrepancy arises because the BEB method uses, as shown in Eq.~\ref{eq:beb}, the kinetic energy of each molecular orbital as a variable. This is problematic for heavier elements, as inner electronic layers of this type have very high kinetic energies. However, ionisation should occur when the electron is far from the centre of the shell, i.e. when it is slower and thus has a lower kinetic energy. An overestimation of the kinetic energy leads to an underestimation of $\sigma_{\text{TICS}}$. The solution proposed by \textcite{huoUseRelativisticEffective2000}, and employed in several BEB-related studies on heavy elements \parencites{gravesEfficientCalculationElectron2021,dolgRelativisticPseudopotentialsTheir2012,scottElectronImpactIonizationCross2005}, is to use the effective core potential (ECP) method. An ECP limits the interaction of valence electrons with the core shell by replacing the latter with analytical functions that represents the interaction between the two. These functions appear as effective potential, while the valence electrons are described by pseudo-valence orbitals that do not penetrate the inner region of the nucleus. In a nut\textit{shell}, the ECP enables the removal of high kinetic energies of core electrons from the BEB sum, as core electrons do not intervene in electronic bonds, which would otherwise artificially minimalize $\sigma_{TICS}$.
-\begin{figure*}[hb]
+
+The ECP method can be used in PySCF and, in order to include as many molecules as possible in the database, was implemented in this work. This, however, requires a different basis than the all-electrons Karlsruhe \verb+def2-+, because its related ECP basis only start at Rb ($Z~\geq$ 37) and thus don't work for lighter elements, \textit{e.g} $3p$ and $4p$ elements. The only basis that has an ECP basis that supports  these that is inherently available in PySCF and in the Basis Set Exchange database\footnote{\url{https://basissetexchange.org/}} \parencites{pritchardNewBasisSet2019} is the \verb|crenbl| basis set \parencites{hurleyInitioRelativisticEffective1986,fernandezpaciosInitioRelativisticEffective1985}. More modern basis are available on the open-source Pseudopotentiallibrary\footnote{\url{https://pseudopotentiallibrary.org/}}, as it provides Dunning derived basis combo for both $3p$ and $4p$ elements.  For Al, Si, P, S, Cl and Ar bearing molecules, we used the \verb|aug-cc-pVTZ| orbital basis along with its associated ECP basis proposed by \parencites{bennettNewGenerationEffective2018}, whereas for Ge, As, Se and Br bearing molecules we used the same orbital basis and the ECP basis proposed by \parencites{wangNewGenerationEffective2019}. The choices of those basis are also applied to post-HF method discussed earlier. The impact of ECP on TICS calculation is discussed in subsection \ref{sec:ecp}. Overall, the whole methodology employed in this work is summarized on figure \ref{azzada}
+
+\begin{figure*}[!htb]
     \centering
 \fbox{
 \includegraphics[width=1\linewidth]{figure/Présentation2.pdf}}
     \caption{Overview of the general workflow and methodology employed in this work.}
     \label{azzada}
 \end{figure*}
-The ECP method can be used in PySCF and, in order to include as many molecules as possible in the database, was implemented in this work. This, however, requires a different basis than the all-electrons Karlsruhe \verb+def2-+, because its related ECP basis only start at Rb ($Z~\geq$ 37) and thus don't work for lighter elements, \textit{e.g} $3p$ and $4p$ elements. The only basis that has an ECP basis that supports  these that is inherently available in PySCF and in the Basis Set Exchange database\footnote{\url{https://basissetexchange.org/}} \parencites{pritchardNewBasisSet2019} is the \verb|crenbl| basis set \parencites{hurleyInitioRelativisticEffective1986,fernandezpaciosInitioRelativisticEffective1985}. More modern basis are available on the open-source Pseudopotentiallibrary\footnote{\url{https://pseudopotentiallibrary.org/}}, as it provides Dunning derived basis combo for both $3p$ and $4p$ elements.  For Al, Si, P, S, Cl and Ar bearing molecules, we used the \verb|aug-cc-pVTZ| orbital basis along with its associated ECP basis proposed by \parencites{bennettNewGenerationEffective2018}, whereas for Ge, As, Se and Br bearing molecules we used the same orbital basis and the ECP basis proposed by \parencites{wangNewGenerationEffective2019}. The choices of those basis are also applied to post-HF method discussed earlier. The impact of ECP on TICS calculation is discussed in subsection \ref{sec:ecp}. Overall, the whole methodology employed in this work is summarized on figure \ref{azzada}
-
-
 
 \section{Results}
 \subsection{Overview}
@@ -286,116 +287,12 @@ The use of ECP with dBEB shouldn't be a problem as IP is linked to valence elect
 %https://sci-hub.fr/10.1088/0022-3700/18/16/019
 
 
-\begin{figure*}[p]
-    \centering
-    \includegraphics[width=1\linewidth]{figure/plot1.pdf}
-    \caption{Calculted TICS for several hydrocarbons. In those plots, $\sigma_{TICS}$ as been cropped at $10^{-8}$. Scatter plot mean experimental data and line plot mean theoritical data. Those data come from \textcite{rappTotalCrossSections1965,jiaoElectronImpactIonization2007,chathamTotalPartialElectron1984,aliElectronimpactTotalIonization1997, }. The references marked with an * where obtained through lxcat.com database \parencites{lxcat,carboneDataNeedsModeling2021,pitchfordLXCatOpenAccessWebBased2017,pancheshnyiLXCatProjectElectron2012}. Those references include }.
-    \label{fig:hydro}
-\end{figure*}
-% sqdsdsdssds
-\begin{figure*}[p]
-    \centering
-    \includegraphics[width=1\linewidth]{figure/plot2.pdf}
-    \caption{Calculted TICS for several organic and non-organic molecules. In those plots, $\sigma_{TICS}$ as been cropped at $10^{-8}$. Scatter plot mean experimental data and line plot mean theoritical data. Those data come from \textcite{rappTotalCrossSections1965,jiaoElectronImpactIonization2007,chathamTotalPartialElectron1984,aliElectronimpactTotalIonization1997,kumarElectronIonizationCross2014}. The references marked with an * where obtained through lxcat.com database. Those references include }  
-      \label{fig:orga}
-\end{figure*}
+
 
 \section{Discussion}
 \subsection{\dft~calculated IP}
-In this subsection, we will discuss the 
-\subsection{Comparison of TICS values with literature}
-In order to validate our results, we compared our calculated TICS with several experimental and theoretical data from the literature. Our main benchmark are the values presented in \textcite{gachesAstrochemistryLowenergyElectron2024}, as they had done an impressive work of gathering data for a large amount of species.
-\subsubsection{Hydrocarbons}
-As pointed out by \textcite{hwangNewModelElectronimpact1996}, the BEB method is very efficient for hydrocarbons BEB calculations. As seen on figure \ref{fig:hydro}, our curves fit well to either experimental nor theoritical values. As intented, for some molecules, such as methane \ch{CH4} or acetylene \ch{C2H2}, experimental $B$ values tend to be smaller than theoritical/computed $B$ values \parencites{aliElectronimpactTotalIonization1997,hwangNewModelElectronimpact1996}. As such, the cross section obtained through experimental $B$ values tend to be higher,$ \approx$10-15\% at the cross section peak. This is mitigated either by the errorbar of experimental values (that are generally around 20\%; \cite{jiaoElectronImpactIonization2007}) or by the dampening of the dBEB method. Regardless, the data obtained though our pipeline do match litterature data for hydrocarbons.\\
-Aromaticity shouldn't, in theory, impact BEB calculations. As such, we modelised a few polycyclic aromatic hydrocarbons (HAPs) in the database. Like \textcite{gachesAstrochemistryLowenergyElectron2024}, from the most simple benzene \ch{C6H6} to pyrene \ch{C16H10}. The biggest present in \textcite{gachesAstrochemistryLowenergyElectron2024} is anthracene \ch{C14H10}. In that case our data have pretty good relation with litterature data.
-The historical papers of the beb method, \textit{e.g} \textcite{hwangNewModelElectronimpact1996,kimBinaryencounterdipoleModelElectronimpact1994}, show that limit of the BEB method regard the electronic atom size rather than the molecule size (see subsubsection \ref{subsub:heavy}). That is why we also got a good agreement with more complex HAPs like pyrene. In theory, one would be able to modelise 
-% The BEB ionization cross section is sensitive to the vertical ionization energy of the molecule, that is, the ionization threshold. 
-
-\subsubsection{Nitrogen bearing molecules}
-Ca fonctionne pour celle de la litt mais en plus nous on a des trucs de zinzin fou genre le proprionytil ou les trucs en 3D
-
-\subsubsection{Oxygen bearing molecules}
-Ca marche
-
-\subsubsection{Sulfur and phosphorus bearing molecules}
-Ca marche et ca marche meme "mieux" que \textcite{gachesAstrochemistryLowenergyElectron2024} pcq on a l'ECP. Pour les molécules concernées ca colle niquel. Par contre H2S aucune idée de pourquoi c'est décalé un peu
-Benef pour PH3, y'a 0 papier expérimentaux mais on colle bien au indiens
-
-\subsubsection{Heavy elements bearing molecules}\label{subsub:heavy}
-
-Le germane et le selane, jsp quoi dire d'autre ? Trouver data sur le sujet
-
-% \begin{figure}[!htb]
-%     \centering
-%     \includegraphics[width=1\linewidth]{/home/lilian.heydel/Codes/CASEI/plots_litt/plot3.pdf}
-%     \caption{Comparison for rare gases}
-%     % Pas sûr que cette figure soit judicieuse
-%     \label{fig:placeholder}
-% \end{figure}
-
-% \lipsum
-% Y'a un truc cool que je pourrais faire c'est essayer de comparer les molécules du butane avec des extensions genre C4H10O ou S
-% mais y'a pas de papiers là dessus
-% mais en gros montrer que l'isomérie a en réalité assez peu d'impact sur le sigma (j'ai vu ca avec C6H12 par ex) mais qu'un hétéroatome qui se branche dessus peut faire des choses
-% \section{Limit of this work} Limite dans les discussions
-
-\subsection{Impact of isomery on TICS calculation}
-A few papers shown that isomery should affect TICS. 
-
-\begin{figure}[!htb]
-    \centering
-    \includegraphics[width=\textwidth]{figure/compare_iso.pdf}
-    \caption{dfbsdkfgk}
-\end{figure}
-
-
-\subsection{Applications to mass spectrometry}
-Ici trouver une idée
-
-\section{Conclusion}
-In this paper we presented a computational pipeline for calculating theoritical total ionisation cross section of 260 neutral molecules.
-
-Multiple outlook could be imaginated:
-\begin{itemize}
-    \item Adapt the pipeline for radicals (\textit{i.e} molecules with spin $\neq$ 0) and ions; This would require to do calculation using an Unrestricted Hatree-Fock (UHF) approach;
-    \item Adapt and create a custom \verb|def2-| ECP basis for $3d$ and $4p$ elements in order to homogenize the database as much as possible protocol-wise;
-    \item CCSD(T) calculation would enable better IP values for dBEB calculations.
-\end{itemize}
-%https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2021-hb50g-v2#5#12#5
-
-% \section{References}
-% The journal uses the American Psychological Association (APA) 7th edition style for references and citations. References can be cited textually in sentences, such as~\textcite{becker2015phd}, \textcite{Rudolph2020}, \textcite{bagnasco2017nirspec}, and \textcite{Breuer2015}. References can also be cited parenthetically~\parencites{dressler2006nasa,Neukumetal2001a,Wieczorek2022-preprint,SJOGRENdataset}. Each reference must contain a persistent identifier (such as a DOI) when one is available.
-
-\section*{Acknowledgements}
-Specify contributions that require acknowledgment but that do not warrant authorship. This may include acknowledgments of technical assistance, materials, or financial support. When persons are mentioned in the acknowledgments, the corresponding author should request their permission to appear in the text.
-
-\section*{Open science declarations}
-
-\noindent\textbf{Author contributions.} List here the details of each of the author's contributions to the work using the Contributor Role Taxonomy (CRediT, \href{https://credit.niso.org/}{https://credit.niso.org/}). These roles include: Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Project administration, Resources, Software, Supervision, Validation, Visualization, Writing (original draft), and Writing (review \& editing). Only those roles that are appropriate should be specified. These roles are summarized in the journal's authorship policies: \href{https://planetary-research.org/authorship}{https://planetary-research.org/authorship}.
-
-\noindent\textbf{Code availability.} Numerical codes must both be findable and accessible according to FAIR principles (\href{https://www.go-fair.org/fair-principles/}{https://www.go-fair.org/fair-principles/}). Findable means that the code can be located using a persistent identifier, such as a software heritage identifier SWHID, an astrophysics source code library identifier ASCL, or a DOI. The conditions under which the code and software used in a manuscript can be accessed must be described either on the landing page of the code or in the code archive. If the code is restricted and requires credentials to be accessed, the exact conditions under which the credentials can be obtained should be provided. For further information, see the journal's Open Science policies: \href{https://planetary-research.org/open-science}{https://planetary-research.org/open-science}.
-
-\noindent\textbf{Data availability.} Any data that were used or generated as part of the study and that are not found in the manuscript and supplement must be uploaded to a public data repository before the article is accepted for publication. The datasets and any accompanying metadata and documentation should be made available to the reviewers during the peer-review process. For further information, see the journal's Open Science policies: \href{https://planetary-research.org/open-science}{https://planetary-research.org/open-science}.
-
-\noindent\textbf{Funding.} All sources of funding for the work must be disclosed. For work funded by a research agency, the following information should be provided: The name of the funding agency, the name of the funding program, the title of the funded project, and the grant number or funding reference.
-
-\noindent\textbf{Competing interests.} All manuscripts must declare any real or perceived conflicts of interest. Competing interests may include both financial and non-financial interests such as past or present employment, consulting activity, financing, intellectual property, ownership of financial assets, or advisory roles. In the case where there are no competing interests, one can use the statement: The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
-
-% ------ Appendix ------------------------------------------------------------
-% Letters do not have appendices
-\IfStrEq{\articletype}{LETTER}{}{
-\appendix
-\counterwithin{figure}{section}
-\renewcommand{\thefigure}{\thesection\arabic{figure}}
-\counterwithin{table}{section}
-\renewcommand{\thetable}{\thesection\arabic{table}}
-\counterwithin{equation}{section}
-\renewcommand{\theequation}{\thesection\arabic{equation}}
-
-\section{Optimization of PubChem geometries}\label{app:geom}
-To see if pubchem geometries require optmization, we chose several molecules
-\section{Energy of first ionisation IP}\label{app:IP}
-\begin{table}[!ht]
+In this subsection, we will discuss the IP values we used in this work. To get good TICS data, one would need good IP values. A non-exhaustive list of IP values of several molecules are compared to litterature values in table \ref{tab:zezeze}. Overall
+\begin{table}[H]
     \centering
     % \small
     \caption{Comparison of the energy of the ionization potential between this work ($\Delta$)DFT  and \textcite{gachesAstrochemistryLowenergyElectron2024} CCSD(T) and CAM-B3LYP calculations for first ionization potential IP.}
@@ -432,11 +329,164 @@ To see if pubchem geometries require optmization, we chose several molecules
         \ch{C6H14} & 11,69 & ~ & 10,77 \\ \bottomrule
     \end{tabular}
 \end{table}
-
+\begin{figure*}[p]
+    \centering
+    \includegraphics[width=1\linewidth]{figure/plot1.pdf}
+    \caption{Calculted TICS for several hydrocarbons. In those plots, $\sigma_{TICS}$ as been cropped at $10^{-8}$. Scatter plot mean experimental data and line plot mean theoritical data. References are listed in the text.}.
+    \label{fig:hydro}
+\end{figure*}
+% sqdsdsdssds
+\begin{figure*}[p]
+    \centering
+    \includegraphics[width=1\linewidth]{figure/plot2.pdf}
+    \caption{Calculted TICS for several organic and non-organic molecules. In those plots, $\sigma_{TICS}$ as been cropped at $10^{-8}$. Scatter plot mean experimental data and line plot mean theoritical data. References are listed in the text.}  
+      \label{fig:orga}
+\end{figure*}
 
 % end appendices
-}
 
+\subsection{Comparison of TICS values with literature}
+In order to validate our results, we compared our calculated TICS with several experimental and theoretical data from the literature. Our main benchmark are the values presented in \textcite{gachesAstrochemistryLowenergyElectron2024}. The comparisons made in the following subsections are visible on figures \ref{fig:hydro} and \ref{fig:orga}. The data come from \textcite{rappTotalCrossSections1965, } 
+\subsubsection{Hydrocarbons}
+As pointed out by \textcite{hwangNewModelElectronimpact1996}, the BEB method is very efficient for hydrocarbons BEB calculations. As seen on figure \ref{fig:hydro}, our curves fit well to either experimental nor theoritical values. As intented, for some molecules, such as methane \ch{CH4} or acetylene \ch{C2H2}, experimental $B$ values tend to be smaller than theoritical/computed $B$ values \parencites{aliElectronimpactTotalIonization1997,hwangNewModelElectronimpact1996}. As such, the cross section obtained through experimental $B$ values tend to be higher,$ \approx$10-15\% at the cross section peak. This is mitigated either by the errorbar of experimental values (that are generally around 20\%; \cite{jiaoElectronImpactIonization2007}) or by the dampening of the dBEB method. Regardless, the data obtained though our pipeline do match litterature data for hydrocarbons.\\
+Aromaticity shouldn't, in theory, impact BEB calculations. As such, we modelised a few polycyclic aromatic hydrocarbons (HAPs) in the database. Like \textcite{gachesAstrochemistryLowenergyElectron2024}, from the most simple benzene \ch{C6H6} to pyrene \ch{C16H10}. The biggest present in \textcite{gachesAstrochemistryLowenergyElectron2024} is anthracene \ch{C14H10}. In that case our data have pretty good relation with litterature data.
+The historical papers of the beb method, \textit{e.g} \textcite{hwangNewModelElectronimpact1996,kimBinaryencounterdipoleModelElectronimpact1994}, show that limit of the BEB method regard the electronic atom size rather than the molecule size (see subsubsection \ref{subsub:heavy}). That is why we also got a good agreement with more complex HAPs like pyrene. In theory, one would be able to modelise 
+% The BEB ionization cross section is sensitive to the vertical ionization energy of the molecule, that is, the ionization threshold. 
+
+\subsubsection{Nitrogen bearing molecules}
+Ca fonctionne pour celle de la litt mais en plus nous on a des trucs de zinzin fou genre le proprionytil ou les trucs en 3D
+
+\subsubsection{Oxygen bearing molecules}
+Ca marche
+
+\subsubsection{Sulfur and phosphorus bearing molecules}
+Ca marche et ca marche meme "mieux" que \textcite{gachesAstrochemistryLowenergyElectron2024} pcq on a l'ECP. Pour les molécules concernées ca colle niquel. Par contre H2S aucune idée de pourquoi c'est décalé un peu
+Benef pour PH3, y'a 0 papier expérimentaux mais on colle bien au indiens
+
+\subsubsection{Heavy elements bearing molecules}\label{subsub:heavy}
+As we already talked about P- and S- bearing molecules in the previous subsection, the remaining "heavy" elements are $4p$ elements: \ch{Se}, \ch{As}, \ch{Ge} and \ch{Br}.
+Le germane et le selane, jsp quoi dire d'autre ? Trouver data sur le sujet
+
+% \begin{figure}[!htb]
+%     \centering
+%     \includegraphics[width=1\linewidth]{/home/lilian.heydel/Codes/CASEI/plots_litt/plot3.pdf}
+%     \caption{Comparison for rare gases}
+%     % Pas sûr que cette figure soit judicieuse
+%     \label{fig:placeholder}
+% \end{figure}
+
+% \lipsum
+% Y'a un truc cool que je pourrais faire c'est essayer de comparer les molécules du butane avec des extensions genre C4H10O ou S
+% mais y'a pas de papiers là dessus
+% mais en gros montrer que l'isomérie a en réalité assez peu d'impact sur le sigma (j'ai vu ca avec C6H12 par ex) mais qu'un hétéroatome qui se branche dessus peut faire des choses
+% \section{Limit of this work} Limite dans les discussions
+
+\subsection{Impact of isomery on TICS calculation}
+A few papers shown that isomery should affect TICS. 
+
+As BEB is sensitive to MO energy, the only way to get different values for different isomers (excluding negligible calculations differences) would be the MO energy of the bound between two atoms. $\pi$ bounds are more energetic than $\sigma$ bounds; as such, we could theorize that a saturated isomer would have a higher TICS compared to a non-saturated/double or triple bound bearing isomer, as linear isomer compared to ramified isomer. That also applies to the atoms involved in the bounding, as C-O $\pi$ orbitals have a different energy than N-O $\pi$ orbitals. a vérifier mdr, je vais sortir les tables de Pyscf et trouver de la biblio
+{\Huge avecPYSCF je peux sortir des maps 3d de densité electroniques, je peux sortir ca}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{figure/compare_iso.pdf}
+    \caption{TICS comparison for several isomers. Litterature data come from \textcite{uddinElectronImpactTotal2018,hudsonAbsoluteElectronImpact2003}}
+\end{figure}
+
+\begin{figure}[!htb]
+    \small
+    \setchemfig{baseline=(current bounding box.center)}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} c c c c @{}}
+    \chemfig{-[:30](-[:90])-[:330]-[:30,,,1]OH} & \chemfig{-[:30]-[:330]-[:30]-[:330,,,1]OH} &\chemfig{-[:330]-[:30](-[:330])-[:90,,,1]OH} & \chemfig{-[:60](-[:330])(-[:150])-[:60,,,1]OH}\\[1em]
+    Isobutanol & 1-Butanol& 2-Butanol& tert-Butanol 
+\end{tabular*}
+\caption{Structure of \ch{C4H10O} isomers}
+\end{figure}
+
+
+\begin{figure}[!htb]
+    \centering
+    \small
+    \setchemfig{baseline=(current bounding box.center)}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} c c c @{}}
+    \scalebox{0.7}{\chemfig{N~[:150]-[:150]=_[:210]-[:270]=_[:210]-[:150]-[:90]=_[:150](%
+-[:210]=^[:270]-[:330]=^[:30])-[:90]=_[:30]-[:330](=_[:270](-[:210])-[:330]%
+)-[:30]=_[:330](-[:270])}} & 
+    \scalebox{0.7}{\chemfig{N~[:180]-[:180]-[:120]=^[:180]-[:240]=^[:300](-=^[:60])-[:240]%
+=_[:180]-[:120]-[:60](-)=_[:120](-[:60]=_-[:300])-[:180]=^[:240]-[:300](=^)%
+}} & 
+    \scalebox{0.7}{\chemfig{N~[:150]-[:150]=_[:210]-[:150]-[:90]=_[:150](-[:210]=^[:270]%
+-[:330]=^[:30])-[:90]=_[:30]-[:330]-[:30]=_[:330]-[:270]=_[:210](-[:270])%
+-[:150](=^[:90])(-[:210])}} \\[1.5em]
+    1-cyanopyrene & 2-cyanopyrene & 4-cyanopyrene
+    \end{tabular*}
+    \caption{Structure of \ch{C17H9N} isomers}
+\end{figure}
+\begin{figure}
+    \small
+    \setchemfig{baseline=(current bounding box.center)}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} c c c  @{}}
+    % Fulminic acid
+    \chemfig{H-C~N^{\oplus}-O^{\ominus}} & 
+    % Cyanic acid
+    \chemfig{H-O-C~N} & 
+    % Isocyanic acid (ou structure apparentée)
+    \chemfig{H-N=C=O} \\[1.5em]
+    Fulminic acid & Cyanic acid & Isocyanic acid
+    \end{tabular*}
+    \caption{Structure of \ch{CHNO} isomers}
+\end{figure}
+\begin{figure}
+    \small
+    \setchemfig{baseline=(current bounding box.center)}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} c c c  @{}}
+    \chemfig{~--[:300]-~} & 
+    \chemfig{-~-~-} & 
+    \chemfig{=^[:180]-[:240]=^[:300]-=^[:60](-[:120])} \\[1.5em]
+    Bipropargyl & Dimethylbutadiyne & Benzene
+    \end{tabular*}
+    \caption{Structure of \ch{C6H6} isomers}
+\end{figure}
+
+
+\subsection{Applications to mass spectrometry}
+Ici trouver une idée
+\clearpage
+\section{Conclusion}
+
+%https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2021-hb50g-v2#5#12#5
+
+% \section{References}
+% The journal uses the American Psychological Association (APA) 7th edition style for references and citations. References can be cited textually in sentences, such as~\textcite{becker2015phd}, \textcite{Rudolph2020}, \textcite{bagnasco2017nirspec}, and \textcite{Breuer2015}. References can also be cited parenthetically~\parencites{dressler2006nasa,Neukumetal2001a,Wieczorek2022-preprint,SJOGRENdataset}. Each reference must contain a persistent identifier (such as a DOI) when one is available.
+
+\section*{Acknowledgements}
+Specify contributions that require acknowledgment but that do not warrant authorship. This may include acknowledgments of technical assistance, materials, or financial support. When persons are mentioned in the acknowledgments, the corresponding author should request their permission to appear in the text.
+
+\section*{Open science declarations}
+
+\noindent\textbf{Author contributions.} List here the details of each of the author's contributions to the work using the Contributor Role Taxonomy (CRediT, \href{https://credit.niso.org/}{https://credit.niso.org/}). These roles include: Conceptualization, Data curation, Formal analysis, Funding acquisition, Investigation, Methodology, Project administration, Resources, Software, Supervision, Validation, Visualization, Writing (original draft), and Writing (review \& editing). Only those roles that are appropriate should be specified. These roles are summarized in the journal's authorship policies: \href{https://planetary-research.org/authorship}{https://planetary-research.org/authorship}.
+
+\noindent\textbf{Code availability.} Numerical codes must both be findable and accessible according to FAIR principles (\href{https://www.go-fair.org/fair-principles/}{https://www.go-fair.org/fair-principles/}). Findable means that the code can be located using a persistent identifier, such as a software heritage identifier SWHID, an astrophysics source code library identifier ASCL, or a DOI. The conditions under which the code and software used in a manuscript can be accessed must be described either on the landing page of the code or in the code archive. If the code is restricted and requires credentials to be accessed, the exact conditions under which the credentials can be obtained should be provided. For further information, see the journal's Open Science policies: \href{https://planetary-research.org/open-science}{https://planetary-research.org/open-science}.
+
+\noindent\textbf{Data availability.} Any data that were used or generated as part of the study and that are not found in the manuscript and supplement must be uploaded to a public data repository before the article is accepted for publication. The datasets and any accompanying metadata and documentation should be made available to the reviewers during the peer-review process. For further information, see the journal's Open Science policies: \href{https://planetary-research.org/open-science}{https://planetary-research.org/open-science}.
+
+\noindent\textbf{Funding.} All sources of funding for the work must be disclosed. For work funded by a research agency, the following information should be provided: The name of the funding agency, the name of the funding program, the title of the funded project, and the grant number or funding reference.
+
+\noindent\textbf{Competing interests.} All manuscripts must declare any real or perceived conflicts of interest. Competing interests may include both financial and non-financial interests such as past or present employment, consulting activity, financing, intellectual property, ownership of financial assets, or advisory roles. In the case where there are no competing interests, one can use the statement: The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+% ------ Appendix ------------------------------------------------------------
+% Letters do not have appendices
+\IfStrEq{\articletype}{LETTER}{}{
+\appendix
+\counterwithin{figure}{section}
+\renewcommand{\thefigure}{\thesection\arabic{figure}}
+\counterwithin{table}{section}
+\renewcommand{\thetable}{\thesection\arabic{table}}
+\counterwithin{equation}{section}
+\renewcommand{\theequation}{\thesection\arabic{equation}}
+
+\section{Optimization of PubChem geometries}\label{app:geom}
+To see if pubchem geometries require optmization, we chose several molecules
+}
 % ------ Methods section for LETTERS ----------------------
 \IfStrEq{\articletype}{LETTER}{
 \section*{Methods}
