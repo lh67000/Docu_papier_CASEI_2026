@@ -17,7 +17,7 @@ Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated field_info (elt_size=8) to 11860 items from 5000.
+Reallocated field_info (elt_size=8) to 12840 items from 5000.
 Database file #1: manuscript-blx.bib
 Database file #2: Docu_BDSEI.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
@@ -25,45 +25,45 @@ Warning--I didn't find a database entry for "gautier"
 Biblatex version: 3.21
 Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
-You've used 48 entries,
+You've used 55 entries,
             6402 wiz_defined-function locations,
-            1735 strings with 79336 characters,
-and the built_in function-call counts, 639398 in all, are:
-= -- 48369
-> -- 19701
-< -- 2553
-+ -- 28083
-- -- 14267
-* -- 49149
-:= -- 80592
+            1812 strings with 88435 characters,
+and the built_in function-call counts, 741683 in all, are:
+= -- 56562
+> -- 22468
+< -- 2998
++ -- 32046
+- -- 16177
+* -- 57142
+:= -- 92939
 add.period$ -- 0
-call.type$ -- 48
-change.case$ -- 577
-chr.to.int$ -- 1388
-cite$ -- 94
-duplicate$ -- 60068
-empty$ -- 50308
-format.name$ -- 4570
-if$ -- 118032
+call.type$ -- 55
+change.case$ -- 751
+chr.to.int$ -- 1568
+cite$ -- 108
+duplicate$ -- 68885
+empty$ -- 58671
+format.name$ -- 5222
+if$ -- 137596
 int.to.chr$ -- 0
-int.to.str$ -- 100
+int.to.str$ -- 117
 missing$ -- 0
-newline$ -- 2837
-num.names$ -- 2002
-pop$ -- 17843
+newline$ -- 3237
+num.names$ -- 2392
+pop$ -- 20467
 preamble$ -- 1
-purify$ -- 999
+purify$ -- 1231
 quote$ -- 0
-skip$ -- 10897
+skip$ -- 12719
 stack$ -- 0
-substring$ -- 98611
-swap$ -- 12589
-text.length$ -- 2349
-text.prefix$ -- 48
+substring$ -- 115915
+swap$ -- 14480
+text.length$ -- 2678
+text.prefix$ -- 55
 top$ -- 1
-type$ -- 1620
+type$ -- 1858
 warning$ -- 0
-while$ -- 8912
+while$ -- 10161
 width$ -- 0
-write$ -- 2790
+write$ -- 3183
 (There was 1 warning)

@@ -271,6 +271,60 @@
     \field{urlyear}{2026}
   \endentry
 
+  \entry{bingSpinOrbitInitio2008}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=BY}{%
+         family={Bing},
+         familyi={B\bibinitperiod},
+         given={Yan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={{Shou-Fu}},
+         familyi={S\bibinitperiod},
+         given={Pan},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=QG}{%
+         family={{Qing-Qun}},
+         familyi={Q\bibinitperiod},
+         given={Guo},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BYSPQG1}
+    \strng{fullhash}{BYSPQG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    This paper carries out ab initio calculations to study the 80 Se2(X3{$\Sigma$}g-) state and 80 Se2+(X2 IIg), 80 Se2+(a4 IIg) states by using completed active space self-consistent field and multi-reference second order perturbation theory. The electronic curves of these states including spin---orbit coupling are calculated, and then the spectroscopic parameters are obtained. The photoelectron spectra of 80 Se2 molecule in gas phase are assigned according to Franck--Condon analysis based on calculated potential energy curves. The ionization energies of 80 Se2 molecule are determined by the present calculation.%
+    }
+    \verb{doi}
+    \verb 10.1088/1674-1056/17/9/029
+    \endverb
+    \field{issn}{1674-1056}
+    \field{number}{9}
+    \field{pages}{3318}
+    \field{title}{Spin---Orbit Ab Initio Curves of 80 {{Se2}}+ Ion and the Assignment of Photoelectron Spectra of 80 {{Se2}} Molecule}
+    \field{volume}{17}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\3AAGD7A6\Bing et al. - 2008 - S
+    \verb pin—orbit ab initio curves of 80 Se2+ ion and the assignment of pho
+    \verb toelectron spectra of 80 Se2 mol.pdf
+    \endverb
+    \field{journaltitle}{Chinese Physics B}
+    \field{month}{09}
+    \field{year}{2008}
+    \field{urlday}{19}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
   \entry{boltonPubChem3DConformerGeneration2011}{article}{}{}
     \name{author}{3}{}{%
       {{hash=BEE}{%
@@ -321,6 +375,122 @@
     \field{month}{12}
     \field{year}{2011}
     \field{urlday}{05}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{bourgalaisAccuratePredictionAdiabatic2023}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=BJ}{%
+         family={Bourgalais},
+         familyi={B\bibinitperiod},
+         given={J{\'e}r{\'e}my},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MX}{%
+         family={Mercier},
+         familyi={M\bibinitperiod},
+         given={Xavier},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=AMM}{%
+         family={{Al-Mogren}},
+         familyi={A\bibinitperiod},
+         given={Muneerah\bibnamedelima Mogren},
+         giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hochlaf},
+         familyi={H\bibinitperiod},
+         given={Majdi},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJ+1}
+    \strng{fullhash}{BJMXAMMHM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    The accurate calculation of adiabatic ionization energies (AIEs) for polycyclic aromatic hydrocarbons (PAHs) and their substituted analogues is essential for understanding their electronic properties, reactivity, stability, and environmental/health implications. This study demonstrates that the M06-2X density functional theory method excels in predicting the AIEs of polycyclic aromatic hydrocarbons and related molecules, rivaling the (R)CCSD(T)-F12 method in terms of accuracy. These findings suggest that M06-2X, coupled with an appropriate basis set, represents a reliable and efficient method for studying polycyclic aromatic hydrocarbons and related molecules, aligning well with the experimental techniques. The set of molecules examined in this work encompasses numerous polycyclic aromatic hydrocarbons from m/z 67 up to m/z 1,176, containing heteroatoms that may be found in biofuels or nucleic acid bases, making the results highly relevant for photoionization experiments and mass spectrometry. For coronenederivative molecular species with the C6n2H6n chemical formula, we give an expression to predict their AIEs (AIE (n) = 4.359 + 4.8743n-0.72057, in eV) upon extending the {$\pi$}-aromatic cloud until reaching graphene. In the long term, the application of this method is anticipated to contribute to a deeper understanding of the relationships between PAHs and graphene, guiding research in materials science and electronic applications and serving as a valuable tool for validating theoretical calculation methods.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.jpca.3c04088
+    \endverb
+    \field{issn}{1089-5639, 1520-5215}
+    \field{number}{40}
+    \field{pages}{8447\bibrangedash 8458}
+    \field{title}{Accurate {{Prediction}} of {{Adiabatic Ionization Energies}} for {{PAHs}} and {{Substituted Analogues}}}
+    \field{volume}{127}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\IQ8N55WY\Bourgalais et al. - 20
+    \verb 23 - Accurate Prediction of Adiabatic Ionization Energies for PAHs an
+    \verb d Substituted Analogues.pdf
+    \endverb
+    \field{journaltitle}{The Journal of Physical Chemistry A}
+    \field{month}{10}
+    \field{year}{2023}
+    \field{urlday}{19}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{camiDetectionC60C702010}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=CJ}{%
+         family={Cami},
+         familyi={C\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={{Bernard-Salas}},
+         familyi={B\bibinitperiod},
+         given={Jeronimo},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PE}{%
+         family={Peeters},
+         familyi={P\bibinitperiod},
+         given={Els},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=MSE}{%
+         family={Malek},
+         familyi={M\bibinitperiod},
+         given={Sarah\bibnamedelima Elizabeth},
+         giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Association for the Advancement of Science}%
+    }
+    \strng{namehash}{CJ+1}
+    \strng{fullhash}{CJBJPEMSE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    In recent decades, a number of molecules and diverse dust features have been identified by astronomical observations in various environments. Most of the dust that determines the physical and chemical characteristics of the interstellar medium is formed in the outflows of asymptotic giant branch stars and is further processed when these objects become planetary nebulae. We studied the environment of Tc 1, a peculiar planetary nebula whose infrared spectrum shows emission from cold and neutral C60 and C70. The two molecules amount to a few percent of the available cosmic carbon in this region. This finding indicates that if the conditions are right, fullerenes can and do form efficiently in space.%
+    }
+    \verb{doi}
+    \verb 10.1126/science.1192035
+    \endverb
+    \field{number}{5996}
+    \field{pages}{1180\bibrangedash 1182}
+    \field{title}{Detection of {{C60}} and {{C70}} in a {{Young Planetary Nebula}}}
+    \field{volume}{329}
+    \field{journaltitle}{Science}
+    \field{month}{09}
+    \field{year}{2010}
+    \field{urlday}{19}
     \field{urlmonth}{11}
     \field{urlyear}{2026}
   \endentry
@@ -755,9 +925,10 @@
     \field{volume}{27}
     \field{langid}{english}
     \verb{file}
-    \verb C:\Users\lilian.heydel\Zotero\storage\C864N9FG\Giuliani et Hrodmarsso
-    \verb n - 2026 - Ionization Energies of Polycyclic Aromatic Hydrocarbons Be
-    \verb nchmarking Semiempirical, Tight Binding,.pdf
+    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\C864N9FG\\Giuliani et Hro
+    \verb dmarsson - 2026 - Ionization Energies of Polycyclic Aromatic Hydrocar
+    \verb bons Benchmarking Semiempirical, Tight Binding,.pdf;C\:\\Users\\lilia
+    \verb n.heydel\\Zotero\\storage\\C8JD8XLW\\cphc.html
     \endverb
     \field{journaltitle}{ChemPhysChem}
     \field{year}{2026}
@@ -1762,6 +1933,161 @@
     \field{urlyear}{2026}
   \endentry
 
+  \entry{lealInteractionGoldSilver2015}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=LLAE}{%
+         family={Leal},
+         familyi={L\bibinitperiod},
+         given={Leonardo Andres\bibnamedelima Espinosa},
+         giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=LO}{%
+         family={{Lopez-Acevedo}},
+         familyi={L\bibinitperiod},
+         given={Olga},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {De Gruyter}%
+    }
+    \keyw{DNA-metals,gold and silver,nucleobases}
+    \strng{namehash}{LLAELO1}
+    \strng{fullhash}{LLAELO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    The interaction between metal atoms and nucleobases has been a topic of high interest due to the wide scientific and technological implications. Combining density functional theory simulations with a literature overview, we achieved an exhaustive study of the ground state electronic properties of DNA/RNA nucleobases interacting with gold and silver atoms at three charge states: neutral, cationic, and anionic. We describe the nature of the stability and electronic properties in each hybrid metallic structure. In addition to the metal interacting with the five isolated nucleobases, we included their respective DNA-WC base pairs and one case with the protonated sugar-phosphate backbone. As a general trend, we discerned that the energetic ordering of isomers follows simple electrostatic rules as expected from previous studies. Also, we found that although the metal localizes almost all of the extra charge in the anionic system, a donation of charge is shared almost equally in the cationic system. Furthermore, the frontier orbitals of the cationic system tend to have more effects from the pairing and inclusion of the backbone than the anionic system. Finally, the electronic gap varies greatly among all of the considered structures and could be further used as a fingerprint when searching DNA-metal hybrid structures.%
+    }
+    \verb{doi}
+    \verb 10.1515/ntrev-2012-0047
+    \endverb
+    \field{issn}{2191-9097}
+    \field{number}{2}
+    \field{pages}{173\bibrangedash 191}
+    \field{title}{On the Interaction between Gold and Silver Metal Atoms and {{DNA}}/{{RNA}} Nucleobases -- a Comprehensive Computational Study of Ground State Properties}
+    \field{volume}{4}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\6W9GZEL8\Leal et Lopez-Acevedo
+    \verb - 2015 - On the interaction between gold and silver metal atoms and D
+    \verb NARNA nucleobases – a comprehensive com.pdf
+    \endverb
+    \field{journaltitle}{Nanotechnology Reviews}
+    \field{month}{04}
+    \field{year}{2015}
+    \field{urlday}{19}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{lias1988}{incollection}{}{}
+    \name{author}{6}{}{%
+      {{hash=LSG}{%
+         family={Lias},
+         familyi={L\bibinitperiod},
+         given={Sharon\bibnamedelima G.},
+         giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=BJF}{%
+         family={Bartmess},
+         familyi={B\bibinitperiod},
+         given={J.\bibnamedelima F.},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=LJL}{%
+         family={Liebman},
+         familyi={L\bibinitperiod},
+         given={J.\bibnamedelima L.},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=HRD}{%
+         family={Holmes},
+         familyi={H\bibinitperiod},
+         given={R.\bibnamedelima D.},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=LWG}{%
+         family={Levin},
+         familyi={L\bibinitperiod},
+         given={W.\bibnamedelima G.},
+         giveni={W\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=MWG}{%
+         family={Mallard},
+         familyi={M\bibinitperiod},
+         given={W.\bibnamedelima G.},
+         giveni={W\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LSG+1}
+    \strng{fullhash}{LSGBJFLJLHRDLWGMWG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1988}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{edition}{Journal of Physical and Chemical Reference Data}
+    \field{pages}{1\bibrangedash 861}
+    \field{title}{Gas-{{Phase Ion}} and {{Neutral Thermochemistry}}}
+    \field{volume}{17}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\9F6JWU97\jpcrdS1Vol17.pdf
+    \endverb
+    \field{year}{1988}
+  \endentry
+
+  \entry{linstromNISTChemistryWebBook2001}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=LPJ}{%
+         family={Linstrom},
+         familyi={L\bibinitperiod},
+         given={Peter\bibnamedelima J.},
+         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MWG}{%
+         family={Mallard},
+         familyi={M\bibinitperiod},
+         given={William\bibnamedelima G.},
+         giveni={W\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LPJMWG1}
+    \strng{fullhash}{LPJMWG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2001}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb 10.1021/je000236i
+    \endverb
+    \field{issn}{0021-9568, 1520-5134}
+    \field{number}{5}
+    \field{pages}{1059\bibrangedash 1063}
+    \field{shorttitle}{The {{NIST Chemistry WebBook}}}
+    \field{title}{The {{NIST Chemistry WebBook}}: {{A Chemical Data Resource}} on the {{Internet}}}
+    \field{volume}{46}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\GKZWWZ38\Linstrom et Mallard -
+    \verb 2001 - The NIST Chemistry WebBook A Chemical Data Resource on the Int
+    \verb ernet.pdf
+    \endverb
+    \field{journaltitle}{Journal of Chemical \& Engineering Data}
+    \field{month}{09}
+    \field{year}{2001}
+    \field{urlday}{19}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
   \entry{mosesAtmosphericChemistryUranus2020}{article}{}{}
     \name{author}{4}{}{%
       {{hash=MJI}{%
@@ -1925,54 +2251,6 @@
     \field{month}{11}
     \field{year}{2019}
     \field{urlday}{22}
-    \field{urlmonth}{10}
-    \field{urlyear}{2026}
-  \endentry
-
-  \entry{rappTotalCrossSections1965}{article}{}{}
-    \name{author}{2}{}{%
-      {{hash=RD}{%
-         family={Rapp},
-         familyi={R\bibinitperiod},
-         given={Donald},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=EGP}{%
-         family={Englander-Golden},
-         familyi={E\bibinithyphendelim G\bibinitperiod},
-         given={Paula},
-         giveni={P\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{RDEGP1}
-    \strng{fullhash}{RDEGP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{1965}
-    \field{labeldatesource}{}
-    \field{sortinit}{R}
-    \field{sortinithash}{R}
-    \field{abstract}{%
-    The total ionization cross sections of He, Ne, Ar, Kr, Xe, H2, D2, N2, O2, CO, NO, CO2, N2O, and CH4 have been measured from threshold to 1000 eV in a total ionization tube. More limited measurements were performed in C2H4 and SF6. Great care was taken to assure complete collection of electron and ion currents, and the absence of spurious instrumental errors. A new method was devised for obtaining absolute cross sections of gases relative to H2, and a McLeod gauge was used to obtain the absolute cross section in H2. The cross sections in NO and O2 could not be obtained by this method, and an approximate correction to direct McLeod-gauge readings was used for these gases. It is believed that the results are as accurate as is possible with the present method. It is difficult to explain the differences found between cross sections measured by various investigators. McLeod-gauge errors appear to account for most of the difference in absolute magnitude.%
-    }
-    \verb{doi}
-    \verb 10.1063/1.1696957
-    \endverb
-    \field{issn}{0021-9606}
-    \field{number}{5}
-    \field{pages}{1464\bibrangedash 1479}
-    \field{title}{Total {{Cross Sections}} for {{Ionization}} and {{Attachment}} in {{Gases}} by {{Electron Impact}}. {{I}}. {{Positive Ionization}}}
-    \field{volume}{43}
-    \verb{file}
-    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\X5C9I6EZ\\Rapp et England
-    \verb er‐Golden - 1965 - Total Cross Sections for Ionization and Attachme
-    \verb nt in Gases by Electron Impact. I. Positive Ionizati.pdf;C\:\\Users\\
-    \verb lilian.heydel\\Zotero\\storage\\W3SL4J6K\\1.html
-    \endverb
-    \field{journaltitle}{The Journal of Chemical Physics}
-    \field{month}{09}
-    \field{year}{1965}
-    \field{urlday}{27}
     \field{urlmonth}{10}
     \field{urlyear}{2026}
   \endentry
@@ -2165,6 +2443,128 @@
     \field{journaltitle}{Journal of Chemical Theory and Computation}
     \field{month}{11}
     \field{year}{2005}
+  \endentry
+
+  \entry{sellgrenC60REFLECTIONNEBULAE2010}{article}{}{}
+    \name{author}{6}{}{%
+      {{hash=SK}{%
+         family={Sellgren},
+         familyi={S\bibinitperiod},
+         given={Kris},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=WMW}{%
+         family={Werner},
+         familyi={W\bibinitperiod},
+         given={Michael\bibnamedelima W.},
+         giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=IJG}{%
+         family={Ingalls},
+         familyi={I\bibinitperiod},
+         given={James\bibnamedelima G.},
+         giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=SJDT}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={J.\bibnamedelima D.\bibnamedelima T.},
+         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=CTM}{%
+         family={Carleton},
+         familyi={C\bibinitperiod},
+         given={T.\bibnamedelima M.},
+         giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=JC}{%
+         family={Joblin},
+         familyi={J\bibinitperiod},
+         given={Christine},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The American Astronomical Society}%
+    }
+    \strng{namehash}{SK+1}
+    \strng{fullhash}{SKWMWIJGSJDTCTMJC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    The fullerene C60 has four infrared-active vibrational transitions at 7.0, 8.5, 17.4, and 18.9 {$\mu$}m. We have previously observed emission features at 17.4 and 18.9 {$\mu$}m in the reflection nebula NGC 7023 and demonstrated spatial correlations suggestive of a common origin. We now confirm our earlier identification of these features with C60 by detecting a third emission feature at 7.04 \textpm{} 0.05 {$\mu$}m in NGC 7023. We also report the detection of these three C60 features in the reflection nebula NGC 2023. Our spectroscopic mapping of NGC 7023 shows that the 18.9 {$\mu$}m C60 feature peaks on the central star and that the 16.4 {$\mu$}m emission feature due to polycyclic aromatic hydrocarbons peaks between the star and a nearby photodissociation front. The observed features in NGC 7023 are consistent with emission from UV-excited gas-phase C60. We find that 0.1\%--0.6\% of interstellar carbon is in C60; this abundance is consistent with those from previous upper limits and possible fullerene detections in the interstellar medium (ISM). This is the first firm detection of neutral C60 in the ISM.%
+    }
+    \verb{doi}
+    \verb 10.1088/2041-8205/722/1/L54
+    \endverb
+    \field{issn}{2041-8205}
+    \field{number}{1}
+    \field{pages}{L54}
+    \field{title}{C60 {{IN REFLECTION NEBULAE}}}
+    \field{volume}{722}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\QYMNHXDN\Sellgren et al. - 2010
+    \verb  - C60 IN REFLECTION NEBULAE.pdf
+    \endverb
+    \field{journaltitle}{The Astrophysical Journal Letters}
+    \field{month}{09}
+    \field{year}{2010}
+    \field{urlday}{19}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{stewartMachineLearningIonization2023}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=SMP}{%
+         family={Stewart},
+         familyi={S\bibinitperiod},
+         given={Matthew\bibnamedelima P.},
+         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=MST}{%
+         family={Martin},
+         familyi={M\bibinitperiod},
+         given={Scot\bibnamedelima T.},
+         giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SMPMST1}
+    \strng{fullhash}{SMPMST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Molecular ionization potentials (IP) and photoionization cross sections ({$\sigma$}) can affect the sensitivity of photoionization detectors (PIDs) and other sensors for gaseous species. This study employs several methods of machine learning (ML) to predict IP and {$\sigma$} values at 10.6 eV (117 nm) for a dataset of 1251 gaseous organic species. The explicitness of the treatment of the species electronic structure progressively increases among the methods. The study compares the ML predictions of the IP and {$\sigma$} values to those obtained by quantum chemical calculations. The ML predictions are comparable in performance to those of the quantum calculations when evaluated against measurements. Pretraining further reduces the mean absolute errors ({$\varepsilon$}) compared to the measurements. The graph-based attentive fingerprint model was most accurate, for which {$\varepsilon$}IP = 0.23 \textpm{} 0.01 eV and {$\varepsilon\sigma$} = 2.8 \textpm{} 0.2 Mb compared to measurements and computed cross sections, respectively. The ML predictions for IP correlate well with both the measured IPs (R2 = 0.88) and with IPs computed at the level of M06-2X/aug-cc-pVTZ (R2 = 0.82). The ML predictions for {$\sigma$} correlated reasonably well with computed cross sections (R2 = 0.66). The developed ML methods for IP and {$\sigma$} values, representing the properties of a generalizable set of volatile organic compounds (VOCs) relevant to industrial applications and atmospheric chemistry, can be used to quantitatively describe the species-dependent sensitivity of chemical sensors that use ionizing radiation as part of the sensing mechanism, such as photoionization detectors.%
+    }
+    \verb{doi}
+    \verb 10.1021/acsearthspacechem.3c00009
+    \endverb
+    \field{issn}{2472-3452, 2472-3452}
+    \field{number}{4}
+    \field{pages}{863\bibrangedash 875}
+    \field{title}{Machine {{Learning}} for {{Ionization Potentials}} and {{Photoionization Cross Sections}} of {{Volatile Organic Compounds}}}
+    \field{volume}{7}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\NPCGLX3R\Stewart et Martin - 20
+    \verb 23 - Machine Learning for Ionization Potentials and Photoionization C
+    \verb ross Sections of Volatile Organic Co.pdf
+    \endverb
+    \field{journaltitle}{ACS Earth and Space Chemistry}
+    \field{month}{04}
+    \field{year}{2023}
+    \field{urlday}{19}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
   \endentry
 
   \entry{sunPythonbasedSimulationsChemistry2017}{misc}{}{}

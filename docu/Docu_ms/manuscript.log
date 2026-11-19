@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.11.9)  18 NOV 2026 18:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.11.9)  19 NOV 2026 17:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1085,12 +1085,12 @@ Overfull \hbox (4.89221pt too wide) in paragraph at lines 109--109
 Overfull \vbox (11.39351pt too high) detected at line 109
  []
 
-<assets/cc.png, id=86, 1202.4925pt x 1204.5pt>
+<assets/cc.png, id=82, 1202.4925pt x 1204.5pt>
 File: assets/cc.png Graphic file (type png)
 <use assets/cc.png>
 Package pdftex.def Info: assets/cc.png  used on input line 109.
 (pdftex.def)             Requested size: 16.27515pt x 16.32002pt.
-<assets/by.png, id=88, 1027.84pt x 1027.84pt>
+<assets/by.png, id=84, 1027.84pt x 1027.84pt>
 File: assets/by.png Graphic file (type png)
 <use assets/by.png>
 Package pdftex.def Info: assets/by.png  used on input line 109.
@@ -1100,7 +1100,7 @@ Overfull \hbox (0.816pt too wide) in paragraph at lines 109--110
 [] 
  []
 
-<assets/journal_logo.pdf, id=89, 123.0999pt x 24.5718pt>
+<assets/journal_logo.pdf, id=85, 123.0999pt x 24.5718pt>
 File: assets/journal_logo.pdf Graphic file (type pdf)
 <use assets/journal_logo.pdf>
 Package pdftex.def Info: assets/journal_logo.pdf  used on input line 111.
@@ -1108,77 +1108,79 @@ Package pdftex.def Info: assets/journal_logo.pdf  used on input line 111.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./assets/journal_logo.pdf> <./assets/cc.png> <./assets/by.png>]
-<mol_svg/path13.pdf, id=157, 482.80376pt x 255.95625pt>
+<mol_svg/path13.pdf, id=154, 482.80376pt x 255.95625pt>
 File: mol_svg/path13.pdf Graphic file (type pdf)
 <use mol_svg/path13.pdf>
-Package pdftex.def Info: mol_svg/path13.pdf  used on input line 128.
+Package pdftex.def Info: mol_svg/path13.pdf  used on input line 129.
 (pdftex.def)             Requested size: 455.24411pt x 241.35266pt.
 
 
-LaTeX Warning: Citation 'gautier' on page 2 undefined on input line 136.
+LaTeX Warning: Citation 'gautier' on page 2 undefined on input line 137.
 
 [2]
 
-LaTeX Warning: Command \r invalid in math mode on input line 144.
+LaTeX Warning: Command \r invalid in math mode on input line 145.
 
 Missing character: There is no � in font cmr10!
 [3 <./mol_svg/path13.pdf>] [4]
-<figure/Présentation2.pdf, id=303, 882.05536pt x 426.8748pt>
-File: figure/Présentation2.pdf Graphic file (type pdf)
-<use figure/Présentation2.pdf>
-Package pdftex.def Info: figure/Présentation2.pdf  used on input line 179.
+<figure/Présentation1.pdf, id=295, 882.05536pt x 426.8748pt>
+File: figure/Présentation1.pdf Graphic file (type pdf)
+<use figure/Présentation1.pdf>
+Package pdftex.def Info: figure/Présentation1.pdf  used on input line 177.
 (pdftex.def)             Requested size: 455.24411pt x 220.32172pt.
 
-Overfull \hbox (10.7157pt too wide) in paragraph at lines 179--180
+Overfull \hbox (10.7157pt too wide) in paragraph at lines 177--178
  [][] 
  []
 
-[5]
-<figure/comparaison_3_bases.pdf, id=329, 1005.35597pt x 1004.58185pt>
+[5 <./figure/Présentation1.pdf>] [6]
+<figure/comparaison_3_bases.pdf, id=379, 1005.35597pt x 1004.58185pt>
 File: figure/comparaison_3_bases.pdf Graphic file (type pdf)
 <use figure/comparaison_3_bases.pdf>
-Package pdftex.def Info: figure/comparaison_3_bases.pdf  used on input line 236.
+Package pdftex.def Info: figure/comparaison_3_bases.pdf  used on input line 238.
 (pdftex.def)             Requested size: 455.24411pt x 454.89346pt.
- [6 <./figure/Présentation2.pdf>] [7 <./figure/comparaison_3_bases.pdf>]
+ [7 <./figure/comparaison_3_bases.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\Delta' on input line 293.
+(hyperref)                removing `\Delta' on input line 280.
 
-<figure/plot1.pdf, id=482, 1084.05pt x 1300.86pt>
+<figure/plot1.pdf, id=490, 1084.05pt x 1300.86pt>
 File: figure/plot1.pdf Graphic file (type pdf)
 <use figure/plot1.pdf>
-Package pdftex.def Info: figure/plot1.pdf  used on input line 334.
+Package pdftex.def Info: figure/plot1.pdf  used on input line 374.
 (pdftex.def)             Requested size: 455.24411pt x 546.29794pt.
-[8]
 <figure/plot2.pdf, id=491, 1084.05pt x 1300.86pt>
 File: figure/plot2.pdf Graphic file (type pdf)
 <use figure/plot2.pdf>
-Package pdftex.def Info: figure/plot2.pdf  used on input line 341.
+Package pdftex.def Info: figure/plot2.pdf  used on input line 381.
 (pdftex.def)             Requested size: 455.24411pt x 546.29794pt.
- [9] [10 <./figure/plot1.pdf>] [11 <./figure/plot2.pdf>]
-<figure/compare_iso.pdf, id=729, 1084.05pt x 1300.86pt>
+[8] [9] [10 <./figure/plot1.pdf>] [11 <./figure/plot2.pdf>]
+
+LaTeX Warning: Reference `' on page 12 undefined on input line 423.
+
+<figure/compare_iso.pdf, id=744, 1084.05pt x 1300.86pt>
 File: figure/compare_iso.pdf Graphic file (type pdf)
 <use figure/compare_iso.pdf>
-Package pdftex.def Info: figure/compare_iso.pdf  used on input line 391.
+Package pdftex.def Info: figure/compare_iso.pdf  used on input line 426.
 (pdftex.def)             Requested size: 455.24411pt x 546.29794pt.
- [12] [13 <./figure/compare_iso.pdf>] [14] [15
+[12] [13 <./figure/compare_iso.pdf>] [14] [15
 
 ]
-Overfull \hbox (16.65675pt too wide) in paragraph at lines 500--500
+Overfull \hbox (16.65675pt too wide) in paragraph at lines 536--536
 [][]\T1/cmss/m/n/12 Colonna, Nicola, Ngoc Linh Nguyen, An-drea Fer-retti, and Nicola Marzari (Mar. 2019). ``Koopmans-
  []
 
-[16]
-Overfull \hbox (7.84418pt too wide) in paragraph at lines 500--500
+[16] [17]
+Overfull \hbox (7.84418pt too wide) in paragraph at lines 536--536
 \T1/cmss/m/n/12 pp. D1516^^UD1525. issn: 1362-4962. doi: [][]$\T1/cmtt/m/n/12 10 . 1093 / nar / gkae1059$[][]\T1/cmss/m/n/12 . (Vis-ited on 11/05/2026). 
  []
 
-[17]
-Overfull \hbox (7.50092pt too wide) in paragraph at lines 500--500
+[18]
+Overfull \hbox (7.50092pt too wide) in paragraph at lines 536--536
 \T1/cmss/m/n/12 for Molec-u-lar Re-sponse Cal-cu-la-tions''. In: \T1/cmss/m/it/12 The Jour-nal of Chem-i-cal Physics \T1/cmss/m/n/12 133.13, p. 134105.
  []
 
-[18] [19] (./manuscript.aux)
+[19] [20] (./manuscript.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1188,7 +1190,7 @@ L3 programming layer <2026-01-19>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
-(rerunfilecheck)             Checksum: 75F88FCC630CE0021B0586551E4FBC50;3573.
+(rerunfilecheck)             Checksum: CFF62E6A42FD02D6C448EB17B9A03046;3440.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                manuscript
@@ -1199,11 +1201,11 @@ Package logreq Info: Writing requests to 'manuscript.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38985 strings out of 469515
- 806618 string characters out of 5470807
- 1640425 words of memory out of 5000000
- 66996 multiletter control sequences out of 15000+600000
- 661469 words of font info for 100 fonts, out of 8000000 for 9000
+ 39042 strings out of 469515
+ 808840 string characters out of 5470807
+ 1656630 words of memory out of 5000000
+ 67047 multiletter control sequences out of 15000+600000
+ 662248 words of font info for 101 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,17n,154p,3071b,2110s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -1221,11 +1223,11 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsi1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsi1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsi2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss2488.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on manuscript.pdf (19 pages, 1159309 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsi1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsi1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsi2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on manuscript.pdf (20 pages, 1181966 bytes).
 PDF statistics:
- 1120 PDF objects out of 1200 (max. 8388607)
- 692 compressed objects within 7 object streams
- 114 named destinations out of 1000 (max. 500000)
- 210 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1159 PDF objects out of 1200 (max. 8388607)
+ 725 compressed objects within 8 object streams
+ 121 named destinations out of 1000 (max. 500000)
+ 202 words of extra memory for PDF output out of 10000 (max. 10000000)
 
