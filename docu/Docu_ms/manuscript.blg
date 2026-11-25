@@ -17,53 +17,54 @@ Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated field_info (elt_size=8) to 12840 items from 5000.
+Reallocated field_info (elt_size=8) to 18860 items from 5000.
 Database file #1: manuscript-blx.bib
 Database file #2: Docu_BDSEI.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Warning--I didn't find a database entry for "gautier"
 Biblatex version: 3.21
 Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
 Reallocated singl_function (elt_size=8) to 100 items from 50.
-You've used 55 entries,
+You've used 98 entries,
             6402 wiz_defined-function locations,
-            1812 strings with 88435 characters,
-and the built_in function-call counts, 741683 in all, are:
-= -- 56562
-> -- 22468
-< -- 2998
-+ -- 32046
-- -- 16177
-* -- 57142
-:= -- 92939
+            2245 strings with 139332 characters,
+and the built_in function-call counts, 1337441 in all, are:
+= -- 102983
+> -- 39576
+< -- 5314
++ -- 57303
+- -- 28395
+* -- 102745
+:= -- 167380
 add.period$ -- 0
-call.type$ -- 55
-change.case$ -- 751
-chr.to.int$ -- 1568
-cite$ -- 108
-duplicate$ -- 68885
-empty$ -- 58671
-format.name$ -- 5222
-if$ -- 137596
+call.type$ -- 98
+change.case$ -- 1422
+chr.to.int$ -- 2702
+cite$ -- 194
+duplicate$ -- 124198
+empty$ -- 106166
+format.name$ -- 9285
+if$ -- 248587
 int.to.chr$ -- 0
-int.to.str$ -- 117
+int.to.str$ -- 224
 missing$ -- 0
-newline$ -- 3237
-num.names$ -- 2392
-pop$ -- 20467
+newline$ -- 5747
+num.names$ -- 4401
+pop$ -- 36869
 preamble$ -- 1
-purify$ -- 1231
+purify$ -- 2270
 quote$ -- 0
-skip$ -- 12719
+skip$ -- 22727
 stack$ -- 0
-substring$ -- 115915
-swap$ -- 14480
-text.length$ -- 2678
-text.prefix$ -- 55
+substring$ -- 211104
+swap$ -- 25745
+text.length$ -- 4684
+text.prefix$ -- 102
 top$ -- 1
-type$ -- 1858
+type$ -- 3320
 warning$ -- 0
-while$ -- 10161
+while$ -- 18248
 width$ -- 0
-write$ -- 3183
+write$ -- 5650
 (There was 1 warning)

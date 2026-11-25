@@ -131,6 +131,127 @@
     \field{urlyear}{2026}
   \endentry
 
+  \entry{balkisIonisationHydrogenSulphide1976}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=BT}{%
+         family={Balki{\c s}},
+         familyi={B\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=GAF}{%
+         family={Gaines},
+         familyi={G\bibinitperiod},
+         given={A.\bibnamedelima F.},
+         giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=OG}{%
+         family={{\"O}zgen},
+         familyi={{\"O}\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=OIT}{%
+         family={{\"O}zgen},
+         familyi={{\"O}\bibinitperiod},
+         given={I.\bibnamedelima T.},
+         giveni={I\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=FMC}{%
+         family={Flowers},
+         familyi={F\bibinitperiod},
+         given={M.\bibnamedelima C.},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BT+1}
+    \strng{fullhash}{BTGAFOGOITFMC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1976}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1039/F29767200524
+    \endverb
+    \field{issn}{0300-9238}
+    \field{number}{0}
+    \field{pages}{524\bibrangedash 527}
+    \field{title}{Ionisation of Hydrogen Sulphide, Selenide and Telluride by Electron Impact}
+    \field{volume}{72}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\FNZAZ9A6\Balkiş et al. - 1976
+    \verb - Ionisation of hydrogen sulphide, selenide and telluride by electron
+    \verb  impact.pdf
+    \endverb
+    \field{journaltitle}{J. Chem. Soc., Faraday Trans. 2}
+    \field{year}{1976}
+    \field{urlday}{24}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{basnerDissociativeIonizationSilane1997}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=BR}{%
+         family={Basner},
+         familyi={B\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Schmidt},
+         familyi={S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TV}{%
+         family={Tarnovsky},
+         familyi={T\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=BK}{%
+         family={Becker},
+         familyi={B\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=DH}{%
+         family={Deutsch},
+         familyi={D\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \keyw{Cross-sections,Electron impact ionization,Plasma processing}
+    \strng{namehash}{BR+1}
+    \strng{fullhash}{BRSMTVBKDH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1997}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    We studied the electron impact ionization of silane (SiH4) which is widely used in the plasma deposition of different siliconcontaining thin films. Absolute partial cross-sections for the formation of all fragment ions were measured in a high resolution double focusing sector field mass spectrometer with a modified ion extraction stage for electron energies from threshold to 100 eV. No evidence for the formation of stable parent SiH4+ ions was found in agreement with previous experimental investigations. The single positive fragment ion formation is the dominant ionization process. We observed the following product ions: SiH3+, SiH2+, SiH+, Si+, H2+, and H+. The agreement between our measured absolute partial ionization crosssections and two earlier data sets obtained by different techniques is generally good for the silicon-containing fragment ions taking into account quoted uncertainties of +/- 10\% to +/- 20\%, but less satisfactory for the formation of atomic and molecular hydrogen ions which were found to be produced with significant excess kinetic energies, particularly in the case of H+. A comparison of the total SiH4 ionization cross-section derived from the measured partial ionization cross-sections and a calculated cross-section based on the Binary-Encounter-Bethe (BEB) model showed excellent agreement in the energy range above 30 eV.%
+    }
+    \verb{doi}
+    \verb 10.1016/S0168-1176(97)00063-3
+    \endverb
+    \field{pages}{83\bibrangedash 93}
+    \field{title}{Dissociative Ionization of Silane by Electron Impact}
+    \field{volume}{171}
+    \field{journaltitle}{International Journal of Mass Spectrometry and Ion Processes}
+    \field{month}{12}
+    \field{year}{1997}
+    \field{urlday}{23}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
   \entry{bennettNewGenerationEffective2018}{article}{}{}
     \name{author}{6}{}{%
       {{hash=BMC}{%
@@ -439,6 +560,47 @@
     \field{urlyear}{2026}
   \endentry
 
+  \entry{brantonPhotoelectronSpectraPhosphine1970}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=BGR}{%
+         family={Branton},
+         familyi={B\bibinitperiod},
+         given={G.\bibnamedelima R.},
+         giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=FDC}{%
+         family={Frost},
+         familyi={F\bibinitperiod},
+         given={D.\bibnamedelima C.},
+         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=MCA}{%
+         family={McDowell},
+         familyi={M\bibinitperiod},
+         given={C.\bibnamedelima A.},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SIA}{%
+         family={Stenhouse},
+         familyi={S\bibinitperiod},
+         given={I.\bibnamedelima A.},
+         giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BGR+1}
+    \strng{fullhash}{BGRFDCMCASIA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1970}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{pages}{1}
+    \field{title}{The Photoelectron Spectra of Phosphine and Arsine}
+    \field{volume}{5}
+    \field{year}{1970}
+  \endentry
+
   \entry{camiDetectionC60C702010}{article}{}{}
     \name{author}{4}{}{%
       {{hash=CJ}{%
@@ -492,6 +654,157 @@
     \field{year}{2010}
     \field{urlday}{19}
     \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{cardelliAbundanceHeavyElements1994}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=CJA}{%
+         family={Cardelli},
+         familyi={C\bibinitperiod},
+         given={J.\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CJA1}
+    \strng{fullhash}{CJA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1994}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    The Goddard high-resolution spectrograph aboard the Hubble Space Telescope has been used to produce interstellar abundance measures of gallium, germanium, arsenic, krypton, tin, thallium, and lead, the heaviest elements detected in interstellar gas. These heavy elements arise from stellar nuclear processes (slow- and rapid-process neutron capture) that are different from those that produce zinc and the lighter elements previously observed. These data allow investigators to study how the heavy elements chemically interact with interstellar dust and to compare interstellar heavy element abundances in the current galactic epoch to those present at the time of the formation of the solar system. For example, the data indicate that the abundance of atoms in interstellar dust cannot be explained by simple condensation models alone and must be heavily influenced by chemistry in the interstellar medium. Also, the data for some elements suggest that their true galactic cosmic abundances may be different from the "fossil" abundances incorporated into the solar system 4.6 billion years ago.%
+    }
+    \verb{doi}
+    \verb 10.1126/science.265.5169.209
+    \endverb
+    \field{issn}{0036-8075}
+    \field{number}{5169}
+    \field{pages}{209\bibrangedash 213}
+    \field{title}{The Abundance of Heavy Elements in Interstellar Gas}
+    \field{volume}{265}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {New York, N.Y.}%
+    }
+    \field{journaltitle}{Science}
+    \field{month}{07}
+    \field{year}{1994}
+  \endentry
+
+  \entry{cardelliUltravioletTransitionsLow1993}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=CJA}{%
+         family={Cardelli},
+         familyi={C\bibinitperiod},
+         given={Jason\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=FSR}{%
+         family={Federman},
+         familyi={F\bibinitperiod},
+         given={S.\bibnamedelima R.},
+         giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=LDL}{%
+         family={Lambert},
+         familyi={L\bibinitperiod},
+         given={David\bibnamedelima L.},
+         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=TCE}{%
+         family={Theodosiou},
+         familyi={T\bibinitperiod},
+         given={C.\bibnamedelima E.},
+         giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP}%
+    }
+    \keyw{ATOMIC DATA,ISM: ABUNDANCES,ISM: ATOMS,TECHNIQUES: SPECTROSCOPIC,ULTRAVIOLET: INTERSTELLAR}
+    \strng{namehash}{CJA+1}
+    \strng{fullhash}{CJAFSRLDLTCE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1993}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \verb{doi}
+    \verb 10.1086/187066
+    \endverb
+    \field{issn}{0004-637X}
+    \field{pages}{L41}
+    \field{title}{Ultraviolet {{Transitions}} of {{Low Condensation Temperature Heavy Elements}} and {{New Data}} for {{Interstellar Arsenic}}, {{Selenium}}, {{Tellurium}}, and {{Lead}}}
+    \field{volume}{416}
+    \field{journaltitle}{The Astrophysical Journal Letters}
+    \field{month}{10}
+    \field{year}{1993}
+    \field{urlday}{25}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{chathamTotalPartialElectron1984}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=CH}{%
+         family={Chatham},
+         familyi={C\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=HD}{%
+         family={Hils},
+         familyi={H\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=RR}{%
+         family={Robertson},
+         familyi={R\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gallagher},
+         familyi={G\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CH+1}
+    \strng{fullhash}{CHHDRRGA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1984}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    The total and partial electron collisional ionization cross sections for CH4, C2H6, SiH4, and Si2H6 have been measured for electron energies from threshold to 300 eV. Comparisons are made to earlier measurements.%
+    }
+    \verb{doi}
+    \verb 10.1063/1.447848
+    \endverb
+    \field{issn}{0021-9606}
+    \field{number}{4}
+    \field{pages}{1770\bibrangedash 1777}
+    \field{title}{Total and Partial Electron Collisional Ionization Cross Sections for {{CH4}}, {{C2H6}}, {{SiH4}}, and {{Si2H6}}}
+    \field{volume}{81}
+    \verb{file}
+    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\8LL26WIB\\Chatham et al.
+    \verb - 1984 - Total and partial electron collisional ionization cross sect
+    \verb ions for CH4, C2H6, SiH4, and Si2H6.pdf;C\:\\Users\\lilian.heydel\\Zo
+    \verb tero\\storage\\GI6KD23D\\1.html
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{08}
+    \field{year}{1984}
+    \field{urlday}{22}
+    \field{urlmonth}{10}
     \field{urlyear}{2026}
   \endentry
 
@@ -795,6 +1108,69 @@
     \field{urlyear}{2026}
   \endentry
 
+  \entry{fresnetDynamicsBreakdownDelay2002}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=FF}{%
+         family={Fresnet},
+         familyi={F\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Pasquiers},
+         familyi={P\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PC}{%
+         family={Postel},
+         familyi={P\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=PV}{%
+         family={Puech},
+         familyi={P\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{FF+1}
+    \strng{fullhash}{FFPSPCPV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2002}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{abstract}{%
+    Dynamics and breakdown delay times in neon-ethene and neon-propene photo-triggered discharges, F Fresnet, S Pasquiers, C Postel, V Puech%
+    }
+    \verb{doi}
+    \verb 10.1088/0022-3727/35/9/308
+    \endverb
+    \field{issn}{0022-3727}
+    \field{number}{9}
+    \field{pages}{882}
+    \field{title}{Dynamics and Breakdown Delay Times in Neon-Ethene and Neon-Propene Photo-Triggered Discharges}
+    \field{volume}{35}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\227229PQ\Fresnet et al. - 2002
+    \verb - Dynamics and breakdown delay times in neon-ethene and neon-propene
+    \verb photo-triggered discharges.pdf
+    \endverb
+    \field{journaltitle}{Journal of Physics D: Applied Physics}
+    \field{month}{04}
+    \field{year}{2002}
+    \field{urlday}{23}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
   \entry{gachesAstrochemistryLowenergyElectron2024}{article}{}{}
     \name{author}{9}{}{%
       {{hash=GBAL}{%
@@ -884,6 +1260,103 @@
     \field{year}{2024}
     \field{urlday}{21}
     \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{gaudinDeterminationsAbsoluesSections1967}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=GA}{%
+         family={Gaudin},
+         familyi={G\bibinitperiod},
+         given={Albert},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HR}{%
+         family={Hagemann},
+         familyi={H\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {EDP Sciences}%
+    }
+    \strng{namehash}{GAHR1}
+    \strng{fullhash}{GAHR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1967}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    Les sections efficaces totales d'ionisation par impact \'electronique ont \'et\'e mesur\'ees, pour He, Ne, A et C\textsubscript{2{$<$}sub/{$>$}H\textsubscript{2{$<$}sub/{$>$}, dans un domaine d'\'energie de 100 \`a 2 000 eV. Les sections efficaces partielles ont \'et\'e d\'etermin\'ees par spectrom\'etrie de masse dans le m\^eme domaine d'\'energie. Les ions \'etudi\'es sont : les ions une et deux fois charg\'es de He, les ions de une \`a quatre fois charg\'es de Ne, les ions de une \`a cinq fois charg\'es de A et les ions C\textsubscript{2{$<$}sub/{$>$}H\textsubscript{2{$<$}sub/{$>$}\textsuperscript{+{$<$}sup/{$>$}, C\textsubscript{2{$<$}sub/{$>$}H\textsuperscript{+{$<$}sup/{$>$}, C\textsubscript{2{$<$}sub/{$>$}\textsuperscript{+{$<$}sup/{$>$}, CH\textsuperscript{+{$<$}sup/{$>$}, C\textsuperscript{+{$<$}sup/{$>$}, C\textsubscript{2{$<$}sub/{$>$}H\textsubscript{2{$<$}sub/{$>$}\textsuperscript{++{$<$}sup/{$>$} et C\textsubscript{2{$<$}sub/{$>$}H\textsuperscript{++{$<$}sup/{$>$} de C\textsubscript{2{$<$}sub/{$>$}H\textsubscript{2{$<$}sub/{$>$}.La pr\'ecision des valeurs absolues des sections efficaces mesur\'ees est comprise entre 10 et 15 \%.Les r\'esultats sont exprim\'es en fonction de l'approximation de BORN-BETHE. Les domaines d'application des lois {$\sigmaE$} = A Log BE et {$\sigmaE$} = C\textsuperscript{te{$<$}sup/{$>$} sont d\'ecrits.}}}}}}}}}}}}}}}}}}}%
+    }
+    \verb{doi}
+    \verb 10.1051/jcp/1967641209
+    \endverb
+    \field{issn}{0021-7689}
+    \field{pages}{1209\bibrangedash 1221}
+    \field{title}{{D\'eterminations absolues des sections efficaces totales et partielles d'ionisation de l'h\'elium, du n\'eon, de l'argon et de l'ac\'etyl\`ene, pour des \'electrons de 100 \`a 2000 eV}}
+    \field{volume}{64}
+    \field{langid}{french}
+    \field{journaltitle}{Journal de Chimie Physique}
+    \field{year}{1967}
+    \field{urlday}{23}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{gibsonPhotoionizationStudySeH1986}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=GST}{%
+         family={Gibson},
+         familyi={G\bibinitperiod},
+         given={S.\bibnamedelima T.},
+         giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=GJP}{%
+         family={Greene},
+         familyi={G\bibinitperiod},
+         given={J.\bibnamedelima P.},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Berkowitz},
+         familyi={B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GSTGJPBJ1}
+    \strng{fullhash}{GSTGJPBJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1986}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    The photoion yield curve of SeH, prepared by the reaction H+H2Se is presented. The adiabatic I.P. is 9.845\textpm 0.003 eV, and autoionization structure is observed, from which higher I.P.'s are inferred. The photoion yield curves of H2Se+, SeH+, and Se+ from H2Se are also measured. The fragmentation thresholds, together with I.P. (SeH), enable one to infer the bond energies D0(HSe-H)=78.99\textpm 0.18 kcal/mol and D0(SeH)=74.27\textpm 0.23 kcal/mol. The adiabatic I.P. for H2Se (\~X\,2B) is 9.886\textpm 0.003 eV.%
+    }
+    \verb{doi}
+    \verb 10.1063/1.451715
+    \endverb
+    \field{issn}{0021-9606}
+    \field{number}{9}
+    \field{pages}{4815\bibrangedash 4824}
+    \field{title}{A Photoionization Study of {{SeH}} and {{H2Se}}}
+    \field{volume}{85}
+    \verb{file}
+    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\NYIWD4VZ\\Gibson et al. -
+    \verb  1986 - A photoionization study of SeH and H2Se.pdf;C\:\\Users\\lilia
+    \verb n.heydel\\Zotero\\storage\\JVMSL8DR\\1.html
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{11}
+    \field{year}{1986}
+    \field{urlday}{25}
+    \field{urlmonth}{11}
     \field{urlyear}{2026}
   \endentry
 
@@ -1029,6 +1502,72 @@
     \field{urlyear}{2026}
   \endentry
 
+  \entry{hayashiElectronCollisionCrossSections1987}{inproceedings}{}{}
+    \name{author}{1}{}{%
+      {{hash=HM}{%
+         family={Hayashi},
+         familyi={H\bibinitperiod},
+         given={Makoto},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \name{editor}{4}{}{%
+      {{hash=PLC}{%
+         family={Pitchford},
+         familyi={P\bibinitperiod},
+         given={Leanne\bibnamedelima C.},
+         giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=MBV}{%
+         family={McKoy},
+         familyi={M\bibinitperiod},
+         given={B.\bibnamedelima Vincent},
+         giveni={B\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Chutjian},
+         familyi={C\bibinitperiod},
+         given={Ara},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TS}{%
+         family={Trajrnar},
+         familyi={T\bibinitperiod},
+         given={Sandor},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer New York}%
+    }
+    \strng{namehash}{HM1}
+    \strng{fullhash}{HM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1987}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    Elastic and inelastic electron collision cross-sections for molecules of interest in plasma processes, gas lasers, gaseous dielectrics, diffuse discharge opening switches, space science and radiation research have been determined from available electron beam and electron swarm data utilizing the Boltzmann equation and a Monte Carlo simulation method. The method is the same as the one used by Phelps, Crompton, Thomas, Tagashira, and their co-workers. The discussion will cover a number of molecular species, e.g., F2, HCl, SO2, CH4, SiH4, CF4, CCl2F2, CCl4, SF6, C2H6, and Si2H6, in the 0 to 1000 eV energy range. In spite of several studies, inelastic collision cross-sections for N2 are still not well-known. This matter will be briefly addressed. The discussions will then focus mainly on the cross-sections for CF4. Some calculated results of electron swarm data for CF4 and CF4-inert gases mixtures will be presented.%
+    }
+    \field{booktitle}{Swarm {{Studies}} and {{Inelastic Electron-Molecule Collisions}}}
+    \verb{doi}
+    \verb 10.1007/978-1-4612-4662-6_33
+    \endverb
+    \field{isbn}{978-1-4612-9104-6 978-1-4612-4662-6}
+    \field{pages}{167\bibrangedash 187}
+    \field{title}{Electron {{Collision Cross-Sections}} for {{Molecules Determined}} from {{Beam}} and {{Swarm Data}}}
+    \field{langid}{english}
+    \list{location}{1}{%
+      {New York, NY}%
+    }
+    \field{year}{1987}
+    \field{urlday}{23}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
   \entry{hellwegDevelopmentNewAuxiliary2015}{article}{}{}
     \name{author}{2}{}{%
       {{hash=HA}{%
@@ -1071,6 +1610,112 @@
     \field{year}{2015}
     \field{urlday}{28}
     \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{huberMolecularSpectraMolecular1979}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=HKP}{%
+         family={Huber},
+         familyi={H\bibinitperiod},
+         given={K.\bibnamedelima P.},
+         giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=HG}{%
+         family={Herzberg},
+         familyi={H\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HKPHG1}
+    \strng{fullhash}{HKPHG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1979}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{pages}{,1}
+    \field{title}{Molecular {{Spectra}} and {{Molecular Structure}}. {{IV}}. {{Constants}} of {{Diatomic Molecules}},}
+    \field{year}{1979}
+  \endentry
+
+  \entry{huberTotalPartialElectron2019}{article}{}{}
+    \name{author}{7}{}{%
+      {{hash=HSE}{%
+         family={Huber},
+         familyi={H\bibinitperiod},
+         given={Stefan\bibnamedelima E.},
+         giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Mauracher},
+         familyi={M\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={S{\"u}{\ss}},
+         familyi={S\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Sukuba},
+         familyi={S\bibinitperiod},
+         given={Ivan},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=UJ}{%
+         family={Urban},
+         familyi={U\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Borodin},
+         familyi={B\bibinitperiod},
+         given={Dmitry},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Probst},
+         familyi={P\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HSE+1}
+    \strng{fullhash}{HSEMASDSIUJBDPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    We report calculations of total (and absolute) electron-impact ionization cross sections (EICSs) for the fusion-relevant diatomic molecular species BeH, BeN, BeO, WH, WBe, WN, WO, O2, and N2 by means of the Deutsch-M\"ark and the binary-encounter-Bethe methods in the energy range from threshold to 10 keV. In addition, we discuss an empirical scheme to estimate partial cross sections from the total ones based on reaction energetics and empirical threshold laws and explore its accuracy by assessing available experimental data on total and partial EICSs. Finally, we also report parameters obtained by fitting the calculated cross sections to an expression commonly used in fusion edge plasma modeling.%
+    }
+    \verb{doi}
+    \verb 10.1063/1.5063767
+    \endverb
+    \field{issn}{0021-9606, 1089-7690}
+    \field{number}{2}
+    \field{pages}{024306}
+    \field{title}{Total and Partial Electron Impact Ionization Cross Sections of Fusion-Relevant Diatomic Molecules}
+    \field{volume}{150}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\SAB34S2Q\Huber et al. - 2019 -
+    \verb Total and partial electron impact ionization cross sections of fusion
+    \verb -relevant diatomic molecules.pdf
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{01}
+    \field{year}{2019}
+    \field{urlday}{24}
+    \field{urlmonth}{11}
     \field{urlyear}{2026}
   \endentry
 
@@ -1126,6 +1771,67 @@
     \field{journaltitle}{Physical Chemistry Chemical Physics}
     \field{year}{2003}
     \field{urlday}{18}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{hudsonAbsoluteElectronImpact2006}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=HJE}{%
+         family={Hudson},
+         familyi={H\bibinitperiod},
+         given={James\bibnamedelima E.},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=WZF}{%
+         family={Weng},
+         familyi={W\bibinitperiod},
+         given={Ze\bibnamedelima F.},
+         giveni={Z\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=VC}{%
+         family={Vallance},
+         familyi={V\bibinitperiod},
+         given={Claire},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HPW}{%
+         family={Harland},
+         familyi={H\bibinitperiod},
+         given={Peter\bibnamedelima W.},
+         giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \keyw{Electron impact ionization,Ionization cross-section,Ionization of esters,Polarizability volume}
+    \strng{namehash}{HJE+1}
+    \strng{fullhash}{HJEWZFVCHPW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    Absolute total positive ion electron impact ionization cross-sections from 15 to 285eV are reported for the C2 to C6 methanoates (formates) and the C3 to C7 ethanoates (acetates), including all isomers. The reproducibility of the measured cross-sections over the full energy range is better than \textpm 4\%, and absolute cross-sections measured for a series of reference species (N2 and inert gases) are in excellent agreement with values reported by several other groups claiming accuracies of around \textpm 5\%. A monotonic relationship is shown to exist between the maximum ionization cross-sections for the esters, reported here, the C1 to C4 alcohols, reported previously, and the total number of carbon atoms in the skeletal chain. The relationship provides a useful means for estimating unknown cross-sections. Polarizability volumes for esters may be estimated using a previously established correlation with the maximum ionization cross-section, and for the four species for which published data are available the predictions are in good agreement with experiment. Finally, the experimental data are compared with calculations carried out using the binary encounter Bethe (BEB) method for the calculation of total ionization cross-sections.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.ijms.2005.11.003
+    \endverb
+    \field{issn}{1387-3806}
+    \field{number}{1}
+    \field{pages}{42\bibrangedash 46}
+    \field{title}{Absolute Electron Impact Ionization Cross-Sections and Polarizability Volumes for the {{C2}} to {{C6}} Methanoates and {{C3}} to {{C7}} Ethanoates}
+    \field{volume}{248}
+    \verb{file}
+    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\65TPL4RP\\Hudson et al. -
+    \verb  2006 - Absolute electron impact ionization cross-sections and polari
+    \verb zability volumes for the C2 to C6 metha.pdf;C\:\\Users\\lilian.heydel
+    \verb \\Zotero\\storage\\KTSKA7SH\\S1387380605002794.html
+    \endverb
+    \field{journaltitle}{International Journal of Mass Spectrometry}
+    \field{month}{01}
+    \field{year}{2006}
+    \field{urlday}{25}
     \field{urlmonth}{11}
     \field{urlyear}{2026}
   \endentry
@@ -1295,6 +2001,45 @@
     \field{urlyear}{2026}
   \endentry
 
+  \entry{itikawaCrossSectionsElectron2015}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=IY}{%
+         family={Itikawa},
+         familyi={I\bibinitperiod},
+         given={Yukikazu},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{IY1}
+    \strng{fullhash}{IY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{abstract}{%
+    Cross section data are collected and reviewed for electron collisions with carbon monoxide. Collision processes included are total scattering, elastic scattering, momentum transfer, excitations of rotational, vibrational and electronic states, ionization, and dissociation. For each process, recommended values of the cross sections are presented, when possible. The literature has been surveyed through to the end of 2013.%
+    }
+    \verb{doi}
+    \verb 10.1063/1.4913926
+    \endverb
+    \field{issn}{JPCRBU}
+    \field{number}{1}
+    \field{title}{Cross {{Sections}} for {{Electron Collisions}} with {{Carbon Monoxide}}}
+    \field{volume}{44}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\DMHQJ8S9\22413362.html
+    \endverb
+    \field{journaltitle}{Journal of Physical and Chemical Reference Data}
+    \field{month}{03}
+    \field{year}{2015}
+    \field{urlday}{23}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
   \entry{jesenekPartialIonisationCross2025}{article}{}{}
     \name{author}{3}{}{%
       {{hash=JA}{%
@@ -1402,6 +2147,119 @@
     \field{year}{2007}
     \field{urlday}{22}
     \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{kaurElectronInducedIonization2015}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=KJ}{%
+         family={Kaur},
+         familyi={K\bibinitperiod},
+         given={Jaspreet},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AB}{%
+         family={Antony},
+         familyi={A\bibinitperiod},
+         given={Bobby},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \keyw{Astrophysical modelling,C to C formates,CSP-ic,Electron impact scattering,Ionization cross section,MSCOP}
+    \strng{namehash}{KJAB1}
+    \strng{fullhash}{KJAB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    This paper reports electron impact total ionization cross sections for C2 to C6 formates at energies varying from ionization threshold to 5keV. The ionization cross section data in such a wide energy range are necessary to complete data tables required for modelling different atmospheric and astrophysical environments. To compute these values, a modified approach called multi scattering centre spherical complex optical potential (MSCOP) formalism is employed. Using MSCOP, the total inelastic cross section is obtained, which corresponds to the total loss of incident flux into the dominant channels viz. discrete electronic excitation and continuum ionization. The ionization contribution from total inelastic cross section is estimated using a semi empirical complex scattering potential-ionization contribution (CSP-ic) method. The results show overall good agreement with previous measurements and theoretical estimates available from the literature. Besides cross sections, correlations between maximum ionization cross section versus the square root of the ratio of polarizability to ionization potential and with the number of carbon atoms in each target are investigated. Employing this correlation, the approximate polarizability volume of C4 to C6 formates has been computed for the first time.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.ijms.2015.06.001
+    \endverb
+    \field{issn}{1387-3806}
+    \field{pages}{24\bibrangedash 31}
+    \field{title}{Electron Induced Ionization Cross Sections for Astrophysical Modelling}
+    \field{volume}{386}
+    \verb{file}
+    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\37ZSZYLH\\Kaur et Antony
+    \verb - 2015 - Electron induced ionization cross sections for astrophysical
+    \verb  modelling.pdf;C\:\\Users\\lilian.heydel\\Zotero\\storage\\3XYMR3PN\\
+    \verb S1387380615001827.html
+    \endverb
+    \field{journaltitle}{International Journal of Mass Spectrometry}
+    \field{month}{07}
+    \field{year}{2015}
+    \field{urlday}{23}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{khanAbsolutePartialTotal2024}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=KTW}{%
+         family={Khan},
+         familyi={K\bibinitperiod},
+         given={Taj\bibnamedelima Wali},
+         giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=HW}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Weizhe},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=WE}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Enliang},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SX}{%
+         family={Shan},
+         familyi={S\bibinitperiod},
+         given={Xu},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=CX}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Xiangjun},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KTW+1}
+    \strng{fullhash}{KTWHWWESXCX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    {$<$}p{$>$}The absolute partial and total cross sections for electron impact ionization of carbon monoxide are reported for electron energies from 350 eV to 8000 eV. The product ions (CO\textsuperscript{+}, C\textsuperscript{+}, O\textsuperscript{+}, CO\textsuperscript{2+}, C\textsuperscript{2+}, and O\textsuperscript{2+}) are measured by employing an ion imaging mass spectrometer and two ion-pair dissociation channels (C\textsuperscript{+} + O\textsuperscript{+} and C\textsuperscript{2+} + O\textsuperscript{+}) are identified. The absolute cross sections for producing individual ions and their total, as well as for the ion-pair dissociation channels are obtained by normalizing the data of CO\textsuperscript{+} to that of Ar\textsuperscript{+} from CO--Ar mixture target with a fixed 1:1 ratio. The overall errors are evaluated by considering various kinds of uncertainties. A comprehensive comparison is made with the available data, which shows a good agreement with each other over the energy ranges that are overlapped. This work presents new cross-section data with electron energies above 1000 eV.{$<$}/p{$>$}%
+    }
+    \verb{doi}
+    \verb 10.1088/1674-1056/ad20dd
+    \endverb
+    \field{issn}{1674-1056}
+    \field{number}{4}
+    \field{title}{Absolute Partial and Total Ionization Cross Sections of Carbon Monoxide with Electron Collision from 350 {{eV}} to 8000 {{eV}}}
+    \field{volume}{33}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\UKQJP5A3\Khan et al. - 2024 - A
+    \verb bsolute partial and total ionization cross sections of carbon monoxid
+    \verb e with electron collision from.pdf
+    \endverb
+    \field{journaltitle}{Chin. Phys. B}
+    \field{month}{01}
+    \field{year}{2024}
+    \field{urlday}{23}
+    \field{urlmonth}{11}
     \field{urlyear}{2026}
   \endentry
 
@@ -1627,6 +2485,114 @@
     \field{urlyear}{2026}
   \endentry
 
+  \entry{krishnadasCalculationElectronimpactIonization2024}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=KA}{%
+         family={Krishnadas},
+         familyi={K\bibinitperiod},
+         given={Anirudh},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SN}{%
+         family={Sinha},
+         familyi={S\bibinitperiod},
+         given={Nidhi},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=KT}{%
+         family={Kirchner},
+         familyi={K\bibinitperiod},
+         given={Tom},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=AB}{%
+         family={Antony},
+         familyi={A\bibinitperiod},
+         given={Bobby},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IOP Publishing}%
+    }
+    \strng{namehash}{KA+1}
+    \strng{fullhash}{KASNKTAB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2024}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    Calculations of the electron-impact ionization cross-section of pyrene, anthracene, benzoyl chloride, benzophenone, and phthalonitrile are reported over a wide energy range. A comparison of theoretical models, viz. spherical complex optical potential (SCOP), pixel counting method (PCM), and the binary encounter Bethe (BEB) model is carried out. SCOP calculations provide the inelastic cross-section, and the ionization cross-section is extracted from it. This result is modified with PCM, a model previously applied to ion collisions which takes geometric screening corrections into account. The BEB model is used as an independent approach to calculate the ionization cross-section. It is demonstrated that all model results are in reasonable agreement with each other. Comparison is also made with other theoretical data where available.%
+    }
+    \verb{doi}
+    \verb 10.1088/1402-4896/ad640a
+    \endverb
+    \field{issn}{1402-4896}
+    \field{number}{9}
+    \field{pages}{095403}
+    \field{title}{Calculation of Electron-Impact Ionization of Various Benzene Derivatives}
+    \field{volume}{99}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\6SIHB2A8\Krishnadas et al. - 20
+    \verb 24 - Calculation of electron-impact ionization of various benzene der
+    \verb ivatives.pdf
+    \endverb
+    \field{journaltitle}{Physica Scripta}
+    \field{month}{08}
+    \field{year}{2024}
+    \field{urlday}{27}
+    \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{krishnakumarIonizationCrossSections1995}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=KE}{%
+         family={Krishnakumar},
+         familyi={K\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SSK}{%
+         family={Srivastava},
+         familyi={S\bibinitperiod},
+         given={S.\bibnamedelima K.},
+         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KESSK1}
+    \strng{fullhash}{KESSK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1995}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    Partial ionization cross sections for silane and disilane by electron impact have been measured for electron energies in the range of threshold to 1000 eV using a crossed beam geometry and employing a pulsed electron beam and a pulsed ion extraction technique. The cross sections were normalized by using the relative flow technique. For ease of use in various plasma modeling we have fitted the cross sections to an empirical formula.%
+    }
+    \verb{doi}
+    \verb 10.1002/ctpp.2150350407
+    \endverb
+    \field{issn}{1521-3986}
+    \field{number}{4-5}
+    \field{pages}{395\bibrangedash 404}
+    \field{title}{Ionization {{Cross Sections}} of {{Silane}} and {{Disilane}} by {{Electron Impact}}}
+    \field{volume}{35}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\44KQ3UFG\ctpp.html
+    \endverb
+    \field{journaltitle}{Contributions to Plasma Physics}
+    \field{year}{1995}
+    \field{urlday}{23}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
   \entry{krishnanSelfconsistentMolecularOrbital1980}{article}{}{}
     \name{author}{4}{}{%
       {{hash=KR}{%
@@ -1687,6 +2653,52 @@
     \field{urlyear}{2026}
   \endentry
 
+  \entry{kumarTheoreticalStudyElectron2026}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=KM}{%
+         family={Kumar},
+         familyi={K\bibinitperiod},
+         given={Manoj},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KR}{%
+         family={Kumar},
+         familyi={K\bibinitperiod},
+         given={Rajeev},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KMKR1}
+    \strng{fullhash}{KMKR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2026}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    The theoretical study of electron ionization for industrially relevant molecules, benzene and styrene, is reported in the present article. The calculation of the single differential cross sections (SDCS), double differential cross sections (DDCS), and the averaged secondary electron energy {$<$}w{$>$} has been performed by employing the modified Jain-Khare semiempirical formulation. The total ionization cross section (TICS) and ionization rate coefficient have been calculated from ionization threshold to 5 keV incident electron energies. The present total ionization cross sections are found in reasonable agreement with existing theoretical and experimental data sets for considered targets.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.radphyschem.2026.113642
+    \endverb
+    \field{issn}{0969806X}
+    \field{pages}{113642}
+    \field{title}{Theoretical Study of Electron Ionization of {{C6H6}} and {{C8H8}}}
+    \field{volume}{242}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\FJ3IUHPP\Kumar et Kumar - 2026
+    \verb - Theoretical study of electron ionization of C6H6 and C8H8.pdf
+    \endverb
+    \field{journaltitle}{Radiation Physics and Chemistry}
+    \field{month}{05}
+    \field{year}{2026}
+    \field{urlday}{22}
+    \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
   \entry{kumarElectronIonizationCross2014}{article}{}{}
     \name{author}{1}{}{%
       {{hash=KR}{%
@@ -1724,6 +2736,54 @@
     \field{year}{2014}
     \field{urlday}{22}
     \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{kurachiElectronCollisionCross1989}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=KM}{%
+         family={Kurachi},
+         familyi={K\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=NY}{%
+         family={Nakamura},
+         familyi={N\bibinitperiod},
+         given={Y},
+         giveni={Y},
+      }}%
+    }
+    \strng{namehash}{KMNY1}
+    \strng{fullhash}{KMNY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1989}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    In monosilane-argon mixtures the measured electron swarm parameters, the drift velocity and the longitudinal diffusion coefficient showed distinctive features: humps in the drift velocity and dents in the ratio of the longitudinal diffusion coefficient to the electron mobility. These swarm parameters were analysed using a Boltzmann analysis and these features in the swarm parameters were conveniently used to derive a reasonable energy dependence of the vibrational excitation cross sections of a monosilane molecule. The derived cross sections were also confirmed to be consistent with published electron swarm parameters in pure monosilane gas.%
+    }
+    \verb{doi}
+    \verb 10.1088/0022-3727/22/1/015
+    \endverb
+    \field{issn}{0022-3727, 1361-6463}
+    \field{number}{1}
+    \field{pages}{107\bibrangedash 112}
+    \field{title}{Electron Collision Cross Sections for the Monosilane Molecule}
+    \field{volume}{22}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\CQCWBGVL\Kurachi et Nakamura -
+    \verb 1989 - Electron collision cross sections for the monosilane molecule.
+    \verb pdf
+    \endverb
+    \field{journaltitle}{Journal of Physics D: Applied Physics}
+    \field{month}{01}
+    \field{year}{1989}
+    \field{urlday}{23}
+    \field{urlmonth}{11}
     \field{urlyear}{2026}
   \endentry
 
@@ -2088,6 +3148,51 @@
     \field{urlyear}{2026}
   \endentry
 
+  \entry{markIonizationPhosphineDeuterated1977}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=MTD}{%
+         family={M{\"a}rk},
+         familyi={M\bibinitperiod},
+         given={T.\bibnamedelima D.},
+         giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=EF}{%
+         family={Egger},
+         familyi={E\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {AIP}%
+    }
+    \keyw{34.80.Gs,Molecular excitation and ionization by electron impact}
+    \strng{namehash}{MTDEF1}
+    \strng{fullhash}{MTDEF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1977}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    Electron impact ionization has been studied in PH3 and in a mixture of PH3 and PD3 as a function of electron energy up to 180 eV, with a double focusing mass spectrometer. Absolute partial ionization cross sections have been obtained in PH3 for the production of the parent ion PH+3, for the fragment ions PH+2, PH+, P+, H+2, and H+ and for the doubly charged ions PH++3, PH++2, PH++, and P++ by normalization against the Ar ionization cross section. From the measured partial ionization cross sections the total ionization cross section function of PH3 has been deduced. In addition, it has been possible to obtain the cross section ratios q (PD++3)/q (PD+3), q (PD++2)/q (PD+3), q (PD++)/q (PD+3), and q (P++)/q (PD+3) as a function of electron energy. The ion D++3, produced by the process PD3+e, has been found for the first time and an estimate of the ionization cross section is given. Using nth root extrapolation the following ionization and appearance potentials have been derived from the low energy cross section functions: I.P. (PH+3) =10.1\textpm 0.1 and 12.5\textpm 0.2 eV; I.P. (PD+3) =10.15\textpm 0.1 and 12.75\textpm 0.2 eV; A.P. (PH+2) =14.2\textpm 0.2 eV; A.P. (PD+2) =14.3\textpm 0.2 eV; A.P. (PH+) =13.0\textpm 0.2 eV; A.P. (PD+) =13.3\textpm 0.2 eV; A.P. (P+) from PH3=17.2\textpm 0.3, 18.8\textpm 0.3, and 23.5\textpm 0.3 eV; A.P. (P+) from PD3=17.7\textpm 0.3, 19.5\textpm 0.3, and 22.0\textpm 0.3 eV; A.P. (H+2) =14.8\textpm 0.2 and 24.8\textpm 0.5 eV; A.P. (D+2) =14.9\textpm 0.2 and 24.8\textpm 0.5 eV; A.P. (H+) =25.3\textpm 0.5 eV; A.P. (D+) =25.3\textpm 0.5 eV; I.P. (PH++3) =30.0\textpm 1.0 eV; I.P. (PD++3) =29.8\textpm 0.5 eV; A.P. (PH++2) =35.0\textpm 0.5 eV; A.P. (PD++2) =34.9\textpm 0.5 eV; A.P. (PH++) =33.0\textpm 1.0 eV; A.P. (PD++) =34.4\textpm 0.5 eV; A.P. (P++) from PH3=45.6\textpm 0.5 eV; and A.P. (P++) from PD3=46.7\textpm 0.5 eV. In all double ionization cases a square law has been found from threshold up to some 5-10 eV above threshold. The ionization and appearance potentials obtained are compared with previous results where available. It is possible to resolve a yet unexplained discrepancy of the ionization potentials of the doubly ionized ions of PH3.%
+    }
+    \verb{doi}
+    \verb 10.1063/1.435174
+    \endverb
+    \field{issn}{0021-9606}
+    \field{pages}{2629\bibrangedash 2635}
+    \field{title}{Ionization of Phosphine and Deuterated Phosphine by Electron Impact from Threshold up to 180 {{eV}}}
+    \field{volume}{67}
+    \field{journaltitle}{Journal of Chemical Physics}
+    \field{month}{09}
+    \field{year}{1977}
+    \field{urlday}{23}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
   \entry{mosesAtmosphericChemistryUranus2020}{article}{}{}
     \name{author}{4}{}{%
       {{hash=MJI}{%
@@ -2147,6 +3252,48 @@
     \field{urlyear}{2026}
   \endentry
 
+  \entry{nakamuraElectronSwarmParameters2010}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=NY}{%
+         family={Nakamura},
+         familyi={N\bibinitperiod},
+         given={Yoshiharu},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NY1}
+    \strng{fullhash}{NY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{abstract}{%
+    Electron swarm parameters (the drift velocity and the longitudinal diffusion coefficient) were measured in pure C2H2 and also in C2H2--Ar mixtures containing 0.517\% and 5.06\% acetylene over wide E/N ranges. These swarm parameters were analysed using a Boltzmann equation analysis and a set of electron collision cross sections for the C2H2 molecule was derived so that it was consistent with the present swarm data and published ionization coefficient. The present result suggested the presence of a Ramsauer--Townsend minimum in the elastic momentum transfer cross section at 0.08 eV and prominent threshold and resonance peaks in the {$\nu$}4/{$\nu$}5 vibrational excitation cross section. The present cross section set was also confirmed to be consistent with the published experimental total cross section of C2H2.%
+    }
+    \verb{doi}
+    \verb 10.1088/0022-3727/43/36/365201
+    \endverb
+    \field{issn}{0022-3727}
+    \field{number}{36}
+    \field{pages}{365201}
+    \field{title}{Electron Swarm Parameters in Pure {{C2H2}} and in {{C2H2}}--{{Ar}} Mixtures and Electron Collision Cross Sections for the {{C2H2}} Molecule}
+    \field{volume}{43}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\WVKPFKHP\Nakamura - 2010 - Elec
+    \verb tron swarm parameters in pure C2H2 and in C2H2–Ar mixtures and elec
+    \verb tron collision cross sections.pdf
+    \endverb
+    \field{journaltitle}{Journal of Physics D: Applied Physics}
+    \field{month}{08}
+    \field{year}{2010}
+    \field{urlday}{23}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
   \entry{neeseORCAProgramSystem2012}{article}{}{}
     \name{author}{1}{}{%
       {{hash=NF}{%
@@ -2184,6 +3331,482 @@
     \field{month}{01}
     \field{year}{2012}
     \field{urlday}{06}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{nishimuraTotalElectronImpact1994}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=NH}{%
+         family={Nishimura},
+         familyi={N\bibinitperiod},
+         given={H},
+         giveni={H},
+      }}%
+      {{hash=TH}{%
+         family={Tawara},
+         familyi={T\bibinitperiod},
+         given={H},
+         giveni={H},
+      }}%
+    }
+    \strng{namehash}{NHTH1}
+    \strng{fullhash}{NHTH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1994}
+    \field{labeldatesource}{}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \verb{doi}
+    \verb 10.1088/0953-4075/27/10/016
+    \endverb
+    \field{issn}{0953-4075, 1361-6455}
+    \field{number}{10}
+    \field{pages}{2063\bibrangedash 2074}
+    \field{title}{Total Electron Impact Ionization Cross Sections for Simple Hydrocarbon Molecules}
+    \field{volume}{27}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\LGVNW3BP\Nishimura et Tawara -
+    \verb 1994 - Total electron impact ionization cross sections for simple hyd
+    \verb rocarbon molecules.pdf
+    \endverb
+    \field{journaltitle}{Journal of Physics B: Atomic, Molecular and Optical Physics}
+    \field{month}{05}
+    \field{year}{1994}
+    \field{urlday}{23}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{orientElectronImpactIonisation1987}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=OOJ}{%
+         family={Orient},
+         familyi={O\bibinitperiod},
+         given={O.\bibnamedelima J.},
+         giveni={O\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SSK}{%
+         family={Strivastava},
+         familyi={S\bibinitperiod},
+         given={S.\bibnamedelima K.},
+         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OOJSSK1}
+    \strng{fullhash}{OOJSSK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1987}
+    \field{labeldatesource}{}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{abstract}{%
+    Utilising a crossed electron-beam-molecular-beam collision geometry and the relative flow technique normalised values of total and partial ionisation cross sections for H2O, CO, CO2 and CH4 have been measured. The present total ionisation cross sections agree well with those reported previously by Rapp and co-workers (1965). However, data on the partial ionisation cross sections widely disagree with some previous results.%
+    }
+    \verb{doi}
+    \verb 10.1088/0022-3700/20/15/036
+    \endverb
+    \field{issn}{0022-3700}
+    \field{number}{15}
+    \field{pages}{3923}
+    \field{title}{Electron Impact Ionisation of {{H2O}}, {{CO}}, {{CO2}} and {{CH4}}}
+    \field{volume}{20}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\ZMJLTZZM\Orient et Strivastava
+    \verb - 1987 - Electron impact ionisation of H2O, CO, CO2 and CH4.pdf
+    \endverb
+    \field{journaltitle}{Journal of Physics B: Atomic and Molecular Physics}
+    \field{month}{08}
+    \field{year}{1987}
+    \field{urlday}{23}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{pancheshnyiLXCatProjectElectron2012}{article}{}{}
+    \name{author}{7}{}{%
+      {{hash=PS}{%
+         family={Pancheshnyi},
+         familyi={P\bibinitperiod},
+         given={Sergey},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Biagi},
+         familyi={B\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BMC}{%
+         family={Bordage},
+         familyi={B\bibinitperiod},
+         given={Marie-Claude},
+         giveni={M\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=HG}{%
+         family={Hagelaar},
+         familyi={H\bibinitperiod},
+         given={Gerjan},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=MWL}{%
+         family={Morgan},
+         familyi={M\bibinitperiod},
+         given={W.\bibnamedelima L.},
+         giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Phelps},
+         familyi={P\bibinitperiod},
+         given={A.V.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=PLC}{%
+         family={Pitchford},
+         familyi={P\bibinitperiod},
+         given={Leanne\bibnamedelima C.},
+         giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{PS+1}
+    \strng{fullhash}{PSBSBMCHGMWLPAPLC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{abstract}{%
+    LXcat is a dynamic, open-access, website for collecting, displaying, and downloading ELECtron SCATtering cross sections and swarm parameters (mobility, diffusion coefficient, reaction rates, etc.) required for modeling low temperature, non-equilibrium plasmas. Contributors set up individual databases, and the available databases, indicated by the contributor's chosen title, include mainly complete sets of electron-neutral scattering cross sections, although the option for introducing partial sets of cross sections exists. A database for measured swarm parameters is also part of LXCat, and this is a growing activity. On-line tools include options for browsing, plotting, and downloading cross section data. The electron energy distribution functions (edfs) in low temperature plasmas are in general non-Maxwellian, and LXCat provides an option for execution of an on-line Boltzmann equation solver to calculate the edf in homogeneous electric fields. Thus, the user can obtain electron transport and rate coefficients (averages over the edfs) in pure gases or gas mixtures over a range of values of the reduced electric fields strength, E/N, the ratio of the electric field strength to the neutral density, using cross sections from the available databases. New contributors are welcome and anyone wishing to create a database and upload data can request a username and password. LXCat is part of a larger, community-wide effort aimed at collecting, evaluating, and sharing data relevant to modeling low temperature plasmas. To illustrate the utility of LXCat in this context, we compare electron swarm parameters in argon calculated using the different compilations of cross sections presently available on LXCat. These compilations include quite different groupings of excited states, yet lead to swarm parameters in good agreement. LXCat is available at http://www.lxcat.laplace.univ-tlse.fr.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.chemphys.2011.04.020
+    \endverb
+    \field{pages}{148\bibrangedash 153}
+    \field{shorttitle}{The {{LXCat}} Project}
+    \field{title}{The {{LXCat}} Project : {{Electron}} Scattering Cross Sections and Swarm Parameters for Low Temperature Plasma Modeling}
+    \field{volume}{398}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\H3JVFW7E\hal-03817658.html
+    \endverb
+    \field{journaltitle}{Chemical Physics}
+    \field{year}{2012}
+    \field{urlday}{05}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{pitchfordLXCatOpenAccessWebBased2017}{article}{}{}
+    \name{author}{38}{}{%
+      {{hash=PLC}{%
+         family={Pitchford},
+         familyi={P\bibinitperiod},
+         given={Leanne\bibnamedelima C.},
+         giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=ALL}{%
+         family={Alves},
+         familyi={A\bibinitperiod},
+         given={Luis\bibnamedelima L.},
+         giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=BK}{%
+         family={Bartschat},
+         familyi={B\bibinitperiod},
+         given={Klaus},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=BSF}{%
+         family={Biagi},
+         familyi={B\bibinitperiod},
+         given={Stephen\bibnamedelima F.},
+         giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=BMC}{%
+         family={Bordage},
+         familyi={B\bibinitperiod},
+         given={Marie\bibnamedelima Claude},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=BI}{%
+         family={Bray},
+         familyi={B\bibinitperiod},
+         given={Igor},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=BCE}{%
+         family={Brion},
+         familyi={B\bibinitperiod},
+         given={Chris\bibnamedelima E.},
+         giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=BMJ}{%
+         family={Brunger},
+         familyi={B\bibinitperiod},
+         given={Michael\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Campbell},
+         familyi={C\bibinitperiod},
+         given={Laurence},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Chachereau},
+         familyi={C\bibinitperiod},
+         given={Alise},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Chaudhury},
+         familyi={C\bibinitperiod},
+         given={Bhaskar},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=CLG}{%
+         family={Christophorou},
+         familyi={C\bibinitperiod},
+         given={Loucas\bibnamedelima G.},
+         giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={Carbone},
+         familyi={C\bibinitperiod},
+         given={Emile},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=DNA}{%
+         family={Dyatko},
+         familyi={D\bibinitperiod},
+         given={Nikolay\bibnamedelima A.},
+         giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=FCM}{%
+         family={Franck},
+         familyi={F\bibinitperiod},
+         given={Christian\bibnamedelima M.},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=FDV}{%
+         family={Fursa},
+         familyi={F\bibinitperiod},
+         given={Dmitry\bibnamedelima V.},
+         giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=GRK}{%
+         family={Gangwar},
+         familyi={G\bibinitperiod},
+         given={Reetesh\bibnamedelima K.},
+         giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=GV}{%
+         family={Guerra},
+         familyi={G\bibinitperiod},
+         given={Vasco},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=HP}{%
+         family={Haefliger},
+         familyi={H\bibinitperiod},
+         given={Pascal},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=HGJ}{%
+         family={Hagelaar},
+         familyi={H\bibinitperiod},
+         given={Gerjan\bibnamedelima J.M.},
+         giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Hoesl},
+         familyi={H\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=IY}{%
+         family={Itikawa},
+         familyi={I\bibinitperiod},
+         given={Yukikazu},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=KIV}{%
+         family={Kochetov},
+         familyi={K\bibinitperiod},
+         given={Igor\bibnamedelima V.},
+         giveni={I\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=MRP}{%
+         family={McEachran},
+         familyi={M\bibinitperiod},
+         given={Robert\bibnamedelima P.},
+         giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=MWL}{%
+         family={Morgan},
+         familyi={M\bibinitperiod},
+         given={W.\bibnamedelima Lowell},
+         giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=NAP}{%
+         family={Napartovich},
+         familyi={N\bibinitperiod},
+         given={Anatoly\bibnamedelima P.},
+         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=PV}{%
+         family={Puech},
+         familyi={P\bibinitperiod},
+         given={Vincent},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Rabie},
+         familyi={R\bibinitperiod},
+         given={Mohamed},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={Sharma},
+         familyi={S\bibinitperiod},
+         given={Lalita},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Srivastava},
+         familyi={S\bibinitperiod},
+         given={Rajesh},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SAD}{%
+         family={Stauffer},
+         familyi={S\bibinitperiod},
+         given={Allan\bibnamedelima D.},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=TJ}{%
+         family={Tennyson},
+         familyi={T\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=dJ}{%
+         family={{de Urquijo}},
+         familyi={d\bibinitperiod},
+         given={Jaime},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=vJ}{%
+         family={{van Dijk}},
+         familyi={v\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=VLA}{%
+         family={Viehland},
+         familyi={V\bibinitperiod},
+         given={Larry\bibnamedelima A.},
+         giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=ZMC}{%
+         family={Zammit},
+         familyi={Z\bibinitperiod},
+         given={Mark\bibnamedelima C.},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=ZO}{%
+         family={Zatsarinny},
+         familyi={Z\bibinitperiod},
+         given={Oleg},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Pancheshnyi},
+         familyi={P\bibinitperiod},
+         given={Sergey},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{cold plasma,modeling,on-line databases,scattering cross sections,transport coefficients}
+    \strng{namehash}{PLC+1}
+    \strng{fullhash}{PLCALLBKBSFBMCBIBCEBMJCLCACBCLGCEDNAFCMFDVGRKGVHPHGJHAIYKIVMRPMWLNAPPVRMSLSRSADTJdJvJVLAZMCZOPS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{abstract}{%
+    LXCat is an open-access platform (www.lxcat.net) for curating data needed for modeling the electron and ion components of technological plasmas. The data types presently supported on LXCat are scattering cross sections and swarm/transport parameters, ion-neutral interaction potentials, and optical oscillator strengths. Twenty-four databases contributed by different groups around the world can be accessed on LXCat. New contributors are welcome; the database contributors retain ownership and are responsible for the contents and maintenance of the individual databases. This article summarizes the present status of the project.%
+    }
+    \verb{doi}
+    \verb 10.1002/ppap.201600098
+    \endverb
+    \field{issn}{1612-8850}
+    \field{number}{1-2}
+    \field{shorttitle}{{{LXCat}}}
+    \field{title}{{{LXCat}}: An {{Open-Access}}, {{Web-Based Platform}} for {{Data Needed}} for {{Modeling Low Temperature Plasmas}}}
+    \field{volume}{14}
+    \field{journaltitle}{Plasma Processes and Polymers}
+    \field{month}{01}
+    \field{year}{2017}
+    \field{urlday}{05}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{pottsPhotoelectronSpectraValence1972}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=PAW}{%
+         family={Potts},
+         familyi={P\bibinitperiod},
+         given={A.\bibnamedelima W.},
+         giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=PWC}{%
+         family={Price},
+         familyi={P\bibinitperiod},
+         given={W.\bibnamedelima C.},
+         giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Royal Society}%
+    }
+    \strng{namehash}{PAWPWC1}
+    \strng{fullhash}{PAWPWC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1972}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{abstract}{%
+    Photoelectron spectra are reported for the hydrides of group V and VI elements. Vibrational structure has been observed in bands associated with all but the inner-most valence orbitals. It has been used to obtain changes in bond angles or bond distances which result from the ionization of successive molecular orbitals. Ionization from the inner (1a\textsubscript{1}) orbitals of the hydrides has been observed using He II 304 \AA{} radiation. From these data vertical ionization potentials have been derived for all the valence orbitals of the hydrides XH, XH\textsubscript{2}, XH\textsubscript{3} and XH\textsubscript{4} for which the corresponding united atoms are Ne, A, Kr and Xe. Graphs of these values are used to show the effects of inner shells on the valence orbitals.%
+    }
+    \verb{eprint}
+    \verb 78047
+    \endverb
+    \field{issn}{0080-4630}
+    \field{number}{1565}
+    \field{pages}{181\bibrangedash 197}
+    \field{title}{Photoelectron {{Spectra}} and {{Valence Shell Orbital Structures}} of {{Groups V}} and {{VI Hydrides}}}
+    \field{volume}{326}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\BKIRR3AP\Potts et Price - 1972
+    \verb - Photoelectron Spectra and Valence Shell Orbital Structures of Group
+    \verb s V and VI Hydrides.pdf
+    \endverb
+    \field{journaltitle}{Proceedings of the Royal Society of London. Series A, Mathematical and Physical Sciences}
+    \field{eprinttype}{jstor}
+    \field{year}{1972}
+    \field{urlday}{24}
     \field{urlmonth}{11}
     \field{urlyear}{2026}
   \endentry
@@ -2251,6 +3874,147 @@
     \field{month}{11}
     \field{year}{2019}
     \field{urlday}{22}
+    \field{urlmonth}{10}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{raoCrossSectionsDirect1991}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=RMVVS}{%
+         family={Rao},
+         familyi={R\bibinitperiod},
+         given={M.\bibnamedelima V. V.\bibnamedelima S.},
+         giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=SSK}{%
+         family={Srivastava},
+         familyi={S\bibinitperiod},
+         given={S.\bibnamedelima K.},
+         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RMVVSSSK1}
+    \strng{fullhash}{RMVVSSSK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1991}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    Cross sections for the production of positive ions by electron impact on NH 3 and CS 2 have been measured using a crossed electron beam-molecular beam collision geometry. The present results on NH 3 are considerably different from previous measurements which disagree among themselves. Except for the formation of CS 2 + , cross sections for other fragment ions resulting from CS 2 have not been measured in the past. Threshold energies for the appearance of various positive ions are also reported. It is estimated that the present results are accurate to within 15\%.%
+    }
+    \verb{doi}
+    \verb 10.1029/91JE01689
+    \endverb
+    \field{issn}{0148-0227}
+    \field{number}{E2}
+    \field{pages}{17563\bibrangedash 17567}
+    \field{title}{Cross Sections for Direct and Dissociative Ionization of {{NH}}{\textsubscript{3}} and {{CS}}{\textsubscript{2}} by Electron Impact}
+    \field{volume}{96}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\XJSH6LEX\Rao et Srivastava - 19
+    \verb 91 - Cross sections for direct and dissociative ionization of NH3 and
+    \verb  CS2 by electr.pdf
+    \endverb
+    \field{journaltitle}{Journal of Geophysical Research: Planets}
+    \field{month}{09}
+    \field{year}{1991}
+    \field{urlday}{24}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{raoElectronImpactIonization1993}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=RMVVS}{%
+         family={Rao},
+         familyi={R\bibinitperiod},
+         given={M.\bibnamedelima V. V.\bibnamedelima S.},
+         giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=SSK}{%
+         family={Srivastava},
+         familyi={S\bibinitperiod},
+         given={S.\bibnamedelima K.},
+         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RMVVSSSK1}
+    \strng{fullhash}{RMVVSSSK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1993}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    First measurements of the absolute values of cross sections for ionization and dissociative ionization of H2S by electron impact for the energy range of 0 to 1000 eV are reported. Cross sections for the formation of negative ions (HS- and S-) resulting from the electron attachment to H2S have also been obtained and are compared with previous measurements.%
+    }
+    \verb{doi}
+    \verb 10.1029/92JE02318
+    \endverb
+    \field{issn}{2156-2202}
+    \field{number}{E7}
+    \field{pages}{13137\bibrangedash 13145}
+    \field{title}{Electron Impact Ionization and Attachment Cross Sections for {{H2S}}}
+    \field{volume}{98}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\WTVH3FRB\92JE02318.html
+    \endverb
+    \field{journaltitle}{Journal of Geophysical Research: Planets}
+    \field{year}{1993}
+    \field{urlday}{23}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{rappTotalCrossSections1965}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=RD}{%
+         family={Rapp},
+         familyi={R\bibinitperiod},
+         given={Donald},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=EGP}{%
+         family={Englander-Golden},
+         familyi={E\bibinithyphendelim G\bibinitperiod},
+         given={Paula},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RDEGP1}
+    \strng{fullhash}{RDEGP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1965}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    The total ionization cross sections of He, Ne, Ar, Kr, Xe, H2, D2, N2, O2, CO, NO, CO2, N2O, and CH4 have been measured from threshold to 1000 eV in a total ionization tube. More limited measurements were performed in C2H4 and SF6. Great care was taken to assure complete collection of electron and ion currents, and the absence of spurious instrumental errors. A new method was devised for obtaining absolute cross sections of gases relative to H2, and a McLeod gauge was used to obtain the absolute cross section in H2. The cross sections in NO and O2 could not be obtained by this method, and an approximate correction to direct McLeod-gauge readings was used for these gases. It is believed that the results are as accurate as is possible with the present method. It is difficult to explain the differences found between cross sections measured by various investigators. McLeod-gauge errors appear to account for most of the difference in absolute magnitude.%
+    }
+    \verb{doi}
+    \verb 10.1063/1.1696957
+    \endverb
+    \field{issn}{0021-9606}
+    \field{number}{5}
+    \field{pages}{1464\bibrangedash 1479}
+    \field{title}{Total {{Cross Sections}} for {{Ionization}} and {{Attachment}} in {{Gases}} by {{Electron Impact}}. {{I}}. {{Positive Ionization}}}
+    \field{volume}{43}
+    \verb{file}
+    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\X5C9I6EZ\\Rapp et England
+    \verb er‐Golden - 1965 - Total Cross Sections for Ionization and Attachme
+    \verb nt in Gases by Electron Impact. I. Positive Ionizati.pdf;C\:\\Users\\
+    \verb lilian.heydel\\Zotero\\storage\\W3SL4J6K\\1.html
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{09}
+    \field{year}{1965}
+    \field{urlday}{27}
     \field{urlmonth}{10}
     \field{urlyear}{2026}
   \endentry
@@ -2348,6 +4112,50 @@
     \field{month}{12}
     \field{year}{2015}
     \field{urlday}{06}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{roedererGERMANIUMARSENICSELENIUM2012}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=RIU}{%
+         family={Roederer},
+         familyi={R\bibinitperiod},
+         given={Ian\bibnamedelima U.},
+         giveni={I\bibinitperiod\bibinitdelim U\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The American Astronomical Society}%
+    }
+    \strng{namehash}{RIU1}
+    \strng{fullhash}{RIU1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    The elements germanium (Ge, Z = 32), arsenic (As, Z = 33), and selenium (Se, Z = 34) span the transition from charged-particle or explosive synthesis of the iron-group elements to neutron-capture synthesis of heavier elements. Among these three elements, only the chemical evolution of germanium has been studied previously. Here we use archive observations made with the Space Telescope Imaging Spectrograph on board the Hubble Space Telescope and observations from several ground-based facilities to study the chemical enrichment histories of seven stars with metallicities -2.6 {$\leq$} [Fe/H] {$\leq$} -0.4. We perform a standard abundance analysis of germanium, arsenic, selenium, and several other elements produced by neutron-capture reactions. When combined with previous derivations of germanium abundances in metal-poor stars, our sample reveals an increase in the [Ge/Fe] ratios at higher metallicities. This could mark the onset of the weak s-process contribution to germanium. In contrast, the [As/Fe] and [Se/Fe] ratios remain roughly constant. These data do not directly indicate the origin of germanium, arsenic, and selenium at low metallicity, but they suggest that the weak and main components of the s-process are not likely sources.%
+    }
+    \verb{doi}
+    \verb 10.1088/0004-637X/756/1/36
+    \endverb
+    \field{issn}{0004-637X}
+    \field{number}{1}
+    \field{pages}{36}
+    \field{title}{{{GERMANIUM}}, {{ARSENIC}}, {{AND SELENIUM ABUNDANCES IN METAL-POOR STARS}}*}
+    \field{volume}{756}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\J5MT8A7V\Roederer - 2012 - GERM
+    \verb ANIUM, ARSENIC, AND SELENIUM ABUNDANCES IN METAL-POOR STARS.pdf
+    \endverb
+    \field{journaltitle}{The Astrophysical Journal}
+    \field{month}{08}
+    \field{year}{2012}
+    \field{urlday}{25}
     \field{urlmonth}{11}
     \field{urlyear}{2026}
   \endentry
@@ -2519,6 +4327,125 @@
     \field{urlyear}{2026}
   \endentry
 
+  \entry{sharmaAbsoluteIonizationCross2020}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=SR}{%
+         family={Sharma},
+         familyi={S\bibinitperiod},
+         given={Ravinder},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=KR}{%
+         family={Kumar},
+         familyi={K\bibinitperiod},
+         given={Rajeev},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=SSP}{%
+         family={Sharma},
+         familyi={S\bibinitperiod},
+         given={Satya\bibnamedelima Prakash},
+         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SRKRSSP1}
+    \strng{fullhash}{SRKRSSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    In this literature, we have calculated the partial and absolute total ionization cross section of HBr by electron impact ionization from threshold energy to 5000 eV using revisited Jain-Khare semi-empirical approach. To the best of our knowledge, there are no available data for partial ionization cross sections to compare the results. We compare our result of absolute total ionization cross sections with available data and its find in good agreements from threshold too high incident electron energies.%
+    }
+    \verb{doi}
+    \verb 10.1063/5.0001800
+    \endverb
+    \field{issn}{0094-243X}
+    \field{number}{1}
+    \field{pages}{130024}
+    \field{title}{Absolute Ionization Cross Sections of Hydrogen Bromide by Electron Impact}
+    \field{volume}{2220}
+    \verb{file}
+    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\DZD4DKJG\\Sharma et al. -
+    \verb  2020 - Absolute ionization cross sections of hydrogen bromide by ele
+    \verb ctron impact.pdf;C\:\\Users\\lilian.heydel\\Zotero\\storage\\XTV8EEG4
+    \verb \\5.html
+    \endverb
+    \field{journaltitle}{AIP Conference Proceedings}
+    \field{month}{05}
+    \field{year}{2020}
+    \field{urlday}{25}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{singhElectronScatteringCross2020}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=SS}{%
+         family={Singh},
+         familyi={S\bibinitperiod},
+         given={Suvam},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={Gupta},
+         familyi={G\bibinitperiod},
+         given={Dhanoj},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=AB}{%
+         family={Antony},
+         familyi={A\bibinitperiod},
+         given={Bobby},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Tudorovskaya},
+         familyi={T\bibinitperiod},
+         given={Maria},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TJ}{%
+         family={Tennyson},
+         familyi={T\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SS+1}
+    \strng{fullhash}{SSGDABTMTJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2020}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    UK molecular R-matrix calculations have been carried out for electron scattering from anthracene and pyrene. These molecules belong to the family of polycyclic hydrocarbons (PAHs) and are found in a nebula known as the Red Rectangle. Static exchange (SE), static exchange plus polarization (SEP), and close coupling (CC) approximations are used for scattering calculations. Different elastic and inelastic cross sections are computed in the present work in the energy range of 0.1-15 eV. Dissociative electron attachment cross sections are also calculated for both the molecules. Various shape, Feshbach/core-excited, and mixed resonances are detected for these molecules below 10 eV. All of the resonances detected in the present study are in agreement with the existing experimental and theoretical results. Due to the complexity of the present targets, electron collision cross sections are essentially unknown and hence most of the results are presented for the first time.%
+    }
+    \verb{doi}
+    \verb 10.1021/acs.jpca.0c05589
+    \endverb
+    \field{issn}{1089-5639, 1520-5215}
+    \field{number}{35}
+    \field{pages}{7088\bibrangedash 7100}
+    \field{title}{Electron {{Scattering Cross Sections}} for {{Anthracene}} and {{Pyrene}}}
+    \field{volume}{124}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\8QA2JQS4\Singh et al. - 2020 -
+    \verb Electron Scattering Cross Sections for Anthracene and Pyrene.pdf
+    \endverb
+    \field{journaltitle}{The Journal of Physical Chemistry A}
+    \field{month}{09}
+    \field{year}{2020}
+    \field{urlday}{20}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
   \entry{stewartMachineLearningIonization2023}{article}{}{}
     \name{author}{2}{}{%
       {{hash=SMP}{%
@@ -2679,6 +4606,157 @@
     \field{urlyear}{2026}
   \endentry
 
+  \entry{syageSpectroscopyDynamicsJetcooled1992}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=SJA}{%
+         family={Syage},
+         familyi={S\bibinitperiod},
+         given={Jack\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SJA1}
+    \strng{fullhash}{SJA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1992}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Dissociative-ionization cross sections, fragment appearance potentials, and fragment kinetic energies were measured for electron-impact excitation of jet-cooled NH3, hydrazine (N2H4), and monomethyl hydrazine (MMH) over an energy range of 10--270 eV. A data base of 35 parent and fragment ions is reported. All measurements were made in a crossed electron--molecular beam apparatus using pulsed extraction and time-of-flight mass detection to ensure field-free excitation and high collection efficiency for energetic ions. Cross sections for NH3 ionization are in good agreement with previous measurements except for ions with high kinetic energy (KE). These discrepancies are attributed to instrument-dependent KE detection efficiencies in the previous results. Cross section data have not been previously reported for N2H4 and MMH. The measured cross sections for total ionization at 70 eV are 2.35 \AA 2 (NH3), 3.76 \AA 2 (N2H4), and 4.20 \AA 2 (MMH). KE distributions were measured by an ion deflection method and gave results consistent with time-of-flight peak-shape analysis. Mean KE values \&lt;{$\varepsilon$}t{$\greaterequivlnt$} are reported for all fragment ions studied. For 170-eV excitation of NH3, \&lt;{$\varepsilon$}t{$\greaterequivlnt$} varied from 0.026 eV (NH2+) to 1.4 eV (H+). The kinetic energies for N2H4 and MMH fragment ions at similar excitation energies are typically much lower than for fragment ions from NH3, conforming to statistical arguments based on density of internal states. High resolution mass spectra were recorded for MMH in order to distinguish different fragment ions of the same unit mass. Substantial rearrangement is evident for N2H4 and MMH dissociative ionization based on the appearance of ions such as NH3+ and NH4+ (the latter for MMH ionization only) and the magnitude of \&lt;{$\varepsilon$}t{$\greaterequivlnt$} for certain ions. The role of electronic structure and geometry on dissociation is explored using a molecular orbital analysis to predict product correlations for the excited states of N2H4+.%
+    }
+    \verb{doi}
+    \verb 10.1063/1.463719
+    \endverb
+    \field{issn}{0021-9606, 1089-7690}
+    \field{number}{9}
+    \field{pages}{6085\bibrangedash 6107}
+    \field{title}{Spectroscopy and Dynamics of Jet-Cooled Hydrazines and Ammonia. {{II}}. {{Electron}}-Impact Dissociative Ionization}
+    \field{volume}{97}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\HXQCCFNY\Syage - 1992 - Spectro
+    \verb scopy and dynamics of jet-cooled hydrazines and ammonia. II. Electron
+    \verb -impact dissociative ion.pdf
+    \endverb
+    \field{journaltitle}{The Journal of Chemical Physics}
+    \field{month}{11}
+    \field{year}{1992}
+    \field{urlday}{24}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{tateEfficienciesIonizationIonization1932}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=TJT}{%
+         family={Tate},
+         familyi={T\bibinitperiod},
+         given={John\bibnamedelima T.},
+         giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=SPT}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={P.\bibnamedelima T.},
+         giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Physical Society}%
+    }
+    \strng{namehash}{TJTSPT1}
+    \strng{fullhash}{TJTSPT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1932}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{abstract}{%
+    The efficiencies of ionization of N2, CO, O2, NO, H2 and C2H2 by electron impact have been measured. The curves are similar to those of He, Ne, A and Hg vapor. The ionization potentials of the molecules were found to be: N2, 15.7; CO, 14.1; O2, 12.5 and 16.1; NO, 9.5; H2, 15.6; and C2H2, 11.6. The probable error in each case is about a tenth of a volt. Negative ions were formed by electron impact in NO, CO, O2 and C2H2. None were observed in H2 or N2.%
+    }
+    \verb{doi}
+    \verb 10.1103/PhysRev.39.270
+    \endverb
+    \field{number}{2}
+    \field{pages}{270\bibrangedash 277}
+    \field{title}{The {{Efficiencies}} of {{Ionization}} and {{Ionization Potentials}} of {{Various Gases Under Electron Impact}}}
+    \field{volume}{39}
+    \verb{file}
+    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\CJ5SGMNQ\\Tate et Smith -
+    \verb  1932 - The Efficiencies of Ionization and Ionization Potentials of V
+    \verb arious Gases Under Electron Impact.pdf;C\:\\Users\\lilian.heydel\\Zot
+    \verb ero\\storage\\PMT4Y4ZE\\PhysRev.39.html
+    \endverb
+    \field{journaltitle}{Physical Review}
+    \field{month}{01}
+    \field{year}{1932}
+    \field{urlday}{23}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{tiedemannProtonAffinitiesHydrogen1979}{article}{}{}
+    \name{author}{7}{}{%
+      {{hash=TPW}{%
+         family={Tiedemann},
+         familyi={T\bibinitperiod},
+         given={P.\bibnamedelima W.},
+         giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=ASL}{%
+         family={Anderson},
+         familyi={A\bibinitperiod},
+         given={S.\bibnamedelima L.},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=CST}{%
+         family={Ceyer},
+         familyi={C\bibinitperiod},
+         given={S.\bibnamedelima T.},
+         giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Hirooka},
+         familyi={H\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=NCY}{%
+         family={Ng},
+         familyi={N\bibinitperiod},
+         given={C.\bibnamedelima Y.},
+         giveni={C\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=MBH}{%
+         family={Mahan},
+         familyi={M\bibinitperiod},
+         given={B.\bibnamedelima H.},
+         giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=LYT}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Y.\bibnamedelima T.},
+         giveni={Y\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TPW+1}
+    \strng{fullhash}{TPWASLCSTHTNCYMBHLYT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1979}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{pages}{605}
+    \field{title}{Proton Affinities of Hydrogen Halides Determined by the Molecular Beam Photoionization Method}
+    \field{volume}{71}
+    \field{year}{1979}
+  \endentry
+
   \entry{uddinElectronImpactTotal2018}{article}{}{}
     \name{author}{5}{}{%
       {{hash=UN}{%
@@ -2740,6 +4818,438 @@
     \field{month}{08}
     \field{year}{2018}
     \field{urlday}{18}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{vacherElectronImpactIonization2007}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=VJ}{%
+         family={Vacher},
+         familyi={V\bibinitperiod},
+         given={J.R.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=JF}{%
+         family={Jorand},
+         familyi={J\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=BN}{%
+         family={{Blin-Simiand}},
+         familyi={B\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Pasquiers},
+         familyi={P\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VJ+1}
+    \strng{fullhash}{VJJFBNPS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \verb{doi}
+    \verb 10.1016/j.cplett.2006.12.014
+    \endverb
+    \field{issn}{00092614}
+    \field{number}{4-6}
+    \field{pages}{188\bibrangedash 193}
+    \field{title}{Electron Impact Ionization Cross-Sections of Toluene}
+    \field{volume}{434}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\BZG6TY4V\Vacher et al. - 2007 -
+    \verb  Electron impact ionization cross-sections of toluene.pdf
+    \endverb
+    \field{journaltitle}{Chemical Physics Letters}
+    \field{month}{02}
+    \field{year}{2007}
+    \field{urlday}{20}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{vallanceAbsoluteElectronImpact1997}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=VC}{%
+         family={Vallance},
+         familyi={V\bibinitperiod},
+         given={Claire},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HSA}{%
+         family={Harris},
+         familyi={H\bibinitperiod},
+         given={Sean\bibnamedelima A},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=HJE}{%
+         family={Hudson},
+         familyi={H\bibinitperiod},
+         given={James\bibnamedelima E},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=HPW}{%
+         family={Harland},
+         familyi={H\bibinitperiod},
+         given={Peter\bibnamedelima W},
+         giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VC+1}
+    \strng{fullhash}{VCHSAHJEHPW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1997}
+    \field{labeldatesource}{}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{abstract}{%
+    Measurements of electron impact ionization cross sections have been made for methane and the series methyl fluoride to methyl iodide. The results for methane and methyl fluoride to methyl bromide have been compared with ionization efficiency curves calculated using Deutsch--M\textasciidieresis ark (DM) and binary-encounter-Bethe (BEB) methods, and also with the results of an ab initio model which gives the maximum cross section as a function of molecular orientation. In addition, the ab initio and DM methods have been used to calculate the steric ratios for the electron impact ionization of methyl chloride which have been compared with experimental measurements made previously.%
+    }
+    \verb{doi}
+    \verb 10.1088/0953-4075/30/10/019
+    \endverb
+    \field{issn}{0953-4075, 1361-6455}
+    \field{number}{10}
+    \field{pages}{2465\bibrangedash 2475}
+    \field{title}{Absolute Electron Impact Ionization Cross Sections for , Where {\textbf{ }}{{{\textbf{{\emph{X}}}}}}{\textbf{ }} = {{H}}, {{F}}, {{Cl}}, {{Br}}, and {{I}}}
+    \field{volume}{30}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\7TKMMKLL\Vallance et al. - 1997
+    \verb  - Absolute electron impact ionization cross sections for , where X =
+    \verb  H, F, Cl, Br, and.pdf
+    \endverb
+    \field{journaltitle}{Journal of Physics B: Atomic, Molecular and Optical Physics}
+    \field{month}{05}
+    \field{year}{1997}
+    \field{urlday}{25}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{varas-reusSeleniumIsotopesTracers2019}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=VMI}{%
+         family={{Varas-Reus}},
+         familyi={V\bibinitperiod},
+         given={Mar{\'i}a\bibnamedelima Isabel},
+         giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={K{\"o}nig},
+         familyi={K\bibinitperiod},
+         given={Stephan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=YA}{%
+         family={Yierpan},
+         familyi={Y\bibinitperiod},
+         given={Aierken},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LJP}{%
+         family={Lorand},
+         familyi={L\bibinitperiod},
+         given={Jean-Pierre},
+         giveni={J\bibinithyphendelim P\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Schoenberg},
+         familyi={S\bibinitperiod},
+         given={Ronny},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group}%
+    }
+    \keyw{Early solar system,Geochemistry}
+    \strng{namehash}{VMI+1}
+    \strng{fullhash}{VMIKSYALJPSR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{abstract}{%
+    The origin of Earth's volatiles has been attributed to a late addition of meteoritic material after core--mantle differentiation. The nature and consequences of this `late veneer' are debated, but may be traced by isotopes of the highly siderophile, or iron-loving, and volatile element selenium. Here we present high-precision selenium isotope data for mantle peridotites, from double spike and hydride-generation multicollector inductively coupled plasma mass spectrometry. These data indicate that the selenium isotopic composition of peridotites is unaffected by petrological processes, such as melt depletion and melt-rock reaction, and thus a narrow range is preserved that is representative of the silicate Earth. We show that selenium isotopes record a signature of late accretion after core formation and that this signature overlaps only with that of the CI-type carbonaceous chondrites. We conclude that these isotopic constraints indicate the late veneer originated from the outer Solar System and was of lower mass than previously estimated. Thus, we suggest a late and highly concentrated delivery of volatiles enabled Earth to become habitable.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41561-019-0414-7
+    \endverb
+    \field{issn}{1752-0908}
+    \field{number}{9}
+    \field{pages}{779\bibrangedash 782}
+    \field{title}{Selenium Isotopes as Tracers of a Late Volatile Contribution to {{Earth}} from the Outer {{Solar System}}}
+    \field{volume}{12}
+    \field{langid}{english}
+    \field{journaltitle}{Nature Geoscience}
+    \field{month}{09}
+    \field{year}{2019}
+    \field{urlday}{25}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{vinodkumarElectronImpactCalculations2011}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=VM}{%
+         family={Vinodkumar},
+         familyi={V\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LCG}{%
+         family={Limbachiya},
+         familyi={L\bibinitperiod},
+         given={C.\bibnamedelima G.},
+         giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=JKN}{%
+         family={Joshipura},
+         familyi={J\bibinitperiod},
+         given={K.\bibnamedelima N.},
+         giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=MNJ}{%
+         family={Mason},
+         familyi={M\bibinitperiod},
+         given={N.\bibnamedelima J.},
+         giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \keyw{Elastic Cross Section,Ionization Threshold,Partial Wave,Total Scattering Cross Section,Wide Energy Range}
+    \strng{namehash}{VM+1}
+    \strng{fullhash}{VMLCGJKNMNJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{extradate}{1}
+    \field{labeldatesource}{}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{abstract}{%
+    In this paper we report the results of a new theoretical methodology for determining the total elastic electronscattering cross section, Qel, over a wide range of incident energies between 0.01~eV and 2~keV. We havecombined results from the UK molecular R-matrix code using Quantemol-N software to determine Qelforincident energies between 0.01~eV and the ionization threshold of the target with calculations based on thespherical complex optical potential formalism for higher energies up to 2~keV. We present results for threeselected molecular targets; CH4, SiH4 and H2O as exemplars of the methodology. The presentresults were found to be in good agreement with previous experimental and theoretical results. The total elasticcross sections for such a wide energy range are reported perhaps for the first time.%
+    }
+    \verb{doi}
+    \verb 10.1140/epjd/e2010-10368-7
+    \endverb
+    \field{issn}{1434-6079}
+    \field{number}{3}
+    \field{pages}{579\bibrangedash 585}
+    \field{title}{Electron Impact Calculations of Total Elastic Cross Sections over a Wide Energy Range -- 0.01~{{eV}} to 2 {{keV}} for {{CH4}}, {{SiH4}} and {{H2O}}}
+    \field{volume}{61}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\6ZDFF32Z\Vinodkumar et al. - 20
+    \verb 11 - Electron impact calculations of total elastic cross sections ove
+    \verb r a wide energy range – 0.01 eV to 2.pdf
+    \endverb
+    \field{journaltitle}{The European Physical Journal D}
+    \field{month}{02}
+    \field{year}{2011}
+    \field{urlday}{25}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{vinodkumarElectronImpactTotal2011}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=VM}{%
+         family={Vinodkumar},
+         familyi={V\bibinitperiod},
+         given={Minaxi},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BH}{%
+         family={Bhutadia},
+         familyi={B\bibinitperiod},
+         given={Harshad},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Limbachiya},
+         familyi={L\bibinitperiod},
+         given={Chetan},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=JK}{%
+         family={Joshipura},
+         familyi={J\bibinitperiod},
+         given={K.N.},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VM+2}
+    \strng{fullhash}{VMBHLCJK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{extradate}{2}
+    \field{labeldatesource}{}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{abstract}{%
+    This paper reports electron impact total ionization cross sections for molecules H2S, PH3, HCHO and HCOOH at energies circa threshold to 2 keV. Spherical Complex Optical Potential (SCOP) is the key ingredient in the Schrodinger equation to generate complex phase shifts and hence the total inelastic cross sections. Total inelastic cross section takes care of total loss of the flux into two dominant channels viz. total electronic excitation (discrete) and total ionization (continuum). We have employed Improved Complex Scattering Potential-ionization contribution (ICSP-ic) a semi empirical method to filter out ionization cross sections from total inelastic cross sections. The results are found to be in overall good agreement with most of the data available in the literature for all the presented targets.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.ijms.2011.07.017
+    \endverb
+    \field{issn}{13873806}
+    \field{number}{1}
+    \field{pages}{35\bibrangedash 40}
+    \field{title}{Electron Impact Total Ionization Cross Sections for {{H2S}}, {{PH3}}, {{HCHO}} and {{HCOOH}}}
+    \field{volume}{308}
+    \field{langid}{english}
+    \verb{file}
+    \verb C:\Users\lilian.heydel\Zotero\storage\FRIXYRRK\Vinodkumar et al. - 20
+    \verb 11 - Electron impact total ionization cross sections for H2S, PH3, HC
+    \verb HO and HCOOH.pdf
+    \endverb
+    \field{journaltitle}{International Journal of Mass Spectrometry}
+    \field{month}{11}
+    \field{year}{2011}
+    \field{urlday}{04}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{vinodkumarElectronImpactTotal2010}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=VM}{%
+         family={Vinodkumar},
+         familyi={V\bibinitperiod},
+         given={Minaxi},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Dave},
+         familyi={D\bibinitperiod},
+         given={Rucha},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BH}{%
+         family={Bhutadia},
+         familyi={B\bibinitperiod},
+         given={Harshad},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=ABK}{%
+         family={Antony},
+         familyi={A\bibinitperiod},
+         given={Bobby\bibnamedelima K.},
+         giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \keyw{Complex scattering potential-ionization contribution,Complex spherical optical potential,Excitation cross sections,Halogen,Halogen hydrides,Ionization cross sections}
+    \strng{namehash}{VM+2}
+    \strng{fullhash}{VMDRBHABK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{abstract}{%
+    Calculation for electron impact total ionization cross sections on halogen atoms (F, Cl, Br and I) and their hydrides (HF, HCl, HBr and HI) are performed employing Spherical Complex Optical Potential and Complex Optical Potential-ionization contribution formalisms. In this article we are presenting data for energies ranging from above threshold to 2000eV. Our results are compared with available experimental and theoretical data wherever available. It is found that the present result gives a better account of the ionization cross sections.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.ijms.2010.02.009
+    \endverb
+    \field{issn}{1387-3806}
+    \field{number}{1}
+    \field{pages}{7\bibrangedash 13}
+    \field{title}{Electron Impact Total Ionization Cross Sections for Halogens and Their Hydrides}
+    \field{volume}{292}
+    \verb{file}
+    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\V6TDQMSG\\Vinodkumar et a
+    \verb l. - 2010 - Electron impact total ionization cross sections for halog
+    \verb ens and their hydrides.pdf;C\:\\Users\\lilian.heydel\\Zotero\\storage
+    \verb \\TINHN742\\S1387380610000576.html
+    \endverb
+    \field{journaltitle}{International Journal of Mass Spectrometry}
+    \field{month}{05}
+    \field{year}{2010}
+    \field{urlday}{25}
+    \field{urlmonth}{11}
+    \field{urlyear}{2026}
+  \endentry
+
+  \entry{vinodkumarElectronImpactCalculations2008}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=VM}{%
+         family={Vinodkumar},
+         familyi={V\bibinitperiod},
+         given={Minaxi},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Limbachiya},
+         familyi={L\bibinitperiod},
+         given={Chetan},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Korot},
+         familyi={K\bibinitperiod},
+         given={Kirti},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=JKN}{%
+         family={Joshipura},
+         familyi={J\bibinitperiod},
+         given={K.\bibnamedelima N.},
+         giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=MN}{%
+         family={Mason},
+         familyi={M\bibinitperiod},
+         given={Nigel},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \keyw{Germane,Ionization cross-sections,SCOP}
+    \strng{namehash}{VM+2}
+    \strng{fullhash}{VMLCKKJKNMN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{abstract}{%
+    In this article we report calculations of the total elastic Qel, total ionization, Qion, and total (complete), QT, cross-sections for the germanium hydrides GeHX (X=1--4) and digermane (Ge2H6) upon electron impact for energies from circa threshold to 2000eV. Spherical Complex Optical Potential (SCOP) formalism is employed to evaluate Qel, Qinel and QT. Total ionization cross-sections, Qion, are derived from the total inelastic cross-sections, Qinel, using a semi-empirical formulation developed by us called `Complex Spherical Potential-ionization contribution' (CSP-ic) method. A comparison of the various cross-sections is provided to show their relative contribution to the total cross-section QT. Present results are compared with available experimental and theoretical data wherever possible and overall agreement is good. However, no experimental data on the Qion are available for the germanium hydrides, GeHX, X=1--3 or digermane.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.ijms.2008.04.001
+    \endverb
+    \field{issn}{1387-3806}
+    \field{number}{3}
+    \field{pages}{145\bibrangedash 150}
+    \field{title}{Electron Impact Calculations of Total and Ionization Cross-Sections for {{Germanium Hydrides}} ({{GeHX}}; {{{\emph{X}}}}~=~1--4) and {{Digermane}}, {{Ge2H6}}}
+    \field{volume}{273}
+    \verb{file}
+    \verb C\:\\Users\\lilian.heydel\\Zotero\\storage\\9825CAJ8\\Vinodkumar et a
+    \verb l. - 2008 - Electron impact calculations of total and ionization cros
+    \verb s-sections for Germanium Hydrides (GeHX\; i.pdf;C\:\\Users\\lilian.he
+    \verb ydel\\Zotero\\storage\\6RDDXTNB\\S1387380608001188.html
+    \endverb
+    \field{journaltitle}{International Journal of Mass Spectrometry}
+    \field{month}{06}
+    \field{year}{2008}
+    \field{urlday}{25}
     \field{urlmonth}{11}
     \field{urlyear}{2026}
   \endentry

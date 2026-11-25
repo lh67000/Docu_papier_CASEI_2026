@@ -19,17 +19,21 @@
 % Preview options:
 %     review (for submissions)
 %     final (for preprints)
-\documentclass[article,review]{planetary}
+\documentclass[article,preview]{planetary}
 
 
 \usepackage{chemformula}
 \usepackage{float}
-\usepackage{chemformula}
 \usepackage{chemfig}
 \usepackage{siunitx}
 
 
+
+\usepackage{newtx}
+
 \newcommand{\dft}{\ensuremath{\Delta\textrm{DFT}}}
+\newcommand{\sn}[2]{\ensuremath{#1\times 10^{#2}}}
+
 
 
 % ------ Title block --------------------------------------------------
@@ -110,6 +114,9 @@ All submissions to Planetary Research must use the official journal template. By
 
 \newpage
 
+\section*{Introduction}
+Electron-driven ionisation plays a central role in astrochemistry. Whether for experimental purposes (\textit{e.g.} mass spectrometry) or for modelling, this process is a key element for understanding the chemistry of extraterrestrial media. One parameter of this ionisation type, the Total Ionisation Cross Section (TICS), is crucial. As it is an intrinsic characteristic of every molecule, it has not been explored for every species. It can be measured experimentally or calculated using several methods, most of which are based on quantum chemistry models. While some catalogues have been developed previously \parencite{gachesAstrochemistryLowenergyElectron2024,linstromNISTChemistryWebBook2001}, we also aim to develop our own database using open-source tools.
+
 \section{Methodology}
 
 The methodology employed in this work is based around the 3-dimensionnal geometry of each molecules.
@@ -149,7 +156,7 @@ with $a_0$ the Bohr radius (0.5292 $\AA$), $R$ the Rydberg constant (13.6 eV) an
 Concerning $T$, this parameter is kept at relatively low energy. As it is, intermediates steps of the calculations, \textit{e.g} the $\sigma_i$, do not represents partial ionisation cross-section. \textcite{jesenekPartialIonisationCross2025} explains that and proposed a modified approach of the BEB method for such purposes. We considered 10$^3$ values in a logscale array with $T~\in~[10^1;10^5]$ eV.  
 
 \subsection{Quantum chemistry parameters calculations}\label{sec:quantum}
-As such, BEB calculations requires the MO electrons energies (B) as well as their kinetic energies (U) . While NIST database propose this parameter for several molecule\footnote{\url{https://physics.nist.gov/PhysRefData/Ionization/molTable.html}}, this is limited in terms of selection. One way is to calculate these parameter. To do that, PySCF quantum chemistry model \parencites{sunPythonbasedSimulationsChemistry2017}  was employed. Using the downloaded geometries, we can input them into the model and obtain the required paramaters. This model is based on the Self Consistent Field (SCF) method of quantum chemistry for the HF approach. The basis-set family used in this work is the Karlsruhe \verb+def2-TZVPPD+ basis-set -- valence triple-zeta with sets of polarization and diffuse functions \parencites{weigendBalancedBasisSets2005,rappoportPropertyoptimizedGaussianBasis2010}. Although a quadruple-zeta (QVZ) basis set could have been used, we used a triple-zeta (TVZ) basis set in this work for computational reasons. This type of basis, in particular the \verb|def2-TZVPP| basis, is proven to be reliable for HF modeling for a majority of the periodic table, from H up to Rn \parencites{hellwegDevelopmentNewAuxiliary2015,zhengMinimallyAugmentedKarlsruhe2011}. Several BEB-related papers use either the cross-correlated Dunning \textcite{dunningGaussianBasisSets1989} \verb|cc-| base \parencites{gachesAstrochemistryLowenergyElectron2024,kumarElectronIonizationCross2014,zhouTotalElectronIonization2019} or Pople \parencites{krishnanSelfconsistentMolecularOrbital1980} gaussian \verb|6-311G| basis \parencites{aliElectronimpactTotalIonization1997, hwangNewModelElectronimpact1996, scottElectronImpactIonizationCross2005, ,kimElectronimpactIonizationCross1997}. At our knowledge, this is the first use of a \verb|def2-| basis for TICS calculations. Only Restricted Hartree-Fock (RHF) calculations were performed, as all molecules are neutral and stable and thus have closed shell.
+As such, BEB calculations requires the MO electrons energies (B) as well as their kinetic energies (U) . While NIST database propose this parameter for several molecule\footnote{\url{https://physics.nist.gov/PhysRefData/Ionization/molTable.html}}, this is limited in terms of selection. One way is to calculate these parameter. To do that, PySCF quantum chemistry model \parencites{sunPythonbasedSimulationsChemistry2017}  was employed. Using the downloaded geometries, we can input them into the model and obtain the required paramaters. This model is based on the Self Consistent Field (SCF) method of quantum chemistry for the HF approach. The basis-set family used in this work is the Karlsruhe \verb+def2-TZVPPD+ basis-set -- valence triple-zeta with sets of polarization and diffuse functions \parencites{weigendBalancedBasisSets2005,rappoportPropertyoptimizedGaussianBasis2010}. Although a quadruple-zeta (QVZ) basis set could have been used, we used a triple-zeta (TVZ) basis set in this work for computational reasons. This type of basis, in particular the \verb|def2-TZVPP| basis, is proven to be reliable for HF modeling for a majority of the periodic table, from H up to Rn \parencites{hellwegDevelopmentNewAuxiliary2015,zhengMinimallyAugmentedKarlsruhe2011}. Several BEB-related papers use either the cross-correlated Dunning \textcite{dunningGaussianBasisSets1989} \verb|cc-| base \parencites{gachesAstrochemistryLowenergyElectron2024,kumarElectronIonizationCross2014,zhouTotalElectronIonization2019} or Pople \parencites{krishnanSelfconsistentMolecularOrbital1980} gaussian \verb|6-311G| basis \parencites{aliElectronimpactTotalIonization1997, hwangNewModelElectronimpact1996, scottElectronImpactIonizationCross2005,,kimElectronimpactIonizationCross1997}. At our knowledge, this is the first use of a \verb|def2-| basis for TICS calculations. Only Restricted Hartree-Fock (RHF) calculations were performed, as all molecules are neutral and stable and thus have closed shell.
 
 Regarding the energies output of the model, we first assume that $B$ is the absolute value of the lowest electron binding energy of the orbital, \textit{e.g} the first ionisation potential (IP) which satisfies the Koopmans theorem $B = -\epsilon_i$, with $\epsilon_i$ the first ionisation energy of an orbital $i$. Whilst this is a good approach that is easy to implement as this is the direct output of HF calculations, this does involve some simplifications as the orbitals are considered as "frozen", meaning that the other electrons do not react to the removal of ionized electron and that the post-ionization orbitals aren't be relaxed. This leads to overestimated first ionization potential for each orbitals \parencites{colonnaKoopmansCompliantFunctionalsPotentials2019, wangIonizaPotenJP102026,jesenekPartialIonisationCross2025,scottElectronImpactIonizationCross2005, wangGeometryOptimizationMade2016}. Overestimated values in equation \ref{eq:beb} will lead to undermined $\sigma_{TICS}$ values. Alternative approach such as outervalence Green’s function (OVGF; \cite{vonniessenComputationalMethodsOneparticle1984,hwangNewModelElectronimpact1996,scottElectronImpactIonizationCross2005}), coupled cluster (CC, generally single-double-triple  CCSD(T); \cite{gachesAstrochemistryLowenergyElectron2024,giulianiIonizationEnergiesPolycyclic2026}) require higher computational effort. While some TICS-related papers use those approach \parencites{scottElectronImpactIonizationCross2005,gachesAstrochemistryLowenergyElectron2024}, the BEB method was historically built around HF method and $B$, as well as IP, were either experimental values or theoritical values. 
 BEB is sensible to the vertical ionization potential \parencite{hwangNewModelElectronimpact1996,gachesAstrochemistryLowenergyElectron2024}. The $\sigma_i$ related to the most outer electronic layer is the most impactful regarding $\sigma_{TICS}$. One approache is to calculate a more accurate value of IP and replace the most outer MO energies in the BEB calculation of the HF valence MO by the more accurate values. One way to get accurate IP values for relatively low computanionnal effort is to use Density Functionnal Theory (DFT). One approach, \dft, is to compare the total MO energy of a singly charged cation against its neutral state, which gives \parencites{wangFe3dOrbital2025}:
@@ -170,7 +177,7 @@ with $\textrm{\bfseries C}_i$ the MO coefficient matrix of the orbital $i$ in th
 % Furthermore, first ionization potential approach is widely used in other BEB-related papers \parencites{aliElectronimpactTotalIonization1997, hwangNewModelElectronimpact1996, gravesEfficientCalculationElectron2021} and do provide accurate results. 
 
 
-The BEB method, by itself, has limitations for heavy elements, with quantum number $n~>$ 2 or $Z~>$ 10 \parencites{gravesEfficientCalculationElectron2021,huoUseRelativisticEffective2000,aliIonizationCrossSections2008,scottElectronImpactIonizationCross2005}. The discrepancy arises because the BEB method uses, as shown in Eq.~\ref{eq:beb}, the kinetic energy of each molecular orbital as a variable. This is problematic for heavier elements, as inner electronic layers of this type have very high kinetic energies. However, ionisation should occur when the electron is far from the centre of the shell, i.e. when it is slower and thus has a lower kinetic energy. An overestimation of the kinetic energy leads to an underestimation of $\sigma_{\text{TICS}}$. The solution proposed by \textcite{huoUseRelativisticEffective2000}, and employed in several BEB-related studies on heavy elements \parencites{gravesEfficientCalculationElectron2021,dolgRelativisticPseudopotentialsTheir2012,scottElectronImpactIonizationCross2005}, is to use the effective core potential (ECP) method. An ECP limits the interaction of valence electrons with the core shell by replacing the latter with analytical functions that represents the interaction between the two. These functions appear as effective potential, while the valence electrons are described by pseudo-valence orbitals that do not penetrate the inner region of the nucleus. In a nut\textit{shell}, the ECP enables the removal of high kinetic energies of core electrons from the BEB sum, as core electrons do not intervene in electronic bonds, which would otherwise artificially minimalize $\sigma_{TICS}$.
+The BEB method, by itself, has limitations for heavy elements, with quantum number $n~>$ 2 or $Z~>$ 10 \parencites{gravesEfficientCalculationElectron2021,huoUseRelativisticEffective2000,aliIonizationCrossSections2008,scottElectronImpactIonizationCross2005,zhouTotalElectronIonization2019,huberTotalPartialElectron2019}. The discrepancy arises because the BEB method uses, as shown in Eq.~\ref{eq:beb}, the kinetic energy of each molecular orbital as a variable. This is problematic for heavier elements, as inner electronic layers of this type have very high kinetic energies. However, ionisation should occur when the electron is far from the centre of the shell, i.e. when it is slower and thus has a lower kinetic energy. An overestimation of the kinetic energy leads to an underestimation of $\sigma_{\text{TICS}}$. The solution proposed by \textcite{huoUseRelativisticEffective2000}, and employed in several BEB-related studies on heavy elements \parencites{gravesEfficientCalculationElectron2021,dolgRelativisticPseudopotentialsTheir2012,scottElectronImpactIonizationCross2005,aliIonizationCrossSections2008}, is to use the effective core potential (ECP) method. An ECP limits the interaction of valence electrons with the core shell by replacing the latter with analytical functions that represents the interaction between the two. These functions appear as effective potential, while the valence electrons are described by pseudo-valence orbitals that do not penetrate the inner region of the nucleus. In a nut\textit{shell}, the ECP enables the removal of high kinetic energies of core electrons from the BEB sum, as core electrons do not intervene in electronic bonds, which would otherwise artificially minimalize $\sigma_{TICS}$.
 \begin{figure*}[!htb]
     \centering
 \fbox{
@@ -179,13 +186,13 @@ The BEB method, by itself, has limitations for heavy elements, with quantum numb
     \label{azzada}
 \end{figure*}
 
-The ECP method can be used in PySCF and, in order to include as many molecules as possible in the database, was implemented in this work. This, however, requires a different basis than the all-electrons Karlsruhe \verb+def2-+, because its related ECP basis only start at Rb ($Z~\geq$ 37) and thus don't work for lighter elements, \textit{e.g} $3p$ and $4p$ elements. The only basis that has an ECP basis that supports  these that is inherently available in PySCF and in the Basis Set Exchange database\footnote{\url{https://basissetexchange.org/}} \parencites{pritchardNewBasisSet2019} is the \verb|crenbl| basis set \parencites{hurleyInitioRelativisticEffective1986,fernandezpaciosInitioRelativisticEffective1985}. More modern basis are available on the open-source Pseudopotentiallibrary\footnote{\url{https://pseudopotentiallibrary.org/}}, as it provides Dunning derived basis combo for both $3p$ and $4p$ elements.  For Al, Si, P, S, Cl and Ar bearing molecules, we used the \verb|aug-cc-pVTZ| orbital basis along with its associated ECP basis proposed by \parencites{bennettNewGenerationEffective2018}, whereas for Ge, As, Se and Br bearing molecules we used the same orbital basis and the ECP basis proposed by \parencites{wangNewGenerationEffective2019}. The choices of those basis are also applied to post-HF method discussed earlier. The impact of ECP on TICS calculation is discussed in subsection \ref{sec:ecp}. Overall, the whole methodology employed in this work is summarized on figure \ref{azzada}
+The ECP method can be used in PySCF and, in order to include as many molecules as possible in the database, was implemented in this work. This, however, requires a different basis than the all-electrons Karlsruhe \verb+def2-+, because its related ECP basis only start at Rb ($Z~\geq$ 37) and thus don't work for lighter elements, \textit{e.g} $3p$ and $4p$ elements. The only basis that has an ECP basis that supports  these that is inherently available in PySCF and in the Basis Set Exchange database\footnote{\url{https://basissetexchange.org/}} \parencites{pritchardNewBasisSet2019} is the \verb|crenbl| basis set \parencites{hurleyInitioRelativisticEffective1986,fernandezpaciosInitioRelativisticEffective1985}. More modern basis are available on the open-source Pseudopotentiallibrary\footnote{\url{https://pseudopotentiallibrary.org/}}, as it provides Dunning derived basis combo for both $3p$ and $4p$ elements.  For Al, Si, P, S, Cl and Ar bearing molecules, we used the \verb|aug-cc-pVTZ| orbital basis along with its associated ECP basis proposed by \parencites{bennettNewGenerationEffective2018}, whereas for Ge, As, Se and Br bearing molecules we used the same orbital basis and the ECP basis proposed by \parencites{wangNewGenerationEffective2019}. The choices of those basis are also applied to \dft~method discussed earlier. The impact of ECP on TICS calculation is discussed in subsection \ref{sec:ecp}. Overall, the whole methodology employed in this work is summarized on figure \ref{azzada}
 
 
 \section{Results}
 \subsection{Overview}
 260 total ionisation cross section of unique molecules have been calculated, and up to 9 isomer for some formula such as \ch{C6H12}. The complete list is visible on table \ref{tab:fouzinzin}. On the database website, the user can find the TICS table of each molecule, along with a table with the calculated $B$ and $U$ values for each molecular orbital following the chosen basis aswell as the calculated IP.\\
-Despite numerous effort, we weren't able to get TICS values for sulfure hexafluorure \ch{SF6}. Steps regarding initial geometric optimization aswell as DFT cation calculation wouldn't lead to a SCF convergence, even by using the geometry found in the JSmol catalogue \parencite{hansonJmolParadigmShift2010}. As it is an interesting molecule astrochemically-wise, more effort would be require to make \ch{SF6} enter CASEI catalog using our \dft~approach. 
+Despite numerous effort, we weren't able to get TICS values for sulfure hexafluorure \ch{SF6}. Steps regarding initial geometric optimization aswell as DFT cation calculation wouldn't lead to a SCF convergence, even by using the geometry found in the JSmol catalogue \parencite{hansonJmolParadigmShift2010}. As it is an interesting molecule astrochemically-wise, more effort would be required to make \ch{SF6} enter CASEI catalog using our \dft~approach. 
 
 \begin{table}[ht!]
 \centering
@@ -233,16 +240,16 @@ On table \ref{tab:ecp} we compared the mean $\Delta$ of TICS between ECP and non
 \begin{align}
    \overline{\Delta\sigma_{TICS}} (\%)= \Bigl \langle \frac{\sigma_{TICS}^{\textrm{ECP}} - \sigma_{TICS}^{\textnormal{def2-}}}{\sigma_{TICS}^{\textnormal{ECP}}} \times 100 \Bigr \rangle
 \end{align}
-\begin{figure}[!hb]
+\begin{figure}[!ht]
     \centering
     \includegraphics[width=\linewidth]{figure/comparaison_3_bases.pdf}
     \caption{Comparison of TICS results for several molecule with and without ECP enabled}
     \label{fig:ecp}
 \end{figure}
 with $\sigma_{\textnormal{ECP}}$ the TICS calculated with either \verb|cc-ECP| or \verb|crenbl|.  Figure \ref{fig:ecp} shows this comparison for several molecules. 
-As expected, and as proposed is \textcite{huoUseRelativisticEffective2000} as well as in other BEB-related studies on heavy elements \parencites{gravesEfficientCalculationElectron2021,dolgRelativisticPseudopotentialsTheir2012,scottElectronImpactIonizationCross2005}, the use of ECP basis leads to a higher TICS value. We can see on table \ref{tab:ecp} that the increase are ranging from roughly 10\% for $3d$ elements up to almost 30\% for $4d$ elements bearing molecules.
+As expected, and as proposed is \textcite{huoUseRelativisticEffective2000} as well as in other BEB-related studies on heavy elements \parencites{gravesEfficientCalculationElectron2021,dolgRelativisticPseudopotentialsTheir2012,scottElectronImpactIonizationCross2005,zhouTotalElectronIonization2019,aliIonizationCrossSections2008}, the use of core electron corrections leads to higher TICS value. We can see on table \ref{tab:ecp} that the increase are ranging from roughly 10\% for $3d$ elements up to almost 30\% for $4d$ elements bearing molecules.
 
-he downside of the ECP method is that the removal of core orbitals affects the high-energy tail of the TICS(T$\geq~10^500$ eV). This can be seen on figure \ref{fig:ecp} where, for $4p$ element bearing molecules (Se-, Ge-, As- and Br-) especially, the post-peak region non-ECP curve is on top of ECP based curves. This may impact considerations for the use of $\sigma_{TICS}$ at those energy range. However, in mass spectrometry, the relevant energy range is around the peak (50–100 eV), where the ECP correction is justified. The high-energy discrepancy is therefore not critical for MS applications. Further work would be required to use non ECP orbital energy data once the impending electrons carry energies capable to ionize core electrons (generally around 200~eV).
+The downside of the ECP method is that the removal of core orbitals affects the high-energy tail of the TICS(T$\geq~10^500$ eV). This can be seen on figure \ref{fig:ecp} where, for $4p$ element bearing molecules (Se-, Ge-, As- and Br-) especially, the post-peak region non-ECP curve is on top of ECP based curves. This may impact considerations for the use of $\sigma_{TICS}$ at those energy range. However, in mass spectrometry, the relevant energy range is around the peak (50–100 eV), where the ECP correction is justified. The high-energy discrepancy is therefore not critical for MS applications. Further work would be required to use non ECP orbital energy data once the impending electrons carry energies capable to ionize core electrons (generally around 200~eV).
 \begin{table}[H]
     \centering
     \caption{\textbf{Mean $\Delta$ of TICS between ECP and non-ECP calculations for $3p$ and $4p$ elements bearing molecules.}}
@@ -275,18 +282,20 @@ As they both offer similar results, the basis choice between \verb|cc-ECP| and \
 
 
 \section{Discussion}
-In the following section, we will discuss the results in comparison with litterature.
 
 \subsection{\dft~calculated IP}
-In this subsection, we will discuss the IP values we used in this work. To get good TICS data, one
- would need good IP values. A non-exhaustive list of IP values of several molecules are compared to litterature values in table \ref{tab:zezeze}. Overall, the \dft values tend to agree well with litterature, more than HF values. For \dft~cation $E_{tot}$ calculations were made using the neutral specie without geometric optimization. Therefore, the IP value we obtained represents the vertical IP. Generally, vertical IP tend to be higher than adiabatic IP \parencite{lealInteractionGoldSilver2015,stewartMachineLearningIonization2023,bingSpinOrbitInitio2008}. For smaller molecule, atomic repositionning would be important enough to impact greatly the IP result, as optimizing the cation geometry would lower $E_{tot}(N^+)$ and thus the IP, now closer to litterature. This would explain why \dft~values are higher than the litterature for \ch{C2} hydrocarbons and \ch{H3N}. Preliminary runs of optimized cation geometry \dft~were done for \ch{CH4}, \ch{C2H2}, \ch{C2H4}, \ch{C2H6} and \ch{H3N}. We did in fact get lower -and closer to litterature- IPs: in order, we got  12.73, 11.27, 10.39, 11.61 and 10.22 eV. Compared to table \ref{tab:zezeze}, those results are more accurate. The main limitation is computational cost. Since the \dft~step is already expensive, implementing systematic adiabatic IP calculations would further increase the modelling time, especially for larger molecules. In addition, as the molecular size increases, atomic repositioning has a smaller effect on the IP than electronic relaxation (which is already included in the \dft~calculation), and would therefore not be necessary.
+In this subsection, we will discuss the IP values we used in this work. To get good TICS data using BEB, one
+ would need good IP values. A non-exhaustive list of IP values of several molecules are compared to litterature values in table \ref{tab:zezeze}. Overall, the \dft~values tend to agree well with litterature, more than HF values. For \dft~cation $E_{tot}$ calculations were made using the neutral specie without geometric optimization. Therefore, the IP value we obtained represents the vertical IP. Generally, vertical IP tend to be higher than adiabatic IP \parencite{lealInteractionGoldSilver2015,stewartMachineLearningIonization2023,bingSpinOrbitInitio2008,aliElectronimpactTotalIonization1997}. For smaller molecule, atomic geometry relaxation would be important enough to impact greatly the IP result, as optimizing the cation geometry would lower $E_{tot}(N^+)$ and thus the IP, now closer to litterature. This would explain why \dft~values are higher than the litterature for \ch{C2} hydrocarbons and \ch{H3N}. Preliminary runs of optimized cation geometry \dft~were done for \ch{CH4}, \ch{C2H2}, \ch{C2H4}, \ch{C2H6} and \ch{H3N}. We did in fact get lower -and closer to litterature- IPs: in order, we got  12.73, 11.27, 10.39, 11.61 and 10.22 eV. Compared to table \ref{tab:zezeze}, those results are more accurate. However, the ionization is faster than ionic reorganization and thus vertical IP should be usable with a certain degree of accuracy for BEB \parencite{aliElectronimpactTotalIonization1997}, as the few preliminary runs don't represent a large enough sample pool to be definitively fixed. Moreover, if adiabatic IP would be implemented into our pipeline,  the main limitation would be computational cost. Since the \dft~step is already time consuming, implementing systematic adiabatic IP calculations would further increase the modelling time, especially for larger molecules. Therefore, we considere \dft~IP values shown in table \ref{tab:zezeze} as accurate enough for our needs. When required, we will compare IP values in the following section, even for molecules not present in table \ref{tab:zezeze}.
 
 
-\begin{table}[p]
+%   In addition, as the molecular size increases, atomic repositioning has a smaller effect on the IP than electronic relaxation (which is already included in the \dft~calculation), and would therefore not be necessary.
+
+
+\begin{table}[!hb]
     \centering
     \footnotesize
 
-    \caption{\textbf{Comparison of the energy of the ionization potential IP between this work for \dft~correction and HF base values and literature.} All values are in eV. [1] references \textcite{gachesAstrochemistryLowenergyElectron2024}, [2] references \textcite{bourgalaisAccuratePredictionAdiabatic2023}, [3] references \textcite{giulianiIonizationEnergiesPolycyclic2026} and [4] references NIST \parencite{linstromNISTChemistryWebBook2001}. For NIST, we took the most recent value. $a$ exponent represent vertical IP and $b$ represent adiabatic IP.}
+    \caption{\textbf{Comparison of the energy of the ionization potential IP between this work for \dft~correction and HF base values and literature for a non-exhaustive list of species.} All values are in eV. [1] references \textcite{gachesAstrochemistryLowenergyElectron2024}, [2] references \textcite{bourgalaisAccuratePredictionAdiabatic2023}, [3] references \textcite{giulianiIonizationEnergiesPolycyclic2026} and [4] references NIST \parencite{linstromNISTChemistryWebBook2001}. For NIST, we took the most recent value. $a$ exponent represent vertical IP and $b$ represent adiabatic IP.}
     \label{tab:zezeze}
 
 \begin{tabular}{@{}lccccccc@{}}
@@ -369,6 +378,21 @@ In this subsection, we will discuss the IP values we used in this work. To get g
 %         \ch{C6H14} & 11,69 & ~ & 10,77 \\ \bottomrule
 %     \end{tabular}
 % \end{table}
+
+% end appendices
+
+\subsection{Comparison of TICS values with literature}
+In order to validate our results, we compared our calculated TICS with several experimental and theoretical data from the literature. While BEB is a commonly used to get ionization cross section (total, or partial if several extra steps are applied; see \cite{jesenekPartialIonisationCross2025} for an in-depth explanation and methods regarding BEB PICS calculations), other methods exists to obtain TICS and are used in the values we compare our work to. Namely, Single differential cross sections (SDCS; \cite{kumarElectronIonizationCross2014}), Deutsch-Märk (DM) formalism or Spherical complex optical potential (SCOP). Although, results vaies. Generally, DM tends to have a higher peak than BEB \parencite{huberTotalPartialElectron2019}. Experimental data is also marked by a large variety of experimental apparatus. \\
+References include \textcite{rappTotalCrossSections1965,kumarElectronIonizationCross2014,gravesEfficientCalculationElectron2021,raoElectronImpactIonization1993,basnerDissociativeIonizationSilane1997,vinodkumarElectronImpactTotal2011,hayashiElectronCollisionCrossSections1987,kurachiElectronCollisionCross1989,itikawaCrossSectionsElectron2015,khanAbsolutePartialTotal2024,zhouTotalElectronIonization2019,markIonizationPhosphineDeuterated1977,kumarElectronIonizationCross2014,orientElectronImpactIonisation1987,kaurElectronInducedIonization2015,krishnakumarIonizationCrossSections1995,chathamTotalPartialElectron1984,nishimuraTotalElectronImpact1994,tateEfficienciesIonizationIonization1932,gaudinDeterminationsAbsoluesSections1967,nakamuraElectronSwarmParameters2010,fresnetDynamicsBreakdownDelay2002,jiaoElectronImpactIonization2007,kumarTheoreticalStudyElectron2026,vacherElectronImpactIonization2007,singhElectronScatteringCross2020,gachesAstrochemistryLowenergyElectron2024,linstromNISTChemistryWebBook2001,syageSpectroscopyDynamicsJetcooled1992,raoCrossSectionsDirect1991, aliIonizationCrossSections2008,uddinElectronImpactTotal2018,hudsonAbsoluteElectronImpact2003,vinodkumarElectronImpactTotal2010,aliIonizationCrossSections2008,sharmaAbsoluteIonizationCross2020,hudsonAbsoluteElectronImpact2003,vallanceAbsoluteElectronImpact1997,vinodkumarElectronImpactCalculations2011,vinodkumarElectronImpactCalculations2008}. References marked with an * were aquired thourgh \verb|lxcat.net|\footnote{\url{https://nl.lxcat.net/home/news.php}} database \parencite{pancheshnyiLXCatProjectElectron2012,pitchfordLXCatOpenAccessWebBased2017}.
+%  (SDCS; \cite{kumarElectronIonizationCross2014})
+% (SCOP; \cite{krishnadasCalculationElectronimpactIonization2024,vinodkumarElectronImpactTotal2010})
+\subsubsection{Hydrocarbons}
+The most simple benchmark we can do is to compare our results for hydrocarbons, as has it have been pointed out by \textcite{hwangNewModelElectronimpact1996} that the BEB method is very efficient for hydrocarbons BEB calculations. In general, as seen on figure \ref{fig:hydro}, our curves fit well to either experimental nor theoritical values for almost every species. As intented, for the smallest hydrocarbons, such as methane \ch{CH4} or acetylene \ch{C2H2}, experimental $B$ values tend to be smaller than theoritical/computed $B$ values \parencites{aliElectronimpactTotalIonization1997,hwangNewModelElectronimpact1996}. As such, the cross section obtained through experimental $B$ values tend to be higher,$ \approx$10-15\% at the cross section peak.
+We do fit well other theoritical datas, like for \ch{C2H6} where we are aligned with \textcite{linstromNISTChemistryWebBook2001,gachesAstrochemistryLowenergyElectron2024}. While our \ch{C3H8} TICS values tend to agree with litterature (especially theoritical values of NIST and \cite{gachesAstrochemistryLowenergyElectron2024}), it is unclear why we have smaller values for \ch{C3H6}, compared to both theoritical (NIST) and experimental \parencite{fresnetDynamicsBreakdownDelay2002} work. Still, the curve follows the same appareance, and the peak is close to them.\\
+Aromaticity shouldn't, in theory, impact BEB calculations. As such, we modelised a few polycyclic aromatic hydrocarbons (HAPs) in the database. From the most simple benzene \ch{C6H6} to pyrene \ch{C16H10}. Unfortunately, no experimental data for TICS are available for higer HAPs (rings $\geq$ 2), and bigger hydrocarbons in general. We relied on theoritical work done by Singh, Krishnadas and collaborators to compare our values. In both articles \parencite{krishnadasCalculationElectronimpactIonization2024,singhElectronScatteringCross2020}, the teams did not used BEB method for their calculations. As seen on table \ref{tab:compareMeth}, they used the ...
+The historical articles presenting BEB, \textit{e.g} \textcite{hwangNewModelElectronimpact1996,kimBinaryencounterdipoleModelElectronimpact1994}, show that limit of the BEB method regard the electronic atom size rather than the molecule size (see subsubsection \ref{subsub:heavy}). That is why we also got a good agreement with more complex HAPs. As explained by \textcite{krishnadasCalculationElectronimpactIonization2024}, small differences can arise from the choice of basis set. \textcite{singhElectronScatteringCross2020} used a \verb|cc-pVDZ| basis, which is smaller than our \verb|def2-TZVPPD| and lacks diffuse functions. In contrast, \textcite{krishnadasCalculationElectronimpactIonization2024} used \verb|aug-cc-pVTZ|, where the \verb|aug| prefix indicates the presence of diffuse functions. Since their basis is similar to ours, this may explain why our results agree well with their data for \ch{C16H10}. \\%As we fit their data well for \ch{C16H10} 
+In theory, one would be able to use BEB to calculate $\sigma_{TICS}$ for very large organic molecules such as buckminsterfullerene \ch{C60} or fullerene \ch{C70}, both  detected in interstellar medium \parencite{sellgrenC60REFLECTIONNEBULAE2010,camiDetectionC60C702010}, yet it would require enourmous amount of calculation time. 
+% The BEB ionization cross section is sensitive to the vertical ionization energy of the molecule, that is, the ionization threshold. 
 \begin{figure*}[p]
     \centering
     \includegraphics[width=1\linewidth]{figure/plot1.pdf}
@@ -383,28 +407,33 @@ In this subsection, we will discuss the IP values we used in this work. To get g
       \label{fig:orga}
 \end{figure*}
 
-% end appendices
-
-\subsection{Comparison of TICS values with literature}
-In order to validate our results, we compared our calculated TICS with several experimental and theoretical data from the literature. While BEB is a commonly used to get ionization cross section (total, or partial with extra steps; see \cite{jesenekPartialIonisationCross2025} for an in-depth explanation and methods regarding BEB PICS calculations), other methods exists and are used in the values we compare our work to. Namely, Single differential cross sections SDCS \parencite{kumarElectronIonizationCross2014}.
-\subsubsection{Hydrocarbons}
-As pointed out by \textcite{hwangNewModelElectronimpact1996}, the BEB method is very efficient for hydrocarbons BEB calculations. As seen on figure \ref{fig:hydro}, our curves fit well to either experimental nor theoritical values. As intented, for some molecules, such as methane \ch{CH4} or acetylene \ch{C2H2}, experimental $B$ values tend to be smaller than theoritical/computed $B$ values \parencites{aliElectronimpactTotalIonization1997,hwangNewModelElectronimpact1996}. As such, the cross section obtained through experimental $B$ values tend to be higher,$ \approx$10-15\% at the cross section peak. This could be mitigated by the errorbar of experimental values (that are generally from 5\% up to 20\%; \cite{jiaoElectronImpactIonization2007,hudsonAbsoluteElectronImpact2003}). Regardless, the data obtained though our pipeline do match litterature data for hydrocarbons.\\
-Aromaticity shouldn't, in theory, impact BEB calculations. As such, we modelised a few polycyclic aromatic hydrocarbons (HAPs) in the database. From the most simple benzene \ch{C6H6} to pyrene \ch{C16H10}.
-The historical articles presenting BEB, \textit{e.g} \textcite{hwangNewModelElectronimpact1996,kimBinaryencounterdipoleModelElectronimpact1994}, show that limit of the BEB method regard the electronic atom size rather than the molecule size (see subsubsection \ref{subsub:heavy}). That is why we also got a good agreement with more complex HAPs like pyrene. In theory, one would be able to use BEB to calculate $\sigma_{TICS}$ for very large organic molecules such as buckminsterfullerene \ch{C60} or fullerene \ch{C70}, both  detected in interstellar medium \parencite{sellgrenC60REFLECTIONNEBULAE2010,camiDetectionC60C702010}. 
-% The BEB ionization cross section is sensitive to the vertical ionization energy of the molecule, that is, the ionization threshold. 
-
 \subsubsection{Nitrogen and Oxygen bearing molecules}
-Like hydrocarbons, nitrogen and oxygen bearing molecules TICS are both effectively modelised in our database, as we are generally close to litterature. This is particulary true for \ch{CO_x}, \ch{N2O} and \ch{N2H4}. Our results generaly agree with calculations from either/or both \textcite{gachesAstrochemistryLowenergyElectron2024,linstromNISTChemistryWebBook2001}.
+Like hydrocarbons, nitrogen and oxygen bearing molecules TICS are both effectively modelised in our database, as we are generally close to litterature. This is particulary true for \ch{CO_x}, \ch{N2O} and \ch{N2H4}. Our results generaly agree with calculations and experimental data.
 
+Regarding \ch{Co_x}, the small discrepencies from \textcite{gachesAstrochemistryLowenergyElectron2024} could arise from small IP differences (see table \ref{tab:zezeze} for \ch{CO}; for \ch{CO2}, we have 13.80 eV compared to 13.95 eV for \cite[CCSD(T)]{gachesAstrochemistryLowenergyElectron2024}). We do however almost fit perfectly NIST curves. It is also the case for \textcite{khanAbsolutePartialTotal2024,itikawaCrossSectionsElectron2015,zhouTotalElectronIonization2019,rappTotalCrossSections1965,hudsonAbsoluteElectronImpact2003} experimental data, though the two latter ones are a little bit lower in the peak region for \ch{CO2}. However, in their discussion, \textcite{hudsonAbsoluteElectronImpact2003} discussed their data with their own BEB analysis, and they agreed that BEB data were within experimental uncertainties, and that this method works for \ch{CO2}.  Therefore, our work pipeline seems to be accurate for smaller O- bearing molecules. \\
+We also studied this for bigger molecules, namely \ch{C2} and \ch{C3} formates.  As seen for \ch{C2H4O2} and \ch{C3H6O2}, we also fit almost perfectly theoritical datas from \textcite{kaurElectronInducedIonization2015}, although the maximum value of the peak is higher for \textcite{kaurElectronInducedIonization2015} than ours. We do fit experimental data of \textcite{hudsonAbsoluteElectronImpact2006} for this region, and for the whole spectrum overall. Hence, we show again that our method works for these kind of moelcule.
 
-\subsubsection{Sulfur and phosphorus bearing molecules}
-The enabling of ECP do help us to get a good agrement with litterature. 
-As pointed out by \textcite{kumarElectronIonizationCross2014}, phosphine \ch{PH3} TICS litterature is scarce. 
+When we look at the most simple nitrile molecule, ammonia \ch{NH3}, we see that our data agrees very well with both NIST and \textcite{gachesAstrochemistryLowenergyElectron2024}, aswell as experimental work of \textcite{raoCrossSectionsDirect1991} for the peak region. We are over \textcite{syageSpectroscopyDynamicsJetcooled1992} values, even by their uncertainties interval ($\pm$ 10\% ). For more complexe nitrogen bearing molecule, we compare our data of acrylonitrile \ch{C3H3N} with the values of \textcite{zhouTotalElectronIonization2019}, both experimental and theoritical. Our data also agrees with their for the two types of data, even if their is a small discrepency for their BEB values for T > 20 eV. Yet, this could be linked to basis differences again (\verb|aug-ccpVTZ|). The same can be said for nitrous oxide \ch{N2O}, as it is also clear that our data agree well with litterature, both experimental than theoritical. Therefore, we are confident of the accuracy of our data for nitrogen and oxygen bearing molecules.
+
 
 \subsubsection{Heavy elements bearing molecules}\label{subsub:heavy}
-As we already talked about P- and S- bearing molecules in the previous subsection, the remaining "heavy" elements are $4p$ elements: \ch{Se}, \ch{As}, \ch{Ge} and \ch{Br}.
-Le germane et le selane, jsp quoi dire d'autre ? Trouver data sur le sujet
+As said at the end of  sub-section \ref{sec:quantum}, we define heavy elements as elements/atoms with an atomic number superior to 10. The litterature regarding BEB modelisations made for these atoms before \textcite{huoUseRelativisticEffective2000} tend to not use ECP nor Heavy Atoms Corrections (HAC), thus leading to underestimated TICS values. It offers then a good benchmark to compare our approach with both corrected and non corrected data.
+\paragraph{3d: Sulfur, Phosphorus and Silicium}
+One of the main theoritical comparison dataset we used until now, \textcite{gachesAstrochemistryLowenergyElectron2024}, doesn't mention any use of HAC. As such, while we do have a good agreement with NIST data for both  \ch{H2S} and \ch{CS}, \textcite{gachesAstrochemistryLowenergyElectron2024} values tend to be lower on the peak region. We do follow their tail values for T $\geq~10^3$ eV.  We also have a good agreement with \textcite{raoElectronImpactIonization1993} experimental values for the peak region, while it is unclear why their post-peak values are somewhat linear at around \sn{2}{-16} cm$^2$ (see their table 2).\\
+Lastly, we compared our data for ethanetiol \ch{C2H6S} with the multimethods of \textcite{zhouTotalElectronIonization2019}. Again, we have a good fit with their work. While we do have ECP correction for our BEB approach, we have the best agreement for their Non-HAC (NHAC) curve. Their method is to consider the contribution of a heavy atom for a given MO as a treshold. In their discussion, they found that the 50\% works the best compared to their experimental data. In our case, we have a general agreement for most of the data spectrum, with a good agreement with experimental data at low energy and either NHAC and HAC curves for higher energies. 
 
+For phospane \ch{PH3}, unsurprisingly, we have very good fit with \textcite{gravesEfficientCalculationElectron2021} BEB/ECP curve. We also follow \textcite{markIonizationPhosphineDeuterated1977} values at low energy, while our values for the peak regions is higher. \textcite{kumarElectronIonizationCross2014} SDCS values tend to be also lower for the peak region, aswell as \textcite{vinodkumarElectronImpactTotal2011} SCOP values, as they are closer to \textcite{gravesEfficientCalculationElectron2021} BEB/No-ECP values. As discussed in their conclusion, the $\alpha$BEB method proposed by \textcite{gravesEfficientCalculationElectron2021} -which uses scaling of BEB regarding the polarizability of a molecule- isn't consistent enough to be considered. As the experimental data of TICS for \ch{PH3} is scarce, we can consider our data as accurate.  
+
+For silane \ch{SiH4}, we have a good agreement with both NIST and \textcite[SCOP]{vinodkumarElectronImpactCalculations2011} curves. Our low energy data tend to follow experimental data, and more especially \textcite{kurachiElectronCollisionCross1989,basnerDissociativeIonizationSilane1997} for the peak region. As mentionned in the ECP related section (\ref{sec:ecp}), our tail values are lower than NIST due to ECP removing inner-core electrons contribution to BEB. 
+
+\paragraph{4d: Selenium, Germanium,  Arsenic and Bromium}
+For these atoms, the ECP tail lowering is more apparent. Looking at germane \ch{GeH4}, we initially a good agreement with NIST and \textcite[SCOP]{vinodkumarElectronImpactCalculations2008} values. For T > 10$^2$ eV, our values are lower than litterature. Still, our peak values should be accurate enough. Interestingly enough, our BEB calculation do match NIST BEB adiabatic IP curve, despite the fact that we used vertical IP (see table \ref{tab:zezeze}), though our peak is slightly shifted to higher energies.
+
+For bromium bearing molecules, hydrogen bromium \ch{HBr} and bromomethane \ch{CH3Br}, it appears that our values fit litterature values. For  \ch{HBr}, our curve follows \textcite{aliIonizationCrossSections2008,vinodkumarElectronImpactTotal2010}, aswell as \textcite{sharmaAbsoluteIonizationCross2020} in the peak region and the mid tail region (T $\in~[10^3; \sn{5}{3}]$ eV).  Regarding \textcite{aliIonizationCrossSections2008}, they also use BEB-ECP approach. The peak difference with our values could arise, again, from both IP and basis differences. Our IP value is 11.73 eV and their is 11.71 eV, while it is generally around 11.67 \parencite{tiedemannProtonAffinitiesHydrogen1979,huberMolecularSpectraMolecular1979}. Also, their basis is \verb|DVZ + G(3p,3d)|. The method of \textcite{sharmaAbsoluteIonizationCross2020}, Jain-Khare semi-empirical approach, seems to underestimate TICS values greatly for T $\in~[10;30]$ eV. As it is not indicated in this paper, their IP value should be higher than ours, so that the ionization starts later.\\
+For \ch{CH3Br}, our values tend to agree with the experimental data of \textcite{vallanceAbsoluteElectronImpact1997} for the peak region, as well as their DM modelisation for the same region. As said at the start of this sub-section, their BEB modelisation lacks any HAC; therefore, they underestimate TICS and undervalue the use of BEB for heavy atoms. We, overall, not agree with this as we have shown that our approach do works for those atoms.
+
+Finally, for As- and Se- bearing molecules, the litterature is non-existent regarding TICS. Our \dft~IP value for selane \ch{SeH2} is $\approx 9.81$ eV, which is close to the value of  9.886 eV of \textcite{gibsonPhotoionizationStudySeH1986}, 9.88 eV of \textcite{pottsPhotoelectronSpectraValence1972} aswell as the value of 10.00 $\pm~\sn{5}{-2}$ of \textcite{balkisIonisationHydrogenSulphide1976}. For arsene \ch{AsH3}, our \dft~IP value is 10.27, close enough to the value of 9.89 of \textcite{pottsPhotoelectronSpectraValence1972} or 10.06 $\pm~\sn{3}{-2}$ of \textcite{brantonPhotoelectronSpectraPhosphine1970}.\\
+As such, we cannot compare our work with litterature for these molecules. At our knowledge, we modelised the first TICS spectrum of selenium and arsenic bearing molecules. It could be interesing astrochemically wise to expand this knowledge, as arsenic and selenium bearing molecules do  have an interest for astrochemistry, as these atoms have been detected in the interplanetary and interstellar medium \parencite{bezardDetectionArsineSaturn1989,roedererDETECTIONELEMENTSALL2012,varas-reusSeleniumIsotopesTracers2019,cardelliAbundanceHeavyElements1994,cardelliUltravioletTransitionsLow1993,roedererGERMANIUMARSENICSELENIUM2012}.
 % \begin{figure}[!htb]
 %     \centering
 %     \includegraphics[width=1\linewidth]{/home/lilian.heydel/Codes/CASEI/plots_litt/plot3.pdf}
@@ -419,75 +448,99 @@ Le germane et le selane, jsp quoi dire d'autre ? Trouver data sur le sujet
 % mais en gros montrer que l'isomérie a en réalité assez peu d'impact sur le sigma (j'ai vu ca avec C6H12 par ex) mais qu'un hétéroatome qui se branche dessus peut faire des choses
 % \section{Limit of this work} Limite dans les discussions
 
-\subsection{Impact of isomery on TICS calculation}
-Litterature regarding isomery contribution to TICS is rather scarce. As BEB is sensitive to MO energy, one way to get different values for different isomers (excluding negligible calculations differences) would be the MO energy of the bound between two atoms. $\pi$ bounds are more energetic than $\sigma$ bounds; as such, we could theorize that a saturated isomer would have a higher TICS compared to a non-saturated/double or triple bound bearing isomer, as linear isomer compared to ramified isomer. That also applies to the atoms involved in the bounding, as C-O $\pi$ orbitals have a different energy than N-O $\pi$ orbitals. This can be seen for acids \ch{CHNO} (figure \ref{})
-\begin{figure}[!htb]
-    \centering
-    \includegraphics[width=\textwidth]{figure/compare_iso.pdf}
-    \caption{TICS comparison for several isomers. Litterature data come from \textcite{uddinElectronImpactTotal2018,hudsonAbsoluteElectronImpact2003}}
-\end{figure}
+% \subsection{Impact of isomery on TICS calculation}
+% Litterature regarding isomery contribution to TICS is rather scarce. As BEB is sensitive to the outermost MO energy \parencite{hwangNewModelElectronimpact1996, }, one way to get different values for different isomers (excluding negligible calculations differences) would be the MO energy of the bound between two atoms. $\pi$ bounds are more energetic than $\sigma$ bounds; as such, we could theorize that a saturated isomer would have a higher TICS compared to a non-saturated/double or triple bound bearing isomer, as linear isomer compared to ramified isomer. That also applies to the atoms involved in the bounding, as C-O $\pi$ orbitals have a different energy than N-O $\pi$ orbitals. This can be seen for acids \ch{CHNO} (figure \ref{})
+% In general, isomery doesn't seem to have any significant effect on ionisation cross-section. In a larger scope, isomery doesn't seem to impact other type of cross section, like inelastic by positron impact \parencite{sinhaInelasticCrossSections2019}, 
+% \begin{figure}[!htb]
+%     \centering
+%     \includegraphics[width=\textwidth]{figure/compare_iso.pdf}
+%     \caption{TICS comparison for several isomers. Litterature data come from \textcite{uddinElectronImpactTotal2018,hudsonAbsoluteElectronImpact2003}}
+% \end{figure}
 
-\begin{figure}
-    \small
-    \setchemfig{baseline=(current bounding box.center)}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} c c c  @{}}
-    % Fulminic acid
-    \chemfig{H-C~N^{\oplus}-O^{\ominus}} & 
-    % Cyanic acid
-    \chemfig{H-O-C~N} & 
-    % Isocyanic acid (ou structure apparentée)
-    \chemfig{H-N=C=O} \\[1.5em]
-    Fulminic acid & Cyanic acid & Isocyanic acid
-    \end{tabular*}
-    \caption{Structure of \ch{CHNO} isomers}
-\end{figure}
-\begin{figure}[!htb]
-    \small
-    \setchemfig{baseline=(current bounding box.center)}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} c c c c @{}}
-    \chemfig{-[:30](-[:90])-[:330]-[:30,,,1]OH} & \chemfig{-[:30]-[:330]-[:30]-[:330,,,1]OH} &\chemfig{-[:330]-[:30](-[:330])-[:90,,,1]OH} & \chemfig{-[:60](-[:330])(-[:150])-[:60,,,1]OH}\\[1em]
-    Isobutanol & 1-Butanol& 2-Butanol& tert-Butanol 
-\end{tabular*}
-\caption{Structure of \ch{C4H10O} isomers}
-\end{figure}
-
-
-\begin{figure}[!htb]
-    \centering
-    \small
-    \setchemfig{baseline=(current bounding box.center)}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} c c c @{}}
-    \scalebox{0.7}{\chemfig{N~[:150]-[:150]=_[:210]-[:270]=_[:210]-[:150]-[:90]=_[:150](%
--[:210]=^[:270]-[:330]=^[:30])-[:90]=_[:30]-[:330](=_[:270](-[:210])-[:330]%
-)-[:30]=_[:330](-[:270])}} & 
-    \scalebox{0.7}{\chemfig{N~[:180]-[:180]-[:120]=^[:180]-[:240]=^[:300](-=^[:60])-[:240]%
-=_[:180]-[:120]-[:60](-)=_[:120](-[:60]=_-[:300])-[:180]=^[:240]-[:300](=^)%
-}} & 
-    \scalebox{0.7}{\chemfig{N~[:150]-[:150]=_[:210]-[:150]-[:90]=_[:150](-[:210]=^[:270]%
--[:330]=^[:30])-[:90]=_[:30]-[:330]-[:30]=_[:330]-[:270]=_[:210](-[:270])%
--[:150](=^[:90])(-[:210])}} \\[1.5em]
-    1-cyanopyrene & 2-cyanopyrene & 4-cyanopyrene
-    \end{tabular*}
-    \caption{Structure of \ch{C17H9N} isomers}
-\end{figure}
-
-\begin{figure}
-    \small
-    \setchemfig{baseline=(current bounding box.center)}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} c c c  @{}}
-    \chemfig{~--[:300]-~} & 
-    \chemfig{-~-~-} & 
-    \chemfig{=^[:180]-[:240]=^[:300]-=^[:60](-[:120])} \\[1.5em]
-    Bipropargyl & Dimethylbutadiyne & Benzene
-    \end{tabular*}
-    \caption{Structure of \ch{C6H6} isomers}
-\end{figure}
+% \begin{figure}
+%     \small
+%     \setchemfig{baseline=(current bounding box.center)}
+%     \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}c | c c c  @{}}
+%     % Fulminic acid
+%     \shortstack{{2D}\\ {structure}} &
+%     \chemfig{O^{\ominus}-N^{\oplus}~C-H} & 
+%     % Cyanic acid
+%     \chemfig{H-O-C~N} & 
+%     % Isocyanic acid (ou structure apparentée)
+% \chemfig{O=C=N-H} \\[1.5em]
+% \shortstack{{HOMO} \\ {orbitals}} &
+%     \includegraphics[width=.2\linewidth]{figure/fulminic_acid_chno_HOMO.pdf} & 
+%      \includegraphics[width=.2\linewidth]{figure/cyanic_acid_chno_HOMO.pdf} &
+%       \includegraphics[width=.2\linewidth]{figure/isocyanic_acid_chno_HOMO.pdf} \\[1em]
+%     %   \shortstack{{Electronical} \\ {surface potential} \\ {(ESP)}} &
+%         %   \includegraphics[width=.2\linewidth]{figure/fulminic_acid_chno_esp.pdf} & 
+%     %  \includegraphics[width=.2\linewidth]{figure/cyanic_acid_chno_esp.pdf} &
+%     %   \includegraphics[width=.2\linewidth]{figure/isocyanic_acid_chno_esp.pdf} \\[1em]
+%     \shortstack{{\dft}\\{IP}} & 10.51 eV & 12.15 eV&  11.93 eV \\[1em]
+%     Name & Fulminic acid & Cyanic acid & Isocyanic acid
+%     \end{tabular*}
+%     \caption{Structure of \ch{CHNO} isomers}
+% \end{figure}
 
 
-\subsection{Applications to mass spectrometry}
-Ici trouver une idée
-\clearpage
+% \begin{figure}[!htb]
+%     \small
+%     \setchemfig{baseline=(current bounding box.center)}
+%     \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}c |c c c c @{}}
+%      \shortstack{{2D}\\ {structure}} &\chemfig{-[:30](-[:90])-[:330]-[:30,,,1]OH} & \chemfig{-[:30]-[:330]-[:30]-[:330,,,1]OH} &\chemfig{-[:330]-[:30](-[:330])-[:90,,,1]OH} & \chemfig{-[:60](-[:330])(-[:150])-[:60,,,1]OH}\\[1em]
+%      \shortstack{{\dft}\\{IP}} & 10.41 eV & 10.21 eV & 10.27 &10.15 eV \\[1em]
+%      Name & Isobutanol & 1-Butanol& 2-Butanol& tert-Butanol 
+% \end{tabular*}
+% \caption{Structure of \ch{C4H10O} isomers}
+% \end{figure}
+
+
+% \begin{figure}[!htb]
+%     \centering
+%     \small
+%     \setchemfig{baseline=(current bounding box.center)}
+%     \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} c c c @{}}
+%     \scalebox{0.7}{\chemfig{N~[:150]-[:150]=_[:210]-[:270]=_[:210]-[:150]-[:90]=_[:150](%
+% -[:210]=^[:270]-[:330]=^[:30])-[:90]=_[:30]-[:330](=_[:270](-[:210])-[:330]%
+% )-[:30]=_[:330](-[:270])}} & 
+%     \scalebox{0.7}{\chemfig{N~[:180]-[:180]-[:120]=^[:180]-[:240]=^[:300](-=^[:60])-[:240]%
+% =_[:180]-[:120]-[:60](-)=_[:120](-[:60]=_-[:300])-[:180]=^[:240]-[:300](=^)%
+% }} & 
+%     \scalebox{0.7}{\chemfig{N~[:150]-[:150]=_[:210]-[:150]-[:90]=_[:150](-[:210]=^[:270]%
+% -[:330]=^[:30])-[:90]=_[:30]-[:330]-[:30]=_[:330]-[:270]=_[:210](-[:270])%
+% -[:150](=^[:90])(-[:210])}} \\[1.5em]
+%     1-cyanopyrene & 2-cyanopyrene & 4-cyanopyrene
+%     \end{tabular*}
+%     \caption{Structure of \ch{C17H9N} isomers}
+% \end{figure}
+
+% % \begin{figure}
+% %     \small
+% %     \setchemfig{baseline=(current bounding box.center)}
+% %     \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} c c c  @{}}
+% %     \chemfig{~--[:300]-~} & 
+% %     \chemfig{-~-~-} & 
+% %     \chemfig{=^[:180]-[:240]=^[:300]-=^[:60](-[:120])} \\[1.5em]
+% %     Bipropargyl & Dimethylbutadiyne & Benzene
+% %     \end{tabular*}
+% %     \caption{Structure of \ch{C6H6} isomers}
+% % \end{figure}
+
+
+% \subsection{Applications to mass spectrometry}
+% Ici trouver une idée
+% \clearpage
+
 \section{Conclusion}
+In this work we modelised the total ionization cross section of 257 molecules using the BEB method. Using the 3D geometry offered by PubChem 3D conformers collections aswell as geometric optimization for molecules lacking these conformers, we were able to calculate efficiently the cross sections using \verb|def2-| quantum basis, aswell as  effective core potentials \verb|cc-| basis for heavier elements bearing molecules. Thanks to the \dft~method, we were also able to obtain accurate vertical first ionization potentials, as accurate as adiabatic IP for some molecules. The main limitations of this work are the use of vertical IPs, which overestimate the IP for small molecules, and the use of ECPs, which affect the high-energy tail of the TICS.\\
+Work is still required in order to construct an even bigger database:
+\begin{itemize}
+    \item Building a \verb|def2-| based custom ECP basis for Si, P and S;
+    \item Extending the ECP calculations to other elements, like Al, Cl or Ca;
+    \item Find ways to include astrochemically interesting molecules such as \ch{SF6};
+    \item Adding radicals and ions.  
+\end{itemize}
+In its current state, our database is already large and more than promising for the future. It is publicly available, and we hope it will be useful to the astrochemistry and mass spectrometry communities.
 
 %https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2021-hb50g-v2#5#12#5
 
